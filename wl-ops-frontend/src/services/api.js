@@ -69,7 +69,14 @@ const emptyDb = {
 export const fetchDb = async () => {
   if (import.meta.env.PROD) {
     const localDb = localStorage.getItem('wlops_mock_db');
-    if (localDb) return { ...emptyDb, ...JSON.parse(localDb) };
+    if (localDb) {
+      const parsed = JSON.parse(localDb);
+      // If the cached DB has no assets, consider it empty and seed it anyway
+      if (!parsed.assets || parsed.assets.length === 0) {
+        return { ...emptyDb, ...initialDb };
+      }
+      return { ...emptyDb, ...parsed };
+    }
     // Seed with actual local data for the demo
     return { ...emptyDb, ...initialDb };
   }
