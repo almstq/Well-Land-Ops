@@ -73,37 +73,100 @@ export const fetchDb = async () => {
       const parsed = JSON.parse(localDb);
       // If the cached DB has no assets, consider it empty and seed it anyway
       if (!parsed.assets || parsed.assets.length === 0) {
+        localStorage.setItem('wlops_mock_db', JSON.stringify(initialDb));
         return { ...emptyDb, ...initialDb };
       }
       
-      // Auto-merge new suppliers, inventory, and issues from the new initialDb
       let updated = false;
       parsed.suppliers = parsed.suppliers || [];
       parsed.inventory = parsed.inventory || [];
       parsed.issueReports = parsed.issueReports || [];
-      
-      const existingSupplierIds = new Set(parsed.suppliers.map(s => s.id));
-      for (const sup of (initialDb.suppliers || [])) {
-        if (!existingSupplierIds.has(sup.id)) {
-          parsed.suppliers.push(sup);
-          updated = true;
+      parsed.items = parsed.items || [];
+      parsed.meta = parsed.meta || {};
+
+      // If the cached DB doesn't have our normalized v3 schema flag, or has very few records,
+      // let's do a deep non-destructive smart merge of everything.
+      if (!parsed.meta.isNormalized_v3 || parsed.suppliers.length < 50 || parsed.items.length < 100) {
+        // Smart merge suppliers by name (case-insensitive)
+        const existingSupplierNames = new Map(
+          parsed.suppliers.map(s => [(s.name || s.Supplier || '').toLowerCase().trim(), s])
+        );
+        for (const sup of (initialDb.suppliers || [])) {
+          const supNameKey = (sup.name || sup.Supplier || '').toLowerCase().trim();
+          if (supNameKey) {
+            if (!existingSupplierNames.has(supNameKey)) {
+              parsed.suppliers.push(sup);
+              existingSupplierNames.set(supNameKey, sup);
+              updated = true;
+            } else {
+              // Supplier exists: enrich missing/unpopulated keys (like contact details) non-destructively
+              const existingSup = existingSupplierNames.get(supNameKey);
+              for (const [key, val] of Object.entries(sup)) {
+                if (existingSup[key] === undefined || existingSup[key] === null || existingSup[key] === '') {
+                  existingSup[key] = val;
+                  updated = true;
+                }
+              }
+            }
+          }
         }
-      }
-      
-      const existingInventoryIds = new Set(parsed.inventory.map(i => i.id));
-      for (const inv of (initialDb.inventory || [])) {
-        if (!existingInventoryIds.has(inv.id)) {
-          parsed.inventory.push(inv);
-          updated = true;
+
+        // Smart merge Master Items catalog by name (case-insensitive)
+        const existingItemNames = new Map(
+          parsed.items.map(i => [(i.name || i['Item Name'] || '').toLowerCase().trim(), i])
+        );
+        for (const item of (initialDb.items || [])) {
+          const itemNameKey = (item.name || item['Item Name'] || '').toLowerCase().trim();
+          if (itemNameKey) {
+            if (!existingItemNames.has(itemNameKey)) {
+              parsed.items.push(item);
+              existingItemNames.set(itemNameKey, item);
+              updated = true;
+            } else {
+              // Enrich missing fields
+              const existingItem = existingItemNames.get(itemNameKey);
+              for (const [key, val] of Object.entries(item)) {
+                if (existingItem[key] === undefined || existingItem[key] === null || existingItem[key] === '') {
+                  existingItem[key] = val;
+                  updated = true;
+                }
+              }
+            }
+          }
         }
-      }
-      
-      const existingIssueIds = new Set(parsed.issueReports.map(ir => ir.id));
-      for (const ir of (initialDb.issueReports || [])) {
-        if (!existingIssueIds.has(ir.id)) {
-          parsed.issueReports.push(ir);
-          updated = true;
+
+        // Smart merge Issue Reports by ID or Title (case-insensitive)
+        const existingIssueIds = new Set(parsed.issueReports.map(ir => (ir.id || '').toLowerCase().trim()));
+        const existingIssueTitles = new Set(parsed.issueReports.map(ir => (ir.title || '').toLowerCase().trim()));
+        for (const ir of (initialDb.issueReports || [])) {
+          const irIdKey = (ir.id || '').toLowerCase().trim();
+          const irTitleKey = (ir.title || '').toLowerCase().trim();
+          if (irIdKey && !existingIssueIds.has(irIdKey) && irTitleKey && !existingIssueTitles.has(irTitleKey)) {
+            parsed.issueReports.push(ir);
+            existingIssueIds.add(irIdKey);
+            existingIssueTitles.add(irTitleKey);
+            updated = true;
+          }
         }
+
+        // Smart merge Inventory by Item + Location key
+        const existingInvKeys = new Set(
+          parsed.inventory.map(inv => `${(inv.item || inv['Item Name'] || '').toLowerCase().trim()}||${(inv.location || inv.Location || '').toLowerCase().trim()}`)
+        );
+        for (const inv of (initialDb.inventory || [])) {
+          const invKey = `${(inv.item || inv['Item Name'] || '').toLowerCase().trim()}||${(inv.location || inv.Location || '').toLowerCase().trim()}`;
+          if (invKey && !existingInvKeys.has(invKey)) {
+            parsed.inventory.push(inv);
+            existingInvKeys.add(invKey);
+            updated = true;
+          }
+        }
+
+        // Mark as normalized v3
+        parsed.meta.isNormalized_v3 = true;
+        parsed.meta.version = 3;
+        parsed.meta.lastNormalizedAt = new Date().toISOString();
+        updated = true;
       }
       
       if (updated) {
@@ -113,6 +176,7 @@ export const fetchDb = async () => {
       return { ...emptyDb, ...parsed };
     }
     // Seed with actual local data for the demo
+    localStorage.setItem('wlops_mock_db', JSON.stringify(initialDb));
     return { ...emptyDb, ...initialDb };
   }
   try {
@@ -161,4 +225,12 @@ export const fetchStats = async () => {
   }
 };
 
+export const resetDbToDefault = () => {
+  if (typeof window !== 'undefined') {
+    localStorage.removeItem('wlops_mock_db');
+    window.location.reload();
+  }
+};
+
 export default api;
+
