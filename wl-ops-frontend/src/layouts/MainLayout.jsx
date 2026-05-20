@@ -131,8 +131,9 @@ export default function MainLayout() {
     items: s.items.filter(i => canAccess(currentUser, i.permission)),
   })).filter(s => s.items.length > 0);
 
-  const NavItem = ({ item }) => (
+  const renderNavItem = (item) => (
     <NavLink
+      key={item.to}
       to={item.to}
       end={item.exact}
       onClick={() => setSidebarOpen(false)}
@@ -157,7 +158,7 @@ export default function MainLayout() {
     </NavLink>
   );
 
-  const Sidebar = ({ className }) => (
+  const renderSidebar = (className) => (
     <aside className={cn('flex flex-col h-full bg-surface-container-low border-r border-outline-variant', className)}>
       {/* Logo */}
       <div className="px-5 py-5 border-b border-outline-variant">
@@ -192,7 +193,7 @@ export default function MainLayout() {
               <p className="section-label px-4 mb-2">{section.label}</p>
             )}
             <div className="space-y-0.5">
-              {section.items.map(item => <NavItem key={item.to} item={item} />)}
+              {section.items.map(item => renderNavItem(item))}
             </div>
           </div>
         ))}
@@ -226,7 +227,7 @@ export default function MainLayout() {
     <div className="flex h-screen overflow-hidden bg-surface-dim">
       {/* Desktop sidebar */}
       <div className="hidden lg:flex w-64 shrink-0 h-full">
-        <Sidebar className="w-full" />
+        {renderSidebar("w-full")}
       </div>
 
       {/* Mobile sidebar overlay */}
@@ -234,7 +235,7 @@ export default function MainLayout() {
         <div className="lg:hidden fixed inset-0 z-40 flex">
           <div className="absolute inset-0 bg-black/40" onClick={() => setSidebarOpen(false)} />
           <div className="relative w-72 h-full shadow-elevation-4">
-            <Sidebar className="w-full" />
+            {renderSidebar("w-full")}
             <button
               onClick={() => setSidebarOpen(false)}
               className="absolute top-4 right-4 md3-icon-btn"

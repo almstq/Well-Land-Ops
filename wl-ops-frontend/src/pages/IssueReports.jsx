@@ -6,7 +6,6 @@ import {
   Package, HelpCircle, CheckCircle, Edit2, Trash2,
   ShoppingCart, Star, Sparkles
 } from 'lucide-react';
-import { toast } from 'sonner';
 import { cn } from '../lib/utils';
 import { motion, AnimatePresence } from 'framer-motion';
 import AiIssueAdvisor from '../components/AiIssueAdvisor';

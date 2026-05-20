@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Star, Plus, Building2, FileText, TrendingUp, Edit2, Search, DollarSign } from 'lucide-react';
 import { toast } from 'sonner';
 import { useAppContext } from '../App';

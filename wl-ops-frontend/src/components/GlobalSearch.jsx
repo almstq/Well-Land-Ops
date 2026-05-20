@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Search, X, Truck, Anchor, Users, Package, FileText, AlertTriangle } from 'lucide-react';
 import { useAppContext } from '../App';
-import { cn } from '../lib/utils';
 
 const CATEGORIES = [
   { key: 'assets',           label: 'Fleet',       icon: Truck,         route: '/fleet',       nameKey: ['AssetName', 'Name', 'Vehicle'] },
