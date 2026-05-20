@@ -1,5 +1,5 @@
 {
-  "outputDirectory": "dist",
+  "outputDirectory": "wl-ops-frontend/dist",
   "rewrites": [
     {
       "source": "/(.*)",

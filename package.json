@@ -1,0 +1,7 @@
+{
+  "name": "wl-ops-root",
+  "private": true,
+  "scripts": {
+    "build": "cd wl-ops-frontend && npm install && npm run build"
+  }
+}
