@@ -75,6 +75,41 @@ export const fetchDb = async () => {
       if (!parsed.assets || parsed.assets.length === 0) {
         return { ...emptyDb, ...initialDb };
       }
+      
+      // Auto-merge new suppliers, inventory, and issues from the new initialDb
+      let updated = false;
+      parsed.suppliers = parsed.suppliers || [];
+      parsed.inventory = parsed.inventory || [];
+      parsed.issueReports = parsed.issueReports || [];
+      
+      const existingSupplierIds = new Set(parsed.suppliers.map(s => s.id));
+      for (const sup of (initialDb.suppliers || [])) {
+        if (!existingSupplierIds.has(sup.id)) {
+          parsed.suppliers.push(sup);
+          updated = true;
+        }
+      }
+      
+      const existingInventoryIds = new Set(parsed.inventory.map(i => i.id));
+      for (const inv of (initialDb.inventory || [])) {
+        if (!existingInventoryIds.has(inv.id)) {
+          parsed.inventory.push(inv);
+          updated = true;
+        }
+      }
+      
+      const existingIssueIds = new Set(parsed.issueReports.map(ir => ir.id));
+      for (const ir of (initialDb.issueReports || [])) {
+        if (!existingIssueIds.has(ir.id)) {
+          parsed.issueReports.push(ir);
+          updated = true;
+        }
+      }
+      
+      if (updated) {
+        localStorage.setItem('wlops_mock_db', JSON.stringify(parsed));
+      }
+      
       return { ...emptyDb, ...parsed };
     }
     // Seed with actual local data for the demo
