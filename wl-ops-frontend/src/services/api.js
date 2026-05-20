@@ -54,6 +54,8 @@ export const changePassword = async (currentPassword, newPassword) => {
   return res.data;
 };
 
+import initialDb from '../data/initialDb.json';
+
 // ── Database ──────────────────────────────────────────────────────────────────
 const emptyDb = {
   assets: [], locations: [], vessels: [], staff: [], operators: [],
@@ -68,7 +70,8 @@ export const fetchDb = async () => {
   if (import.meta.env.PROD) {
     const localDb = localStorage.getItem('wlops_mock_db');
     if (localDb) return { ...emptyDb, ...JSON.parse(localDb) };
-    return emptyDb;
+    // Seed with actual local data for the demo
+    return { ...emptyDb, ...initialDb };
   }
   try {
     const res = await api.get('/db');
