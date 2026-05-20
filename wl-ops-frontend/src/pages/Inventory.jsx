@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useAppContext } from '../App';
 import { useLocation } from 'react-router-dom';
-import { Package, Truck, ClipboardCheck, ArrowRight, Plus, CheckCircle, Download } from 'lucide-react';
+import { Package, Truck, ClipboardCheck, ArrowRight, Plus, CheckCircle, Download, Edit2, Trash2 } from 'lucide-react';
 import { cn } from '../lib/utils';
 import { generatePDF } from '../lib/pdfGenerator';
 import { motion } from 'framer-motion';
+import { toast } from 'sonner';
 
 export default function Inventory() {
   const { db, updateDb } = useAppContext();
@@ -12,6 +13,12 @@ export default function Inventory() {
   const [activeTab, setActiveTab] = useState('Stock');
   const [isModalOpen, setModalOpen] = useState(false);
   const [modalType, setModalType] = useState('GRN'); // GRN or Transfer
+  
+  const [isAdjustModalOpen, setAdjustModalOpen] = useState(false);
+  const [adjustingItem, setAdjustingItem] = useState(null);
+  const [isAddStockModalOpen, setAddStockModalOpen] = useState(false);
+  const [addingStockLocation, setAddingStockLocation] = useState('');
+
 
   useEffect(() => {
     if (routerLocation.state?.transferId) setActiveTab('Logistics');
@@ -156,6 +163,103 @@ export default function Inventory() {
     await updateDb({ inventory: newInventory, transferNotes: newTransferNotes, procurement: newProcurement, issueReports: newIssues });
   };
 
+  const handleDeleteStock = async (item) => {
+    const itemName = item.item || item['Item Name'] || 'Item';
+    const itemLoc = item.location || item.Location || 'Unknown Location';
+    if (window.confirm(`Are you sure you want to write-off and remove this stock line of "${itemName}" at "${itemLoc}"?`)) {
+      const newInventory = inventory.filter(i => {
+        if (item.id && i.id) return i.id !== item.id;
+        return !((i.item || i['Item Name']) === (item.item || item['Item Name']) && (i.location || i.Location) === (item.location || item.Location));
+      });
+      await updateDb({ inventory: newInventory });
+      toast.success(`Stock line for "${itemName}" has been successfully removed.`);
+    }
+  };
+
+  const handleAdjustQtySubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const newQty = parseInt(formData.get('newQty'), 10);
+    const reason = formData.get('adjustReason') || 'Manual Adjustment';
+    
+    if (isNaN(newQty) || newQty < 0) {
+      toast.error('Please enter a valid, non-negative quantity.');
+      return;
+    }
+
+    const itemName = adjustingItem.item || adjustingItem['Item Name'];
+
+    const newInventory = inventory.map(i => {
+      const match = adjustingItem.id && i.id 
+        ? i.id === adjustingItem.id 
+        : ((i.item || i['Item Name']) === itemName && (i.location || i.Location) === (adjustingItem.location || adjustingItem.Location));
+      if (match) {
+        return {
+          ...i,
+          qty: newQty,
+          Quantity: newQty, // Update both camelCase and TitleCase keys
+          reason,
+          lastAdjustedAt: new Date().toISOString()
+        };
+      }
+      return i;
+    });
+
+    await updateDb({ inventory: newInventory });
+    setAdjustModalOpen(false);
+    setAdjustingItem(null);
+    toast.success(`Successfully adjusted "${itemName}" stock to ${newQty} units.`);
+  };
+
+  const handleAddStockLineSubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const item = formData.get('item');
+    const qty = parseInt(formData.get('qty'), 10);
+    const reason = formData.get('reason') || 'Initial Stocking';
+    
+    if (!item) {
+      toast.error('Please select an item.');
+      return;
+    }
+    if (isNaN(qty) || qty <= 0) {
+      toast.error('Please enter a valid quantity greater than zero.');
+      return;
+    }
+
+    let newInventory = [...inventory];
+    const stockIdx = newInventory.findIndex(i => 
+      (i.item || i['Item Name']) === item && 
+      (i.location || i.Location) === addingStockLocation
+    );
+    
+    if (stockIdx >= 0) {
+      // Item already exists in this location - add to quantity
+      newInventory[stockIdx].qty = (newInventory[stockIdx].qty || 0) + qty;
+      if (newInventory[stockIdx].Quantity !== undefined) {
+        newInventory[stockIdx].Quantity = (newInventory[stockIdx].Quantity || 0) + qty;
+      }
+    } else {
+      // Create new stock line
+      const ref = `STOCK-${Date.now()}`;
+      newInventory.push({
+        id: ref,
+        item,
+        location: addingStockLocation,
+        qty,
+        Quantity: qty,
+        reason,
+        sourceType: 'Direct Addition'
+      });
+    }
+
+    await updateDb({ inventory: newInventory });
+    setAddStockModalOpen(false);
+    setAddingStockLocation('');
+    toast.success(`Added ${qty} units of "${item}" to ${addingStockLocation}.`);
+  };
+
+
   // Group inventory by location
   const allLocationNames = Array.from(new Set([
     ...warehouseLocations.map(loc => loc.Site || loc['Location Name'] || loc.name).filter(Boolean),
@@ -231,9 +335,18 @@ export default function Inventory() {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           {inventoryByLocation.map((group, idx) => (
             <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: idx * 0.05 }} key={group.location} className="bg-surface rounded-md3-lg shadow-soft border border-border/50 p-5">
-              <h3 className="font-bold text-lg text-textMain mb-4 flex items-center gap-2">
-                <Package className="w-5 h-5 text-primary" />
-                {group.location}
+              <h3 className="font-bold text-lg text-textMain mb-4 flex items-center justify-between gap-2 border-b border-border/20 pb-2">
+                <span className="flex items-center gap-2">
+                  <Package className="w-5 h-5 text-primary" />
+                  {group.location}
+                </span>
+                <button
+                  onClick={() => { setAddingStockLocation(group.location); setAddStockModalOpen(true); }}
+                  className="text-primary hover:bg-primaryContainer/30 p-1.5 rounded-full transition-colors flex items-center justify-center"
+                  title={`Add direct stock line to ${group.location}`}
+                >
+                  <Plus className="w-4 h-4" />
+                </button>
               </h3>
               
               {group.items.length === 0 && group.inbound.length === 0 ? (
@@ -241,19 +354,41 @@ export default function Inventory() {
               ) : (
                 <div className="space-y-3">
                   {group.items.map(item => (
-                    <div key={item.id} className="p-3 bg-surfaceContainer rounded-md">
+                    <div key={item.id || `${item.item}-${item.location}`} className="p-3 bg-surfaceContainer rounded-md group/item border border-border/10 hover:border-border/40 hover:shadow-sm transition-all">
                       <div className="flex items-center justify-between gap-3">
-                        <span className="font-medium text-textMain text-sm">{item.item || item['Item Name']}</span>
-                        <span className="font-bold text-primary bg-primaryContainer px-3 py-1 rounded-full text-sm">{item.qty ?? item.Quantity}</span>
-                      </div>
-                      {(item.issueRef || item.prRef || item.assignedTo || item.reason) && (
-                        <div className="mt-2 flex flex-wrap gap-1.5 text-[10px] text-textMuted">
-                          {item.issueRef && <span className="badge badge-info font-mono">{item.issueRef}</span>}
-                          {item.prRef && <span className="badge badge-default font-mono">{item.prRef}</span>}
-                          {item.assignedTo && <span className="badge badge-success">{item.assignedTo}</span>}
-                          {item.reason && <span className="truncate max-w-full">Reason: {item.reason}</span>}
+                        <div className="min-w-0 flex-1">
+                          <div className="font-medium text-textMain text-sm truncate">{item.item || item['Item Name']}</div>
+                          {(item.issueRef || item.prRef || item.assignedTo || item.reason) && (
+                            <div className="mt-1 flex flex-wrap gap-1 text-[9px] text-textMuted">
+                              {item.issueRef && <span className="badge badge-info font-mono text-[8px] px-1 py-0">{item.issueRef}</span>}
+                              {item.prRef && <span className="badge badge-default font-mono text-[8px] px-1 py-0">{item.prRef}</span>}
+                              {item.assignedTo && <span className="badge badge-success text-[8px] px-1 py-0">{item.assignedTo}</span>}
+                              {item.reason && <span className="truncate max-w-[120px]">Reason: {item.reason}</span>}
+                            </div>
+                          )}
                         </div>
-                      )}
+                        <div className="flex items-center gap-2 shrink-0">
+                          <span className="font-bold text-primary bg-primaryContainer px-3 py-1 rounded-full text-sm">
+                            {item.qty ?? item.Quantity}
+                          </span>
+                          <div className="opacity-0 group-hover/item:opacity-100 transition-opacity flex items-center gap-1">
+                            <button
+                              onClick={() => { setAdjustingItem(item); setAdjustModalOpen(true); }}
+                              className="text-textMuted hover:text-primary hover:bg-primaryContainer/30 p-1 rounded transition-colors"
+                              title="Adjust stock quantity"
+                            >
+                              <Edit2 className="w-3.5 h-3.5" />
+                            </button>
+                            <button
+                              onClick={() => handleDeleteStock(item)}
+                              className="text-textMuted hover:text-error hover:bg-errorContainer/30 p-1 rounded transition-colors"
+                              title="Write-off / delete stock"
+                            >
+                              <Trash2 className="w-3.5 h-3.5" />
+                            </button>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   ))}
                   {group.inbound.map(doc => (
@@ -452,6 +587,129 @@ export default function Inventory() {
 
               <div className="pt-4 flex gap-3">
                 <button type="submit" className="btn btn-primary flex-1">Generate {modalType === 'GRN' ? 'GRN' : 'Transfer Note'}</button>
+              </div>
+            </form>
+          </motion.div>
+        </div>
+      )}
+
+      {/* Quantity Adjustment Modal */}
+      {isAdjustModalOpen && adjustingItem && (
+        <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+          <motion.div initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="bg-surface rounded-md3-xl shadow-xl w-full max-w-md overflow-hidden">
+            <div className="p-6 border-b border-border/50 flex justify-between items-center bg-surfaceContainer">
+              <h2 className="text-xl font-bold text-textMain flex items-center gap-2">
+                <Edit2 className="w-5 h-5 text-primary" />
+                Adjust Quantity
+              </h2>
+              <button onClick={() => { setAdjustModalOpen(false); setAdjustingItem(null); }} className="text-textMuted hover:text-textMain font-bold text-xl">&times;</button>
+            </div>
+            
+            <form onSubmit={handleAdjustQtySubmit} className="p-6 space-y-4">
+              <div>
+                <label className="label">Item Name</label>
+                <div className="input bg-surfaceContainer-low border-none font-semibold text-textMain py-2.5 px-3 rounded-md">
+                  {adjustingItem.item || adjustingItem['Item Name']}
+                </div>
+              </div>
+              
+              <div>
+                <label className="label">Location</label>
+                <div className="input bg-surfaceContainer-low border-none font-semibold text-textMuted py-2.5 px-3 rounded-md">
+                  {adjustingItem.location || adjustingItem.Location}
+                </div>
+              </div>
+
+              <div>
+                <label className="label font-bold text-primary">New Stock Quantity</label>
+                <input
+                  type="number"
+                  name="newQty"
+                  required
+                  min="0"
+                  defaultValue={adjustingItem.qty ?? adjustingItem.Quantity}
+                  className="input bg-surfaceContainer font-bold text-lg text-center"
+                />
+              </div>
+
+              <div>
+                <label className="label">Reason for Adjustment</label>
+                <select name="adjustReason" required className="input bg-surfaceContainer">
+                  <option value="Physical Stocktake Sync">Physical Stocktake Sync</option>
+                  <option value="Damaged / Written-off Parts">Damaged / Written-off Parts</option>
+                  <option value="System Entry Correction">System Entry Correction</option>
+                  <option value="Direct Consumption / Issue Release">Direct Consumption / Issue Release</option>
+                  <option value="Other / Audit Adjustment">Other / Audit Adjustment</option>
+                </select>
+              </div>
+
+              <div className="pt-4 flex gap-3">
+                <button type="button" onClick={() => { setAdjustModalOpen(false); setAdjustingItem(null); }} className="btn btn-ghost flex-1">Cancel</button>
+                <button type="submit" className="btn btn-primary flex-1">Save Adjustment</button>
+              </div>
+            </form>
+          </motion.div>
+        </div>
+      )}
+
+      {/* Add Direct Stock Line Modal */}
+      {isAddStockModalOpen && (
+        <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+          <motion.div initial={{ scale: 0.95, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} className="bg-surface rounded-md3-xl shadow-xl w-full max-w-md overflow-hidden">
+            <div className="p-6 border-b border-border/50 flex justify-between items-center bg-surfaceContainer">
+              <h2 className="text-xl font-bold text-textMain flex items-center gap-2">
+                <Plus className="w-5 h-5 text-primary" />
+                Add Direct Stock Line
+              </h2>
+              <button onClick={() => { setAddStockModalOpen(false); setAddingStockLocation(''); }} className="text-textMuted hover:text-textMain font-bold text-xl">&times;</button>
+            </div>
+            
+            <form onSubmit={handleAddStockLineSubmit} className="p-6 space-y-4">
+              <div>
+                <label className="label">Location</label>
+                <div className="input bg-surfaceContainer-low border-none font-bold text-textMain py-2.5 px-3 rounded-md">
+                  {addingStockLocation}
+                </div>
+              </div>
+
+              <div>
+                <label className="label">Select Catalog Item</label>
+                <select name="item" required className="input bg-surfaceContainer">
+                  <option value="">Select Item...</option>
+                  {items.map(i => {
+                    const name = i.name || i.Item || i['Item Name'];
+                    return <option key={name} value={name}>{name}</option>;
+                  })}
+                  <option value="Misc Spares">Misc Spares</option>
+                  <option value="Safety Gear (PPE)">Safety Gear (PPE)</option>
+                </select>
+              </div>
+
+              <div>
+                <label className="label">Starting Quantity</label>
+                <input
+                  type="number"
+                  name="qty"
+                  required
+                  min="1"
+                  defaultValue="1"
+                  className="input bg-surfaceContainer font-bold text-lg"
+                />
+              </div>
+
+              <div>
+                <label className="label">Reason / Initial Remarks</label>
+                <input
+                  type="text"
+                  name="reason"
+                  placeholder="e.g. Initial stock count, found item, audit entry"
+                  className="input bg-surfaceContainer"
+                />
+              </div>
+
+              <div className="pt-4 flex gap-3">
+                <button type="button" onClick={() => { setAddStockModalOpen(false); setAddingStockLocation(''); }} className="btn btn-ghost flex-1">Cancel</button>
+                <button type="submit" className="btn btn-primary flex-1">Initialize Stock</button>
               </div>
             </form>
           </motion.div>
