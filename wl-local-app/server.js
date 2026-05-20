@@ -7,6 +7,7 @@ const { existsSync } = require('fs');
 const authRoutes  = require('./routes/auth');
 const dataRoutes  = require('./routes/data');
 const statsRoutes = require('./routes/stats');
+const aiRoutes    = require('./routes/ai');
 
 const app = express();
 
@@ -21,6 +22,7 @@ app.use(express.json({ limit: '25mb' }));
 app.use('/api/auth',  authRoutes);
 app.use('/api/db',    dataRoutes);
 app.use('/api/stats', statsRoutes);
+app.use('/api/ai',    aiRoutes);
 
 // Serve built React frontend
 const frontendDist = path.join(__dirname, '../wl-ops-frontend/dist');
@@ -51,8 +53,15 @@ const PORT = Number(process.env.PORT) || 8787;
 const HOST = process.env.HOST || '0.0.0.0';
 
 app.listen(PORT, HOST, () => {
+  let aiStatus;
+  if (process.env.GOOGLE_AI_KEY)      aiStatus = '✓ Google Gemini 2.0 Flash (free)';
+  else if (process.env.GROQ_API_KEY)  aiStatus = '✓ Groq — Llama 3.3 70B (free)';
+  else if (process.env.ANTHROPIC_API_KEY) aiStatus = '✓ Anthropic Claude Opus 4.7';
+  else aiStatus = '✗ No AI key — see .env for FREE options (Gemini / Groq)';
+
   console.log(`\n  Well Land Ops API v2.0`);
   console.log(`  → http://localhost:${PORT}`);
   console.log(`  → Storage: JSON file (data/db.json + data/users.json)`);
-  console.log(`  → Mode: ${process.env.NODE_ENV || 'development'}\n`);
+  console.log(`  → Mode: ${process.env.NODE_ENV || 'development'}`);
+  console.log(`  → AI: ${aiStatus}\n`);
 });

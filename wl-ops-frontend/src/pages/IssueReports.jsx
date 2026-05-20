@@ -4,10 +4,12 @@ import { useLocation } from 'react-router-dom';
 import {
   AlertTriangle, Plus, X, Wrench, Zap, Droplets, Settings,
   Package, HelpCircle, CheckCircle, Edit2, Trash2,
-  ShoppingCart, Star
+  ShoppingCart, Star, Sparkles
 } from 'lucide-react';
+import { toast } from 'sonner';
 import { cn } from '../lib/utils';
 import { motion, AnimatePresence } from 'framer-motion';
+import AiIssueAdvisor from '../components/AiIssueAdvisor';
 
 const CATEGORIES = ['Mechanical', 'Electrical', 'Hydraulic', 'Structural', 'MRO', 'Tyres / Undercarriage', 'Other'];
 const PRIORITIES = ['CRITICAL', 'HIGH', 'MEDIUM', 'LOW'];
@@ -349,6 +351,47 @@ export default function IssueReports() {
     setSelectedIssue(nextIssue);
   };
 
+  // ── AI-recommended parts ──────────────────────────────────────
+  const addAIPart = async (issue, aiPart) => {
+    const part = {
+      partId:           crypto.randomUUID?.() || `ai-${Date.now()}-${Math.random()}`,
+      name:             aiPart.name,
+      partNumber:       aiPart.partNumber || '',
+      qty:              Number(aiPart.qty) || 1,
+      unit:             aiPart.unit || 'pcs',
+      isOEM:            aiPart.isOEM || false,
+      estimatedCost:    Number(aiPart.estimatedCost) || 0,
+      currency:         aiPart.currency || 'MVR',
+      notes:            aiPart.reason ? `AI: ${aiPart.reason}` : '',
+      verified:         false,
+      aiSuggested:      true,
+    };
+    const nextIssue = { ...issue, parts: [...(issue.parts || []), part] };
+    const updated   = issues.map(x => x.id === issue.id ? nextIssue : x);
+    await updateDb({ issueReports: updated });
+    setSelectedIssue(nextIssue);
+  };
+
+  const addAllAIParts = async (issue, aiParts) => {
+    const newParts = aiParts.map(aiPart => ({
+      partId:        crypto.randomUUID?.() || `ai-${Date.now()}-${Math.random()}`,
+      name:          aiPart.name,
+      partNumber:    aiPart.partNumber || '',
+      qty:           Number(aiPart.qty) || 1,
+      unit:          aiPart.unit || 'pcs',
+      isOEM:         aiPart.isOEM || false,
+      estimatedCost: Number(aiPart.estimatedCost) || 0,
+      currency:      aiPart.currency || 'MVR',
+      notes:         aiPart.reason ? `AI recommended: ${aiPart.reason}` : '',
+      verified:      false,
+      aiSuggested:   true,
+    }));
+    const nextIssue = { ...issue, parts: [...(issue.parts || []), ...newParts] };
+    const updated   = issues.map(x => x.id === issue.id ? nextIssue : x);
+    await updateDb({ issueReports: updated });
+    setSelectedIssue(nextIssue);
+  };
+
   // ── Filtered list ─────────────────────────────────────────────
   const filtered = issues.filter(x => {
     if (filterStatus === 'All') return true;
@@ -653,6 +696,16 @@ export default function IssueReports() {
                 <div className="p-3 bg-surfaceContainer rounded-lg text-sm">{issue.solutionNotes || '—'}</div>
               </div>
 
+              {/* AI Issue Advisor — key resets all state when switching issues */}
+              {!['Resolved', 'Closed'].includes(issue.status) && (
+                <AiIssueAdvisor
+                  key={issue.id}
+                  issue={issue}
+                  onAddPart={(aiPart) => addAIPart(issue, aiPart)}
+                  onAddAllParts={(aiParts) => addAllAIParts(issue, aiParts)}
+                />
+              )}
+
               {!['Resolved', 'Closed'].includes(issue.status) && (
                 <form onSubmit={(e) => addQuickPart(e, issue)} className="p-4 border border-border rounded-xl bg-surfaceContainer/60 space-y-3">
                   <div className="flex items-center justify-between gap-3">
@@ -749,7 +802,16 @@ export default function IssueReports() {
                       <tbody>
                         {issue.parts.map((p, i) => (
                           <tr key={p.partId || i}>
-                            <td className="font-semibold">{p.name}</td>
+                            <td className="font-semibold">
+                              <div className="flex items-center gap-1.5">
+                                {p.aiSuggested && (
+                                  <span title="AI-recommended" className="inline-flex items-center gap-0.5 px-1 py-0.5 rounded text-[10px] font-bold bg-primary/10 text-primary">
+                                    <Sparkles className="w-2.5 h-2.5" />AI
+                                  </span>
+                                )}
+                                {p.name}
+                              </div>
+                            </td>
                             <td className="font-mono text-xs text-textMuted">{p.partNumber || '—'}</td>
                             <td className="text-textMuted">{p.preferredSupplier || '—'}</td>
                             <td>{p.qty}</td>

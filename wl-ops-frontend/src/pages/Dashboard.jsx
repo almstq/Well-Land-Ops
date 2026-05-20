@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 import { useAppContext } from '../App';
 import { cn } from '../lib/utils';
+import AiDailyBrief from '../components/AiDailyBrief';
 
 const FALLBACK_LOCATIONS = [
   { 'Location Name': 'Thilafushi - Base', Type: 'Base', Status: 'Active' },
@@ -298,6 +299,9 @@ export default function Dashboard() {
           </div>
         </aside>
       </div>
+
+      {/* AI Operations Brief */}
+      <AiDailyBrief />
 
       <div className="grid gap-5 xl:grid-cols-[minmax(0,1fr)_380px]">
         <section className="ops-card p-0">

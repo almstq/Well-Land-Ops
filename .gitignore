@@ -15,10 +15,16 @@ build/
 .env.*.local
 
 # Database — production data stays out of git
-wl-local-app/data/db.json
+wl-local-app/data/
 wl-local-app/backups/
 wl-ops-frontend/data/
 wl-ops-frontend/backups/
+
+# Cloudflare Tunnel binary
+cloudflared.exe
+
+# Claude editor settings
+.claude/
 
 # Logs
 *.log
