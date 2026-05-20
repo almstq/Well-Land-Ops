@@ -12,6 +12,7 @@ export const ROLES = [
 
 export const ROLE_PERMISSIONS = {
   HOD: ['*'],
+  admin: ['*'], // added to support cached mock user
   'Site Supervisor': ['dashboard', 'issues', 'fleet', 'vessels', 'inventory'],
   Procurement: ['dashboard', 'issues', 'procurement', 'srm', 'master'],
   Accounts: ['dashboard', 'procurement', 'reports'],

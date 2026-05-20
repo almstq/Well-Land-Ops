@@ -34,7 +34,7 @@ api.interceptors.response.use(
 export const login = async (username, password) => {
   if (import.meta.env.PROD) {
     if (username === 'admin' && password === 'wlops2025') {
-      const mockUser = { id: 1, username: 'admin', role: 'admin', name: 'Admin User' };
+      const mockUser = { id: 1, username: 'admin', role: 'HOD', name: 'Admin User' };
       setToken('mock-jwt-token');
       localStorage.setItem('wlOpsUser', JSON.stringify(mockUser));
       return { token: 'mock-jwt-token', user: mockUser };

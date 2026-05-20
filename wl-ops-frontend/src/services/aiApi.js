@@ -53,7 +53,15 @@ export const getDailyBrief = async () => {
     await new Promise(r => setTimeout(r, 1500));
     return {
       data: {
-        brief: "Good morning. Overall fleet availability is at 88%. There are 2 pending 'CRITICAL' issues that require immediate attention. Procurement has 4 parts requests awaiting approval. Weather is optimal for outdoor logistics."
+        brief: {
+          headline: "Fleet Availability Stable at 88%",
+          summary: "Operations are running smoothly today, though we have a few critical bottlenecks in procurement and issue resolution.",
+          risks: ["2 pending CRITICAL issues require immediate attention.", "Procurement has 4 parts requests awaiting approval that may delay repairs."],
+          opportunities: ["Weather is optimal for outdoor logistics and heavy lifting operations.", "3 standby units available for deployment if needed."],
+          immediateActions: ["Approve pending critical PRs.", "Dispatch mechanic for the pending critical issues."],
+          outlook: "Expect a productive day if critical PRs are approved quickly."
+        },
+        generatedAt: new Date().toISOString()
       }
     };
   }
