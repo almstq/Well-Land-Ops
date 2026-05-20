@@ -16,11 +16,11 @@
       "Brand": "VOLVO",
       "Model": "A40G",
       "Site": "Bodufinolhu",
-      "Status": "Active — Site",
+      "Status": "Active \u2014 Site",
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "⚠ VERIFY CONDITION",
+      "Known Issue": "\u26a0 VERIFY CONDITION",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -31,7 +31,7 @@
       "Brand": "VOLVO",
       "Model": "A40G",
       "Site": "Muthaafushi",
-      "Status": "Active — Site",
+      "Status": "Active \u2014 Site",
       "Readiness": "Red",
       "Assigned Operator": "",
       "Hour Meter": "",
@@ -45,12 +45,12 @@
       "Type": "Dump Truck",
       "Brand": "ISUZU",
       "Model": "14 Tons",
-      "Site": "Thilafushi — Base",
+      "Site": "Thilafushi \u2014 Base",
       "Status": "Standby",
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "⚠ VERIFY CONDITION",
+      "Known Issue": "\u26a0 VERIFY CONDITION",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -60,12 +60,12 @@
       "Type": "Dump Truck",
       "Brand": "UD NISSAN",
       "Model": "14 Tons",
-      "Site": "Thilafushi — Base",
+      "Site": "Thilafushi \u2014 Base",
       "Status": "Standby",
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "⚠ VERIFY CONDITION",
+      "Known Issue": "\u26a0 VERIFY CONDITION",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -80,7 +80,7 @@
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "⚠ VERIFY CONDITION",
+      "Known Issue": "\u26a0 VERIFY CONDITION",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -95,7 +95,7 @@
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "⚠ VERIFY CONDITION",
+      "Known Issue": "\u26a0 VERIFY CONDITION",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -110,7 +110,7 @@
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "⚠ VERIFY CONDITION",
+      "Known Issue": "\u26a0 VERIFY CONDITION",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -125,7 +125,7 @@
       "Readiness": "Red",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "7 Mar — Hose burst",
+      "Known Issue": "7 Mar \u2014 Hose burst",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -140,7 +140,7 @@
       "Readiness": "Red",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "Battery failure + electrical system — IR-0003",
+      "Known Issue": "Battery failure + electrical system \u2014 IR-0003",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -150,12 +150,12 @@
       "Type": "Mobile Crane",
       "Brand": "TADANO",
       "Model": "TR300EX",
-      "Site": "Thilafushi — Base",
+      "Site": "Thilafushi \u2014 Base",
       "Status": "Standby",
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "⚠ VERIFY CONDITION",
+      "Known Issue": "\u26a0 VERIFY CONDITION",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -170,7 +170,7 @@
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "⚠ VERIFY CONDITION",
+      "Known Issue": "\u26a0 VERIFY CONDITION",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -185,7 +185,7 @@
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "⚠ VERIFY CONDITION",
+      "Known Issue": "\u26a0 VERIFY CONDITION",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -195,12 +195,12 @@
       "Type": "Forklift",
       "Brand": "NISSAN",
       "Model": "5 Tons",
-      "Site": "Thilafushi — Base",
+      "Site": "Thilafushi \u2014 Base",
       "Status": "Standby",
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "⚠ VERIFY CONDITION",
+      "Known Issue": "\u26a0 VERIFY CONDITION",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -209,13 +209,13 @@
       "Asset ID": "WL-HV-0014",
       "Type": "Bobcat",
       "Brand": "BOBCAT",
-      "Model": "—",
+      "Model": "\u2014",
       "Site": "Unknown",
       "Status": "Unknown",
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "⚠ VERIFY CONDITION",
+      "Known Issue": "\u26a0 VERIFY CONDITION",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -225,12 +225,12 @@
       "Type": "Pickup",
       "Brand": "AF",
       "Model": "6 Tons",
-      "Site": "Thilafushi — Base",
+      "Site": "Thilafushi \u2014 Base",
       "Status": "Standby",
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "⚠ VERIFY CONDITION",
+      "Known Issue": "\u26a0 VERIFY CONDITION",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -239,13 +239,13 @@
       "Asset ID": "WL-HV-0016",
       "Type": "Loader",
       "Brand": "CAT",
-      "Model": "—",
+      "Model": "\u2014",
       "Site": "Unknown",
       "Status": "Unknown",
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "⚠ VERIFY CONDITION",
+      "Known Issue": "\u26a0 VERIFY CONDITION",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -253,14 +253,14 @@
     {
       "Asset ID": "WL-HV-0017",
       "Type": "Excavator (New)",
-      "Brand": "—",
-      "Model": "—",
+      "Brand": "\u2014",
+      "Model": "\u2014",
       "Site": "Unknown",
-      "Status": "New — Verify",
+      "Status": "New \u2014 Verify",
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "New addition — verify specs & location",
+      "Known Issue": "New addition \u2014 verify specs & location",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -268,14 +268,14 @@
     {
       "Asset ID": "WL-HV-0018",
       "Type": "Excavator (New)",
-      "Brand": "—",
-      "Model": "—",
+      "Brand": "\u2014",
+      "Model": "\u2014",
       "Site": "Unknown",
-      "Status": "New — Verify",
+      "Status": "New \u2014 Verify",
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "New addition — verify specs & location",
+      "Known Issue": "New addition \u2014 verify specs & location",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -283,14 +283,14 @@
     {
       "Asset ID": "WL-HV-0019",
       "Type": "Excavator (New)",
-      "Brand": "—",
-      "Model": "—",
+      "Brand": "\u2014",
+      "Model": "\u2014",
       "Site": "Unknown",
-      "Status": "New — Verify",
+      "Status": "New \u2014 Verify",
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "New addition — verify specs & location",
+      "Known Issue": "New addition \u2014 verify specs & location",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -298,14 +298,14 @@
     {
       "Asset ID": "WL-HV-0020",
       "Type": "Excavator (New)",
-      "Brand": "—",
-      "Model": "—",
+      "Brand": "\u2014",
+      "Model": "\u2014",
       "Site": "Unknown",
-      "Status": "New — Verify",
+      "Status": "New \u2014 Verify",
       "Readiness": "Unknown",
       "Assigned Operator": "",
       "Hour Meter": "",
-      "Known Issue": "New addition — verify specs & location",
+      "Known Issue": "New addition \u2014 verify specs & location",
       "Last Service": "",
       "Next Service": "",
       "Notes": ""
@@ -364,9 +364,9 @@
     },
     {
       "Location ID": "LOC-0006",
-      "Location Name": "Thilafushi — Base",
+      "Location Name": "Thilafushi \u2014 Base",
       "Type": "Base",
-      "Island / Area": "Thilafushi — Base",
+      "Island / Area": "Thilafushi \u2014 Base",
       "Status": "Active",
       "Primary Contact": "",
       "Phone": "",
@@ -453,7 +453,7 @@
       "Type": "Speed Boat",
       "Status": "Drydocked",
       "Drydocked?": "Yes",
-      "Captain in Charge": "—",
+      "Captain in Charge": "\u2014",
       "Crew Assigned": "",
       "Reg No.": "",
       "Hull / IMO": "",
@@ -466,7 +466,7 @@
       "Last Inspection": "",
       "DryDock Start": "",
       "DryDock Est. End": "",
-      "Known Issues / Notes": "⚠ VERIFY: Same boat as SB1 at different time, or separate vessel? Confirm with Janaka."
+      "Known Issues / Notes": "\u26a0 VERIFY: Same boat as SB1 at different time, or separate vessel? Confirm with Janaka."
     }
   ],
   "staff": [
@@ -1204,7 +1204,7 @@
       "Current Location": "",
       "Assigned Asset ID": "",
       "Asset Description": "",
-      "Licence / Class": "Work Permit Processing — cannot operate",
+      "Licence / Class": "Work Permit Processing \u2014 cannot operate",
       "Can Operate?": "No",
       "Notes": ""
     }
@@ -1410,9 +1410,9 @@
       "Request Channel": "Phone/Text",
       "Site / Location": "Muthaafushi",
       "Asset ID": "WL-HV-0002",
-      "Item / Service Requested": "Hydraulic control valve + hose — Hauler Dump Truck VOLVO A40G",
+      "Item / Service Requested": "Hydraulic control valve + hose \u2014 Hauler Dump Truck VOLVO A40G",
       "Purpose / Machine Use": "Machine rectification",
-      "Specs Needed": "Open — obtain quotes",
+      "Specs Needed": "Open \u2014 obtain quotes",
       "Urgency": "CRITICAL",
       "Status": "Handed to Logistics",
       "Verification Status": "Pending Check",
@@ -1425,12 +1425,12 @@
       "Collection Status": "",
       "Invoice Status": "",
       "Delivery Status": "Yes",
-      "Notes": "Open — obtain quotes",
+      "Notes": "Open \u2014 obtain quotes",
       "Asset / Vessel ID": "WL-HV-0002",
       "Issue Ref": "IR-0001",
       "Part Number": "adasd",
       "OEM Required": "Yes",
-      "Exact Specification": "Open — obtain quotes",
+      "Exact Specification": "Open \u2014 obtain quotes",
       "Quantity": "1",
       "Unit": "pcs",
       "Estimated Unit Price": "540",
@@ -1456,9 +1456,9 @@
       "Request Channel": "Phone/Text",
       "Site / Location": "Unknown",
       "Asset ID": "WL-HV-0008",
-      "Item / Service Requested": "Hydraulic hose burst — High Bed Excavator KOMATSU PC350",
+      "Item / Service Requested": "Hydraulic hose burst \u2014 High Bed Excavator KOMATSU PC350",
       "Purpose / Machine Use": "Machine rectification",
-      "Specs Needed": "Open — verify location, obtain quotes",
+      "Specs Needed": "Open \u2014 verify location, obtain quotes",
       "Urgency": "CRITICAL",
       "Status": "Request Received",
       "Verification Status": "Pending Check",
@@ -1471,7 +1471,7 @@
       "Collection Status": "",
       "Invoice Status": "",
       "Delivery Status": "",
-      "Notes": "Open — verify location, obtain quotes",
+      "Notes": "Open \u2014 verify location, obtain quotes",
       "Asset / Vessel ID": "WL-HV-0008",
       "Issue Ref": "IR-0002"
     },
@@ -2182,8 +2182,8 @@
       "Quantity": 1,
       "Unit": "pcs",
       "Estimated Unit Price": "",
-      "Purpose / Machine Use": "WL-HV-0002 — VOLVO A40G (Hauler Dump Truck) - Hydraulic control valve and hose leaking",
-      "Reason / Issue": "Hydraulic control valve and hose are actively leaking on the VOLVO A40G hauler dump truck deployed at Muthaafushi. Machine is operational but losing hydraulic fluid — risk of full system failure if unaddressed.",
+      "Purpose / Machine Use": "WL-HV-0002 \u2014 VOLVO A40G (Hauler Dump Truck) - Hydraulic control valve and hose leaking",
+      "Reason / Issue": "Hydraulic control valve and hose are actively leaking on the VOLVO A40G hauler dump truck deployed at Muthaafushi. Machine is operational but losing hydraulic fluid \u2014 risk of full system failure if unaddressed.",
       "Site / Location": "Muthaafushi",
       "Urgency": "CRITICAL",
       "Requested By": "Janaka / Sampath",
@@ -2195,9 +2195,9 @@
       "Verified By": "WL Ops",
       "Verified At": "2026-05-20T06:41:36.013Z",
       "Asset ID": "WL-HV-0002",
-      "Asset Label": "WL-HV-0002 — VOLVO A40G (Hauler Dump Truck)",
-      "Specs Needed": "OEM Volvo part — confirm part number from machine plate",
-      "Notes": "OEM Volvo part — confirm part number from machine plate\nSymptoms: Visible hydraulic fluid leak at control valve area and along hose run. Possible pressure drop in hydraulic circuit.\nRecommended action: Replace hydraulic control valve and the leaking hose section. Flush and top up hydraulic fluid after replacement. Pressure-test system before returning to service."
+      "Asset Label": "WL-HV-0002 \u2014 VOLVO A40G (Hauler Dump Truck)",
+      "Specs Needed": "OEM Volvo part \u2014 confirm part number from machine plate",
+      "Notes": "OEM Volvo part \u2014 confirm part number from machine plate\nSymptoms: Visible hydraulic fluid leak at control valve area and along hose run. Possible pressure drop in hydraulic circuit.\nRecommended action: Replace hydraulic control valve and the leaking hose section. Flush and top up hydraulic fluid after replacement. Pressure-test system before returning to service."
     }
   ],
   "paymentRequests": [
@@ -2215,7 +2215,80 @@
       "releasedAt": "2026-05-20T06:50:45.784Z"
     }
   ],
-  "suppliers": [],
+  "suppliers": [
+    {
+      "id": "SUP-0001",
+      "name": "Jan De Nul",
+      "Supplier": "Jan De Nul",
+      "Category": "Transport Service Providers",
+      "Contact": "",
+      "Remarks": "Providing LCT for inter-island mobilization"
+    },
+    {
+      "id": "SUP-0002",
+      "name": "Well Land Investment Pvt Ltd",
+      "Supplier": "Well Land Investment Pvt Ltd",
+      "Category": "Logistics Division",
+      "Contact": "asim@evosunmaldives.com",
+      "Remarks": "Providing LCT vessel and Komatsu PC70 excavator"
+    },
+    {
+      "id": "SUP-0003",
+      "name": "Infra Engineers India (IEPL)",
+      "Supplier": "Infra Engineers India (IEPL)",
+      "Category": "Service and Parts Supplier",
+      "Contact": "Mr. Hari Pilla, Chennai",
+      "Remarks": "Providing hydraulic pumps, solenoid valves, and other parts"
+    },
+    {
+      "id": "SUP-0004",
+      "name": "RKL Maldives",
+      "Supplier": "RKL Maldives",
+      "Category": "Teflon Material Supplier",
+      "Contact": "",
+      "Remarks": "Providing Teflon material for custom fabrication"
+    },
+    {
+      "id": "SUP-0005",
+      "name": "Ex Ceylon Engineering, Mal\u00e9",
+      "Supplier": "Ex Ceylon Engineering, Mal\u00e9",
+      "Category": "Fabrication Service",
+      "Contact": "",
+      "Remarks": "Fabricating hydraulic line adapter / elbow fitting"
+    },
+    {
+      "id": "SUP-0006",
+      "name": "Komatsu",
+      "Supplier": "Komatsu",
+      "Category": "MRO / Electrical / Hydraulic / Rental etc",
+      "Contact": "",
+      "Remarks": "Hydraulic pumps for Komatsu PC350LC-7/PC300LC-7 excavators"
+    },
+    {
+      "id": "SUP-0007",
+      "name": "Davilian",
+      "Supplier": "Davilian",
+      "Category": "MRO / Electrical / Hydraulic / Rental etc",
+      "Contact": "",
+      "Remarks": "Firefighting pump systems (Davilian DHm/5AM benchmark)"
+    },
+    {
+      "id": "SUP-0008",
+      "name": "Antrac Holding Group",
+      "Supplier": "Antrac Holding Group",
+      "Category": "MRO / Electrical / Hydraulic / Rental etc",
+      "Contact": "",
+      "Remarks": "Head Office Accounts team handles formal financial processing"
+    },
+    {
+      "id": "SUP-0009",
+      "name": "Hilton Maldives Amingiri Resort & Spa",
+      "Supplier": "Hilton Maldives Amingiri Resort & Spa",
+      "Category": "Landing Craft Hire",
+      "Contact": "Adam Ali, Purchasing Manager, Finance",
+      "Remarks": "Landing craft hire for transportation of cargo"
+    }
+  ],
   "items": [
     {
       "Item Code": "ITM-0001",
@@ -2559,7 +2632,7 @@
   "inventory": [
     {
       "id": "GRN-0001-STOCK",
-      "item": "Hydraulic control valve + hose — Hauler Dump Truck VOLVO A40G",
+      "item": "Hydraulic control valve + hose \u2014 Hauler Dump Truck VOLVO A40G",
       "location": "Thilafushi - Base",
       "qty": 0,
       "prRef": "WL-PR-0001",
@@ -2568,6 +2641,136 @@
       "assetLabel": "",
       "reason": "",
       "sourceType": "Procurement"
+    },
+    {
+      "id": "INV-0001",
+      "Item Name": "Komatsu PC70 excavator",
+      "Part Number": "",
+      "Category": "MRO / Engine Parts / Hydraulic Filters / Tyres etc",
+      "Supplier": "Well Land Investment Pvt Ltd",
+      "Unit Price": 0.0,
+      "Quantity": 1,
+      "Location": "Thilafushi / Tug-01 / Male"
+    },
+    {
+      "id": "INV-0002",
+      "Item Name": "Komatsu PC350 excavator",
+      "Part Number": "",
+      "Category": "MRO / Engine Parts / Hydraulic Filters / Tyres etc",
+      "Supplier": "Infra Engineers India (IEPL)",
+      "Unit Price": 0.0,
+      "Quantity": 1,
+      "Location": "Bodufinolhu / Muthaafushi / Male"
+    },
+    {
+      "id": "INV-0003",
+      "Item Name": "LCT vessel",
+      "Part Number": "",
+      "Category": "MRO / Engine Parts / Hydraulic Filters / Tyres etc",
+      "Supplier": "Well Land Investment Pvt Ltd",
+      "Unit Price": 0.0,
+      "Quantity": 1,
+      "Location": "Thilafushi / Tug-01 / Male"
+    },
+    {
+      "id": "INV-0004",
+      "Item Name": "Caterpillar 336DL excavator",
+      "Part Number": "MLIJEA",
+      "Category": "MRO / Engine Parts / Hydraulic Filters / Tyres etc",
+      "Supplier": "Jan De Nul",
+      "Unit Price": 0.0,
+      "Quantity": 2,
+      "Location": "Thilafushi / Tug-01 / Male"
+    },
+    {
+      "id": "INV-0005",
+      "Item Name": "CAT 745C articulated dump truck",
+      "Part Number": "TEXU8983147",
+      "Category": "MRO / Engine Parts / Hydraulic Filters / Tyres etc",
+      "Supplier": "Jan De Nul",
+      "Unit Price": 0.0,
+      "Quantity": 2,
+      "Location": "Thilafushi / Tug-01 / Male"
+    },
+    {
+      "id": "INV-0006",
+      "Item Name": "Hydraulic pumps",
+      "Part Number": "",
+      "Category": "MRO / Engine Parts / Hydraulic Filters / Tyres etc",
+      "Supplier": "Komatsu",
+      "Unit Price": 0.0,
+      "Quantity": 1,
+      "Location": "Thilafushi / Tug-01 / Male"
+    },
+    {
+      "id": "INV-0007",
+      "Item Name": "Oil filters",
+      "Part Number": "",
+      "Category": "MRO / Engine Parts / Hydraulic Filters / Tyres etc",
+      "Supplier": "",
+      "Unit Price": 0.0,
+      "Quantity": 1,
+      "Location": "Thilafushi / Tug-01 / Male"
+    },
+    {
+      "id": "INV-0008",
+      "Item Name": "Seawater pump",
+      "Part Number": "",
+      "Category": "MRO / Engine Parts / Hydraulic Filters / Tyres etc",
+      "Supplier": "",
+      "Unit Price": 0.0,
+      "Quantity": 1,
+      "Location": "Thilafushi / Tug-01 / Male"
+    },
+    {
+      "id": "INV-0009",
+      "Item Name": "Firefighting pump systems",
+      "Part Number": "",
+      "Category": "MRO / Engine Parts / Hydraulic Filters / Tyres etc",
+      "Supplier": "Davilian",
+      "Unit Price": 0.0,
+      "Quantity": 1,
+      "Location": "Thilafushi / Tug-01 / Male"
+    },
+    {
+      "id": "INV-0010",
+      "Item Name": "Excavators",
+      "Part Number": "",
+      "Category": "Heavy Machinery",
+      "Supplier": "Well Land Investment Pvt Ltd",
+      "Unit Price": 0.0,
+      "Quantity": 1,
+      "Location": "Thilafushi"
+    },
+    {
+      "id": "INV-0011",
+      "Item Name": "Dump Trucks / Transport Trucks",
+      "Part Number": "",
+      "Category": "Heavy Machinery",
+      "Supplier": "Well Land Investment Pvt Ltd",
+      "Unit Price": 0.0,
+      "Quantity": 1,
+      "Location": "Thilafushi"
+    },
+    {
+      "id": "INV-0012",
+      "Item Name": "Crane",
+      "Part Number": "",
+      "Category": "Heavy Machinery",
+      "Supplier": "Well Land Investment Pvt Ltd",
+      "Unit Price": 0.0,
+      "Quantity": 1,
+      "Location": "Thilafushi"
+    },
+    {
+      "id": "INV-0013",
+      "Item Name": "Food waste composting machine",
+      "Part Number": "",
+      "Category": "Equipment",
+      "Supplier": "Hilton Maldives Amingiri Resort & Spa",
+      "Unit Price": 0.0,
+      "Quantity": 1,
+      "Location": "Hulhumal\u00e9"
     }
   ],
   "transfers": [],
@@ -2604,7 +2807,7 @@
     {
       "Ref": 3,
       "Category": "Vessel",
-      "Description": "Vessel Survey Certificate — LCT 1",
+      "Description": "Vessel Survey Certificate \u2014 LCT 1",
       "Entity": "Well Land",
       "Asset / Ref": "WL-MV-0001",
       "Frequency": "Annual/Biennial",
@@ -2613,12 +2816,12 @@
       "Next Due Date": "",
       "Lead Time Needed": "30 days",
       "Responsible": "Well Land Ops",
-      "Status / Notes": "MPA / MNDF — obtain current status"
+      "Status / Notes": "MPA / MNDF \u2014 obtain current status"
     },
     {
       "Ref": 4,
       "Category": "Vessel",
-      "Description": "Vessel Survey Certificate — Dhoni 1",
+      "Description": "Vessel Survey Certificate \u2014 Dhoni 1",
       "Entity": "Well Land",
       "Asset / Ref": "WL-MV-0002",
       "Frequency": "Annual/Biennial",
@@ -2632,7 +2835,7 @@
     {
       "Ref": 5,
       "Category": "Vessel",
-      "Description": "Vessel Survey Certificate — Speed Boat 1",
+      "Description": "Vessel Survey Certificate \u2014 Speed Boat 1",
       "Entity": "Well Land",
       "Asset / Ref": "WL-MV-0003",
       "Frequency": "Annual/Biennial",
@@ -2646,7 +2849,7 @@
     {
       "Ref": 6,
       "Category": "Vessel",
-      "Description": "Vessel Permit — LCT 1 (MNDF/MPA)",
+      "Description": "Vessel Permit \u2014 LCT 1 (MNDF/MPA)",
       "Entity": "Well Land",
       "Asset / Ref": "WL-MV-0001",
       "Frequency": "Annual",
@@ -2660,7 +2863,7 @@
     {
       "Ref": 7,
       "Category": "Vessel",
-      "Description": "Vessel Permit — Dhoni 1 (MNDF/MPA)",
+      "Description": "Vessel Permit \u2014 Dhoni 1 (MNDF/MPA)",
       "Entity": "Well Land",
       "Asset / Ref": "WL-MV-0002",
       "Frequency": "Annual",
@@ -2674,7 +2877,7 @@
     {
       "Ref": 8,
       "Category": "Vessel",
-      "Description": "Vessel Insurance — LCT 1",
+      "Description": "Vessel Insurance \u2014 LCT 1",
       "Entity": "Well Land",
       "Asset / Ref": "WL-MV-0001",
       "Frequency": "Annual",
@@ -2688,7 +2891,7 @@
     {
       "Ref": 9,
       "Category": "Vessel",
-      "Description": "Vessel Insurance — Dhoni 1",
+      "Description": "Vessel Insurance \u2014 Dhoni 1",
       "Entity": "Well Land",
       "Asset / Ref": "WL-MV-0002",
       "Frequency": "Annual",
@@ -2702,7 +2905,7 @@
     {
       "Ref": 10,
       "Category": "Work Permit",
-      "Description": "Work Permit — Expat staff (per employee)",
+      "Description": "Work Permit \u2014 Expat staff (per employee)",
       "Entity": "Well Land",
       "Asset / Ref": "All expat staff",
       "Frequency": "Annual/Biennial",
@@ -2711,26 +2914,26 @@
       "Next Due Date": "",
       "Lead Time Needed": "30 days",
       "Responsible": "Well Land Ops",
-      "Status / Notes": "~29 expats — manage per person in Staff sheet"
+      "Status / Notes": "~29 expats \u2014 manage per person in Staff sheet"
     },
     {
       "Ref": 11,
       "Category": "Work Permit",
-      "Description": "Work Permit — Dulip Priyankara",
+      "Description": "Work Permit \u2014 Dulip Priyankara",
       "Entity": "Well Land",
       "Asset / Ref": "WL-EMP-0031",
-      "Frequency": "—",
+      "Frequency": "\u2014",
       "Last Paid / Filed": "",
       "Amount (MVR)": "",
       "Next Due Date": "",
       "Lead Time Needed": "30 days",
       "Responsible": "Well Land Ops",
-      "Status / Notes": "Processing — not yet active"
+      "Status / Notes": "Processing \u2014 not yet active"
     },
     {
       "Ref": 12,
       "Category": "Tax",
-      "Description": "Business Profit Tax (BPT) — Filing",
+      "Description": "Business Profit Tax (BPT) \u2014 Filing",
       "Entity": "Well Land",
       "Asset / Ref": "Company",
       "Frequency": "Annual",
@@ -2744,7 +2947,7 @@
     {
       "Ref": 13,
       "Category": "Tax",
-      "Description": "GST — Rental Income (if applicable)",
+      "Description": "GST \u2014 Rental Income (if applicable)",
       "Entity": "Well Land",
       "Asset / Ref": "Rental revenue",
       "Frequency": "Quarterly",
@@ -2758,7 +2961,7 @@
     {
       "Ref": 14,
       "Category": "Tax",
-      "Description": "GST — Petroleum Link (PLK)",
+      "Description": "GST \u2014 Petroleum Link (PLK)",
       "Entity": "PLK",
       "Asset / Ref": "Company",
       "Frequency": "Quarterly",
@@ -2772,7 +2975,7 @@
     {
       "Ref": 15,
       "Category": "Compliance",
-      "Description": "Labour Relations Authority — Staff Register",
+      "Description": "Labour Relations Authority \u2014 Staff Register",
       "Entity": "Well Land",
       "Asset / Ref": "All staff",
       "Frequency": "Annual",
@@ -2786,7 +2989,7 @@
     {
       "Ref": 16,
       "Category": "Compliance",
-      "Description": "Immigration — Expat Quota",
+      "Description": "Immigration \u2014 Expat Quota",
       "Entity": "Well Land",
       "Asset / Ref": "Expat staff",
       "Frequency": "Annual",
@@ -2814,7 +3017,7 @@
     {
       "Ref": 18,
       "Category": "Other",
-      "Description": "Add row for each additional fee →",
+      "Description": "Add row for each additional fee \u2192",
       "Entity": "",
       "Asset / Ref": "",
       "Frequency": "",
@@ -2833,14 +3036,14 @@
     {
       "id": "IR-0001",
       "assetId": "WL-HV-0002",
-      "assetLabel": "WL-HV-0002 — VOLVO A40G (Hauler Dump Truck)",
+      "assetLabel": "WL-HV-0002 \u2014 VOLVO A40G (Hauler Dump Truck)",
       "location": "Muthaafushi",
       "reportedBy": "Janaka / Sampath",
       "reportedAt": "2026-03-15T00:00:00.000Z",
       "category": "Hydraulic",
       "priority": "CRITICAL",
       "title": "Hydraulic control valve and hose leaking",
-      "description": "Hydraulic control valve and hose are actively leaking on the VOLVO A40G hauler dump truck deployed at Muthaafushi. Machine is operational but losing hydraulic fluid — risk of full system failure if unaddressed.",
+      "description": "Hydraulic control valve and hose are actively leaking on the VOLVO A40G hauler dump truck deployed at Muthaafushi. Machine is operational but losing hydraulic fluid \u2014 risk of full system failure if unaddressed.",
       "symptoms": "Visible hydraulic fluid leak at control valve area and along hose run. Possible pressure drop in hydraulic circuit.",
       "solutionNotes": "Replace hydraulic control valve and the leaking hose section. Flush and top up hydraulic fluid after replacement. Pressure-test system before returning to service.",
       "parts": [
@@ -2853,7 +3056,7 @@
           "qty": 1,
           "estimatedCost": 0,
           "currency": "MVR",
-          "notes": "OEM Volvo part — confirm part number from machine plate",
+          "notes": "OEM Volvo part \u2014 confirm part number from machine plate",
           "verified": true,
           "verifiedBy": "WL Ops",
           "verifiedAt": "2026-05-20T06:41:36.013Z",
@@ -2882,15 +3085,15 @@
     {
       "id": "IR-0002",
       "assetId": "WL-HV-0008",
-      "assetLabel": "WL-HV-0008 — KOMATSU PC350 (High Bed Excavator)",
-      "location": "Unknown — verify on site",
+      "assetLabel": "WL-HV-0008 \u2014 KOMATSU PC350 (High Bed Excavator)",
+      "location": "Unknown \u2014 verify on site",
       "reportedBy": "Sampath (via Janaka)",
       "reportedAt": "2026-03-07T00:00:00.000Z",
       "category": "Hydraulic",
       "priority": "CRITICAL",
-      "title": "Hydraulic hose burst — machine grounded",
+      "title": "Hydraulic hose burst \u2014 machine grounded",
       "description": "Hydraulic hose burst on the KOMATSU PC350 high bed excavator. Machine is grounded and non-operational. Location needs to be verified with site team before dispatching parts.",
-      "symptoms": "Hose burst — complete hydraulic fluid loss. Machine unable to operate. Grounded as of 7 March 2026.",
+      "symptoms": "Hose burst \u2014 complete hydraulic fluid loss. Machine unable to operate. Grounded as of 7 March 2026.",
       "solutionNotes": "Identify exact hose spec (diameter, length, fittings, pressure rating) before ordering. Replace burst hose, bleed hydraulic system, refill hydraulic fluid. Confirm machine location first.",
       "parts": [
         {
@@ -2902,7 +3105,7 @@
           "qty": 1,
           "estimatedCost": 0,
           "currency": "MVR",
-          "notes": "Confirm hose spec on site — diameter, length, end fittings and pressure rating"
+          "notes": "Confirm hose spec on site \u2014 diameter, length, end fittings and pressure rating"
         },
         {
           "partId": "p-ir002-2",
@@ -2913,7 +3116,7 @@
           "qty": 1,
           "estimatedCost": 0,
           "currency": "MVR",
-          "notes": "Confirm grade from machine manual — ISO VG 46 or 68 typically"
+          "notes": "Confirm grade from machine manual \u2014 ISO VG 46 or 68 typically"
         }
       ],
       "status": "Parts Requested",
@@ -2926,16 +3129,16 @@
     {
       "id": "IR-0003",
       "assetId": "WL-HV-0009",
-      "assetLabel": "WL-HV-0009 — KOBELCO SK380 (High Bed Excavator)",
-      "location": "Thilafushi — Base",
+      "assetLabel": "WL-HV-0009 \u2014 KOBELCO SK380 (High Bed Excavator)",
+      "location": "Thilafushi \u2014 Base",
       "reportedBy": "Project Manager / Thilafushi Supervisor",
       "reportedAt": "2026-03-15T00:00:00.000Z",
       "category": "Electrical",
       "priority": "HIGH",
       "title": "Battery failure and full electrical system rectification required",
-      "description": "KOBELCO SK380 is experiencing battery failure — machine fails to start or hold charge. Full electrical system inspection needed including battery, wiring harness, terminals, and cable connections.",
+      "description": "KOBELCO SK380 is experiencing battery failure \u2014 machine fails to start or hold charge. Full electrical system inspection needed including battery, wiring harness, terminals, and cable connections.",
       "symptoms": "Machine not starting or starting unreliably. Battery not holding charge. Suspect corroded/damaged battery terminals and wiring. Possible alternator output issue.",
-      "solutionNotes": "Replace battery with OEM-spec unit. Overhaul battery wiring — replace cables, fit new clamps and lugs. Test alternator output after battery replacement. Use crocodile clips for temporary testing during diagnosis.",
+      "solutionNotes": "Replace battery with OEM-spec unit. Overhaul battery wiring \u2014 replace cables, fit new clamps and lugs. Test alternator output after battery replacement. Use crocodile clips for temporary testing during diagnosis.",
       "parts": [
         {
           "partId": "p-ir003-1",
@@ -2946,7 +3149,7 @@
           "qty": 1,
           "estimatedCost": 0,
           "currency": "MVR",
-          "notes": "OEM Kobelco spec — confirm exact amp-hour, terminal position and dimensions from machine plate"
+          "notes": "OEM Kobelco spec \u2014 confirm exact amp-hour, terminal position and dimensions from machine plate"
         },
         {
           "partId": "p-ir003-2",
@@ -2957,7 +3160,7 @@
           "qty": 1,
           "estimatedCost": 0,
           "currency": "MVR",
-          "notes": "Confirm cable size (mm²) and length required on site"
+          "notes": "Confirm cable size (mm\u00b2) and length required on site"
         },
         {
           "partId": "p-ir003-3",
@@ -3007,14 +3210,14 @@
     {
       "id": "IR-0004",
       "assetId": "",
-      "assetLabel": "Unidentified Excavator — verify on site",
-      "location": "Unknown — verify on site",
+      "assetLabel": "Unidentified Excavator \u2014 verify on site",
+      "location": "Unknown \u2014 verify on site",
       "reportedBy": "Project Manager / Thilafushi Supervisor",
       "reportedAt": "2026-03-15T00:00:00.000Z",
       "category": "Structural",
       "priority": "MEDIUM",
       "title": "Excavator bucket play and bush/pin wear",
-      "description": "Excavator bucket has excessive play/vibration indicating worn shims and pins. Bush and pin bolt condition requires inspection. Specific machine not yet confirmed — likely one of the KOMATSU PC350 units.",
+      "description": "Excavator bucket has excessive play/vibration indicating worn shims and pins. Bush and pin bolt condition requires inspection. Specific machine not yet confirmed \u2014 likely one of the KOMATSU PC350 units.",
       "symptoms": "Excessive bucket movement/vibration during digging. Audible clunking from bucket linkage. Possible worn bushes at pin joints.",
       "solutionNotes": "Inspect bucket linkage pins and bushes. Replace shims to eliminate play. Replace lock nuts if worn. Confirm which specific excavator (WL-HV-0005, 0006, or 0007) before ordering to get correct pin sizes.",
       "parts": [
@@ -3038,7 +3241,7 @@
           "qty": 4,
           "estimatedCost": 0,
           "currency": "MVR",
-          "notes": "Confirm diameter, length and thread — measure on site"
+          "notes": "Confirm diameter, length and thread \u2014 measure on site"
         }
       ],
       "status": "Parts Requested",
@@ -3047,21 +3250,21 @@
         "WL-PR-0009"
       ],
       "resolvedAt": null,
-      "resolutionNotes": "Asset ID unconfirmed — pending site identification of which excavator"
+      "resolutionNotes": "Asset ID unconfirmed \u2014 pending site identification of which excavator"
     },
     {
       "id": "IR-0005",
       "assetId": "",
-      "assetLabel": "Fleet-wide — Workshop & Maintenance Tools",
-      "location": "Thilafushi — Base",
+      "assetLabel": "Fleet-wide \u2014 Workshop & Maintenance Tools",
+      "location": "Thilafushi \u2014 Base",
       "reportedBy": "Project Manager / Thilafushi Supervisor",
       "reportedAt": "2026-03-15T00:00:00.000Z",
       "category": "MRO",
       "priority": "MEDIUM",
       "title": "Workshop MRO tools and maintenance consumables required",
-      "description": "General workshop and maintenance tools needed to support ongoing fleet rectification work across all machines. Includes lubrication equipment, welding tools, cleaning equipment, and basic hand tools. These are not tied to a single machine failure — they are essential MRO stock for the maintenance team.",
+      "description": "General workshop and maintenance tools needed to support ongoing fleet rectification work across all machines. Includes lubrication equipment, welding tools, cleaning equipment, and basic hand tools. These are not tied to a single machine failure \u2014 they are essential MRO stock for the maintenance team.",
       "symptoms": "Workshop lacks essential maintenance tools to carry out rectification work on fleet. Technicians unable to complete jobs without these items.",
-      "solutionNotes": "Procure all listed MRO items. Store at Thilafushi Base workshop. Welding machine and air compressor are capital items — verify budget approval. All other items are consumables.",
+      "solutionNotes": "Procure all listed MRO items. Store at Thilafushi Base workshop. Welding machine and air compressor are capital items \u2014 verify budget approval. All other items are consumables.",
       "parts": [
         {
           "partId": "p-ir005-1",
@@ -3072,7 +3275,7 @@
           "qty": 1,
           "estimatedCost": 0,
           "currency": "MVR",
-          "notes": "Confirm manual or pneumatic — recommend manual for site use"
+          "notes": "Confirm manual or pneumatic \u2014 recommend manual for site use"
         },
         {
           "partId": "p-ir005-2",
@@ -3094,7 +3297,7 @@
           "qty": 1,
           "estimatedCost": 0,
           "currency": "MVR",
-          "notes": "Confirm power rating (200A/250A) — for repair and fabrication"
+          "notes": "Confirm power rating (200A/250A) \u2014 for repair and fabrication"
         },
         {
           "partId": "p-ir005-4",
@@ -3171,7 +3374,7 @@
           "qty": 1,
           "estimatedCost": 0,
           "currency": "MVR",
-          "notes": "For machine cleaning — confirm pressure rating"
+          "notes": "For machine cleaning \u2014 confirm pressure rating"
         },
         {
           "partId": "p-ir005-11",
@@ -3182,7 +3385,7 @@
           "qty": 1,
           "estimatedCost": 0,
           "currency": "MVR",
-          "notes": "To connect to pressure washer — confirm length"
+          "notes": "To connect to pressure washer \u2014 confirm length"
         },
         {
           "partId": "p-ir005-12",
@@ -3193,7 +3396,7 @@
           "qty": 1,
           "estimatedCost": 0,
           "currency": "MVR",
-          "notes": "Open/ring combo — for heavy equipment fasteners"
+          "notes": "Open/ring combo \u2014 for heavy equipment fasteners"
         },
         {
           "partId": "p-ir005-13",
@@ -3204,7 +3407,7 @@
           "qty": 2,
           "estimatedCost": 0,
           "currency": "MVR",
-          "notes": "For repair finishing protection — confirm colour"
+          "notes": "For repair finishing protection \u2014 confirm colour"
         }
       ],
       "status": "Parts Requested",
@@ -3229,14 +3432,14 @@
     {
       "id": "IR-0006",
       "assetId": "",
-      "assetLabel": "Site Infrastructure — NOT machine-related",
-      "location": "Unknown — verify which project site",
+      "assetLabel": "Site Infrastructure \u2014 NOT machine-related",
+      "location": "Unknown \u2014 verify which project site",
       "reportedBy": "Project Manager / Thilafushi Supervisor",
       "reportedAt": "2026-03-15T00:00:00.000Z",
       "category": "Other",
       "priority": "MEDIUM",
       "title": "RO plant and site electrical infrastructure items",
-      "description": "Electrical items required for RO (reverse osmosis) plant and general site electrical works. These are site utility items — NOT related to heavy machine rectification. Should be tracked separately from machine PRs.",
+      "description": "Electrical items required for RO (reverse osmosis) plant and general site electrical works. These are site utility items \u2014 NOT related to heavy machine rectification. Should be tracked separately from machine PRs.",
       "symptoms": "RO plant / site electrical system requires cabling and protection components.",
       "solutionNotes": "Confirm exact site location and specific specs for each item. Treat as a site infrastructure job, not a fleet maintenance job.",
       "parts": [
@@ -3293,7 +3496,357 @@
         "WL-PR-0026"
       ],
       "resolvedAt": null,
-      "resolutionNotes": "Site utility — keep separate from machine issue tracking"
+      "resolutionNotes": "Site utility \u2014 keep separate from machine issue tracking"
+    },
+    {
+      "id": "IR-0007",
+      "title": "Generator issue",
+      "description": "Got a quote to repair at MVR 7000",
+      "category": "Mechanical",
+      "priority": "MEDIUM",
+      "status": "Reported",
+      "assetId": "",
+      "assetLabel": "",
+      "location": "Thilafushi Site",
+      "reportedBy": "Unknown",
+      "reportedAt": "2026-05-20T12:00:00Z",
+      "parts": [
+        {
+          "partId": "part-1",
+          "name": "Generator parts",
+          "partNumber": "",
+          "isOEM": false,
+          "preferredSupplier": "Unknown",
+          "qty": 1,
+          "estimatedCost": 7000.0,
+          "currency": "MVR",
+          "notes": "Extracted from history",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "IR-0008",
+      "title": "LCT seawater pump issue",
+      "description": "Unaddressed",
+      "category": "Mechanical",
+      "priority": "MEDIUM",
+      "status": "Reported",
+      "assetId": "",
+      "assetLabel": "",
+      "location": "Thilafushi Site",
+      "reportedBy": "Unknown",
+      "reportedAt": "2026-05-20T12:00:00Z",
+      "parts": [
+        {
+          "partId": "part-1",
+          "name": "Seawater pump parts",
+          "partNumber": "",
+          "isOEM": false,
+          "preferredSupplier": "Unknown",
+          "qty": 1,
+          "estimatedCost": 0.0,
+          "currency": "MVR",
+          "notes": "Extracted from history",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "IR-0009",
+      "title": "Komatsu PC350 hydraulic pump failure",
+      "description": "Main hydraulic pump failure - one side failed",
+      "category": "Mechanical",
+      "priority": "CRITICAL",
+      "status": "Reported",
+      "assetId": "WL-HV-0007",
+      "assetLabel": "",
+      "location": "Bodufinolhu Site",
+      "reportedBy": "Ali Mushthaq Ibrahim",
+      "reportedAt": "2026-05-20T12:00:00Z",
+      "parts": [
+        {
+          "partId": "part-1",
+          "name": "Hydraulic pump",
+          "partNumber": "",
+          "isOEM": false,
+          "preferredSupplier": "Infra Engineers India (IEPL)",
+          "qty": 1,
+          "estimatedCost": 6000.0,
+          "currency": "MVR",
+          "notes": "Extracted from history",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "IR-0010",
+      "title": "Komatsu PC350 pilot block failure",
+      "description": "Pilot block failed after 4 hours post-repair",
+      "category": "Mechanical",
+      "priority": "CRITICAL",
+      "status": "Reported",
+      "assetId": "WL-HV-0007b",
+      "assetLabel": "",
+      "location": "Bodufinolhu Site",
+      "reportedBy": "Ali Mushthaq Ibrahim",
+      "reportedAt": "2026-05-20T12:00:00Z",
+      "parts": [
+        {
+          "partId": "part-1",
+          "name": "Pilot block",
+          "partNumber": "",
+          "isOEM": false,
+          "preferredSupplier": "Infra Engineers India (IEPL)",
+          "qty": 2,
+          "estimatedCost": 0.0,
+          "currency": "MVR",
+          "notes": "Extracted from history",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "IR-0011",
+      "title": "Komatsu PC350 solenoid valve failure",
+      "description": "Solenoid valve failed",
+      "category": "Mechanical",
+      "priority": "CRITICAL",
+      "status": "Reported",
+      "assetId": "WL-HV-0007b",
+      "assetLabel": "",
+      "location": "Bodufinolhu Site",
+      "reportedBy": "Ali Mushthaq Ibrahim",
+      "reportedAt": "2026-05-20T12:00:00Z",
+      "parts": [
+        {
+          "partId": "part-1",
+          "name": "Solenoid valve",
+          "partNumber": "",
+          "isOEM": false,
+          "preferredSupplier": "Infra Engineers India (IEPL)",
+          "qty": 2,
+          "estimatedCost": 7992.0,
+          "currency": "MVR",
+          "notes": "Extracted from history",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "IR-0012",
+      "title": "Komatsu PC350 hydraulic jack line issue",
+      "description": "Hydraulic jack line issue - arm and boom cylinder seals worn",
+      "category": "Mechanical",
+      "priority": "MEDIUM",
+      "status": "Reported",
+      "assetId": "WL-HV-0008",
+      "assetLabel": "",
+      "location": "Bodufinolhu Site",
+      "reportedBy": "Ali Mushthaq Ibrahim",
+      "reportedAt": "2026-05-20T12:00:00Z",
+      "parts": [
+        {
+          "partId": "part-1",
+          "name": "Hydraulic jack line parts",
+          "partNumber": "",
+          "isOEM": false,
+          "preferredSupplier": "Unknown",
+          "qty": 1,
+          "estimatedCost": 0.0,
+          "currency": "MVR",
+          "notes": "Extracted from history",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "IR-0013",
+      "title": "Komatsu PC70 track line damage",
+      "description": "Track line damaged - no standard part available",
+      "category": "Mechanical",
+      "priority": "MEDIUM",
+      "status": "Reported",
+      "assetId": "WL-HV-0018",
+      "assetLabel": "",
+      "location": "Thilafushi Site",
+      "reportedBy": "Ali Mushthaq Ibrahim",
+      "reportedAt": "2026-05-20T12:00:00Z",
+      "parts": [
+        {
+          "partId": "part-1",
+          "name": "Track line parts",
+          "partNumber": "",
+          "isOEM": false,
+          "preferredSupplier": "RKL Maldives",
+          "qty": 1,
+          "estimatedCost": 0.0,
+          "currency": "MVR",
+          "notes": "Extracted from history",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "IR-0014",
+      "title": "Loader CAT - No issues",
+      "description": "",
+      "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+      "priority": "LOW",
+      "status": "Reported",
+      "assetId": "CAT745C",
+      "assetLabel": "",
+      "location": "Thilafushi / Tug-01 / Male",
+      "reportedBy": "",
+      "reportedAt": "2026-05-20T12:00:00Z",
+      "parts": []
+    },
+    {
+      "id": "IR-0015",
+      "title": "Komatsu PC350 (Low Bed) - Hydraulic pump needs to be replaced",
+      "description": "The machine is slow, the hydraulic pump needs to be replaced",
+      "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+      "priority": "HIGH",
+      "status": "Reported",
+      "assetId": "Komatsu PC350 (Low Bed)",
+      "assetLabel": "",
+      "location": "Thilafushi / Tug-01 / Male",
+      "reportedBy": "",
+      "reportedAt": "2026-05-20T12:00:00Z",
+      "parts": [
+        {
+          "partId": "part-1",
+          "name": "Hydraulic pump",
+          "partNumber": "",
+          "isOEM": false,
+          "preferredSupplier": "Komatsu",
+          "qty": 1,
+          "estimatedCost": 0.0,
+          "currency": "MVR",
+          "notes": "Extracted from history",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "IR-0016",
+      "title": "Komatsu PC350 (High Bed) - Hydraulic pump needs to be replaced",
+      "description": "The machine is slow, the hydraulic pump needs to be replaced",
+      "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+      "priority": "HIGH",
+      "status": "Reported",
+      "assetId": "Komatsu PC350 (High Bed)",
+      "assetLabel": "",
+      "location": "Thilafushi / Tug-01 / Male",
+      "reportedBy": "",
+      "reportedAt": "2026-05-20T12:00:00Z",
+      "parts": [
+        {
+          "partId": "part-1",
+          "name": "Hydraulic pump",
+          "partNumber": "",
+          "isOEM": false,
+          "preferredSupplier": "Komatsu",
+          "qty": 1,
+          "estimatedCost": 0.0,
+          "currency": "MVR",
+          "notes": "Extracted from history",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "IR-0017",
+      "title": "Komatsu PC350 (High Bed) - Head Gasket needs to be replaced",
+      "description": "The machine is getting hot after a few hours",
+      "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+      "priority": "HIGH",
+      "status": "Reported",
+      "assetId": "Komatsu PC350 (High Bed)",
+      "assetLabel": "",
+      "location": "Thilafushi / Tug-01 / Male",
+      "reportedBy": "",
+      "reportedAt": "2026-05-20T12:00:00Z",
+      "parts": [
+        {
+          "partId": "part-1",
+          "name": "Head Gasket",
+          "partNumber": "",
+          "isOEM": false,
+          "preferredSupplier": "",
+          "qty": 1,
+          "estimatedCost": 0.0,
+          "currency": "MVR",
+          "notes": "Extracted from history",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "IR-0018",
+      "title": "Landing Craft Hire for Cargo Transportation",
+      "description": "Hire of landing craft for transportation of cargo from Mal\u00e9 or Hulhumal\u00e9 to Hilton Maldives Amingiri Resort & Spa",
+      "category": "Logistics",
+      "priority": "HIGH",
+      "status": "Reported",
+      "assetId": "",
+      "assetLabel": "",
+      "location": "Hulhumal\u00e9",
+      "reportedBy": "Adam Ali, Purchasing Manager, Finance",
+      "reportedAt": "2026-05-20T12:00:00Z",
+      "parts": [
+        {
+          "partId": "part-1",
+          "name": "Crane",
+          "partNumber": "",
+          "isOEM": false,
+          "preferredSupplier": "Well Land Investment Pvt Ltd",
+          "qty": 1,
+          "estimatedCost": 0.0,
+          "currency": "MVR",
+          "notes": "Extracted from history",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "IR-0019",
+      "title": "Supply and Unloading of Rock Boulders",
+      "description": "Supply and unloading of rock boulders to Noonu Atoll",
+      "category": "Heavy Machinery",
+      "priority": "HIGH",
+      "status": "Reported",
+      "assetId": "",
+      "assetLabel": "",
+      "location": "Noonu Atoll",
+      "reportedBy": "Ali Mushthaq Ibrahim, General Manager \u2013 Heavy Earth Moving Vehicles",
+      "reportedAt": "2026-05-20T12:00:00Z",
+      "parts": [
+        {
+          "partId": "part-1",
+          "name": "Excavators",
+          "partNumber": "",
+          "isOEM": false,
+          "preferredSupplier": "Well Land Investment Pvt Ltd",
+          "qty": 2,
+          "estimatedCost": 0.0,
+          "currency": "MVR",
+          "notes": "Extracted from history",
+          "verified": true
+        },
+        {
+          "partId": "part-2",
+          "name": "Dump Trucks / Transport Trucks",
+          "partNumber": "",
+          "isOEM": false,
+          "preferredSupplier": "Well Land Investment Pvt Ltd",
+          "qty": 2,
+          "estimatedCost": 0.0,
+          "currency": "MVR",
+          "notes": "Extracted from history",
+          "verified": true
+        }
+      ]
     }
   ],
   "supplierCatalog": [],
@@ -3305,7 +3858,7 @@
       "id": "GRN-0001",
       "type": "GRN",
       "date": "20/05/2026",
-      "item": "Hydraulic control valve + hose — Hauler Dump Truck VOLVO A40G",
+      "item": "Hydraulic control valve + hose \u2014 Hauler Dump Truck VOLVO A40G",
       "qty": 1,
       "source": "To be sourced via RFQ",
       "destination": "Thilafushi - Base",
@@ -3321,7 +3874,7 @@
       "id": "TRN-0002",
       "type": "Transfer",
       "date": "20/05/2026",
-      "item": "Hydraulic control valve + hose — Hauler Dump Truck VOLVO A40G",
+      "item": "Hydraulic control valve + hose \u2014 Hauler Dump Truck VOLVO A40G",
       "qty": 1,
       "source": "Thilafushi - Base",
       "destination": "Muthaafushi",
