@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Well Land Ops Portal</title>
+<style>
+:root { color-scheme: light; --bg:#f6f7fa; --panel:#fff; --ink:#111827; --muted:#6b7280; --line:#e5e7eb; --accent:#0b5cad; --accent2:#0f766e; --warn:#b45309; --crit:#b91c1c; --ok:#15803d; --chip:#eef2f7; }
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+.app{display:grid;grid-template-columns:230px 1fr;min-height:100vh}
+.sidebar{background:#0f172a;color:#e5e7eb;padding:18px 12px;position:sticky;top:0;height:100vh;overflow-y:auto}
+.sidebar h1{margin:0 0 4px;font-size:15px;letter-spacing:.3px;color:#fff}
+.sidebar .sub{font-size:11px;color:#94a3b8;margin-bottom:18px}
+.nav{display:flex;flex-direction:column;gap:2px}
+.nav button{background:transparent;border:0;color:#cbd5e1;text-align:left;padding:9px 10px;border-radius:6px;cursor:pointer;font:inherit;display:flex;justify-content:space-between;align-items:center}
+.nav button:hover{background:#1e293b;color:#fff}
+.nav button.active{background:#1e3a8a;color:#fff}
+.nav .count{background:#334155;color:#cbd5e1;font-size:11px;padding:1px 7px;border-radius:10px}
+.nav button.active .count{background:#3b82f6;color:#fff}
+.nav .divider{height:1px;background:#1e293b;margin:8px 4px}
+.sidebar .foot{margin-top:18px;font-size:11px;color:#64748b;line-height:1.4}
+.main{padding:18px 22px 60px;max-width:100%;overflow-x:hidden}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.bar h2{margin:0;font-size:20px}
+.bar .actions{display:flex;gap:8px;flex-wrap:wrap}
+button.btn{background:var(--accent);color:#fff;border:0;padding:7px 12px;border-radius:6px;cursor:pointer;font:inherit}
+button.btn:hover{background:#094786}
+button.btn.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}
+button.btn.ghost:hover{background:#f3f4f6}
+button.btn.warn{background:var(--warn)}
+button.btn.crit{background:var(--crit)}
+input.search,select.search{padding:7px 10px;border:1px solid var(--line);border-radius:6px;background:#fff;font:inherit;min-width:200px}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:18px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px}
+.kpi .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.kpi .v{font-size:24px;font-weight:600;margin-top:4px}
+.kpi .d{font-size:11px;color:var(--muted);margin-top:4px}
+.kpi.ok .v{color:var(--ok)} .kpi.warn .v{color:var(--warn)} .kpi.crit .v{color:var(--crit)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:900px){.grid2{grid-template-columns:1fr}.app{grid-template-columns:1fr}.sidebar{position:relative;height:auto}}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:14px}
+.card h3{margin:0 0 10px;font-size:14px;text-transform:uppercase;letter-spacing:.4px;color:#374151}
+.alerts li{margin:6px 0;padding:8px 10px;border-left:3px solid var(--warn);background:#fff7ed;border-radius:0 6px 6px 0;list-style:none;font-size:13px}
+.alerts li.crit{border-color:var(--crit);background:#fef2f2}
+.alerts li.ok{border-color:var(--ok);background:#f0fdf4}
+.alerts ul{padding:0;margin:0}
+.alerts .meta{color:var(--muted);font-size:11px;margin-top:2px}
+.table-wrap{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:#f9fafb;font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:#4b5563;position:sticky;top:0;cursor:pointer;user-select:none}
+th:hover{background:#f3f4f6}
+tr:hover td{background:#f9fafb}
+.row-actions{display:flex;gap:4px}
+.row-actions button{font-size:11px;padding:3px 7px;border:1px solid var(--line);background:#fff;border-radius:4px;cursor:pointer}
+.row-actions button.del{color:var(--crit);border-color:#fecaca}
+.row-actions button:hover{background:#f3f4f6}
+.chip{display:inline-block;padding:1px 8px;border-radius:10px;font-size:11px;background:var(--chip);color:#374151;white-space:nowrap}
+.chip.ok{background:#dcfce7;color:#166534}
+.chip.warn{background:#fef3c7;color:#92400e}
+.chip.crit{background:#fee2e2;color:#991b1b}
+.chip.muted{background:#f1f5f9;color:#475569}
+.empty{padding:30px;text-align:center;color:var(--muted)}
+.tools{display:flex;gap:8px;align-items:center;margin-bottom:10px;flex-wrap:wrap}
+.modal{position:fixed;inset:0;background:rgba(15,23,42,.45);display:none;align-items:flex-start;justify-content:center;z-index:1000;padding:30px 16px;overflow-y:auto}
+.modal.open{display:flex}
+.modal-inner{background:#fff;border-radius:10px;max-width:680px;width:100%;padding:18px 20px;box-shadow:0 12px 40px rgba(0,0,0,.2)}
+.modal-inner h3{margin:0 0 12px;font-size:16px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.form-grid .full{grid-column:1/-1}
+.form-grid label{display:flex;flex-direction:column;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+.form-grid input,.form-grid select,.form-grid textarea{padding:7px 9px;border:1px solid var(--line);border-radius:6px;font:inherit;color:var(--ink);background:#fff;margin-top:3px}
+.form-grid textarea{resize:vertical;min-height:60px}
+.modal-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:14px}
+.chart-wrap{position:relative;height:240px}
+.mini-chart{display:flex;flex-direction:column;gap:8px;height:240px;overflow:auto;padding:4px 2px}
+.mini-row{display:grid;grid-template-columns:minmax(80px,150px) 1fr 34px;gap:8px;align-items:center;font-size:12px}
+.mini-row .bar-bg{height:12px;background:#e5e7eb;border-radius:99px;overflow:hidden}
+.mini-row .bar-fill{height:100%;background:var(--accent2);border-radius:99px}
+.mini-row:nth-child(4n+1) .bar-fill{background:var(--accent)}
+.mini-row:nth-child(4n+2) .bar-fill{background:var(--accent2)}
+.mini-row:nth-child(4n+3) .bar-fill{background:var(--warn)}
+.mini-row:nth-child(4n+4) .bar-fill{background:var(--crit)}
+.toast{position:fixed;bottom:16px;right:16px;background:#111827;color:#fff;padding:10px 14px;border-radius:6px;font-size:13px;opacity:0;transform:translateY(10px);transition:.25s;z-index:2000}
+.toast.show{opacity:1;transform:none}
+details.filters{background:#fff;border:1px solid var(--line);border-radius:6px;padding:6px 10px;margin-bottom:10px}
+details.filters summary{cursor:pointer;font-size:12px;color:var(--muted)}
+.filter-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.banner{background:#fff7ed;border:1px solid #fed7aa;border-radius:8px;padding:10px 14px;font-size:13px;margin-bottom:14px;color:#92400e}
+.banner.crit{background:#fef2f2;border-color:#fecaca;color:#991b1b}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <h1>Well Land Ops</h1>
+    <div class="sub">Antrac Holding · Command Portal</div>
+    <div class="nav" id="nav"></div>
+    <div class="foot">v1.0 · Local persistence<br/>Edits saved to your browser. Use Export to back up.</div>
+  </aside>
+  <main class="main" id="main"></main>
+</div>
+
+<div class="modal" id="modal">
+  <div class="modal-inner">
+    <h3 id="modalTitle"></h3>
+    <div class="form-grid" id="formGrid"></div>
+    <div class="modal-actions">
+      <button class="btn ghost" onclick="closeModal()">Cancel</button>
+      <button class="btn" onclick="saveForm()">Save</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ============= SEED DATA (extracted from WL_Ops_Command_Center.xlsx) =============
+const SEED = {"fleet":[{"Fleet ID":"WL-HV-0001","Vehicle Type":"Hauler Dump Truck","Brand":"VOLVO","Model":"A40G","Current Location":"Bodufinolhu","Assigned Project":"","Operator Assigned":"","Status":"Active — Site","Condition":"Unknown","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"⚠ VERIFY CONDITION","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0002","Vehicle Type":"Hauler Dump Truck","Brand":"VOLVO","Model":"A40G","Current Location":"Muthaafushi","Assigned Project":"","Operator Assigned":"","Status":"Active — Site","Condition":"Issue","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"WL-PR-0001","Known Issue":"Hydraulic control valve/hose leaking","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0003","Vehicle Type":"Dump Truck","Brand":"ISUZU","Model":"14 Tons","Current Location":"Thilafushi — Base","Assigned Project":"","Operator Assigned":"","Status":"Standby","Condition":"Unknown","Rental Eligible?":"✓ Yes","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"⚠ VERIFY CONDITION","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0004","Vehicle Type":"Dump Truck","Brand":"UD NISSAN","Model":"14 Tons","Current Location":"Thilafushi — Base","Assigned Project":"","Operator Assigned":"","Status":"Standby","Condition":"Unknown","Rental Eligible?":"✓ Yes","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"⚠ VERIFY CONDITION","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0005","Vehicle Type":"Low Bed Excavator","Brand":"KOMATSU","Model":"PC350","Current Location":"Unknown","Assigned Project":"","Operator Assigned":"","Status":"Unknown","Condition":"Unknown","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"⚠ VERIFY CONDITION","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0006","Vehicle Type":"Low Bed Excavator","Brand":"KOMATSU","Model":"PC350","Current Location":"Unknown","Assigned Project":"","Operator Assigned":"","Status":"Unknown","Condition":"Unknown","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"⚠ VERIFY CONDITION","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0007","Vehicle Type":"Low Bed Excavator","Brand":"KOMATSU","Model":"PC350","Current Location":"Unknown","Assigned Project":"","Operator Assigned":"","Status":"Unknown","Condition":"Unknown","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"⚠ VERIFY CONDITION","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0008","Vehicle Type":"High Bed Excavator","Brand":"KOMATSU","Model":"PC350","Current Location":"Unknown","Assigned Project":"","Operator Assigned":"","Status":"Grounded","Condition":"Issue","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"WL-PR-0002","Known Issue":"7 Mar — Hose burst","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0009","Vehicle Type":"High Bed Excavator","Brand":"KOBELCO","Model":"SK380","Current Location":"Unknown","Assigned Project":"","Operator Assigned":"","Status":"Unknown","Condition":"Unknown","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"⚠ VERIFY CONDITION","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0010","Vehicle Type":"Mobile Crane","Brand":"TADANO","Model":"TR300EX","Current Location":"Thilafushi — Base","Assigned Project":"","Operator Assigned":"","Status":"Standby","Condition":"Unknown","Rental Eligible?":"✓ Yes","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"⚠ VERIFY CONDITION","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0011","Vehicle Type":"Low Bed Excavator","Brand":"KOBELCO","Model":"SK235","Current Location":"Unknown","Assigned Project":"","Operator Assigned":"","Status":"Unknown","Condition":"Unknown","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"⚠ VERIFY CONDITION","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0012","Vehicle Type":"Low Bed Excavator","Brand":"KUBOTA","Model":"50","Current Location":"Unknown","Assigned Project":"","Operator Assigned":"","Status":"Unknown","Condition":"Unknown","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"⚠ VERIFY CONDITION","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0013","Vehicle Type":"Forklift","Brand":"NISSAN","Model":"5 Tons","Current Location":"Thilafushi — Base","Assigned Project":"","Operator Assigned":"","Status":"Standby","Condition":"Unknown","Rental Eligible?":"✓ Yes","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"⚠ VERIFY CONDITION","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0014","Vehicle Type":"Bobcat","Brand":"BOBCAT","Model":"—","Current Location":"Unknown","Assigned Project":"","Operator Assigned":"","Status":"Unknown","Condition":"Unknown","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"⚠ VERIFY CONDITION","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0015","Vehicle Type":"Pickup","Brand":"AF","Model":"6 Tons","Current Location":"Thilafushi — Base","Assigned Project":"","Operator Assigned":"","Status":"Standby","Condition":"Unknown","Rental Eligible?":"✓ Yes","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"⚠ VERIFY CONDITION","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0016","Vehicle Type":"Loader","Brand":"CAT","Model":"—","Current Location":"Unknown","Assigned Project":"","Operator Assigned":"","Status":"Unknown","Condition":"Unknown","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"⚠ VERIFY CONDITION","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0017","Vehicle Type":"Excavator (New)","Brand":"—","Model":"—","Current Location":"Unknown","Assigned Project":"","Operator Assigned":"","Status":"New — Verify","Condition":"Unknown","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"New addition — verify specs & location","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0018","Vehicle Type":"Excavator (New)","Brand":"—","Model":"—","Current Location":"Unknown","Assigned Project":"","Operator Assigned":"","Status":"New — Verify","Condition":"Unknown","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"New addition — verify specs & location","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0019","Vehicle Type":"Excavator (New)","Brand":"—","Model":"—","Current Location":"Unknown","Assigned Project":"","Operator Assigned":"","Status":"New — Verify","Condition":"Unknown","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"New addition — verify specs & location","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""},{"Fleet ID":"WL-HV-0020","Vehicle Type":"Excavator (New)","Brand":"—","Model":"—","Current Location":"Unknown","Assigned Project":"","Operator Assigned":"","Status":"New — Verify","Condition":"Unknown","Rental Eligible?":"✗ No","Daily Report Rcvd?":"","Engine Hours":"","Fuel %":"","Open PR Ref":"","Known Issue":"New addition — verify specs & location","Reg No.":"","Chassis No.":"","Engine No.":"","Last Maintenance":"","Next Maint Due":""}],"vessels":[{"Vessel ID":"WL-MV-0001","Name/Ref":"LCT 1","Type":"LCT","Status":"Active","Drydocked?":"No","Captain in Charge":"Ali Shameem (WL-EMP-0001)","Crew Assigned":"Anuar Hussain, Mohammad Jakir Hossain, Sheikh Mohamed Farid Miah, Easa Gasim","Reg No.":"","Hull / IMO":"","Engine 1 Serial":"","Engine 2 Serial":"","Capacity/Notes":"LCT cargo vessel","Permit No.":"","Permit Expiry":"","Insurance Expiry":"","Last Inspection":"","DryDock Start":"","DryDock Est. End":"","Known Issues / Notes":""},{"Vessel ID":"WL-MV-0002","Name/Ref":"Dhoni 1","Type":"Dhoni/Ferry","Status":"Active","Drydocked?":"No","Captain in Charge":"Nasrulla Ali (WL-EMP-0003)","Crew Assigned":"MD Robel Miah, Ala Uddin, Mokhles, Yeasin Miah","Reg No.":"","Hull / IMO":"","Engine 1 Serial":"","Engine 2 Serial":"","Capacity/Notes":"Ferry / supply runs","Permit No.":"","Permit Expiry":"","Insurance Expiry":"","Last Inspection":"","DryDock Start":"","DryDock Est. End":"","Known Issues / Notes":""},{"Vessel ID":"WL-MV-0003","Name/Ref":"Speed Boat 1","Type":"Speed Boat","Status":"Running","Drydocked?":"No","Captain in Charge":"Jakir Hossain (WL-EMP-0011)","Crew Assigned":"","Reg No.":"","Hull / IMO":"","Engine 1 Serial":"","Engine 2 Serial":"","Capacity/Notes":"Fast passenger/cargo","Permit No.":"","Permit Expiry":"","Insurance Expiry":"","Last Inspection":"","DryDock Start":"","DryDock Est. End":"","Known Issues / Notes":""},{"Vessel ID":"WL-MV-0004","Name/Ref":"Speed Boat 2","Type":"Speed Boat","Status":"Drydocked","Drydocked?":"Yes","Captain in Charge":"—","Crew Assigned":"","Reg No.":"","Hull / IMO":"","Engine 1 Serial":"","Engine 2 Serial":"","Capacity/Notes":"","Permit No.":"","Permit Expiry":"","Insurance Expiry":"","Last Inspection":"","DryDock Start":"","DryDock Est. End":"","Known Issues / Notes":"⚠ VERIFY: Same boat as SB1 at different time, or separate vessel? Confirm with Janaka."}],"staff":[{"Staff ID":"WL-EMP-0001","Full Name":"Ali Shameem","Designation":"Senior Captain","Nationality":"Local/Maldivian","Grade":"G8","Joined Date":"01/02/2012","Category":"Marine","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0002","Full Name":"Anuar Hussain","Designation":"Crew, LCT 1","Nationality":"Expat/Bangladeshi","Grade":"G6","Joined Date":"08/09/2015","Category":"Marine","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0003","Full Name":"Nasrulla Ali","Designation":"Senior Captain","Nationality":"Local/Maldivian","Grade":"G8","Joined Date":"13/04/2016","Category":"Marine","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0004","Full Name":"Shahjalal","Designation":"Driver Cum Asst Mechanic","Nationality":"Expat/Bangladeshi","Grade":"G6","Joined Date":"17/05/2016","Category":"Land/Terminal","Operator?":"Yes","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0005","Full Name":"MD Robel Miah","Designation":"Crew, Tug Boat","Nationality":"Expat/Bangladeshi","Grade":"G6","Joined Date":"17/05/2016","Category":"Marine","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0006","Full Name":"Mohammad Jakir Hossain","Designation":"Crew, LCT 1","Nationality":"Expat/Bangladeshi","Grade":"G6","Joined Date":"04/06/2016","Category":"Marine","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0007","Full Name":"R L Walapita Godellage","Designation":"Crane Operator","Nationality":"Expat/Sri Lankan","Grade":"G5","Joined Date":"15/05/2017","Category":"Land/Terminal","Operator?":"Yes","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0008","Full Name":"Mohammad Nurul Amin","Designation":"Welder","Nationality":"Expat/Bangladeshi","Grade":"G6","Joined Date":"31/05/2017","Category":"Land/Terminal","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0009","Full Name":"Janaka Prasath Ekanayake","Designation":"Senior Supervisor","Nationality":"Expat/Sri Lankan","Grade":"G3","Joined Date":"30/01/2018","Category":"Land/Terminal","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0010","Full Name":"Sheikh Mohamed Farid Miah","Designation":"Crew, LCT 1","Nationality":"Expat/Bangladeshi","Grade":"G5","Joined Date":"16/06/2019","Category":"Marine","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0011","Full Name":"Jakir Hossain","Designation":"Crew, Speed Boat","Nationality":"Expat/Bangladeshi","Grade":"G8","Joined Date":"13/10/2018","Category":"Marine","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0012","Full Name":"Ala Uddin","Designation":"Crew, Tug Boat","Nationality":"Expat/Bangladeshi","Grade":"G5","Joined Date":"26/04/2018","Category":"Marine","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0013","Full Name":"Ibrahim Mohamed","Designation":"Supervisor Cum Mechanic","Nationality":"Local/Maldivian","Grade":"G2","Joined Date":"01/01/2024","Category":"Land/Terminal","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0014","Full Name":"Mokhles","Designation":"Crew, Tug Boat","Nationality":"Expat/Bangladeshi","Grade":"G1","Joined Date":"14/03/2024","Category":"Marine","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0015","Full Name":"Mohammad Naim","Designation":"Terminal Staff","Nationality":"Expat/Bangladeshi","Grade":"G1","Joined Date":"23/03/2024","Category":"Land/Terminal","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0016","Full Name":"Asif Mia","Designation":"Terminal Staff","Nationality":"Expat/Bangladeshi","Grade":"G1","Joined Date":"23/03/2024","Category":"Land/Terminal","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0017","Full Name":"MD Kamrul Islam","Designation":"Helper","Nationality":"Expat/Bangladeshi","Grade":"G1","Joined Date":"22/12/2024","Category":"Land/Terminal","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0018","Full Name":"Yeasin Miah","Designation":"Crew, Tug Boat","Nationality":"Expat/Bangladeshi","Grade":"G1","Joined Date":"14/02/2025","Category":"Marine","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0019","Full Name":"MD Moyna Mia","Designation":"Heavy Vehicle Driver","Nationality":"Expat/Bangladeshi","Grade":"G1","Joined Date":"21/05/2025","Category":"Land/Terminal","Operator?":"Yes","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0020","Full Name":"Eswararao Chekka","Designation":"Excavator Operator","Nationality":"Expat/Indian","Grade":"G1","Joined Date":"29/07/2025","Category":"Land/Terminal","Operator?":"Yes","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0021","Full Name":"Soundarraj Muniyappan","Designation":"Excavator Operator","Nationality":"Expat/Indian","Grade":"G1","Joined Date":"29/07/2025","Category":"Land/Terminal","Operator?":"Yes","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0022","Full Name":"Abdul Haq","Designation":"Helper","Nationality":"Expat/Bangladeshi","Grade":"G1","Joined Date":"02/08/2025","Category":"Land/Terminal","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0023","Full Name":"MD Ramjan Mia","Designation":"Helper","Nationality":"Expat/Bangladeshi","Grade":"G1","Joined Date":"26/08/2025","Category":"Land/Terminal","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0024","Full Name":"MD Sayed Mia","Designation":"Carpenter","Nationality":"Expat/Bangladeshi","Grade":"G1","Joined Date":"26/08/2025","Category":"Land/Terminal","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0025","Full Name":"Uzzal Sutradhar","Designation":"Carpenter","Nationality":"Expat/Bangladeshi","Grade":"G1","Joined Date":"26/08/2025","Category":"Land/Terminal","Operator?":"No","Status":"Full Time","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0026","Full Name":"Anish John","Designation":"Excavator Operator","Nationality":"Expat/Indian","Grade":"G1","Joined Date":"24/11/2025","Category":"Land/Terminal","Operator?":"Yes","Status":"Probation","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0027","Full Name":"Easa Gasim","Designation":"Crew, LCT 1","Nationality":"Local/Maldivian","Grade":"G1","Joined Date":"02/12/2025","Category":"Marine","Operator?":"No","Status":"Probation","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0028","Full Name":"Jackson Ndirangu Nginga","Designation":"Mechanic","Nationality":"Expat/Kenyan","Grade":"G1","Joined Date":"23/12/2025","Category":"Land/Terminal","Operator?":"No","Status":"Probation","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0029","Full Name":"Feroskhan Meerasa","Designation":"Excavator Operator","Nationality":"Expat/Indian","Grade":"G1","Joined Date":"29/12/2025","Category":"Land/Terminal","Operator?":"Yes","Status":"Probation","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0030","Full Name":"Ali Mushthaq Ibrahim","Designation":"Well Land Ops / GM","Nationality":"Local/Maldivian","Grade":"G0","Joined Date":"17/01/2026","Category":"Management","Operator?":"No","Status":"Probation","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0031","Full Name":"Dulip Priyankara","Designation":"Heavy Vehicle Driver","Nationality":"Expat/Indian","Grade":"G0","Joined Date":"—","Category":"Land/Terminal","Operator?":"Yes","Status":"Probation","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"Work Permit Processing","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0032","Full Name":"","Designation":"","Nationality":"","Grade":"","Joined Date":"","Category":"","Operator?":"","Status":"","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0033","Full Name":"","Designation":"","Nationality":"","Grade":"","Joined Date":"","Category":"","Operator?":"","Status":"","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0034","Full Name":"","Designation":"","Nationality":"","Grade":"","Joined Date":"","Category":"","Operator?":"","Status":"","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0035","Full Name":"","Designation":"","Nationality":"","Grade":"","Joined Date":"","Category":"","Operator?":"","Status":"","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0036","Full Name":"","Designation":"","Nationality":"","Grade":"","Joined Date":"","Category":"","Operator?":"","Status":"","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0037","Full Name":"","Designation":"","Nationality":"","Grade":"","Joined Date":"","Category":"","Operator?":"","Status":"","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0038","Full Name":"","Designation":"","Nationality":"","Grade":"","Joined Date":"","Category":"","Operator?":"","Status":"","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0039","Full Name":"","Designation":"","Nationality":"","Grade":"","Joined Date":"","Category":"","Operator?":"","Status":"","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""},{"Staff ID":"WL-EMP-0040","Full Name":"","Designation":"","Nationality":"","Grade":"","Joined Date":"","Category":"","Operator?":"","Status":"","Current Location":"","Assigned Asset/Vessel":"","Permit No.":"","Permit Expiry":"","Work Permit Status":"","Contact No.":"","Notes":""}],"operators":[{"Staff ID":"WL-EMP-0004","Full Name":"Shahjalal","Operator Role":"Driver Cum Asst Mechanic","Nationality":"Expat/Bangladeshi","Grade":"G6","Status":"Full Time","Current Location":"","Assigned Asset ID":"","Asset Description":"","Licence No. / Class":"","Notes":""},{"Staff ID":"WL-EMP-0007","Full Name":"R L Walapita Godellage","Operator Role":"Crane Operator","Nationality":"Expat/Sri Lankan","Grade":"G5","Status":"Full Time","Current Location":"Thilafushi","Assigned Asset ID":"WL-HV-0010","Asset Description":"TADANO TR300EX","Licence No. / Class":"","Notes":""},{"Staff ID":"WL-EMP-0019","Full Name":"MD Moyna Mia","Operator Role":"Heavy Vehicle Driver","Nationality":"Expat/Bangladeshi","Grade":"G1","Status":"Full Time","Current Location":"","Assigned Asset ID":"","Asset Description":"","Licence No. / Class":"","Notes":""},{"Staff ID":"WL-EMP-0020","Full Name":"Eswararao Chekka","Operator Role":"Excavator Operator","Nationality":"Expat/Indian","Grade":"G1","Status":"Full Time","Current Location":"","Assigned Asset ID":"","Asset Description":"","Licence No. / Class":"","Notes":""},{"Staff ID":"WL-EMP-0021","Full Name":"Soundarraj Muniyappan","Operator Role":"Excavator Operator","Nationality":"Expat/Indian","Grade":"G1","Status":"Full Time","Current Location":"","Assigned Asset ID":"","Asset Description":"","Licence No. / Class":"","Notes":""},{"Staff ID":"WL-EMP-0026","Full Name":"Anish John","Operator Role":"Excavator Operator","Nationality":"Expat/Indian","Grade":"G1","Status":"Probation","Current Location":"","Assigned Asset ID":"","Asset Description":"","Licence No. / Class":"","Notes":""},{"Staff ID":"WL-EMP-0029","Full Name":"Feroskhan Meerasa","Operator Role":"Excavator Operator","Nationality":"Expat/Indian","Grade":"G1","Status":"Probation","Current Location":"","Assigned Asset ID":"","Asset Description":"","Licence No. / Class":"","Notes":""},{"Staff ID":"WL-EMP-0031","Full Name":"Dulip Priyankara","Operator Role":"Heavy Vehicle Driver","Nationality":"Expat/Indian","Grade":"G0","Status":"Probation","Current Location":"","Assigned Asset ID":"","Asset Description":"","Licence No. / Class":"Work Permit Processing — cannot operate","Notes":""}],"prs":[{"PR Ref":"WL-PR-0001","Date":"15/03/2026","Business Unit":"Well Land","Raised By":"Janaka / Sampath","Site / Location":"Muthaafushi","Item(s) Summary":"Hydraulic control valve + hose — Hauler Dump Truck VOLVO A40G","Vehicle / Asset Ref":"WL-HV-0002","Urgency":"CRITICAL","# Quotes":"","PO No.":"","FC Approved?":"","Vendor":"","Date Ordered":"","Dispatched?":"","Delivered?":"","Status / Notes":"Open — obtain quotes"},{"PR Ref":"WL-PR-0002","Date":"15/03/2026","Business Unit":"Well Land","Raised By":"Sampath (via Janaka)","Site / Location":"Unknown","Item(s) Summary":"Hydraulic hose burst — High Bed Excavator KOMATSU PC350","Vehicle / Asset Ref":"WL-HV-0008","Urgency":"CRITICAL","# Quotes":"","PO No.":"","FC Approved?":"","Vendor":"","Date Ordered":"","Dispatched?":"","Delivered?":"","Status / Notes":"Open — verify location, obtain quotes"}],"rentals":[],"compliance":[{"Ref":1,"Category":"Vehicle Reg","Description":"Vehicle Registration Renewal","Entity":"Well Land","Asset / Ref":"All vehicles (do per asset)","Frequency":"Annual","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":"Fill per vehicle"},{"Ref":2,"Category":"Vehicle Reg","Description":"Vehicle Insurance Renewal","Entity":"Well Land","Asset / Ref":"All vehicles (do per asset)","Frequency":"Annual","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":"Fill per vehicle"},{"Ref":3,"Category":"Vessel","Description":"Vessel Survey Certificate — LCT 1","Entity":"Well Land","Asset / Ref":"WL-MV-0001","Frequency":"Annual/Biennial","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":"MPA / MNDF — obtain current status"},{"Ref":4,"Category":"Vessel","Description":"Vessel Survey Certificate — Dhoni 1","Entity":"Well Land","Asset / Ref":"WL-MV-0002","Frequency":"Annual/Biennial","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":"MPA / MNDF"},{"Ref":5,"Category":"Vessel","Description":"Vessel Survey Certificate — Speed Boat 1","Entity":"Well Land","Asset / Ref":"WL-MV-0003","Frequency":"Annual/Biennial","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":"MPA / MNDF"},{"Ref":6,"Category":"Vessel","Description":"Vessel Permit — LCT 1 (MNDF/MPA)","Entity":"Well Land","Asset / Ref":"WL-MV-0001","Frequency":"Annual","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":""},{"Ref":7,"Category":"Vessel","Description":"Vessel Permit — Dhoni 1 (MNDF/MPA)","Entity":"Well Land","Asset / Ref":"WL-MV-0002","Frequency":"Annual","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":""},{"Ref":8,"Category":"Vessel","Description":"Vessel Insurance — LCT 1","Entity":"Well Land","Asset / Ref":"WL-MV-0001","Frequency":"Annual","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":""},{"Ref":9,"Category":"Vessel","Description":"Vessel Insurance — Dhoni 1","Entity":"Well Land","Asset / Ref":"WL-MV-0002","Frequency":"Annual","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":""},{"Ref":10,"Category":"Work Permit","Description":"Work Permit — Expat staff (per employee)","Entity":"Well Land","Asset / Ref":"All expat staff","Frequency":"Annual/Biennial","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":"~29 expats — manage per person in Staff sheet"},{"Ref":11,"Category":"Work Permit","Description":"Work Permit — Dulip Priyankara","Entity":"Well Land","Asset / Ref":"WL-EMP-0031","Frequency":"—","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":"Processing — not yet active"},{"Ref":12,"Category":"Tax","Description":"Business Profit Tax (BPT) — Filing","Entity":"Well Land","Asset / Ref":"Company","Frequency":"Annual","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":"MRA filing"},{"Ref":13,"Category":"Tax","Description":"GST — Rental Income (if applicable)","Entity":"Well Land","Asset / Ref":"Rental revenue","Frequency":"Quarterly","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":"If Well Land is GST registered"},{"Ref":14,"Category":"Tax","Description":"GST — Petroleum Link (PLK)","Entity":"PLK","Asset / Ref":"Company","Frequency":"Quarterly","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":"Coordinate with PLK accounts"},{"Ref":15,"Category":"Compliance","Description":"Labour Relations Authority — Staff Register","Entity":"Well Land","Asset / Ref":"All staff","Frequency":"Annual","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":"Submit to LRA"},{"Ref":16,"Category":"Compliance","Description":"Immigration — Expat Quota","Entity":"Well Land","Asset / Ref":"Expat staff","Frequency":"Annual","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":"Renew quota for expat positions"},{"Ref":17,"Category":"Compliance","Description":"Thilafushi Lease / Land Rent","Entity":"Well Land","Asset / Ref":"Thilafushi Base","Frequency":"Annual","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":"Base lease renewal if applicable"},{"Ref":18,"Category":"Other","Description":"Add row for each additional fee →","Entity":"","Asset / Ref":"","Frequency":"","Last Paid / Filed":"","Amount (MVR)":"","Next Due Date":"","Lead Time Needed":"30 days","Responsible":"Well Land Ops","Status / Notes":""}],"calls":[],"daily":[]};
+
+// ============= RECOVERY REPORT DATA (14/05/2026) =============
+const REPORT_DATA = {
+  recovery: [
+    ["RC-001","Muthaafushi","Komatsu PC350 Low Bed","Boom steel bush failure","Pipe material requested through Ziyad; machining planned at Thilafushi","Finance approval/payment and exact measurement reconfirmation from site","High","GM / Ziyad / Site","Approval Pending","WL-HV-0005"],
+    ["RC-002","Muthaafushi","Kobelco SK380 High Bed","Battery failure and damaged wiring/lugs/clamps","Initial site item list received; verification ongoing","Exact battery specifications, cable sizes, lug sizes and clamp types","High","Site / GM","Spec Required","WL-HV-0009"],
+    ["RC-003","Muthaafushi","Kobelco SK380 High Bed","Hydraulic tank outer hinges damaged","Awaiting clarification/photos from site","Repair/fabrication assessment","Medium","Site / Fabrication","Photo Required","WL-HV-0009"],
+    ["RC-004","Muthaafushi","Kobelco SK380 High Bed","Cabin side glass damaged","Perspex sheet requested as temporary solution","Exact Perspex dimensions before sourcing/fabrication","Medium","Site / Procurement","Spec Required","WL-HV-0009"],
+    ["RC-005","Muthaafushi","Volvo A40G Dump Truck","Door glass damaged","Sourcing discussions ongoing with Dubai Al Dahr","Sourcing options and management approval","Medium","Dubai Al Dahr / Management","Sourcing","WL-HV-0002"],
+    ["RC-006","Bodufinolhu","CAT 745C Dump Truck","AC and start motor power supply directly connected","Lakmal advised proper programming/rectification required; supplier search ongoing","Technical assessment and rectification plan","High","Lakmal / Supplier","Technical Assessment",""] ,
+    ["RC-007","Bodufinolhu","CAT 745C Dump Truck","Rear tyre damaged","Tyre sourcing ongoing through Dubai Al Dahr; samples shared","Director approval","High","Dubai Al Dahr / Director","Approval Pending",""] ,
+    ["RC-008","Bodufinolhu","CAT Loader","No issues reported","Operational","Nil","Low","Site","Operational","WL-HV-0016"],
+    ["RC-009","Bodufinolhu","Komatsu PC350 Low Bed","Hydraulic system slow","Reconditioned hydraulic pump quoted by Dubai Al Dahr","Management approval","High","Dubai Al Dahr / Management","Approval Pending","WL-HV-0006"],
+    ["RC-010","Bodufinolhu","Komatsu PC350 High Bed","Hydraulic system slow","Second hydraulic pump sourcing ongoing through Dubai Al Dahr","Sourcing confirmation and approvals","High","Dubai Al Dahr / Management","Sourcing","WL-HV-0008"],
+    ["RC-011","Bodufinolhu","Komatsu PC350 High Bed","Engine overheating / possible head gasket failure","Clarification requested from site mechanic/engineer","Exact gasket specifications before sourcing","High","Site Mechanic / Engineer","Spec Required","WL-HV-0008"]
+  ].map(r => ({"ID":r[0],"Site":r[1],"Machine":r[2],"Issue":r[3],"Current Action":r[4],"Pending Requirement":r[5],"Priority":r[6],"Owner":r[7],"Status":r[8],"Asset Ref":r[9]})),
+  materials: "Battery 12V/100A|Machine Rectification|Kobelco SK380 battery replacement|High|Spec Required;Battery wires|Machine Rectification|Kobelco SK380 electrical rectification|High|Spec Required;Battery clamps|Machine Rectification|Battery terminal works|High|Spec Required;Cable lugs|Machine Rectification|Cable termination|High|Spec Required;Crocodile clips|Machine Support|Electrical testing/temporary electrical works|Medium|Ready to Source;Bucket shims|Machine Rectification|Excavator bucket vibration/play adjustment|Medium|Ready to Source;Pin bolts with lock nuts|Machine Rectification|Bush/fabrication/repair works|Medium|Ready to Source;Grease gun|Maintenance|Excavator lubrication|Medium|Ready to Source;Oil spray gun|Maintenance|Lubrication works|Low|Ready to Source;Welding machine|Fabrication|Repair and fabrication works|High|Approval Required;Welding rods|Fabrication|Welding consumables|Medium|Ready to Source;Grinding wheels|Fabrication|Repair/fabrication works|Medium|Ready to Source;Cup brush|Fabrication|Surface cleaning/fabrication prep|Low|Ready to Source;Air compressor|Maintenance Support|Maintenance support|Medium|Approval Required;Compressor hose|Maintenance Support|Compressor operations|Low|Ready to Source;Pressure air gun|Maintenance Support|Maintenance support|Low|Ready to Source;Pressure washer|Maintenance Support|Machine cleaning and maintenance|Medium|Approval Required;Water hose|Maintenance Support|Pressure washer support|Low|Ready to Source;Spanners 32/34/36|Maintenance|Heavy equipment maintenance|Medium|Ready to Source;Under coat paint|Finishing|Repair finishing/protection|Low|Ready to Source;RO plant cable|Site / Utility|RO/electrical works|Medium|Segregate;4 pole 16A breaker|Site / Utility|RO/electrical works|Medium|Segregate;4 core 4sqmm cable|Site / Utility|RO/electrical works|Medium|Segregate;Extension cables|Site / Utility|Site operational use|Low|Segregate".split(';').map((row, i) => { const r = row.split('|'); return {"Item ID":"MAT-" + String(i+1).padStart(3,'0'), "Item":r[0], "Category":r[1], "Likely Usage":r[2], "Priority":r[3], "Status":r[4], "Vendor":"", "PR Ref":"", "Notes":""}; })
+};
+const PROCUREMENT_SEED = "Battery 12V/100A|Kobelco SK380 battery replacement|High|Exact battery amp/hour, terminal position and dimensions required;Battery wires|Kobelco SK380 electrical rectification|High|Cable size and length required;Battery clamps|Battery terminal works|High|Clamp type and terminal size required;Cable lugs|Cable termination|High|Lug size and cable size required;Crocodile clips|Electrical testing/temporary electrical works|Medium|Confirm quantity;Bucket shims|Excavator bucket vibration/play adjustment|Medium|Confirm machine and shim sizes;Pin bolts with lock nuts|Bush/fabrication/repair works|Medium|Confirm diameter, length and thread;Grease gun|Excavator lubrication|Medium|Confirm manual/pneumatic type;Oil spray gun|Lubrication works|Low|Confirm type;Welding machine|Repair and fabrication works|High|Confirm power rating and site use;Welding rods|Welding consumables|Medium|Confirm rod size/type;Grinding wheels|Repair/fabrication works|Medium|Confirm grinder size;Cup brush|Surface cleaning/fabrication prep|Low|Confirm grinder size;Air compressor|Maintenance support|Medium|Confirm capacity and power;Compressor hose|Compressor operations|Low|Confirm length and fittings;Pressure air gun|Maintenance support|Low|Confirm fitting type;Pressure washer|Machine cleaning and maintenance|Medium|Confirm pressure rating;Water hose|Pressure washer support|Low|Confirm length and fittings;Spanners 32/34/36|Heavy equipment maintenance|Medium|Confirm open/ring type;Under coat paint|Repair finishing/protection|Low|Confirm color/quantity;RO plant cable|RO/electrical works|Medium|Site utility item - keep separate from machine PR;4 pole 16A breaker|RO/electrical works|Medium|Site utility item - keep separate from machine PR;4 core 4sqmm cable|RO/electrical works|Medium|Site utility item - keep separate from machine PR;Extension cables|Site operational use|Low|Site utility item - keep separate from machine PR".split(';').map((row, i) => {
+  const r = row.split('|');
+  return {"PR Ref":"WL-PR-" + String(i+3).padStart(4,'0'), "Request Date":"", "Request Source":"Site phone/text", "Requested By":"Project Manager / Thilafushi Supervisor", "Site / Location":"", "Request Channel":"Phone/Text", "Asset / Project Ref":"", "Item / Service Requested":r[0], "Purpose / Machine Use":r[1], "Specs Needed":r[3], "Urgency":r[2], "Status":"Request Received", "Verification Status":"Specs Required", "RFQ Status":"Not Sent", "Quotes Received":"0", "Selected Vendor":"", "PO No.":"", "Payment Status":"Not Requested", "Collection Status":"Not Collected", "Invoice Status":"Not Received", "Delivery Status":"Not Delivered", "Finance / Antrac Action":"", "Notes":""};
+});
+REPORT_DATA.materials = PROCUREMENT_SEED;
+
+function upgradeData(data) {
+  data = data || {};
+  if (!Array.isArray(data.recovery) || !data.recovery.length) data.recovery = JSON.parse(JSON.stringify(REPORT_DATA.recovery));
+  if (!Array.isArray(data.materials) || !data.materials.length) data.materials = JSON.parse(JSON.stringify(REPORT_DATA.materials));
+  if (!Array.isArray(data.items)) data.items = [];
+  if (!Array.isArray(data.suppliers)) data.suppliers = [];
+  if (!Array.isArray(data.quotes)) data.quotes = [];
+  if (!Array.isArray(data.inventory)) data.inventory = [];
+  if (!Array.isArray(data.transfers)) data.transfers = [];
+  if (Array.isArray(data.materials) && data.materials.some(r => r['Item ID'] || r['Item'])) {
+    data.materials = data.materials.map((r, i) => ({
+      "PR Ref": r['PR Ref'] || ("WL-PR-" + String(i+3).padStart(4,'0')),
+      "Request Date": r['Request Date'] || "",
+      "Request Source": r['Request Source'] || "Site phone/text",
+      "Requested By": r['Requested By'] || "Project Manager / Thilafushi Supervisor",
+      "Site / Location": r['Site / Location'] || "",
+      "Request Channel": r['Request Channel'] || "Phone/Text",
+      "Asset / Project Ref": r['Asset / Project Ref'] || "",
+      "Item / Service Requested": r['Item / Service Requested'] || r['Item'] || "",
+      "Purpose / Machine Use": r['Purpose / Machine Use'] || r['Likely Usage'] || "",
+      "Specs Needed": r['Specs Needed'] || (String(r['Status'] || '').includes('Spec') ? "Exact specs required before RFQ/PO" : ""),
+      "Urgency": r['Urgency'] || r['Priority'] || "",
+      "Status": r['Workflow Status'] || r['Status'] || "Request Received",
+      "Verification Status": r['Verification Status'] || (String(r['Status'] || '').includes('Spec') ? "Specs Required" : "Pending Check"),
+      "RFQ Status": r['RFQ Status'] || "Not Sent",
+      "Quotes Received": r['Quotes Received'] || "",
+      "Selected Vendor": r['Selected Vendor'] || r['Vendor'] || "",
+      "PO No.": r['PO No.'] || "",
+      "Payment Status": r['Payment Status'] || "Not Requested",
+      "Collection Status": r['Collection Status'] || "Not Collected",
+      "Invoice Status": r['Invoice Status'] || "Not Received",
+      "Delivery Status": r['Delivery Status'] || "Not Delivered",
+      "Finance / Antrac Action": r['Finance / Antrac Action'] || "",
+      "Notes": r['Notes'] || ""
+    }));
+  }
+  return data;
+}
+// ============= SCHEMA =============
+const SCHEMAS = {
+  recovery: { label: 'Recovery', key: 'ID', singular: 'Recovery Action',
+    fields: ['ID','Site','Machine','Issue','Current Action','Pending Requirement','Priority','Owner','Status','Asset Ref'],
+    columns: ['ID','Site','Machine','Issue','Pending Requirement','Priority','Status','Owner'],
+    enums: { 'Site': ['Muthaafushi','Bodufinolhu','Thilafushi - Base','Unknown'], 'Priority': ['High','Medium','Low'], 'Status': ['Spec Required','Approval Pending','Sourcing','Technical Assessment','Photo Required','Operational','Repair Planned','Completed'] }
+  },
+  materials: { label: 'Procurement Workflow', key: 'PR Ref', singular: 'Procurement PR',
+    fields: ['PR Ref','Request Date','Request Source','Requested By','Site / Location','Request Channel','Asset / Project Ref','Item / Service Requested','Purpose / Machine Use','Specs Needed','Urgency','Status','Verification Status','RFQ Status','Quotes Received','Selected Vendor','PO No.','Payment Status','Collection Status','Invoice Status','Delivery Status','Finance / Antrac Action','Notes'],
+    columns: ['PR Ref','Request Source','Requested By','Site / Location','Item / Service Requested','Urgency','Status','RFQ Status','Quotes Received','PO No.','Payment Status','Delivery Status'],
+    enums: {
+      'Request Source': ['Site phone/text','Project Manager','Thilafushi Supervisor','Mechanic/Operator','Director','Internal'],
+      'Request Channel': ['Phone','Text/WhatsApp','Verbal','Email','Paper PR'],
+      'Urgency': ['CRITICAL','URGENT','ROUTINE','High','Medium','Low'],
+      'Status': ['Request Received','Specs Required','Verified','RFQ Sent','Quotes Received','Approval Pending','PO Created','Payment Requested','Payment Done','Items Collected','Invoice Collected','Delivered to Site','Closed','Rejected'],
+      'Verification Status': ['Specs Required','Pending Check','Verified','Rejected / Not Machine Related'],
+      'RFQ Status': ['Not Sent','Sent','Partial Quotes','Quotes Complete'],
+      'Payment Status': ['Not Requested','Requested from Finance','Paid - Collect Item','Paid - Awaiting Vendor','No Credit - Payment Required','Closed'],
+      'Collection Status': ['Not Collected','Ready for Collection','Collected','Handed to Logistics'],
+      'Invoice Status': ['Not Received','Received','Submitted to Finance'],
+      'Delivery Status': ['Not Delivered','In Transit','Delivered to Site','Closed']
+    }  },
+  items: { label: 'Item Catalog', key: 'Item Code', singular: 'Catalog Item',
+    fields: ['Item Code','Item Name','Category','Standard Specs','Unit','Frequently Requested?','Preferred Supplier','Last Price','Currency','Lead Time','Min Stock','Notes'],
+    columns: ['Item Code','Item Name','Category','Standard Specs','Unit','Preferred Supplier','Last Price','Lead Time'],
+    enums: { 'Category': ['Machine Parts','Electrical','Hydraulic','Tyres','Tools','Consumables','Fabrication','Site Utility','Other'], 'Frequently Requested?': ['Yes','No'], 'Currency': ['MVR','USD','AED'] }
+  },
+  suppliers: { label: 'Suppliers', key: 'Supplier ID', singular: 'Supplier',
+    fields: ['Supplier ID','Supplier Name','Contact Person','Phone / WhatsApp','Email','Location','Supplies Category','Payment Terms','Credit Available?','Reliability','Typical Lead Time','Notes'],
+    columns: ['Supplier ID','Supplier Name','Contact Person','Phone / WhatsApp','Location','Supplies Category','Payment Terms','Reliability'],
+    enums: { 'Payment Terms': ['No Credit - Pay Before Collection','Cash','Bank Transfer','Credit','Advance Payment'], 'Credit Available?': ['No','Yes','Case by case'], 'Reliability': ['Preferred','Good','Average','Use only if urgent','Do not use'] }
+  },
+  quotes: { label: 'Quote Comparison', key: 'Quote Ref', singular: 'Supplier Quote',
+    fields: ['Quote Ref','PR Ref','Item / Service','Supplier ID','Supplier Name','Quote Date','Qty','Unit','Unit Price','Currency','Total Amount','Delivery Cost','Lead Time','Availability','Payment Terms','Compliant?','Warranty / Notes','Quote Valid Until','Status'],
+    columns: ['Quote Ref','PR Ref','Item / Service','Supplier Name','Qty','Unit Price','Currency','Total Amount','Lead Time','Payment Terms','Compliant?','Status'],
+    enums: { 'Currency': ['MVR','USD','AED'], 'Availability': ['In Stock','Order Required','Used/Reconditioned','Unknown'], 'Payment Terms': ['No Credit - Pay Before Collection','Cash','Bank Transfer','Credit','Advance Payment'], 'Compliant?': ['Yes','No','Partial','Pending Check'], 'Status': ['Quote Received','Recommended','Selected','Rejected','Expired'] }
+  },
+  inventory: { label: 'Inventory', key: 'Stock ID', singular: 'Inventory Item',
+    fields: ['Stock ID','Item Name','Specs','Category','Qty On Hand','Unit','Location','Source PR','PO No.','Supplier','Unit Cost','Currency','Last GRN','Status','Notes'],
+    columns: ['Stock ID','Item Name','Specs','Qty On Hand','Unit','Location','Source PR','Supplier','Status'],
+    enums: { 'Category': ['Machine Parts','Electrical','Hydraulic','Tyres','Tools','Consumables','Fabrication','Site Utility','Other'], 'Location': ['Thilafushi Base','Muthaafushi','Bodufinolhu','In Transit','Supplier','Other'], 'Currency': ['MVR','USD','AED'], 'Status': ['Available','Reserved','Dispatched','Consumed','Returned','Damaged'] }
+  },
+  transfers: { label: 'GRN / Transfers', key: 'Doc Ref', singular: 'GRN or Transfer',
+    fields: ['Doc Ref','Date','Type','From','To Site/Base','Item Name','Specs','Qty','Unit','Source PR','PO No.','Supplier','Received By','Issued By','GRN Status','Transfer Status','Notes'],
+    columns: ['Doc Ref','Date','Type','From','To Site/Base','Item Name','Qty','Unit','Source PR','GRN Status','Transfer Status'],
+    enums: { 'Type': ['GRN - Supplier to Base','GRN - Supplier to Site','Transfer - Base to Site','Transfer - Site to Base','Issue/Consume'], 'From': ['Supplier','Thilafushi Base','Muthaafushi','Bodufinolhu','Other'], 'To Site/Base': ['Thilafushi Base','Muthaafushi','Bodufinolhu','Other'], 'GRN Status': ['Pending','Received - Qty OK','Received - Short','Received - Damaged','Invoice Pending','Closed'], 'Transfer Status': ['Pending Dispatch','In Transit','Delivered','Received by Site','Closed'] }
+  },  fleet: { label: '🚛 Fleet', key: 'Fleet ID', singular: 'Vehicle',
+    fields: ['Fleet ID','Vehicle Type','Brand','Model','Current Location','Assigned Project','Operator Assigned','Status','Condition','Rental Eligible?','Daily Report Rcvd?','Engine Hours','Fuel %','Open PR Ref','Known Issue','Reg No.','Chassis No.','Engine No.','Last Maintenance','Next Maint Due'],
+    columns: ['Fleet ID','Vehicle Type','Brand','Model','Current Location','Status','Operator Assigned','Condition','Rental Eligible?','Known Issue'],
+    enums: {
+      'Status': ['Active — Site','Standby','Operational','Grounded','New — Verify','In Maintenance','Unknown'],
+      'Condition': ['Good','Fair','Poor','Unknown'],
+      'Rental Eligible?': ['✓ Yes','✗ No','Pending Verification'],
+      'Current Location': ['Thilafushi — Base','Bodufinolhu','Muthaafushi','Sampath','In Transit','Unknown']
+    }
+  },
+  vessels: { label: '⚓ Vessels', key: 'Vessel ID', singular: 'Vessel',
+    fields: ['Vessel ID','Name/Ref','Type','Status','Drydocked?','Captain in Charge','Crew Assigned','Reg No.','Hull / IMO','Engine 1 Serial','Engine 2 Serial','Capacity/Notes','Permit No.','Permit Expiry','Insurance Expiry','Last Inspection','DryDock Start','DryDock Est. End','Known Issues / Notes'],
+    columns: ['Vessel ID','Name/Ref','Type','Status','Captain in Charge','Drydocked?','Permit Expiry','Insurance Expiry'],
+    enums: {
+      'Status': ['Active','Standby','In Drydock','Out of Service'],
+      'Drydocked?': ['Yes','No'],
+      'Type': ['LCT','Dhoni','Speedboat','Tug','Barge','Other']
+    }
+  },
+  staff: { label: '👥 Staff', key: 'Staff ID', singular: 'Staff member',
+    fields: ['Staff ID','Full Name','Designation','Nationality','Grade','Joined Date','Category','Operator?','Status','Current Location','Assigned Asset/Vessel','Permit No.','Permit Expiry','Work Permit Status','Contact No.','Notes'],
+    columns: ['Staff ID','Full Name','Designation','Nationality','Category','Status','Permit Expiry','Contact No.'],
+    enums: {
+      'Status': ['Full Time','Probation','Contract','Terminated','Resigned',''],
+      'Category': ['Marine','Heavy Vehicle','Driver','Mechanic','Office','Site','Management','Other'],
+      'Operator?': ['Yes','No'],
+      'Nationality': ['Local/Maldivian','Expat/Bangladeshi','Expat/Sri Lankan','Expat/Indian','Expat/Nepali','Expat/Other']
+    }
+  },
+  operators: { label: '🔧 Operators', key: 'Staff ID', singular: 'Operator',
+    fields: ['Staff ID','Full Name','Operator Role','Nationality','Grade','Status','Current Location','Assigned Asset ID','Asset Description','Licence No. / Class','Notes'],
+    columns: ['Staff ID','Full Name','Operator Role','Status','Current Location','Assigned Asset ID','Asset Description'],
+    enums: { 'Status': ['Full Time','Probation','Contract'] }
+  },
+  prs: { label: '📦 PR Log', key: 'PR Ref', singular: 'Purchase Request',
+    fields: ['PR Ref','Date','Business Unit','Raised By','Site / Location','Item(s) Summary','Vehicle / Asset Ref','Urgency','# Quotes','PO No.','FC Approved?','Vendor','Date Ordered','Dispatched?','Delivered?','Status / Notes'],
+    columns: ['PR Ref','Date','Business Unit','Site / Location','Item(s) Summary','Vehicle / Asset Ref','Urgency','Status / Notes'],
+    enums: {
+      'Urgency': ['CRITICAL','URGENT','ROUTINE'],
+      'Business Unit': ['Well Land','PLK','MPL','Other'],
+      'FC Approved?': ['Yes','No','Pending'],
+      'Dispatched?': ['Yes','No','Partial'],
+      'Delivered?': ['Yes','No','Partial']
+    }
+  },
+  rentals: { label: '💰 Rentals', key: 'Inquiry Ref', singular: 'Rental Inquiry',
+    fields: ['Inquiry Ref','Date','Customer','Contact','Vehicle Type Requested','Duration / Dates','Site','Available?','Unavailability Reason','Quotation Sent?','Confirmed?','Quoted Amt (MVR)','Actual Amt (MVR)','Decline Reason / Notes'],
+    columns: ['Inquiry Ref','Date','Customer','Vehicle Type Requested','Available?','Confirmed?','Quoted Amt (MVR)'],
+    enums: {
+      'Available?': ['Yes','No','Pending Check'],
+      'Quotation Sent?': ['Yes','No'],
+      'Confirmed?': ['Yes','No','Pending']
+    }
+  },
+  compliance: { label: '📅 Compliance', key: 'Ref', singular: 'Compliance Item',
+    fields: ['Ref','Category','Description','Entity','Asset / Ref','Frequency','Last Paid / Filed','Amount (MVR)','Next Due Date','Lead Time Needed','Responsible','Status / Notes'],
+    columns: ['Ref','Category','Description','Entity','Frequency','Next Due Date','Amount (MVR)','Responsible'],
+    enums: {
+      'Frequency': ['Annual','Quarterly','Monthly','Biennial','One-off'],
+      'Entity': ['Well Land','PLK','MPL','Antrac','Other'],
+      'Category': ['Vehicle Reg','Vessel Permit','Insurance','GST','BPT','Work Permit','Survey','License','Other']
+    }
+  },
+  calls: { label: '📞 Calls', key: '#', singular: 'Call Entry',
+    fields: ['#','Date','Time','Caller','Company','Call Type','Request / Details','Action','Follow-Up Date','Logged in PR/Rental?','Closed?'],
+    columns: ['#','Date','Time','Caller','Company','Call Type','Request / Details','Closed?'],
+    enums: {
+      'Call Type': ['Inquiry','PR','Rental','Vendor','Internal','Customer','Other'],
+      'Closed?': ['Yes','No','Follow-up']
+    }
+  },
+  daily: { label: '📅 Daily Log', key: 'Date', singular: 'Daily Entry',
+    fields: ['Date','PRs Received','Rental Inquiries','Fleet / Vessel Events','Staff Issues','Director Conversations','Purchases / Payments','Escalations / Critical','Compliance Actions','Notes / Tomorrow'],
+    columns: ['Date','PRs Received','Rental Inquiries','Fleet / Vessel Events','Escalations / Critical','Notes / Tomorrow']
+  }
+};
+
+// ============= STATE =============
+const STORE_KEY = 'wl_ops_data_v1';
+let DATA = loadData();
+let activeSection = localStorage.getItem('wl_ops_active') || 'dashboard';
+let sortState = {}; // {section: {col, dir}}
+
+function loadData() {
+  const stored = localStorage.getItem(STORE_KEY);
+  if (stored) { try { return upgradeData(JSON.parse(stored)); } catch(e){} }
+  return upgradeData(JSON.parse(JSON.stringify(SEED)));
+}
+function persist() { localStorage.setItem(STORE_KEY, JSON.stringify(DATA)); }
+function toast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('show');
+  clearTimeout(window._toastT); window._toastT = setTimeout(()=>t.classList.remove('show'), 2200);
+}
+
+// ============= DATE HELPERS =============
+function parseDate(s) {
+  if (!s) return null;
+  if (typeof s !== 'string') s = String(s);
+  // DD/MM/YYYY
+  let m = s.match(/^(\d{1,2})[/-](\d{1,2})[/-](\d{4})$/);
+  if (m) return new Date(+m[3], +m[2]-1, +m[1]);
+  // YYYY-MM-DD
+  m = s.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (m) return new Date(+m[1], +m[2]-1, +m[3]);
+  const d = new Date(s); return isNaN(d) ? null : d;
+}
+function daysUntil(s) {
+  const d = parseDate(s); if (!d) return null;
+  const now = new Date(); now.setHours(0,0,0,0);
+  return Math.round((d - now) / (1000*60*60*24));
+}
+function fmtDays(n) {
+  if (n === null) return '';
+  if (n < 0) return `${Math.abs(n)}d overdue`;
+  if (n === 0) return 'today';
+  return `${n}d`;
+}
+
+// ============= NAV =============
+const NAV_ITEMS = [
+  ['dashboard','📊 Dashboard'],
+  ['today','📌 Today'],
+  ['recovery', SCHEMAS.recovery.label],
+  ['materials', SCHEMAS.materials.label],
+  ['items', SCHEMAS.items.label],
+  ['suppliers', SCHEMAS.suppliers.label],
+  ['quotes', SCHEMAS.quotes.label],
+  ['inventory', SCHEMAS.inventory.label],
+  ['transfers', SCHEMAS.transfers.label],
+  ['fleet', SCHEMAS.fleet.label],
+  ['vessels', SCHEMAS.vessels.label],
+  ['staff', SCHEMAS.staff.label],
+  ['operators', SCHEMAS.operators.label],
+  ['prs', SCHEMAS.prs.label],
+  ['rentals', SCHEMAS.rentals.label],
+  ['compliance', SCHEMAS.compliance.label],
+  ['calls', SCHEMAS.calls.label],
+  ['daily', SCHEMAS.daily.label]
+];
+
+function renderNav() {
+  const nav = document.getElementById('nav');
+  nav.innerHTML = '';
+  NAV_ITEMS.forEach(([id,label]) => {
+    const b = document.createElement('button');
+    b.className = id === activeSection ? 'active' : '';
+    const count = (id === 'dashboard' || id === 'today') ? '' : `<span class="count">${(DATA[id]||[]).length}</span>`;
+    b.innerHTML = `<span>${label}</span>${count}`;
+    b.onclick = () => { activeSection = id; localStorage.setItem('wl_ops_active', id); render(); };
+    nav.appendChild(b);
+  });
+  const div = document.createElement('div'); div.className = 'divider'; nav.appendChild(div);
+  const tools = document.createElement('div'); tools.style.padding='4px';
+  tools.innerHTML = `
+    <button class="btn ghost" style="width:100%;margin:3px 0;padding:7px;font-size:12px" onclick="exportJSON()">⬇ Export JSON</button>
+    <button class="btn ghost" style="width:100%;margin:3px 0;padding:7px;font-size:12px" onclick="exportCSV()">⬇ Export CSV (current)</button>
+    <label class="btn ghost" style="width:100%;margin:3px 0;padding:7px;font-size:12px;display:block;text-align:center;cursor:pointer">⬆ Import JSON<input type="file" accept=".json" style="display:none" onchange="importJSON(event)"/></label>
+    <button class="btn ghost" style="width:100%;margin:3px 0;padding:7px;font-size:12px;color:#b91c1c;border-color:#fecaca" onclick="resetData()">↺ Reset to Original</button>
+  `;
+  nav.appendChild(tools);
+}
+
+// ============= RENDER ROUTER =============
+function render() {
+  renderNav();
+  const main = document.getElementById('main');
+  if (activeSection === 'dashboard') renderDashboard(main);
+  else if (activeSection === 'today') renderToday(main);
+  else renderSection(main, activeSection);
+}
+
+// ============= TODAY (Daily checklist + live actions) =============
+const GM_DAY = [
+  {t:'06:45-07:15', b:'Command scan', d:'Read overnight site messages. Check critical PRs, recovery actions, today cash/payment needs, vehicle downtime and expiring compliance.', live:'intel'},
+  {t:'07:15-07:45', b:'Plan the day', d:'Choose one fleet outcome, one procurement outcome, one finance follow-up, and one transformation task. Everything else becomes queue.', live:'plan'},
+  {t:'08:00-08:30', b:'Site report calls', d:'Janaka / Sampath / site supervisors: machine status, operator attendance, new requests, urgent breakdowns, photos/specs needed.', live:'sites'},
+  {t:'08:30-09:15', b:'Fleet recovery triage', d:'Update Recovery and Fleet. Decide Green/Amber/Red, assign who must send specs/photos, and mark what blocks machine readiness.', live:'recovery'},
+  {t:'09:15-10:45', b:'Procurement intake + RFQ', d:'Convert phone/text requests into Procurement PRs. Verify specs, send RFQs, chase quotations, update Quote Comparison.', live:'procurement'},
+  {t:'10:45-11:30', b:'Finance / no-credit payments', d:'Prepare payment requests, follow Antrac Finance, confirm paid items ready for collection, update payment status.', live:'finance'},
+  {t:'11:30-12:15', b:'Supplier decisions', d:'Compare quotes. Pick lowest compliant supplier unless lead time, warranty, or no-credit terms justify another choice.', live:'quotes'},
+  {t:'12:15-13:15', b:'Break / emergency only', d:'No routine calls. Only safety, director, machine-down, or paid-item collection emergencies.', live:null},
+  {t:'13:15-14:45', b:'Collection, GRN, transfer', d:'Collect paid items/invoices. Create Inventory and GRN/Transfer rows. Dispatch to Thilafushi, Muthaafushi or Bodufinolhu.', live:'stock'},
+  {t:'14:45-15:30', b:'Rental / customer window', d:'Handle rental inquiries, availability checks, quotations, client follow-ups, and mobilisation promises.', live:'rentals'},
+  {t:'15:30-16:15', b:'Compliance + HR control', d:'Work permits, staff status, operator assignment, licences, insurance, registration, vessel documents.', live:'hr'},
+  {t:'16:15-17:00', b:'Horizon 1 build block', d:'Protect this slot for SOPs, KPI register, asset readiness checklist, dispatch documentation and board dashboard work.', live:'strategy'},
+  {t:'17:00-17:45', b:'Daily close', d:'Update Daily Log, tomorrow top 3, unresolved blockers, director/finance decisions needed, and site instructions.', live:'close'},
+  {t:'18:00', b:'Evening report intake', d:'Review Janaka/site evening report. Only act on critical issues; queue routine items for tomorrow command scan.', live:null}
+];
+
+function todayISO() { return new Date().toISOString().slice(0,10); }
+function todayKey() { return 'wl_today_' + todayISO(); }
+function loadTodayState() { try { return JSON.parse(localStorage.getItem(todayKey())||'{}'); } catch(e){ return {}; } }
+function saveTodayState(s) { localStorage.setItem(todayKey(), JSON.stringify(s)); }
+
+function renderToday(main) {
+  const state = loadTodayState();
+  const day = new Date();
+  const dayName = day.toLocaleDateString(undefined, {weekday:'long', year:'numeric', month:'long', day:'numeric'});
+
+  const fleet = DATA.fleet || [], vessels = DATA.vessels || [], prs = DATA.prs || [], comp = DATA.compliance || [], staff = DATA.staff || [];
+  const recovery = DATA.recovery || [], procurement = DATA.materials || [], quotes = DATA.quotes || [], inventory = DATA.inventory || [], transfers = DATA.transfers || [], rentals = DATA.rentals || [];
+  const critPRs = prs.filter(p => (p['Urgency']||'').toUpperCase() === 'CRITICAL' && !(p['Delivered?']||'').toLowerCase().includes('yes'));
+  const urgPRs = prs.filter(p => (p['Urgency']||'').toUpperCase() === 'URGENT' && !(p['Delivered?']||'').toLowerCase().includes('yes'));
+  const openProc = procurement.filter(p => !['Closed','Rejected','Delivered to Site'].includes(p['Status'] || ''));
+  const needsRFQ = procurement.filter(p => ['Request Received','Specs Required','Verified'].includes(p['Status'] || '') || (p['RFQ Status'] || '') === 'Not Sent');
+  const payQueue = procurement.filter(p => String(p['Payment Status'] || '').includes('Requested') || String(p['Payment Status'] || '').includes('Required') || String(p['Status'] || '').includes('Payment'));
+  const quoteQueue = quotes.filter(q => !['Selected','Rejected','Expired'].includes(q['Status'] || ''));
+  const transferQueue = transfers.filter(t => !['Closed','Received by Site'].includes(t['Transfer Status'] || '') || !['Closed'].includes(t['GRN Status'] || ''));
+  const recoveryHigh = recovery.filter(r => (r['Priority'] || '') === 'High' && !['Completed','Operational'].includes(r['Status'] || ''));
+  const rentalQueue = rentals.filter(r => !['Yes','No'].includes(r['Confirmed?'] || ''));
+  const unverified = fleet.filter(f => (f['Condition']||'')==='Unknown' || (f['Current Location']||'')==='Unknown');
+  const expSoon14 = [];
+  vessels.forEach(v => ['Permit Expiry','Insurance Expiry'].forEach(k => { const d=daysUntil(v[k]); if (d!==null && d<=14) expSoon14.push({a:v['Name/Ref']||v['Vessel ID'], k, d}); }));
+  staff.forEach(s => { const d=daysUntil(s['Permit Expiry']); if (d!==null && d<=14) expSoon14.push({a:s['Full Name'], k:'Work Permit', d}); });
+  comp.forEach(c => { const d=daysUntil(c['Next Due Date']); if (d!==null && d<=14) expSoon14.push({a:c['Description'], k:c['Category'], d}); });
+  expSoon14.sort((a,b)=>a.d-b.d);
+
+  const dow = day.getDay();
+  const weeklyFlag = dow===1 ? 'Today is Monday — Site leads weekly call at 09:00.' : dow===3 ? 'Today is Wednesday — MRO planning at 14:00. Batch routine PRs today.' : dow===4 ? 'Today is Thursday — Compliance review at 11:00.' : dow===5 ? 'Today is Friday — Sales & rental pipeline at 15:00; week close at 17:00.' : '';
+
+  const checks = state.checks || {};
+  const intent = state.intent || {op:'', strat:''};
+  const tomorrow = state.tomorrow || ['','',''];
+
+  main.innerHTML = `
+    <div class="bar">
+      <h2>Today — <span style="font-weight:400;color:var(--muted);font-size:14px">${esc(dayName)}</span></h2>
+      <div class="actions">
+        <button class="btn ghost" onclick="resetToday()">Reset today</button>
+        <button class="btn" onclick="closeToday()">Close day → Daily Log</button>
+      </div>
+    </div>
+
+    ${weeklyFlag ? `<div class="banner">${esc(weeklyFlag)}</div>` : ''}
+    ${critPRs.length>0 ? `<div class="banner crit">⚠ ${critPRs.length} CRITICAL PR open — must be addressed in today's 09:00-11:00 block.</div>` : ''}
+
+    <div class="kpis">
+      <div class="kpi ${recoveryHigh.length>0?'crit':'ok'}"><div class="l">Recovery high</div><div class="v">${recoveryHigh.length}</div><div class="d">machine blockers</div></div>
+      <div class="kpi ${openProc.length>0?'warn':'ok'}"><div class="l">Procurement open</div><div class="v">${openProc.length}</div><div class="d">${needsRFQ.length} need RFQ/specs</div></div>
+      <div class="kpi ${payQueue.length>0?'crit':'ok'}"><div class="l">Payment queue</div><div class="v">${payQueue.length}</div><div class="d">no-credit follow-up</div></div>
+      <div class="kpi ${quoteQueue.length>0?'warn':'ok'}"><div class="l">Quotes pending</div><div class="v">${quoteQueue.length}</div><div class="d">compare/select</div></div>
+      <div class="kpi ${transferQueue.length>0?'warn':'ok'}"><div class="l">GRN / dispatch</div><div class="v">${transferQueue.length}</div><div class="d">to receive or deliver</div></div>
+      <div class="kpi ${expSoon14.length>0?'warn':'ok'}"><div class="l">HR/compliance</div><div class="v">${expSoon14.length}</div><div class="d">expiring <=14d</div></div>
+      <div class="kpi ${unverified.length>0?'warn':'ok'}"><div class="l">Fleet verify</div><div class="v">${unverified.length}</div><div class="d">asset readiness</div></div>
+      <div class="kpi"><div class="l">Rental follow-up</div><div class="v">${rentalQueue.length}</div><div class="d">pipeline</div></div>
+    </div>
+
+    <div class="grid2">
+      <div class="card">
+        <h3>Today's Intent</h3>
+        <label style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Operational priority</label>
+        <input id="intentOp" class="search" style="width:100%;margin:4px 0 10px" placeholder="e.g. Confirm location of WL-HV-0008 and WL-HV-0009" value="${esc(intent.op)}"/>
+        <label style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px">Strategic priority</label>
+        <input id="intentStrat" class="search" style="width:100%;margin:4px 0" placeholder="e.g. Call 3 rental prospects" value="${esc(intent.strat)}"/>
+      </div>
+      <div class="card">
+        <h3>Tomorrow's Top 3 (write at 17:00)</h3>
+        ${[0,1,2].map(i=>`<input id="tom${i}" class="search" style="width:100%;margin:3px 0" placeholder="${i+1}." value="${esc(tomorrow[i]||'')}"/>`).join('')}
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>GM Daily Routine</h3>
+      <div id="dayBlocks">
+        ${GM_DAY.map((b,i)=>{
+          const done = !!checks[i];
+          return `<div class="day-block ${done?'done':''}" style="display:flex;gap:12px;padding:10px;border-bottom:1px solid var(--line);align-items:flex-start">
+            <label style="display:flex;align-items:flex-start;gap:8px;cursor:pointer;flex:1">
+              <input type="checkbox" ${done?'checked':''} onchange="toggleCheck(${i})" style="margin-top:3px"/>
+              <div style="flex:1">
+                <div style="font-weight:600;color:${done?'var(--muted)':'var(--ink)'};text-decoration:${done?'line-through':'none'}">
+                  <span style="display:inline-block;min-width:120px;color:var(--accent);font-variant-numeric:tabular-nums">${esc(b.t)}</span>
+                  ${esc(b.b)}
+                </div>
+                <div style="color:var(--muted);font-size:12px;margin-top:2px">${esc(b.d)}</div>
+                ${liveSlot(b.live, {critPRs, urgPRs, unverified, expSoon14, recoveryHigh, openProc, needsRFQ, payQueue, quoteQueue, transferQueue, rentalQueue, inventory})}
+              </div>
+            </label>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Quick Add</h3>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <button class="btn" onclick="openForm('materials')">+ Phone/Text PR</button>
+        <button class="btn ghost" onclick="openForm('quotes')">+ Quote</button>
+        <button class="btn ghost" onclick="openForm('inventory')">+ Inventory</button>
+        <button class="btn ghost" onclick="openForm('transfers')">+ GRN/Transfer</button>
+        <button class="btn ghost" onclick="openForm('rentals')">+ Rental inquiry</button>
+        <button class="btn ghost" onclick="openForm('daily')">+ Daily log row</button>
+      </div>
+    </div>
+  `;
+
+  ['intentOp','intentStrat'].forEach(id => {
+    document.getElementById(id).onchange = (e) => {
+      const s = loadTodayState();
+      s.intent = s.intent || {};
+      s.intent[id==='intentOp'?'op':'strat'] = e.target.value;
+      saveTodayState(s);
+    };
+  });
+  [0,1,2].forEach(i => {
+    document.getElementById('tom'+i).onchange = (e) => {
+      const s = loadTodayState();
+      s.tomorrow = s.tomorrow || ['','',''];
+      s.tomorrow[i] = e.target.value;
+      saveTodayState(s);
+    };
+  });
+}
+
+function liveSlot(key, live) {
+  if (!key) return '';
+  const chips = (...items) => `<div style="margin-top:6px">${items.filter(Boolean).join(' ')}</div>`;
+  const list = (title, rows) => rows.length ? `<div style="margin-top:6px;font-size:12px"><strong>${esc(title)}</strong><ul style="margin:4px 0 0 16px;padding:0">${rows.map(x=>`<li>${x}</li>`).join('')}</ul></div>` : '';
+  if (key === 'intel') {
+    return chips(
+      live.recoveryHigh.length ? `<span class="chip crit">${live.recoveryHigh.length} recovery blockers</span>` : '',
+      live.openProc.length ? `<span class="chip warn">${live.openProc.length} procurement open</span>` : '',
+      live.payQueue.length ? `<span class="chip crit">${live.payQueue.length} payment follow-up</span>` : '',
+      live.expSoon14.length ? `<span class="chip warn">${live.expSoon14.length} expiring <=14d</span>` : ''
+    );
+  }
+  if (key === 'plan') return list('Today must produce:', ['1 fleet decision/update', '1 procurement/RFQ movement', '1 finance/payment follow-up', '1 Horizon 1 system improvement']);
+  if (key === 'sites') return list('Ask every site:', ['Machine status and hour/fuel readings', 'New phone/text PRs with photos/specs', 'Operator attendance and safety issues', 'Dispatch/collection needs today']);
+  if (key === 'recovery') return list('High-priority blockers:', live.recoveryHigh.slice(0,5).map(r=>`${esc(r.ID)} - ${esc(r.Machine)}: ${esc(r['Pending Requirement'] || r.Issue)}`));
+  if (key === 'procurement') return list('Move these to RFQ/spec verified:', live.needsRFQ.slice(0,6).map(p=>`${esc(p['PR Ref'])} - ${esc(p['Item / Service Requested'])}`));
+  if (key === 'finance') return live.payQueue.length ? list('No-credit payment queue:', live.payQueue.slice(0,6).map(p=>`${esc(p['PR Ref'])} - ${esc(p['Item / Service Requested'])}: ${esc(p['Payment Status'])}`)) : '<div style="margin-top:6px;color:var(--ok);font-size:12px">No payment queue recorded.</div>';
+  if (key === 'quotes') return live.quoteQueue.length ? list('Compare/select supplier:', live.quoteQueue.slice(0,6).map(q=>`${esc(q['PR Ref'])} - ${esc(q['Supplier Name'] || q['Supplier ID'])}: ${esc(q['Currency'])} ${esc(q['Total Amount'])}`)) : '<div style="margin-top:6px;color:var(--ok);font-size:12px">No quote decisions pending.</div>';
+  if (key === 'stock') return list('GRN / dispatch focus:', [`${live.inventory.length} stock rows available`, `${live.transferQueue.length} GRN/transfer rows pending`]);
+  if (key === 'rentals') return live.rentalQueue.length ? list('Rental follow-up:', live.rentalQueue.slice(0,5).map(r=>`${esc(r['Inquiry Ref'])} - ${esc(r.Customer || '')} ${esc(r['Vehicle Type Requested'] || '')}`)) : '<div style="margin-top:6px;color:var(--ok);font-size:12px">No rental follow-up recorded.</div>';
+  if (key === 'hr') return live.expSoon14.length ? list('HR/compliance due:', live.expSoon14.slice(0,6).map(e=>`${esc(e.a)} - ${esc(e.k)} ${fmtDays(e.d)}`)) : '<div style="margin-top:6px;color:var(--ok);font-size:12px">No 14-day compliance alerts.</div>';
+  if (key === 'strategy') return list('Horizon 1 build list:', ['Asset readiness traffic light and pre-start checklist', 'KPI register: uptime, utilisation, downtime, mobilisation time', 'SOP draft for dispatch, maintenance, PR/RFQ/PO, GRN/transfer', 'Monthly board-ready dashboard notes']);
+  if (key === 'close') return '<div style="margin-top:6px;font-size:12px"><em>Close the day only after logging: recovery movement, procurement/finance blockers, dispatch/GRN, rentals, and tomorrow top 3.</em></div>';
+  return '';
+}
+function toggleCheck(i) {
+  const s = loadTodayState();
+  s.checks = s.checks || {};
+  s.checks[i] = !s.checks[i];
+  saveTodayState(s);
+  renderToday(document.getElementById('main'));
+}
+function resetToday() {
+  if (!confirm('Reset today’s checklist and notes?')) return;
+  localStorage.removeItem(todayKey());
+  renderToday(document.getElementById('main'));
+  toast('Today reset');
+}
+function closeToday() {
+  const s = loadTodayState();
+  const intent = s.intent || {};
+  const summary = [];
+  if (intent.op) summary.push('Op: ' + intent.op);
+  if (intent.strat) summary.push('Strat: ' + intent.strat);
+  if ((s.tomorrow||[]).filter(Boolean).length) summary.push('Tomorrow: ' + (s.tomorrow||[]).filter(Boolean).join('; '));
+  const row = {
+    'Date': todayISO(),
+    'PRs Received': '', 'Rental Inquiries': '', 'Fleet / Vessel Events': '',
+    'Staff Issues': '', 'Director Conversations': '', 'Purchases / Payments': '',
+    'Escalations / Critical': '', 'Compliance Actions': '',
+    'Notes / Tomorrow': summary.join(' — ')
+  };
+  const idx = (DATA.daily||[]).findIndex(d => d['Date'] === todayISO());
+  if (idx >= 0) DATA.daily[idx] = {...DATA.daily[idx], ...row};
+  else { DATA.daily = DATA.daily || []; DATA.daily.push(row); }
+  persist();
+  activeSection = 'daily';
+  localStorage.setItem('wl_ops_active','daily');
+  render();
+  toast('Daily Log updated for ' + todayISO());
+}
+
+// ============= DASHBOARD =============
+function renderDashboard(main) {
+  const fleet = DATA.fleet || [], vessels = DATA.vessels || [], prs = DATA.prs || [], comp = DATA.compliance || [], staff = DATA.staff || [];
+  const atThilafushi = fleet.filter(f => (f['Current Location']||'').includes('Thilafushi')).length;
+  const rentalEligible = fleet.filter(f => (f['Rental Eligible?']||'').includes('Yes')).length;
+  const criticalPRs = prs.filter(p => (p['Urgency']||'').toUpperCase() === 'CRITICAL').length;
+  const openPRs = prs.filter(p => !(p['Delivered?']||'').toLowerCase().includes('yes')).length;
+  const drydocked = vessels.filter(v => (v['Drydocked?']||'').toLowerCase() === 'yes').length;
+  const unknownCond = fleet.filter(f => (f['Condition']||'') === 'Unknown' || (f['Known Issue']||'').includes('VERIFY')).length;
+
+  // Compliance expiries
+  const expirySoon = [];
+  vessels.forEach(v => {
+    ['Permit Expiry','Insurance Expiry'].forEach(k => {
+      const d = daysUntil(v[k]); if (d !== null && d <= 60) expirySoon.push({asset: v['Name/Ref']||v['Vessel ID'], item: k, days: d, ref: v['Vessel ID']});
+    });
+  });
+  staff.forEach(s => {
+    const d = daysUntil(s['Permit Expiry']); if (d !== null && d <= 60) expirySoon.push({asset: s['Full Name'], item: 'Work Permit', days: d, ref: s['Staff ID']});
+  });
+  comp.forEach(c => {
+    const d = daysUntil(c['Next Due Date']); if (d !== null && d <= 60) expirySoon.push({asset: c['Description'], item: c['Category'], days: d, ref: c['Ref']});
+  });
+  expirySoon.sort((a,b) => a.days - b.days);
+
+  const critPRItems = prs.filter(p => (p['Urgency']||'').toUpperCase() === 'CRITICAL');
+  const verifyItems = fleet.filter(f => (f['Condition']||'') === 'Unknown' || (f['Known Issue']||'').includes('VERIFY')).slice(0,8);
+
+  // Fleet by location
+  const locCount = {};
+  fleet.forEach(f => { const l = f['Current Location']||'Unknown'; locCount[l] = (locCount[l]||0)+1; });
+  // PR by urgency
+  const prCount = {CRITICAL:0,URGENT:0,ROUTINE:0,Other:0};
+  prs.forEach(p => { const u = (p['Urgency']||'Other').toUpperCase(); prCount[u in prCount ? u : 'Other']++; });
+
+  main.innerHTML = `
+    <div class="bar">
+      <h2>Operations Dashboard</h2>
+      <div class="actions">
+        <span style="color:var(--muted);font-size:12px">Last updated: ${new Date().toLocaleString()}</span>
+      </div>
+    </div>
+    ${criticalPRs > 0 ? `<div class="banner crit">⚠ ${criticalPRs} CRITICAL purchase request${criticalPRs>1?'s':''} open — review the PR Log now.</div>` : ''}
+    ${(fleet.find(f=>(f['Current Location']||'').includes('Thilafushi') && (f['Status']||'').toLowerCase()==='grounded')) ? `<div class="banner">⚠ Thilafushi base has grounded assets — rental eligibility is 0 until base is operational.</div>` : ''}
+
+    <div class="kpis">
+      <div class="kpi"><div class="l">Total Fleet</div><div class="v">${fleet.length}</div><div class="d">Heavy vehicles</div></div>
+      <div class="kpi"><div class="l">At Thilafushi</div><div class="v">${atThilafushi}</div><div class="d">Base inventory</div></div>
+      <div class="kpi ${rentalEligible>0?'ok':'warn'}"><div class="l">Rental Eligible</div><div class="v">${rentalEligible}</div><div class="d">Available for rent</div></div>
+      <div class="kpi"><div class="l">Marine Vessels</div><div class="v">${vessels.length}</div><div class="d">${drydocked} in drydock</div></div>
+      <div class="kpi"><div class="l">Staff</div><div class="v">${staff.length}</div><div class="d">Engaged</div></div>
+      <div class="kpi ${criticalPRs>0?'crit':openPRs>0?'warn':'ok'}"><div class="l">Open PRs</div><div class="v">${openPRs}</div><div class="d">${criticalPRs} critical</div></div>
+      <div class="kpi ${unknownCond>0?'warn':'ok'}"><div class="l">Verify Condition</div><div class="v">${unknownCond}</div><div class="d">Vehicles flagged</div></div>
+      <div class="kpi ${expirySoon.length>0?'warn':'ok'}"><div class="l">Expiries ≤ 60d</div><div class="v">${expirySoon.length}</div><div class="d">Permits / insurance</div></div>
+    </div>
+
+    <div class="grid2">
+      <div class="card">
+        <h3>Fleet by Location</h3>
+        <div class="chart-wrap"><div id="locChart" class="mini-chart"></div></div>
+      </div>
+      <div class="card">
+        <h3>PR by Urgency</h3>
+        <div class="chart-wrap"><div id="prChart" class="mini-chart"></div></div>
+      </div>
+    </div>
+
+    <div class="grid2">
+      <div class="card alerts">
+        <h3>⚠ Critical Purchase Requests</h3>
+        ${critPRItems.length === 0 ? '<div class="empty" style="padding:14px">No critical PRs.</div>' :
+          '<ul>' + critPRItems.map(p => `<li class="crit"><strong>${esc(p['PR Ref'])}</strong> · ${esc(p['Item(s) Summary']||'')}<div class="meta">${esc(p['Site / Location']||'')} · ${esc(p['Vehicle / Asset Ref']||'')} · ${esc(p['Status / Notes']||'')}</div></li>`).join('') + '</ul>'}
+      </div>
+      <div class="card alerts">
+        <h3>⏰ Expiring within 60 days</h3>
+        ${expirySoon.length === 0 ? '<div class="empty" style="padding:14px">Nothing due in next 60 days.</div>' :
+          '<ul>' + expirySoon.slice(0,10).map(e => `<li class="${e.days<0?'crit':'warn'}"><strong>${esc(e.asset)}</strong> · ${esc(e.item)}<div class="meta">${fmtDays(e.days)} · ${esc(e.ref||'')}</div></li>`).join('') + '</ul>'}
+      </div>
+    </div>
+
+    <div class="card alerts">
+      <h3>🔍 Vehicles to Verify (condition unknown)</h3>
+      ${verifyItems.length === 0 ? '<div class="empty" style="padding:14px">All vehicles verified.</div>' :
+        '<ul>' + verifyItems.map(f => `<li><strong>${esc(f['Fleet ID'])}</strong> — ${esc(f['Vehicle Type']||'')} ${esc(f['Brand']||'')} ${esc(f['Model']||'')}<div class="meta">${esc(f['Current Location']||'')} · ${esc(f['Status']||'')} · ${esc(f['Known Issue']||'')}</div></li>`).join('') + '</ul>'}
+    </div>
+  `;
+
+  renderMiniChart('locChart', locCount);
+  renderMiniChart('prChart', prCount);
+}
+
+function renderMiniChart(id, counts) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const entries = Object.entries(counts).filter(([,value]) => Number(value) > 0);
+  const max = Math.max(1, ...entries.map(([,value]) => Number(value) || 0));
+  el.innerHTML = entries.length ? entries.map(([label,value]) => {
+    const pct = Math.max(4, Math.round((Number(value) / max) * 100));
+    return `<div class="mini-row"><span>${esc(label)}</span><div class="bar-bg"><div class="bar-fill" style="width:${pct}%"></div></div><strong>${esc(value)}</strong></div>`;
+  }).join('') : '<div class="empty" style="padding:14px">No data yet.</div>';
+}
+
+// ============= SECTION VIEW =============
+let searchTerm = '';
+let filterStatus = '';
+
+function renderSection(main, section) {
+  const sch = SCHEMAS[section];
+  const rows = DATA[section] || [];
+  searchTerm = ''; filterStatus = '';
+  main.innerHTML = `
+    <div class="bar">
+      <h2>${sch.label} <span style="color:var(--muted);font-weight:400;font-size:14px">— ${rows.length} record${rows.length!==1?'s':''}</span></h2>
+      <div class="actions">
+        <input class="search" id="search" placeholder="Search…"/>
+        ${sch.enums && sch.enums['Status'] ? `<select class="search" id="filterStatus"><option value="">All status</option>${sch.enums['Status'].map(o=>`<option>${esc(o)}</option>`).join('')}</select>` : ''}
+        <button class="btn" onclick="openForm('${section}')">+ Add ${esc(sch.singular)}</button>
+      </div>
+    </div>
+    ${sectionIntro(section)}
+    <div class="table-wrap" id="tableWrap"></div>
+  `;
+  document.getElementById('search').oninput = (e)=>{ searchTerm = e.target.value.toLowerCase(); renderTable(section); };
+  if (document.getElementById('filterStatus')) document.getElementById('filterStatus').onchange = (e)=>{ filterStatus = e.target.value; renderTable(section); };
+  renderTable(section);
+}
+
+function sectionIntro(section) {
+  if (section === 'materials') return `<div class="banner">Procurement flow: phone/text request -> verify specs -> send RFQ -> collect quotations -> approval -> PO -> no-credit payment follow-up with Antrac Finance -> item/invoice collection -> site delivery.</div>`;
+  if (section === 'items') return `<div class="banner">Use this as your frequently requested item master: standard specs, usual unit, preferred supplier, last price, lead time and minimum stock.</div>`;
+  if (section === 'suppliers') return `<div class="banner">Use this as your supplier memory: what they supply, contact details, payment terms, reliability and typical lead time.</div>`;
+  if (section === 'quotes') return quoteRecommendationPanel();
+  if (section === 'inventory') return `<div class="banner">After payment and collection, create inventory here from the PR/PO. Keep location as Thilafushi Base, site, supplier or in transit.</div>`;
+  if (section === 'transfers') return `<div class="banner">Record GRN when items are received from suppliers, then transfer/dispatch items to Muthaafushi, Bodufinolhu or Thilafushi Base.</div>`;
+  return '';
+}
+
+function quoteRecommendationPanel() {
+  const quotes = DATA.quotes || [];
+  const groups = {};
+  quotes.forEach(q => {
+    const ref = q['PR Ref'] || 'No PR Ref';
+    groups[ref] = groups[ref] || [];
+    groups[ref].push(q);
+  });
+  const rows = Object.entries(groups).map(([ref, list]) => {
+    const valid = list.filter(q => {
+      const compliant = String(q['Compliant?'] || '').toLowerCase();
+      const status = String(q['Status'] || '').toLowerCase();
+      const amount = Number(String(q['Total Amount'] || '').replace(/,/g,''));
+      return amount > 0 && !status.includes('rejected') && !status.includes('expired') && compliant !== 'no';
+    }).sort((a,b) => Number(String(a['Total Amount']).replace(/,/g,'')) - Number(String(b['Total Amount']).replace(/,/g,'')));
+    const best = valid[0];
+    if (!best) return `<li><strong>${esc(ref)}</strong> - ${list.length} quote(s), no compliant priced recommendation yet.</li>`;
+    return `<li><strong>${esc(ref)}</strong> - recommend <strong>${esc(best['Supplier Name'] || best['Supplier ID'])}</strong> at ${esc(best['Currency'] || '')} ${esc(best['Total Amount'])}. Check lead time/payment: ${esc(best['Lead Time'] || '')} / ${esc(best['Payment Terms'] || '')}.</li>`;
+  });
+  return `<div class="banner"><strong>Quote recommendation:</strong> lowest compliant priced quote is recommended by default. Override manually when lead time, warranty, payment terms or supplier reliability matters more.<ul style="margin:6px 0 0 18px">${rows.length ? rows.join('') : '<li>No quotes entered yet.</li>'}</ul></div>`;
+}
+
+function renderTable(section) {
+  const sch = SCHEMAS[section];
+  let rows = (DATA[section] || []).map((r,i) => ({...r, __i: i}));
+  if (searchTerm) {
+    rows = rows.filter(r => Object.values(r).some(v => String(v||'').toLowerCase().includes(searchTerm)));
+  }
+  if (filterStatus) rows = rows.filter(r => (r['Status']||'') === filterStatus);
+  const ss = sortState[section];
+  if (ss) {
+    rows.sort((a,b) => {
+      const av = String(a[ss.col]||''), bv = String(b[ss.col]||'');
+      return ss.dir === 'asc' ? av.localeCompare(bv, undefined, {numeric:true}) : bv.localeCompare(av, undefined, {numeric:true});
+    });
+  }
+  const wrap = document.getElementById('tableWrap');
+  if (rows.length === 0) { wrap.innerHTML = '<div class="empty">No records — click <strong>+ Add</strong> to create one.</div>'; return; }
+  const cols = sch.columns;
+  wrap.innerHTML = `
+    <table>
+      <thead><tr>${cols.map(c=>`<th onclick="sortBy('${section}','${c.replace(/'/g,"\\'")}')">${esc(c)}${ss&&ss.col===c?(ss.dir==='asc'?' ▲':' ▼'):''}</th>`).join('')}<th></th></tr></thead>
+      <tbody>
+        ${rows.map(r => `<tr>${cols.map(c=>`<td>${cellRender(c, r[c], r, section)}</td>`).join('')}<td><div class="row-actions">${extraActions(section, r)}<button onclick="openForm('${section}',${r.__i})">Edit</button><button class="del" onclick="deleteRow('${section}',${r.__i})">Del</button></div></td></tr>`).join('')}
+      </tbody>
+    </table>
+  `;
+}
+
+function extraActions(section, row) {
+  if (section === 'materials') return `<button onclick="createInventoryFromPR(${row.__i})">Stock</button>`;
+  if (section === 'inventory') return `<button onclick="createTransferFromStock(${row.__i})">Dispatch</button>`;
+  return '';
+}
+
+function cellRender(col, v, r, section) {
+  v = v == null ? '' : String(v);
+  if (!v) return '<span style="color:#cbd5e1">—</span>';
+  // Urgency chip
+  if (col === 'Urgency') {
+    const u = v.toUpperCase();
+    if (u === 'CRITICAL') return `<span class="chip crit">${esc(v)}</span>`;
+    if (u === 'URGENT') return `<span class="chip warn">${esc(v)}</span>`;
+    return `<span class="chip muted">${esc(v)}</span>`;
+  }
+  // Status chip
+  if (col === 'Status' || col === 'Closed?') {
+    const s = v.toLowerCase();
+    if (s.includes('active') || s.includes('operational') || s.includes('yes') || s.includes('full')) return `<span class="chip ok">${esc(v)}</span>`;
+    if (s.includes('ground') || s.includes('out of service')) return `<span class="chip crit">${esc(v)}</span>`;
+    if (s.includes('standby') || s.includes('verify') || s.includes('probation')) return `<span class="chip warn">${esc(v)}</span>`;
+    return `<span class="chip">${esc(v)}</span>`;
+  }
+  if (col === 'Rental Eligible?') return v.includes('Yes') ? `<span class="chip ok">${esc(v)}</span>` : `<span class="chip muted">${esc(v)}</span>`;
+  if (col === 'Drydocked?') return v.toLowerCase() === 'yes' ? `<span class="chip warn">Yes</span>` : `<span class="chip ok">No</span>`;
+  // Expiry highlight
+  if (col.includes('Expiry') || col === 'Next Due Date') {
+    const d = daysUntil(v);
+    if (d !== null && d <= 60) return `<span class="chip ${d<0?'crit':'warn'}">${esc(v)} · ${fmtDays(d)}</span>`;
+  }
+  if (col === 'Known Issue' && v.includes('VERIFY')) return `<span class="chip warn">${esc(v)}</span>`;
+  return esc(v);
+}
+
+function sortBy(section, col) {
+  const cur = sortState[section];
+  sortState[section] = (cur && cur.col === col) ? { col, dir: cur.dir==='asc'?'desc':'asc' } : { col, dir: 'asc' };
+  renderTable(section);
+}
+
+// ============= FORM (Add/Edit) =============
+let formCtx = null;
+function nextId(section) {
+  const sch = SCHEMAS[section];
+  const rows = DATA[section] || [];
+  if (sch.key === '#') return rows.length ? Math.max(...rows.map(r=>+r['#']||0)) + 1 : 1;
+  if (sch.key === 'Ref') return rows.length ? Math.max(...rows.map(r=>+r['Ref']||0)) + 1 : 1;
+  if (sch.key === 'Date') return new Date().toISOString().slice(0,10);
+  // Pattern: PREFIX-####
+  const existing = rows.map(r => r[sch.key]||'').filter(Boolean);
+  const prefixes = {fleet:'WL-HV', recovery:'RC', materials:'WL-PR', items:'ITM', suppliers:'SUP', quotes:'QT', inventory:'STK', transfers:'DOC', vessels:'WL-MV', staff:'WL-EMP', operators:'WL-EMP', prs:'WL-PR', rentals:'WL-RI'};
+  const pre = prefixes[section] || 'WL';
+  let max = 0;
+  existing.forEach(id => { const m = String(id).match(/(\d+)$/); if (m) max = Math.max(max, +m[1]); });
+  return `${pre}-${String(max+1).padStart(4,'0')}`;
+}
+
+function openForm(section, idx) {
+  const sch = SCHEMAS[section];
+  const isEdit = idx != null;
+  const rec = isEdit ? {...DATA[section][idx]} : Object.fromEntries(sch.fields.map(f=>[f, f===sch.key ? nextId(section) : '']));
+  formCtx = { section, idx, rec };
+  document.getElementById('modalTitle').textContent = `${isEdit?'Edit':'New'} ${sch.singular}`;
+  const grid = document.getElementById('formGrid');
+  grid.innerHTML = sch.fields.map(f => {
+    const v = rec[f] || '';
+    const isLong = f.toLowerCase().includes('note') || f.toLowerCase().includes('summary') || f.toLowerCase().includes('details') || f.toLowerCase().includes('purpose') || f.toLowerCase().includes('spec') || f.toLowerCase().includes('finance') || f.toLowerCase().includes('warranty') || f === 'Crew Assigned' || f === 'Capacity/Notes';
+    const isFull = isLong;
+    const enums = sch.enums && sch.enums[f];
+    let ctrl;
+    if (enums) {
+      ctrl = `<select name="${esc(f)}"><option value=""></option>${enums.map(o=>`<option ${o===v?'selected':''}>${esc(o)}</option>`).join('')}</select>`;
+    } else if (isLong) {
+      ctrl = `<textarea name="${esc(f)}">${esc(v)}</textarea>`;
+    } else {
+      const type = f.toLowerCase().includes('date') || f.toLowerCase().includes('expiry') ? 'date' : 'text';
+      const dval = type === 'date' && v ? toIsoDate(v) : v;
+      ctrl = `<input type="${type}" name="${esc(f)}" value="${esc(dval)}"/>`;
+    }
+    return `<label class="${isFull?'full':''}"><span>${esc(f)}</span>${ctrl}</label>`;
+  }).join('');
+  document.getElementById('modal').classList.add('open');
+}
+function closeModal() { document.getElementById('modal').classList.remove('open'); formCtx = null; }
+function saveForm() {
+  if (!formCtx) return;
+  const { section, idx } = formCtx;
+  const sch = SCHEMAS[section];
+  const rec = {};
+  document.querySelectorAll('#formGrid [name]').forEach(el => { rec[el.name] = el.value.trim(); });
+  if (!rec[sch.key]) { alert('Key field "'+sch.key+'" is required.'); return; }
+  if (idx == null) DATA[section].push(rec);
+  else DATA[section][idx] = rec;
+  persist(); closeModal(); render(); toast(`${sch.singular} ${idx==null?'added':'updated'}`);
+}
+
+function createInventoryFromPR(idx) {
+  const pr = (DATA.materials || [])[idx];
+  if (!pr) return;
+  DATA.inventory = DATA.inventory || [];
+  const stock = {
+    'Stock ID': nextId('inventory'),
+    'Item Name': pr['Item / Service Requested'] || '',
+    'Specs': pr['Specs Needed'] || '',
+    'Category': '',
+    'Qty On Hand': '',
+    'Unit': '',
+    'Location': 'Thilafushi Base',
+    'Source PR': pr['PR Ref'] || '',
+    'PO No.': pr['PO No.'] || '',
+    'Supplier': pr['Selected Vendor'] || '',
+    'Unit Cost': '',
+    'Currency': '',
+    'Last GRN': todayISO(),
+    'Status': 'Available',
+    'Notes': 'Created from procurement workflow. Confirm quantity, unit cost and final location.'
+  };
+  DATA.inventory.push(stock);
+  pr['Status'] = pr['Status'] || 'Items Collected';
+  pr['Collection Status'] = pr['Collection Status'] || 'Collected';
+  persist();
+  activeSection = 'inventory';
+  localStorage.setItem('wl_ops_active', activeSection);
+  render();
+  toast('Inventory row created from PR');
+}
+
+function createTransferFromStock(idx) {
+  const stock = (DATA.inventory || [])[idx];
+  if (!stock) return;
+  DATA.transfers = DATA.transfers || [];
+  DATA.transfers.push({
+    'Doc Ref': nextId('transfers'),
+    'Date': todayISO(),
+    'Type': 'Transfer - Base to Site',
+    'From': stock['Location'] || 'Thilafushi Base',
+    'To Site/Base': '',
+    'Item Name': stock['Item Name'] || '',
+    'Specs': stock['Specs'] || '',
+    'Qty': '',
+    'Unit': stock['Unit'] || '',
+    'Source PR': stock['Source PR'] || '',
+    'PO No.': stock['PO No.'] || '',
+    'Supplier': stock['Supplier'] || '',
+    'Received By': '',
+    'Issued By': 'Ali Mushthaq',
+    'GRN Status': 'Closed',
+    'Transfer Status': 'Pending Dispatch',
+    'Notes': 'Created from inventory. Confirm quantity and receiving site/person.'
+  });
+  persist();
+  activeSection = 'transfers';
+  localStorage.setItem('wl_ops_active', activeSection);
+  render();
+  toast('Transfer document created');
+}
+
+function deleteRow(section, idx) {
+  if (!confirm('Delete this record? This action persists in your browser.')) return;
+  DATA[section].splice(idx, 1); persist(); render(); toast('Record deleted');
+}
+function toIsoDate(s) {
+  const d = parseDate(s); if (!d) return '';
+  return d.toISOString().slice(0,10);
+}
+
+// ============= IMPORT/EXPORT =============
+function exportJSON() {
+  const blob = new Blob([JSON.stringify(DATA, null, 2)], {type:'application/json'});
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  a.download = `wl-ops-${new Date().toISOString().slice(0,10)}.json`; a.click();
+  toast('JSON exported');
+}
+function exportCSV() {
+  if (activeSection === 'dashboard') { toast('Open a section first'); return; }
+  const sch = SCHEMAS[activeSection];
+  const rows = DATA[activeSection] || [];
+  const cols = sch.fields;
+  const escCsv = v => { v = v==null?'':String(v); return /[",\n]/.test(v) ? `"${v.replace(/"/g,'""')}"` : v; };
+  const csv = [cols.join(',')].concat(rows.map(r => cols.map(c => escCsv(r[c])).join(','))).join('\n');
+  const blob = new Blob([csv], {type:'text/csv'});
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  a.download = `wl-${activeSection}-${new Date().toISOString().slice(0,10)}.csv`; a.click();
+  toast('CSV exported');
+}
+function importJSON(ev) {
+  const file = ev.target.files[0]; if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const obj = JSON.parse(reader.result);
+      if (!confirm('This replaces your current portal data. Continue?')) return;
+      DATA = upgradeData(obj); persist(); render(); toast('Imported');
+    } catch(e) { alert('Invalid JSON: ' + e.message); }
+  };
+  reader.readAsText(file);
+}
+function resetData() {
+  if (!confirm('Reset to original spreadsheet data? Your edits will be lost.')) return;
+  DATA = upgradeData(JSON.parse(JSON.stringify(SEED)));
+  persist(); render(); toast('Reset to original');
+}
+
+// ============= UTIL =============
+function esc(s) { return String(s==null?'':s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+document.getElementById('modal').addEventListener('click', e => { if (e.target.id === 'modal') closeModal(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+render();
+</script>
+</body>
+</html>

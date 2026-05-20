@@ -1,0 +1,20 @@
+{
+  "name": "Well Land Operations",
+  "short_name": "WL Ops",
+  "description": "Well Land Operations — Fleet, Procurement, Vessels & Compliance",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafd",
+  "theme_color": "#0b57d0",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "en"
+}

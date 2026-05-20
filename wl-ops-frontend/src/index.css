@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+
+  body {
+    @apply bg-surface text-on-surface font-sans antialiased;
+    font-family: 'Google Sans', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  }
+
+  ::selection {
+    @apply bg-primary-container text-on-primary-container;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { @apply bg-surface-container; }
+  ::-webkit-scrollbar-thumb { @apply bg-outline-variant rounded-full; }
+  ::-webkit-scrollbar-thumb:hover { @apply bg-outline; }
+}
+
+@layer components {
+
+  /* ── MD3 Buttons ─────────────────────────────────────────────────────── */
+  .md3-btn-filled {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-2.5
+           bg-primary text-on-primary text-label-lg font-medium
+           shadow-elevation-1 hover:shadow-elevation-2
+           transition-all duration-200 ease-out
+           disabled:opacity-40 disabled:pointer-events-none
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2;
+  }
+  .md3-btn-tonal {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-2.5
+           bg-secondary-container text-on-secondary-container text-label-lg font-medium
+           hover:shadow-elevation-1
+           transition-all duration-200 ease-out
+           disabled:opacity-40 disabled:pointer-events-none
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-secondary focus-visible:ring-offset-2;
+  }
+  .md3-btn-outlined {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-2.5
+           border border-outline text-primary text-label-lg font-medium
+           hover:bg-primary-container
+           transition-all duration-200 ease-out
+           disabled:opacity-40 disabled:pointer-events-none
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2;
+  }
+  .md3-btn-text {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-4 py-2.5
+           text-primary text-label-lg font-medium
+           hover:bg-primary-container
+           transition-all duration-200 ease-out
+           disabled:opacity-40 disabled:pointer-events-none
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2;
+  }
+  .md3-icon-btn {
+    @apply inline-flex items-center justify-center w-10 h-10 rounded-full
+           text-on-surface-variant hover:bg-surface-container
+           transition-colors duration-200
+           disabled:opacity-40 disabled:pointer-events-none;
+  }
+
+  /* Compact variants for table/card actions */
+  .btn { @apply md3-btn-outlined px-4 py-2 text-sm; }
+  .btn-primary { @apply md3-btn-filled px-4 py-2 text-sm; }
+  .btn-ghost { @apply md3-btn-text px-3 py-2 text-sm text-on-surface-variant; }
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-4 py-2
+           bg-error text-on-error text-sm font-medium
+           hover:opacity-90 transition-all disabled:opacity-40 disabled:pointer-events-none;
+  }
+  .btn-success {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-4 py-2
+           bg-success text-white text-sm font-medium
+           hover:opacity-90 transition-all disabled:opacity-40 disabled:pointer-events-none;
+  }
+  .btn-outline { @apply md3-btn-outlined px-4 py-2 text-sm; }
+
+  /* ── MD3 Inputs ──────────────────────────────────────────────────────── */
+  .md3-input {
+    @apply w-full rounded-lg border border-outline-variant bg-surface-container-low
+           px-4 py-3 text-body-md text-on-surface
+           placeholder:text-on-surface-variant/60
+           focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20
+           disabled:opacity-50 disabled:cursor-not-allowed
+           transition-all duration-150;
+  }
+  .input { @apply md3-input py-2.5 text-sm; }
+  .label {
+    @apply block text-label-md font-medium text-on-surface-variant mb-1 uppercase tracking-wide;
+  }
+
+  /* ── MD3 Cards ───────────────────────────────────────────────────────── */
+  .md3-card {
+    @apply bg-surface rounded-3xl border border-outline-variant/60 shadow-elevation-1 p-6;
+  }
+  .md3-card-outlined {
+    @apply bg-surface rounded-3xl border border-outline-variant p-6;
+  }
+  .md3-card-filled {
+    @apply bg-surface-container rounded-3xl p-6;
+  }
+  /* Legacy */
+  .card { @apply bg-surface rounded-2xl border border-outline-variant/60 shadow-elevation-1 p-5; }
+  .ops-card { @apply bg-surface rounded-2xl border border-outline-variant/60 shadow-soft; }
+
+  /* ── MD3 Chips / Badges ──────────────────────────────────────────────── */
+  .md3-chip {
+    @apply inline-flex items-center gap-1.5 rounded-lg px-3 py-1
+           bg-secondary-container text-on-secondary-container
+           text-label-md font-medium;
+  }
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold;
+  }
+  .badge-critical   { @apply bg-error-container text-on-error-container; }
+  .badge-high       { @apply bg-orange-100 text-orange-800; }
+  .badge-medium     { @apply bg-warning-container text-warning; }
+  .badge-low        { @apply bg-surface-container-high text-on-surface-variant; }
+  .badge-success    { @apply bg-success-container text-success; }
+  .badge-info       { @apply bg-info-container text-info; }
+  .badge-warning    { @apply bg-warning-container text-warning; }
+  .badge-danger     { @apply bg-error-container text-on-error-container; }
+  .badge-default    { @apply bg-surface-container-high text-on-surface-variant; }
+  .badge-oem        { @apply bg-oemBg text-oem; }
+
+  /* ── Page layout ─────────────────────────────────────────────────────── */
+  .page-title {
+    @apply text-headline-md font-bold text-on-surface tracking-tight;
+  }
+  .section-label {
+    @apply text-label-sm font-semibold text-on-surface-variant uppercase tracking-widest;
+  }
+  .ops-icon {
+    @apply flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl;
+  }
+  .ops-icon-success { @apply bg-success-container text-success; }
+  .ops-icon-warning { @apply bg-warning-container text-warning; }
+  .ops-icon-danger  { @apply bg-error-container text-error; }
+  .ops-icon-info    { @apply bg-info-container text-info; }
+
+  /* ── Data table ──────────────────────────────────────────────────────── */
+  .data-table { @apply w-full text-body-md; }
+  .data-table thead tr {
+    @apply border-b border-outline-variant bg-surface-container-low;
+  }
+  .data-table thead th {
+    @apply px-4 py-3 text-left text-label-sm font-semibold text-on-surface-variant uppercase tracking-wider;
+  }
+  .data-table tbody tr {
+    @apply border-b border-outline-variant/40 last:border-0 hover:bg-surface-container transition-colors;
+  }
+  .data-table tbody td {
+    @apply px-4 py-3 text-body-sm text-on-surface;
+  }
+
+  /* ── Ocean / Island map (Dashboard) ─────────────────────────────────── */
+  .ops-map-shell {
+    @apply overflow-hidden rounded-3xl border border-cyan-900/30 bg-slate-950 shadow-elevation-3;
+  }
+  .ops-map-header {
+    @apply flex items-start justify-between gap-4 border-b border-white/10 bg-slate-900 px-5 py-4;
+  }
+  .ops-ocean {
+    position: relative;
+    min-height: 540px;
+    overflow: hidden;
+    background:
+      linear-gradient(160deg, rgba(6,95,120,0.28), rgba(15,23,42,0.88)),
+      radial-gradient(circle at 18% 22%, rgba(125,211,252,0.26), transparent 25%),
+      radial-gradient(circle at 78% 66%, rgba(16,185,129,0.16), transparent 24%),
+      #082f49;
+  }
+  .ops-ocean::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 44px 44px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.1));
+  }
+  .legend-dot { @apply inline-block h-2.5 w-2.5 rounded-full; }
+  .current-ring {
+    position: absolute;
+    border: 1px solid rgba(125,211,252,0.16);
+    border-radius: 9999px;
+  }
+  .ring-one  { width:560px; height:220px; left:-100px; top:190px; transform:rotate(-18deg); }
+  .ring-two  { width:520px; height:250px; right:-120px; top:70px;  transform:rotate(21deg); }
+  .supply-route {
+    position: absolute;
+    height: 2px;
+    border-top: 2px dashed rgba(186,230,253,0.28);
+    transform-origin: left center;
+  }
+  .route-one { width:56%; left:18%; top:42%; transform:rotate(10deg); }
+  .route-two { width:48%; left:28%; top:66%; transform:rotate(-17deg); }
+  .island-node {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 0; background: transparent; color: inherit; cursor: pointer;
+  }
+  .island-land {
+    position: relative;
+    display: flex; min-width:138px; min-height:88px;
+    flex-direction: column; align-items: center; justify-content: center; gap: 4px;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 48% 52% 43% 57% / 56% 44% 58% 42%;
+    background:
+      radial-gradient(circle at 35% 28%, rgba(255,255,255,0.52), transparent 18%),
+      linear-gradient(140deg, #b8f7d4 0%, #22c55e 52%, #0f766e 100%);
+    box-shadow: 0 18px 35px rgba(0,0,0,0.28), 0 0 0 10px rgba(34,211,238,0.12);
+    transition: transform 180ms ease, box-shadow 180ms ease, filter 180ms ease;
+  }
+  .island-node:hover .island-land, .island-selected .island-land {
+    transform: translateY(-3px) scale(1.04);
+    box-shadow: 0 24px 42px rgba(0,0,0,0.36), 0 0 0 12px rgba(34,211,238,0.18), 0 0 38px rgba(125,211,252,0.32);
+  }
+  .island-md .island-land { min-width:122px; min-height:78px; }
+  .island-sm .island-land { min-width:104px; min-height:68px; }
+  .island-warning .island-land {
+    background: radial-gradient(circle at 35% 28%, rgba(255,255,255,0.45), transparent 18%),
+      linear-gradient(140deg, #fde68a 0%, #f59e0b 54%, #0f766e 100%);
+  }
+  .island-danger .island-land {
+    background: radial-gradient(circle at 35% 28%, rgba(255,255,255,0.4), transparent 18%),
+      linear-gradient(140deg, #fecdd3 0%, #ef4444 56%, #7f1d1d 100%);
+  }
+  .island-neutral .island-land { filter: saturate(0.72); }
+  .island-name {
+    max-width:116px; color:white; font-size:12px; font-weight:800;
+    line-height:1.1; text-align:center; text-shadow:0 1px 5px rgba(0,0,0,0.55);
+  }
+  .island-count {
+    @apply inline-flex items-center gap-1 rounded-md bg-black/25 px-2 py-0.5 text-[11px] font-bold text-white;
+  }
+  .island-alert {
+    position: absolute; right:-4px; top:-8px;
+    display: flex; height:24px; min-width:24px;
+    align-items: center; justify-content: center;
+    border-radius: 9999px; background:#dc2626; color:white;
+    font-size:11px; font-weight:800;
+    box-shadow: 0 0 0 3px rgba(254,226,226,0.9);
+  }
+  .vessel-token {
+    @apply absolute inline-flex items-center gap-1.5 rounded-xl border border-cyan-200/30 bg-cyan-950/75
+           px-2.5 py-1.5 text-xs font-semibold text-cyan-50 shadow-soft backdrop-blur;
+  }
+  .vessel-1 { left:30%; top:37%; }
+  .vessel-2 { left:63%; top:46%; }
+  .vessel-3 { left:40%; top:72%; }
+}
+
+@media (max-width:768px) {
+  .ops-ocean { min-height:620px; }
+  .island-land { min-width:104px; min-height:70px; }
+  .island-name { max-width:92px; font-size:11px; }
+  .vessel-token { display:none; }
+}

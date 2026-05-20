@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "WL OPS Backend",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["server.js"],
+      "cwd": "wl-local-app",
+      "port": 8787,
+      "description": "Node.js JSON-file backend — serves API + built frontend at http://127.0.0.1:8787"
+    },
+    {
+      "name": "WL OPS Frontend (Vite dev)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "wl-ops-frontend",
+      "port": 5173,
+      "description": "React + Vite dev server with HMR at http://localhost:5173 — proxies /api to :8787"
+    }
+  ]
+}
