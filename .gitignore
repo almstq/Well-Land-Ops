@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Environment — NEVER commit secrets
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Database — production data stays out of git
+wl-local-app/data/db.json
+wl-local-app/backups/
+wl-ops-frontend/data/
+wl-ops-frontend/backups/
+
+# Logs
+*.log
+server.log
+server.err.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+*.tmp
+*.temp
