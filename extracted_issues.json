@@ -1,0 +1,248 @@
+[
+  {
+    "title": "Generator issue",
+    "description": "Got a quote to repair at MVR 7000",
+    "category": "Mechanical",
+    "priority": "MEDIUM",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi Site",
+    "reportedBy": "Unknown",
+    "parts": [
+      {
+        "name": "Generator parts",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 7000,
+        "preferredSupplier": "Unknown"
+      }
+    ]
+  },
+  {
+    "title": "LCT seawater pump issue",
+    "description": "Unaddressed",
+    "category": "Mechanical",
+    "priority": "MEDIUM",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi Site",
+    "reportedBy": "Unknown",
+    "parts": [
+      {
+        "name": "Seawater pump parts",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Unknown"
+      }
+    ]
+  },
+  {
+    "title": "Komatsu PC350 hydraulic pump failure",
+    "description": "Main hydraulic pump failure - one side failed",
+    "category": "Mechanical",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "WL-HV-0007",
+    "location": "Bodufinolhu Site",
+    "reportedBy": "Ali Mushthaq Ibrahim",
+    "parts": [
+      {
+        "name": "Hydraulic pump",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 6000,
+        "preferredSupplier": "Infra Engineers India (IEPL)"
+      }
+    ]
+  },
+  {
+    "title": "Komatsu PC350 pilot block failure",
+    "description": "Pilot block failed after 4 hours post-repair",
+    "category": "Mechanical",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "WL-HV-0007b",
+    "location": "Bodufinolhu Site",
+    "reportedBy": "Ali Mushthaq Ibrahim",
+    "parts": [
+      {
+        "name": "Pilot block",
+        "partNumber": "",
+        "qty": 2,
+        "estimatedCost": 0,
+        "preferredSupplier": "Infra Engineers India (IEPL)"
+      }
+    ]
+  },
+  {
+    "title": "Komatsu PC350 solenoid valve failure",
+    "description": "Solenoid valve failed",
+    "category": "Mechanical",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "WL-HV-0007b",
+    "location": "Bodufinolhu Site",
+    "reportedBy": "Ali Mushthaq Ibrahim",
+    "parts": [
+      {
+        "name": "Solenoid valve",
+        "partNumber": "",
+        "qty": 2,
+        "estimatedCost": 7992,
+        "preferredSupplier": "Infra Engineers India (IEPL)"
+      }
+    ]
+  },
+  {
+    "title": "Komatsu PC350 hydraulic jack line issue",
+    "description": "Hydraulic jack line issue - arm and boom cylinder seals worn",
+    "category": "Mechanical",
+    "priority": "MEDIUM",
+    "status": "Reported",
+    "assetId": "WL-HV-0008",
+    "location": "Bodufinolhu Site",
+    "reportedBy": "Ali Mushthaq Ibrahim",
+    "parts": [
+      {
+        "name": "Hydraulic jack line parts",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Unknown"
+      }
+    ]
+  },
+  {
+    "title": "Komatsu PC70 track line damage",
+    "description": "Track line damaged - no standard part available",
+    "category": "Mechanical",
+    "priority": "MEDIUM",
+    "status": "Reported",
+    "assetId": "WL-HV-0018",
+    "location": "Thilafushi Site",
+    "reportedBy": "Ali Mushthaq Ibrahim",
+    "parts": [
+      {
+        "name": "Track line parts",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "RKL Maldives"
+      }
+    ]
+  },
+  {
+    "title": "Loader CAT - No issues",
+    "description": "",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "CAT745C",
+    "location": "Thilafushi / Tug-01 / Male",
+    "reportedBy": "",
+    "parts": []
+  },
+  {
+    "title": "Komatsu PC350 (Low Bed) - Hydraulic pump needs to be replaced",
+    "description": "The machine is slow, the hydraulic pump needs to be replaced",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "Komatsu PC350 (Low Bed)",
+    "location": "Thilafushi / Tug-01 / Male",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Hydraulic pump",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Komatsu"
+      }
+    ]
+  },
+  {
+    "title": "Komatsu PC350 (High Bed) - Hydraulic pump needs to be replaced",
+    "description": "The machine is slow, the hydraulic pump needs to be replaced",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "Komatsu PC350 (High Bed)",
+    "location": "Thilafushi / Tug-01 / Male",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Hydraulic pump",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Komatsu"
+      }
+    ]
+  },
+  {
+    "title": "Komatsu PC350 (High Bed) - Head Gasket needs to be replaced",
+    "description": "The machine is getting hot after a few hours",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "Komatsu PC350 (High Bed)",
+    "location": "Thilafushi / Tug-01 / Male",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Head Gasket",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Landing Craft Hire for Cargo Transportation",
+    "description": "Hire of landing craft for transportation of cargo from Mal\u00e9 or Hulhumal\u00e9 to Hilton Maldives Amingiri Resort & Spa",
+    "category": "Logistics",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Hulhumal\u00e9",
+    "reportedBy": "Adam Ali, Purchasing Manager, Finance",
+    "parts": [
+      {
+        "name": "Crane",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Well Land Investment Pvt Ltd"
+      }
+    ]
+  },
+  {
+    "title": "Supply and Unloading of Rock Boulders",
+    "description": "Supply and unloading of rock boulders to Noonu Atoll",
+    "category": "Heavy Machinery",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Noonu Atoll",
+    "reportedBy": "Ali Mushthaq Ibrahim, General Manager \u2013 Heavy Earth Moving Vehicles",
+    "parts": [
+      {
+        "name": "Excavators",
+        "partNumber": "",
+        "qty": 2,
+        "estimatedCost": 0,
+        "preferredSupplier": "Well Land Investment Pvt Ltd"
+      },
+      {
+        "name": "Dump Trucks / Transport Trucks",
+        "partNumber": "",
+        "qty": 2,
+        "estimatedCost": 0,
+        "preferredSupplier": "Well Land Investment Pvt Ltd"
+      }
+    ]
+  }
+]

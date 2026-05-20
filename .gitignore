@@ -52,3 +52,14 @@ desktop.ini
 # Temporary files
 *.tmp
 *.temp
+
+# Ignore large binary documents/archives in wellland activities
+wellland activities/**/*.zip
+wellland activities/**/*.pdf
+wellland activities/**/*.docx
+wellland activities/**/*.png
+wellland activities/**/*.PNG
+wellland activities/**/*.jpeg
+wellland activities/**/*.jpg
+wellland activities/**/*.lnk
+wellland activities/**/*.mp4

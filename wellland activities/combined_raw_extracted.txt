@@ -1,0 +1,3047 @@
+--- File: 20260305 - JDN - REQUEST FOR QUOTATION VIL-RAS.docx ---
+REQUEST FOR QUOTATION
+
+Hiring of LCT for inter-island mobilization from Vilufushi to Rasmale
+
+Date: 05th March 2026
+
+1. Introduction 
+Jan De Nul invites quotations from eligible and experienced transport service providers for the provision of 1 x LCT for inter-island mobilisation from Vilufushi to Rasmale. 
+
+2. Scope of Operations
+
+ Operational requirements
+Operations shall be based on 7 days / 24 hours availability, including entering/exit port
+LCTs must allow safe driving off 20ft. container using CAT 980 wheel loader. Minimum ramp & ramp support tower width of 6.5 m
+Crew to complete the lashing & sea fastening with supervision of JDN
+Job 1
+Time charter based (3 days, with possible extension)
+LCT specification: earliest availability 
+Scope of work: 
+Start on 07/02 07:00 AM at Vilufushi
+Heavy equipment (2x excavators, 2x bulldozers, 1x wheelloader)
+Loading & offloading by JDN
+Fuel provided by JDN
+3. Commercial Requirements 
+Waiting charges must be clearly stated. 
+Detailed cost breakdown is mandatory for audit compliance.
+
+4. Payment Terms 
+Payment Terms: Credit Term (30 Days)
+5. Mandatory Documents 
+LCT specifications. 
+LCT registration copy. 
+Insurance copy. 
+Seaworthiness Certificate 
+6. Submission Details 
+Submission Deadline: 05th March 2026 before 1800 Hrs. 
+Submission Method:  
+Email to: Robbe.Hochepied@jandenul.com 
+cc: 2895-mdv.pmt@jandenul.com 
+
+--- File: 3rd shipment.docx ---
+4 vehicles
+Clearance 28/03/2026
+
+- BL : MLIJEAMLE25001097
+CNT 1: MLLU6500364 / 40FT
+ITEM: CATERPILLAR 336DL EXCAVATOR
+
+CNT 2: MLLU6500019 / 40FT
+ITEM: CATERPILLAR 336DL EXCAVATOR
+
+- BL: MLIJEAMLE25001088
+CNT 1: TEXU8983147 / 40FT
+ITEM: CAT 745C ARTICULATED DUMPTRUCK
+
+CNT 2: FTBU9602971 / 40FT
+ITEM: CAT 745C ARTICULATED DUMPTRUCK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--- File: Antrac Holding Pvt Ltd.docx ---
+Antrac Holding Pvt Ltd — Recommended Department Structure
+Group-Level Shared Services at Parent Company (Lean + ERP-aligned)
+Design principle
+Create a small number of strong group departments that:
+own group standards and controls,
+run the shared systems (especially Business Central),
+allow each subsidiary to focus on sales and execution,
+produce Board-ready visibility (sales, margin, assets, inventory, projects, compliance).
+
+A) Proposed Group C-Suite (Lean)
+You do not need to hire all of these immediately. This is the target structure; during Phase 1–2 of the ERP program, several roles can be “dual-hatted” (acting assignments) until results justify headcount.
+CEO / Managing Director (Group)
+Strategy, investment direction, performance accountability.
+CFO (Group) – Finance, Controls, Treasury (Mr. Nafiu)
+Group financial governance, consolidated reporting, cash and funding, audit/tax compliance.
+Owns Chart of Accounts and financial posting governance in BC.
+COO (Group) – Operating Model + Performance (target role; can be performed by you as acting)
+Ensures subsidiaries operate on standard workflows, drives KPI discipline, removes cross-company blockers (maintenance, logistics, provisioning, clearance).
+ICT Manager / Head of ICT (Group) (stronger than “IT Coordinator” for your scope)
+Owns ERP administration + group technology controls + ICT asset custody tracking.
+CFSO (Group) – Chief Facilities & Safety Officer
+Group-wide safety/compliance framework across fuel facilities, yards, sites, vessels, buildings and bases.
+Note: This is the leadership overlay. The execution happens through the departments below.
+
+B) Group Shared-Service Departments (Parent Company)
+1) Finance & Performance Department (Group)
+Led by: CFO
+Role in the group: Financial controls + performance reporting + approvals governance
+Key responsibilities
+Consolidated financial reporting, budgeting, forecasting, cash flow for the full group
+Uniform Chart of Accounts, posting groups, intercompany accounting rules (BC governance)
+Financial approvals for procurement and payments (approval matrix, commitments control)
+Margin reporting by revenue unit:
+Well Land rentals margin
+EMS motorbike resale margin
+MPL fuel resale margin
+charter/trip margin reporting (yacht/charter companies)
+Tax, audit, and regulatory compliance (single point of contact)
+Owns the accounting asset register (capitalization, depreciation, disposals)
+Outputs
+Monthly pack: revenue, gross margin, opex, project cost, fleet downtime cost indicators
+Commitments dashboard (approved POs vs actual spend)
+
+2) People & Payroll Department (Group HR)
+Led by: Head of HR
+Role in the group: Single workforce database + policy + attendance + payroll, with finance approval handoff
+Key responsibilities
+Central employee master data (single source of truth)
+Attendance capture to replace current sign-in method (time & attendance)
+Payroll preparation and controlled workflow to Finance for approval and posting
+Recruitment coordination across subsidiaries (based on operational needs and business cases)
+Policies: leave, discipline, compensation bands, training compliance
+Certification/qualification expiry monitoring (high risk for operations)
+Outputs
+Attendance summaries by site/division
+Payroll pack: approved payroll → finance approval → posting/payment traceability
+Certification expiry exception list
+
+3) Supply Chain Management Department (Group SCM)
+(This replaces a narrow “Procurement Department” and matches your real requirement.)
+Led by: SCM Manager (Head Office, under CFO for control)
+Core sub-functions (still lean):
+Procurement & Vendor Management
+Inventory Governance
+Logistics & Clearance Governance (process standard, not necessarily doing all physical clearing)
+Key responsibilities
+Group-wide purchasing standards, vendor list, price leverage, contracts/blanket orders
+PR/PO governance and sourcing discipline (standard process across entities)
+Inventory governance across three models:
+internal-use inventory (repairs/ops)
+resale inventory – MPL fuel
+resale inventory – EMS motorbikes
+Oversees international procurement visibility:
+overseas PO flagged,
+AWB/BL attached,
+shipment status tracked to clearance and dispatch
+Defines and enforces the dispatch/transfer rules to sites
+Outputs
+Spend analytics by vendor/category/company
+Stock visibility by location and model (fuel, bikes, parts)
+International shipment dashboard (open overseas POs with AWB/BL + status)
+
+4) ICT & Business Systems Department (Group)
+Led by: ICT Manager / Head of ICT
+Role in the group: Own the platform and the controls. Keep the ERP reliable.
+Key responsibilities
+Business Central administration: users, roles, permissions, environment governance
+Coordination with PiNetworks for changes, enhancements, and support
+ICT asset custody tracking (phones/laptops/devices) — managed by ICT, financially owned by Finance
+Cybersecurity baseline: access controls, backups, device management (minimum viable controls)
+User adoption: training coordination, SOPs, and compliance enforcement
+Outputs
+Role-based access model
+System uptime/support response discipline
+ICT custody register + periodic reconciliation to Finance asset register
+
+5) Facilities, Safety & Compliance Department (Group)
+Led by: CFSO
+Role in the group: Reduce risk and improve operational resilience across all sites/assets.
+Key responsibilities
+Group-wide safety standards and audits (fuel storage, yards, vessels, buildings, projects)
+Regulatory readiness and inspection coordination (especially high-risk MPL facilities)
+Emergency response readiness and training coordination (with HR)
+Facility maintenance governance and compliance tracking
+Outputs
+Safety KPI dashboards
+Audit schedules and corrective action tracking
+
+C) Subsidiary-Level Execution Model (Lean and practical)
+Each subsidiary should not duplicate head office departments. Instead, each should have:
+GM / Head (P&L owner)
+1–2 Admin/Operations Executives who execute ERP workflows locally:
+PR raising and receiving
+basic inventory handling (where applicable)
+dispatch confirmations
+supporting HR attendance capture
+Technical/ops staff as required by the business (drivers, mechanics, crew, etc.)
+
+D) Special Group Operating Units (must be formalised in ERP)
+1) Central Maintenance Unit (Operationally at Well Land; governed group-wide)
+Well Land maintenance team services: Well Land heavy assets + vessels + MPL vessels (and assigned yachts/vessels).
+Repair cases must be controlled and linked to asset and spend.
+2) General Trading (under Antrac Holding) — internal provisioning hub
+GT must move from manual lists to full traceability:
+request → approval → purchase → receive → stock → dispatch
+Dispatch must link to yacht/trip or project/site.
+3) Cargo Clearance Team (execution unit under Well Land operations, governed by Group SCM)
+Must be able to update POs with AWB/BL and shipment status, then coordinate clearance and dispatch.
+
+E) Business Central Alignment (how the structure maps into ERP)
+Group departments become the owners of:
+master data governance
+workflows/approvals
+reporting dimensions/tags
+Subsidiaries operate in their company environments but use the same standards.
+Dashboards serve:
+CFO: consolidated and by-entity profitability, commitments, cash
+COO: operational KPIs (fleet status, downtime, dispatch performance)
+CFSO: safety/compliance KPIs
+SCM: vendor spend, inventory, shipment status
+
+F) How to present this without hiring “high level staff” immediately
+You can propose it as a target operating model with staged maturity:
+Phase 1 (ERP build + discipline): keep leadership lean; assign acting ownership (you as acting COO; ICT lead as systems owner; SCM manager under CFO).
+Phase 2 (prove profit): once Well Land rental sales, MPL fuel margin discipline, EMS bike stock control, GT provisioning traceability start producing measurable results, formalize roles/headcount.
+Phase 3 (scale): expand ICT + SCM capacity, strengthen CFSO function, and standardize across more sites/projects.
+
+
+--- File: details.docx ---
+
+
+
+
+
+
+
+--- File: Dynamics 365 Business Central.docx ---
+Dynamics 365 Business Central (BC) Implementation Proposal for Antrac Group
+Prepared for: Board of Directors, Antrac Holding Pvt Ltd
+Prepared by: Ali Mushthaq Ibrahim, General Manager – Logistics, Well Land Investment Pvt Ltd
+Date: February 10, 2026
+
+Executive Summary
+Dear Board Members,
+As assigned by the Board, I assumed responsibility as General Manager of Well Land to launch and stabilize the heavy machinery, vehicle, and vessel rental operations. This direct involvement—together with cross-group coordination required to keep operations moving—has highlighted a clear limitation in our current operating model: the Group lacks consistent standards, system visibility, and enforceable controls across subsidiaries, which reduces profitability and increases operational risk.
+To deliver the modern, disciplined, and interconnected operation the Board expects, I propose migrating from the current oversized Dynamics 365 Finance & Operations environment to Dynamics 365 Business Central. Business Central will be deployed as a single connected group environment (multi-company), enabling standardized workflows and management-grade reporting while maintaining subsidiary autonomy.
+The one-time implementation cost is capped at USD 55,000 (PiNetworks quotation), with a significant reduction in ongoing annual costs compared to remaining on F&O and scaling user counts.
+
+1) What this proposal changes (Operating Model + Org Structure Alignment)
+This program is not only an ERP change. It is a Group operating model upgrade aligned to a lean shared-services structure at Antrac Holding.
+Target Group Structure (Lean, ERP-aligned)
+The BC environment will be governed and supported through these group-level shared service departments:
+Finance & Performance (CFO-led) — consolidated reporting, controls, cash, intercompany, and group performance dashboards
+People & Payroll (HR-led) — single employee database, attendance capture, payroll processing, and approval handoff to Finance
+Supply Chain Management (SCM) (SCM Manager under CFO for controls) — procurement governance, inventory governance (internal-use + resale), and international shipments/clearance governance
+ICT & Business Systems (ICT Manager-led) — BC administration, security/roles, user adoption, ICT custody tracking (devices), and support coordination with PiNetworks
+Facilities, Safety & Compliance (CFSO-led) — group-wide facilities governance, safety standards, audit readiness, and compliance reporting
+Key principle: subsidiaries remain accountable for sales and execution, while shared services enforce standards, controls, and reporting consistency.
+
+2) Scope — All subsidiaries and internal units interconnected in BC
+The BC deployment will model Antrac as a multi-company environment, sharing master data and standards while keeping entity-based control and accountability.
+2.1 Direct revenue-generating units (priority for sales and margin reporting)
+Well Land — rentals + logistics services; fleet utilization, maintenance and repair cost visibility
+EMS — motorbike resale + after-sales; resale inventory discipline and unit-level visibility where required
+MPL — fuel resale + operations; resale inventory valuation, margin visibility, reconciliation discipline
+Charter/Yacht Companies (Asia Pacific Superyachts + Indian Ocean Charters) — trip/charter sales captured with trip references and cost attribution
+Yachts/Vessels — treated as moving assets with permit/expiry tracking and maintenance governance
+2.2 Property and project entities (governance and cost control)
+Shine Home Properties, Muthaafushi Investment, Bodufinolhu Investment, (and other project entities)
+Project cost tracking through standardized tagging and project structures
+2.3 Internal operating unit under Antrac Holding (urgent control gap)
+General Trading (GT) — currently processes yacht and site requirements via manual lists and manual dispatch. Under BC, GT will run request → purchase → receive → stock → dispatch with traceability to yacht/trip or site/project.
+
+3) Central Shared Services in BC (mapped to the new structure)
+3.1 Finance & Performance (Group)
+Consolidated GL, intercompany rules, standard COA, and financial controls
+Group performance dashboards by revenue unit (rentals, bikes, fuel, trips)
+Vendor payment controls and approval matrix enforcement
+Regulatory/audit compliance readiness
+3.2 People & Payroll (Group HR)
+Central employee database with controlled visibility for subsidiary heads
+Attendance capture to replace current sign-in practice
+Payroll processing with a structured approval handoff to Finance for salary approval and posting/payment
+3.3 Supply Chain Management (Group SCM)
+Group procurement governance: PR discipline, sourcing standards, approval workflows
+Inventory governance:
+internal-use inventory (repairs/operations)
+resale inventory (fuel, motorbikes)
+International procurement visibility:
+overseas PO flagged
+AWB/BL attached
+shipment status through arrival → clearance → dispatch
+3.4 ICT & Business Systems (Group ICT)
+BC user access, roles, security, environment governance
+Support coordination with PiNetworks
+Group ICT device custody tracking (phones/laptops) with reconciliation to Finance’s asset register
+User adoption and SOP discipline
+3.5 Facilities, Safety & Compliance (Group CFSO)
+Group-wide facilities governance (Antrac Tower, Thilafushi base, storage sites, fuel facilities, project sites)
+Safety/compliance standards and audit schedules
+Workflows for safety-related PR approvals and reporting
+
+4) Operational subsidiaries and how they connect in practice (BC workflows)
+Well Land (priority launch)
+Rental sales operations: asset allocation, availability/status, and billing discipline
+Maintenance governance: repair cases, repair stages, downtime reporting
+PRs for repairs linked to asset + repair case + repair code
+Cargo clearance team visibility over overseas POs with AWB/BL and status tracking
+EMS
+Motorbike resale inventory control (model and unit-level where required)
+Sales-to-delivery discipline and margin reporting
+Parts and service inventory visibility (internal-use/service)
+MPL
+Fuel treated as resale inventory with reconciliation and margin visibility
+Fleet/vessel register and permit/expiry tracking
+Maintenance coordinated through the group maintenance model (Well Land workshop where applicable)
+Charter/Yacht companies
+Trip sales captured with trip/voyage references
+Vessels/yachts tracked as moving assets (status, location, permits, surveys, insurance expiry)
+Provisioning controlled via General Trading with traceability
+General Trading (internal)
+Requests captured in-system (no manual lists)
+Purchases, receipts, and stock tracked
+Dispatch recorded to yacht/trip or site/project with accountability
+
+5) Financial comparison — Current vs Proposed
+Current: Dynamics 365 F&O (~50 users)
+Microsoft licensing: USD 126,000 / year
+Outsourced support: USD 36,000 / year
+Indirect (training/downtime): USD 8,000 / year
+Total current annual: USD 170,000
+If remaining on F&O and expanding to ~80 users
+Microsoft licensing: USD 201,600 / year
+Outsourced support: USD 60,000 / year
+Indirect: USD 10,000 / year
+Total projected annual: USD 271,600
+Proposed: Business Central Premium (~80 users)
+Microsoft licensing: USD 105,600 / year
+PiNetworks retainer/support: USD 36,000 / year
+Additional: USD 4,000 / year
+Total ongoing annual: USD 145,600
+One-time implementation (capped)
+Total: USD 55,000
+Preparation: 10k
+Setup: 20k
+Rollout: 15k
+Go-live: 10k
+Savings & ROI
+Annual savings vs expanded F&O: USD 126,000 (46% reduction)
+Net Year 1 savings: USD 71,000 (after one-time cost)
+Payback period: ~5 months
+3-year cumulative savings: ~USD 336,000
+5-year cumulative savings: ~USD 636,000 (assuming 5% annual F&O inflation)
+
+6) Additional value expected (operational + compliance outcomes)
+Faster rental confirmations and improved fleet utilization visibility (Well Land)
+Stronger project cost control and reduced cost overruns (projects/sites)
+Reduced operational leakage from uncontrolled GT provisioning and untracked dispatches
+Better compliance control via expiry tracking (permits, insurance, surveys, inspections) for land and sea assets
+Improved audit readiness and standardization across subsidiaries
+
+7) Implementation plan (4–6 months, phased to protect operations)
+Phase 1 (Weeks 1–6) — Foundation + Pilot readiness
+F&O → BC migration preparation: master data cleanup, mapping templates
+Standard PR/PO templates and approval matrix
+Well Land staff/asset mapping; moving asset register baseline (land + sea + yachts/vessels)
+Phase 2 (Months 2–3) — Shared services activation
+Finance & Performance setup (COA, posting rules, reporting tags)
+SCM governance setup (procurement standards, inventory structure)
+HR baseline (employee master + attendance capture approach + payroll workflow design)
+ICT governance (roles, access controls, support structure)
+Phase 3 (Months 4–5) — Group rollout + control gaps closed
+Group-wide rollout to key subsidiaries (EMS, MPL, charter/yacht entities)
+GT provisioning implemented (request → purchase → receive → dispatch)
+Cargo clearance workflow enabled for overseas POs with AWB/BL + status tracking
+Project structures and reporting dashboards activated
+Phase 4 (Month 6) — Go-live stabilization + performance reporting cadence
+Stabilize operations and enforce SOP adoption
+Monthly performance pack to Board and management
+Refine controls and expand capability based on results
+
+Recommendation to the Board
+This plan delivers the modern, interconnected, and standardized system the Board has requested—starting with Well Land’s launch success, while establishing the group shared-services structure required to sustain profitability, control, and growth across all subsidiaries.
+I recommend Board approval and a meeting with PiNetworks to finalize scope, confirm phasing, and lock the migration timeline.
+Respectfully submitted,
+Ali Mushthaq Ibrahim
+General Manager – Logistics
+Well Land Investment Pvt Ltd / Antrac Holding Pvt Ltd
+
+--- File: Fuel Barge – Refurbishment and modification.docx ---
+Fuel Barge – Refurbishment and modification
+
+Ali Ahmed contact 7855521
+
+Capacity
+Current: 123,000 T
+Target: 150,000 T
+
+Modification required
+Side extension – each side 4.5 feet (current total 15 feet - target 24 feet)
+Length extension - minimum 10 feet (current 76 feet - target 86 feet)
+
+Information required
+Latest drawing – requested from Shifan (follow up and forward to Ali Ahmed)
+
+Resources
+Material requirement:
+Coordinate with Ali Ahmed, Janaka and Shifan to compile a list of all
+Current list from Janaka on next page
+
+Manpower requirement:
+1. 4 Nos Fabricators (Ali Ahmed found 4 people from Kerela, discussed with Shuja about hiring. HR gave Ali Ahmed all relevant information. Ali Ahmed to double check with the staff and if agreed, to go ahead ah hire. Follow up with Ali Ahmed.)
+
+
+
+
+
+Current list from Janaka
+
+# | NAME | Size | Pieces | N.W(TONS) | G.W(TONS) | Vol
+(cbm)
+1 | H beam | 8x100x100 | 8 | 0.82 | 0.82 | 1.2
+2 | Ms round bar | 60x5800 | 2 | 0.30 | 0.30 | 0.1
+3 | Ms round bar | 20x5800 | 30 | 0.43 | 0.43 | 0.1
+4 | Ms round bar | 32x5800 | 19 | 0.70 | 0.70 | 0.1
+5 | Ms angle bar | 100x80x10x5800 | 145 | 10.90 | 10.90 | 3.9
+6 | Ms angle bar | 100x80x6x5800 | 190 | 8.43 | 8.43 | 3.2
+7 | Ms angle bar | 75x75x6x5800 | 232 | 8.70 | 8.70 | 3.5
+8 | MS Flat bar | 75x9.75x5800 | 81 | 2.86 | 2.86 | 0.8
+9 | Ms sheets | 9x1500x5800 | 98 | 59.20 | 59.20 | 17.4
+10 | Ms sheets | 6x1220x5800 | 198 | 62.50 | 62.60 | 19.8
+11 | Steel Pipe | 102x10x5800 | 4 | 0.48 | 0.48 | 0.3
+12 | Ms pipe | 63.5x6x5800 | 45 | 2.30 | 2.30 | 1.5
+13 | Ms pipe | 75x8x5800 | 48 | 3.81 | 3.81 | 2.2
+14 | Ms pipe | 50x8x5800 | 26 | 1.29 | 1.29 | 0.8
+15 | MS Flat bar | 63.5x10x5800 | 22 | 0.65 | 0.65 | 0.2
+16 | Ms elbow | 76x8 | 40 | 0.04 | 0.04 | 0.12
+17 | Ms elbow | 50.8x8 | 15 | 0.02 | 0.02 | 0.12
+18 | Ms flange | 76 | 80 | 0.04 | 0.04 | 0.12
+19 | Ms flange | 50.8 | 24 | 0.02 | 0.02 | 0.12
+20 | Bolt Nuts and washer | 18x75 | 230 | 0.05 | 0.05 | 0.07
+21 | Bolt Nuts and washer | 12x65 | 180 | 0.01 | 0.01 | 0.07
+22 | Bolt Nuts and washer | 10x50 | 235 | 0.01 | 0.01 | 0.07
+23 | Valve | N16, flange connection | 32 | 0.01 | 0.01 | 1
+24 | Welding electrode | 4 | 320 | 0.32 | 0.32 | 0.05
+25 | Welding electrode | 3.2 | 200 | 0.20 | 0.20 | 0.05
+TOTAL | TOTAL | TOTAL | TOTAL | 164.09 | 164.19 | 56.39
+ |  |  |  | 164,09 KG | 164,19 KG | 
+
+--- File: issues.docx ---
+Generator issue: Got a quote to repair at mvr 7000
+
+LCT seawater pump: un addressed
+
+
+
+--- File: MAPS College.docx ---
+MAPS College (Men’s)
+
+Resilience, Tactical Adaptation and Knockout Progression in the Dhiraagu MNUSU Futsal Fiesta 2026
+
+By: Ali Mushthaq - MAPS College Team Manager
+
+Abstract
+This report presents a structured performance analysis of MAPS College (Men’s) during the Dhiraagu MNUSU Futsal Fiesta 2026. The study evaluates the team’s tactical development, statistical progression, disciplinary record, and knockout-stage performance from the opening group-stage defeat through qualification to the semi-finals. Particular emphasis is placed on MAPS College’s defensive transformation following an initial 5–1 loss to Faculty of Education, followed by three consecutive clean-sheet victories and a quarter-final upset over unbeaten Zikura College. The report integrates official tournament dashboard data, match-event records, public tournament announcements, social-media publications, and Goal.mv statistical references to produce a consolidated analytical account of the campaign.
+
+1. Introduction
+Tournament futsal frequently rewards tactical organisation, defensive structure, and psychological resilience as much as attacking quality. MAPS College’s campaign in the Dhiraagu MNUSU Futsal Fiesta 2026 provides a clear example of a team adapting under pressure and progressively improving through the tournament.
+The competition, organised under the Maldives National University Students’ Union (MNUSU), featured multiple institutional teams divided into group-stage pools followed by knockout rounds (MNUSU, 2026a). (Facebook)
+MAPS College entered the tournament as part of Group C and began the campaign with a heavy defeat against Faculty of Education, the eventual group winners. However, the team subsequently reorganised tactically and recorded three consecutive victories with three consecutive clean sheets to qualify for the quarter-finals.
+The objective of this report is to analyse:
+tournament progression,
+tactical adaptation,
+offensive and defensive statistics,
+disciplinary records,
+player contributions,
+and the significance of MAPS College’s knockout-stage progression.
+2. Tournament Context
+2.1 Competition Structure
+The Dhiraagu MNUSU Futsal Fiesta 2026 Men’s Division consisted of four groups followed by knockout rounds. Official match scheduling and standings were published through the Goal.mv dashboard system (Goal.mv, 2026a). (goal.mv)
+2.2 Group C Final Standings
+MAPS College qualified for the knockout stage as Group C runners-up with 9 points.
+
+3. Match Performance Analysis
+3.1 Faculty of Education 5–1 MAPS College
+Match Information
+
+Match Summary
+MAPS College began the tournament strongly and took an early lead through Jamshaadh Jaufar in the 4th minute. However, Faculty of Education progressively controlled possession and transitional phases, eventually scoring five unanswered goals.
+The result exposed defensive weaknesses in MAPS College’s structure, particularly during defensive rotations and recovery positioning. Nevertheless, this fixture ultimately became the foundation for the team’s tactical correction in subsequent matches.
+Official match coverage and highlights were later published through MNUSU media and public video coverage (MNUSU, 2026b; YouTube, 2026). (YouTube)
+
+Goals
+Faculty of Education
+MAPS College
+
+Fouls and Discipline
+MAPS College Fouls
+Faculty of Education Fouls
+Cards
+
+
+
+
+
+
+3.2 MAPS College 1–0 Faculty of Engineering, Science & Technology
+Match Information
+
+Match Summary
+This fixture represented the tactical turning point of MAPS College’s tournament.
+Following the opening defeat, the team adopted a more compact defensive structure and reduced transitional exposure. The result was a disciplined 1–0 victory and the first clean sheet of the tournament.
+Public MNUSU and Goal.mv records confirm Jamshaadh Jaufar as Player of the Match (MNUSU, 2026c; Goal.mv, 2026b). (goal.mv)
+
+Goal
+
+Disciplinary Record
+MAPS College Fouls
+Saifulla Mohamed #5 – 3 fouls
+Hassan Nabaah Najeeb #9 – 1 foul
+Ali Shaaz Hilmy #10 – 1 foul
+Mohamed Ain Anwar #42 – 1 foul
+Cards
+
+
+3.3 MAPS College 3–0 Faculty of Health Sciences
+Match Information
+
+Match Summary
+MAPS College delivered their strongest group-stage performance with a comprehensive 3–0 victory against Faculty of Health Sciences.
+The match demonstrated improved attacking coordination and significantly stronger defensive transitions. The team-controlled tempo effectively while limiting opposition attacking opportunities.
+Public tournament publications later highlighted the fixture through MNUSU and social-media coverage (MNUSU, 2026d). (Instagram)
+
+Goals
+
+Disciplinary Record
+MAPS College Fouls
+Hassan Nabaah Najeeb #9 – 2 fouls
+Saifulla Mohamed #5 – multiple fouls
+Ali Shaaz Hilmy #10 – 1 foul
+Jamshaadh Jaufar #8 – 1 foul
+Cards
+Goal.mv player statistics confirm Abdul Shakoor’s disciplinary record for the fixture (Goal.mv, 2026c). (goal.mv)
+
+3.4 MAPS College 1–0 Faculty of Shariah & Law
+Match Information
+
+Match Summary
+MAPS College completed the group stage with another disciplined 1–0 victory.
+The result confirmed qualification to the knockout stage and completed a sequence of:
+three consecutive wins,
+three consecutive clean sheets,
+and seven points recovered after the opening defeat.
+Public MNUSU coverage confirmed Jamshaadh Jaufar as Player of the Match (MNUSU, 2026e). (Facebook)
+
+Goal
+
+Fouls
+Faculty of Shariah & Law
+MAPS College recorded no visible fouls in the available event timeline.
+
+
+
+
+
+3.5 Quarter-Final: Zikura College 1–1 MAPS College
+MAPS College won 5–4 on penalties
+Match Information
+
+Match Summary
+MAPS College entered the quarter-final as clear underdogs against unbeaten Group D winners Zikura College.
+Zikura had completed the group stage with:
+four wins from four matches,
+35 goals scored,
+and a +26-goal difference.
+Ahmed Shan opened the scoring for Zikura in the 15th minute before Mohamed Zayaan Adam equalised for MAPS in the 28th minute.
+The match proceeded to penalties, where MAPS College converted five successful penalties to secure semi-final qualification.
+MNUSU official publications confirmed the result and Saif Ali’s Player of the Match recognition (MNUSU, 2026f). (Facebook)
+
+Regular-Time Goals
+
+Fouls
+Zikura College
+Ahmed Nabeel #6
+Ahmed Shan #27
+MAPS College
+Hussain Nishah #17
+
+4. Penalty Shootout Analysis
+Final Shootout Result
+MAPS College 5–4 Zikura College
+
+Zikura College Penalties
+
+MAPS College Penalties
+The penalty shootout reflected MAPS College’s composure under pressure and tactical maturity during elimination football.
+
+
+
+
+
+
+5. Statistical Overview
+5.1 Tournament Totals
+
+5.2 Confirmed Goal Contributions
+
+5.3 Player of the Match Awards
+6. Tactical Discussion
+6.1 Defensive Transformation
+The defining characteristic of MAPS College’s tournament was defensive recovery.
+After conceding five goals in the opening match, the team conceded zero goals across the next three group-stage fixtures.
+This suggests effective tactical adaptation by the coaching staff and improved defensive coordination among players.
+
+6.2 Match Management Style
+MAPS College relied primarily on:
+compact defensive structure,
+controlled tempo,
+disciplined positioning,
+and efficient transition play.
+The qualification sequence demonstrates this tactical identity:
+1–0,
+3–0,
+1–0.
+The team did not depend on high-scoring attacking performances but instead focused on efficiency and structure.
+
+6.3 Psychological Resilience
+One of the strongest aspects of the campaign was the team’s mental recovery.
+Many tournaments’ teams struggle after a heavy opening defeat. MAPS College instead responded with:
+three consecutive victories,
+improved defensive discipline,
+and elimination of an unbeaten quarter-final opponent.
+This reflects strong internal leadership and collective resilience.
+
+
+7. Conclusion
+MAPS College’s performance in the Dhiraagu MNUSU Futsal Fiesta 2026 represents one of the tournament’s most effective recovery campaigns.
+Following an opening 5–1 defeat, the team reorganised tactically and transformed into one of the competition’s most defensively disciplined sides. Three consecutive clean-sheet victories secured qualification from Group C before a composed quarter-final performance eliminated unbeaten Zikura College.
+The campaign demonstrated:
+tactical adaptability,
+defensive organisation,
+disciplined match management,
+and psychological resilience under tournament pressure.
+MAPS College therefore established themselves as one of the standout teams of the Dhiraagu MNUSU Futsal Fiesta 2026.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+References
+Goal.mv Dashboard – Matches Index
+Goal.mv (2026a) Dashboard | Scoreboard – Dhiraagu MNUSU Futsal Fiesta 2026. Available at: Goal.mv Official Dashboard (Accessed: 13 May 2026). (goal.mv)
+Goal.mv (2026b) Matches Index – MAPS College Fixtures. Available at: Goal.mv Matches Listing (Accessed: 13 May 2026). (goal.mv)
+Goal.mv (2026c) Player Statistics and Disciplinary Records. Available at: Goal.mv Player Stats (Accessed: 13 May 2026). (goal.mv)
+MNUSU (2026a) Dhiraagu MNUSU Futsal Fiesta 2026 MQ4: Zikura College vs MAPS College. Available at: MNUSU Facebook MQ4 Match Post (Accessed: 13 May 2026). (Facebook)
+MNUSU (2026b) FE vs MAPS College – Dhiraagu MNUSU Futsal Fiesta 2026. Available at: YouTube Match Coverage (Accessed: 13 May 2026). (YouTube)
+MNUSU (2026c) M10: MAPS College vs FEST. Available at: Instagram Match Coverage M10 (Accessed: 13 May 2026). (Instagram)
+MNUSU (2026d) M19: MAPS College vs Faculty of Health Sciences. Available at: Instagram Match Coverage M19 (Accessed: 13 May 2026). (Instagram)
+MNUSU (2026e) M37: MAPS College vs Faculty of Shariah & Law. Available at: Facebook Match Coverage M37 (Accessed: 13 May 2026). (Facebook)
+MNUSU (2026f) MQ4: Zikura College vs MAPS College – POTM Saif Ali. Available at: Facebook POTM MQ4 Post (Accessed: 13 May 2026). (Facebook)
+
+Position | Team | P | W | D | L | GF | GA | GD | PTS
+1 | Faculty of Education | 4 | 4 | 0 | 0 | 22 | 2 | +20 | 12
+2 | MAPS College | 4 | 3 | 0 | 1 | 6 | 5 | +1 | 9
+3 | Faculty of Health Sciences | 4 | 2 | 0 | 2 | 10 | 13 | -3 | 6
+4 | Faculty of Engineering, Science & Technology | 4 | 1 | 0 | 3 | 8 | 12 | -4 | 3
+5 | Faculty of Shariah & Law | 4 | 0 | 0 | 4 | 4 | 18 | -14 | 0
+Category | Detail
+Match No. | MNUSUFF26 M5
+Venue | Rehendhi Ground 1
+Date | 02 May 2026
+POTM | Yaish Musthafa
+Player | Minute
+Ahmed Ihaan Inaaz #7 | 22’
+Muslim Mohamed #4 | 32’
+Yaish Musthafa #20 | 33’
+Yaish Musthafa #20 | 36’
+Rauhaan Rifath #10 | 40’
+Player | Minute
+Jamshaadh Jaufar #8 | 4’
+Player | Minute
+Hussain Nishah #17 | 27’
+Ali Shaaz Hilmy #10 | 32’
+Player | Minute
+Muslim Mohamed #4 | 23’
+Rauhaan Rifath #10 | 33’
+Team | Player | Card | Minute
+Faculty of Education | Muslim Mohamed #4 | Yellow | 7’
+Category | Detail
+Match No. | MNUSUFF26 M10
+Venue | Rehendhi Ground 2
+Date | 04 May 2026
+POTM | Jamshaadh Jaufar
+Player | Minute
+Ali Shaaz Hilmy #10 | 12’
+Team | Player | Card
+MAPS College | Ali Shaaz Hilmy #10 | Yellow
+MAPS College | Mohamed Ain Anwar #42 | Yellow
+FEST | Rain Mohamed #17 | Yellow
+Category | Detail
+Match No. | MNUSUFF26 M19
+Venue | Rehendhi Ground 2
+Date | 06 May 2026
+POTM | Jamshaadh Jaufar
+Player | Minute
+Ali Shaaz Hilmy #10 | 2’
+Mohamed Zayaan Adam #3 | 13’
+Saifulla Mohamed #5 | 39’
+Team | Player | Card
+Faculty of Health Sciences | Abdul Shakoor #19 | Yellow
+Category | Detail
+Match No. | MNUSUFF26 M37
+Venue | Rehendhi Ground 1
+Date | 09 May 2026
+POTM | Jamshaadh Jaufar
+Player | Minute
+Jamshaadh Jaufar #8 | 40’
+Player | Minute
+Mohamed Yameen #17 | 10’
+Jazlan Mahir #10 | 36’
+Hussain Nahil #2 | 40’
+Category | Detail
+Match No. | MNUSUFF26 M-Q4
+Venue | Rehendhi Ground 2
+Date | 11 May 2026
+POTM | Saif Ali
+Team | Player | Minute
+Zikura College | Ahmed Shan #27 | 15’
+MAPS College | Mohamed Zayaan Adam #3 | 28’
+Order | Player | Result
+1 | Mohamed Shawin #11 | Scored
+2 | Ahmed Nabeel #6 | Scored
+3 | Ahmed Shan #27 | Scored
+4 | Hassan Rasheed #10 | Missed
+5 | Ahmed Aisham Iqbaal #12 | Scored
+6 | Ahmed Miraaz #7 | Missed
+Order | Player | Result
+1 | Ali Shaaz Hilmy #10 | Scored
+2 | Mohamed Naim #4 | Scored
+3 | Hussain Nishah #17 | Scored
+4 | Jamshaadh Jaufar #8 | Missed
+5 | Hassan Nabaah Najeeb #9 | Scored
+6 | Mohamed Zayaan Adam #3 | Scored
+Category | Total
+Matches Played | 5
+Wins | 4
+Losses | 1
+Regular-Time Goals Scored | 7
+Regular-Time Goals Conceded | 6
+Penalty Goals Scored | 5
+Penalty Goals Conceded | 4
+Consecutive Wins | 3
+Consecutive Clean Sheets | 3
+Total Fouls Committed | 16
+Total Fouls Against MAPS | 18
+Yellow Cards | 2
+Red Cards | 0
+Player | Goals
+Jamshaadh Jaufar | 2
+Ali Shaaz Hilmy | 2
+Mohamed Zayaan Adam | 2
+Saifulla Mohamed | 1
+Match | Player
+vs FEST | Jamshaadh Jaufar
+vs Faculty of Health Sciences | Jamshaadh Jaufar
+vs Faculty of Shariah & Law | Jamshaadh Jaufar
+vs Zikura College | Saif Ali
+Tournament Phase | Goals Conceded
+Opening Match | 5
+Final Three Group Matches | 0
+
+--- File: NOC - Grove Crane.docx ---
+Date: 18/05/2026
+The Director General of Customs
+Sri Lanka Customs
+CC: SDDC D-Branch
+Subject: Requesting Approval for Re-Exportation of the Cargo and No Objection for Change of Consignee and Notify Party – B/L No. HOEG1Y46BAJA0010
+Dear Sir,
+
+We write to request your approval to re-export a Crane Unit currently held at the Hambantota International Port since 26th March incurring massive storage.
+
+This shipment was originally loaded from Baltimore, USA with the Port of Discharge declared as Jebel Ali, UAE.
+
+However, due to the prevailing war situation and related operational uncertainties in the region, the cargo owners have decided to re-route the shipment to a customer in Male, Maldives, in order to avoid potential shipping delays and disruptions.
+
+In this regard, Advantis Freight has arranged an alternative break bulk shipping solution utilizing the vessel MV Melissa, which is scheduled to call Colombo with a laycan between a 20th and 28th May en route to Male.
+
+We hereby wish to inform you that we have no objection to the change of Consignee and Notify Party pertaining to the shipment under Bill of Lading No. HOEG1Y46BAJA0010 as below.
+
+Consignee
+B. MUTHAAFUSHI RESORT DEVELOPMENT PROJECT
+C/O MUTHAAFUSHI ORIENT INVESTMENTS LIMITED
+1st Floor, Fareedhee Magu, Male
+Republic of Maldives, Reg No.: FC-0002/2017
+Email: SHIPPING@ANTRACHOLDING.COM 
+Notify Party
+Advantis Engineering (Pvt) Limited,
+No: 400, Deans Road,
+Colombo 10, Sri Lanka.
+Accordingly, we kindly request approval to proceed with the re-exportation process and facilitate the necessary amendments relating to the change of Consignee and Notify Party for the above-mentioned Bill of Lading and manifest.
+Your kind assistance and approval in this matter would be highly appreciated.
+Thank you.
+Yours faithfully,
+Mohamed Hameed
+Director	
+
+--- File: TDTU4516340.docx ---
+Containers: TDTU4516340 - 40 | OT | FCL
+DXB1014078 - Lila Mombasa - Feb 18 2026
+MUTHAAFUSHI ORIENT
+
+Wednesday, 18 Feb
+Shipment arrival
+
+Thursday, 19 Feb
+
+Saturday, 21st Feb
+
+Sunday, 22nd Feb
+
+Monday, 23rd Feb
+
+Tuesday, 24th Feb
+
+Wednesday, 25th Feb
+
+Thursday, 26th Feb
+Not Tallied
+
+Saturday, 28th Feb
+
+Sunday, 01st Mar
+
+Monday, 02nd Mar
+
+
+Tuesday, 03rd Mar
+
+
+
+--- File: wl expenses.docx ---
+
+
+--- File: wl sales.docx ---
+
+
+--- File: #5637373332 - Alia Investments Pvt Ltd.pdf ---
+Pro forma invoice
+GST TIN: 1047290GST501
+No.
+Qty
+Description
+Rate (MVR)
+Amount (MVR)
+1
+10.00
+PC70 Excavator Rental charges for 10hrs on 9 April 2026
+900.00
+9,000.00
+2
+2.00
+PC70 Excavator Rental charges for 2hrs on 11 April 2026
+900.00
+1,800.00
+3
+10.00
+PC70 Excavator Rental charges for 10hrs on 12 April 2026
+900.00
+9,000.00
+4
+10.00
+PC70 Excavator Rental charges for 10hrs on 14 April 2026
+900.00
+9,000.00
+Subtotal
+MVR
+28,800.00
+GST (
+8.0
+%)
+MVR
+2,304.00
+Total
+MVR
+31,104.00
+Paid
+MVR
+0.00
+Balance
+MVR
+31,104.00
+Payment Terms: Due on Receipt
+*Any discrepancies on the invoice should be notified immediately.
+*Bank charges and other fees for bank transfers should be on Sender's account.
+*Over due payments will be liable to a surcharge at the rate of 
+2%
+ of total per day
+from the date of this invoice.
+*Please mention the full invoice number(s) and correct purpose of payment when 
+making Telegraphic Transfers.
+Account Name: Well Land Investment Private Limited
+Account Number: 
+7730000054497
+Bank: Bank of Maldives
+Branch: Majeedhee Magu Branch
+Swift Code: MALBMVMV
+Currency: MVR
+Invoice No.
+#5637373332
+Date
+4/15/2026
+Excavator Hire
+Customer
+Alia Investments Pvt Ltd
+1001691
+GST
+501
+Email: info@aliamaldives.com
+Contact: +
+960
+ 
+724-9797
+MDV
+Well Land Investment Private Limited
+Reg. No: C-
+0282/2014
+   I   Level 
+2
+   I   M. Antrac Tower   I   Fareedhee Magu   I   Malé   I   Rep. of. Maldives
+Tel: +
+960
+ 
+331
+ 
+0095
+   I   Fax: +
+960
+ 
+332
+ 
+0095
+   I   Email: accounts@welllandinvestment.com
+
+
+--- File: 2nd shipment.pdf ---
+1. EXPORTER(NAME,ADDRESS,COUNTRY) 
+ROLMAN WORLD FZCO 
+PO BOX: 261069 UNITED ARAB EMIRATES 
+JEBEL ALI FREE ZONE, DUBAI 
+TEL:4-8873700 
+UNITED ARAB EMIRATES 
+2. CONSIGNEE(NAME,ADDRESS,COUNTRY) 
+AL DAHR FZC L::JW�d 9J c 
+�UBAI CHAMBER 
+PO BOX: 238798 COMMERCE OJI? "i 11 
+OFFICE NO. 203 AL BUTEEN BUILDING 
+AL KABIR ST., MURSHID BAZAAR 
+OPPOSITE MOON CREEK HOTEL, DEIRA, DUBAI 
+UNITED ARAB EMIRATES Certificate of Origin 
+Certificate No. 25730688 I·, I j O 11 0.) l...&......u.J 
+Date02-MAR-2026 
+ORIGINAL 
+3. Means of Transport: Vessel's Name/Flight No. r,Jilll �J 
+: By Sea 
+4. Estimated Date of Departure i_J,li...JI e,-J..,t.ll t!-LJ-lll 
+5. Port of Discharge C;!Ji11I r:JS.. / ,.u,i. 6. Country of Final Destination 
+United Arab Emirates 
+7. Invoice No. and Date 
+86244, 24-JAN-2026 
+8. Country of Origin of Goods 
+[China , Japan ] 
+9.fJ}JIJ�I 
+Marks & Numbers 1 o. (_,,.\ti fY l�j d.Sj..JI ,-t.....l} �Wojll ......,.J �I th� 
+No. and Kind of Packages,Description of Goods (Include Brand Names if Necessary) 
+GOODS DESCRIPTION • WHEEL EXCAVATOR 2024, ITEM NO. • XE60WG#XUGD060FCRKA00001, BRAND • XCMG 
+GOODS DESCRIPTION• TRKD EXCAVATOR PC70-8 2012, ITEM NO.• KMTPC238P38C02085, BRAND• KOMATSU 
+As per the attached invoice 
+.................. End of Description •-·············· 11. i.lo.)IJ�I 
+Quantity & Unit 
+12. CERTIFICATION BY THE COMPETENT AUTHORITY 
+We hereby certify that evidence has been produced to satisfy us that the goods 
+specified above originate in / were processed in the country shown in box 8. This 
+Certificate is, therefore; issued and certified to the best of our knowledge and 
+belief to be correct and without any liability on our part. .;l:i...'f14',� 
+.;ll:,JJ .8 4.,1..i,,J\ c} C:'"".,..ll .il;ll c} � I \A,� o)\&.1 oJ.,S:i..l\ �l...,;l\ d'-! 4.l.i':il ,-;.lJl I".,. 4.J1; � 
+.\J;k. �J:,...O -..,1 0J-' � u.it.l&.IJ 1..l:i!_,.... y,.=. \+,k c3;.i..a:il\J u._;1.i...J I".,. o.i¼-J,ll .:,.,. 0� 
+Issuer L,,iL..1 c) q_g J.-( 
+c>UBAI CHAMBER 
+COMMERCE ClJ9ill 
+Once this Certificate is issued, it shall be invalid should any alteration be made to 
+this Certificate, without the competent Authority's authorization. 
+1.r.-' • .)� <\..._! .><' 
+Dubai Chamber of Commerce 
+P.O.Box 1457 -Dubai, U.A.E. '!.J/ ci.,"'-I Tel (Within UAE) 800 CHAMBER (800 2426237) I Tel (Outside UAE) (+971) 4 2280000 --"1" 
+Fax (+971) 4 2028888 cfi\; I Email. customercare@dubaichamber.com ._l,fi'fl-\!_J/ll I Website. www.dubaichamber.com ,_J,fi'fl �_,.11 
+Service Request No -1-25581054711 User Name -ROLMANWORLDFZE Branch Name -6 Printed On• 2-MAR-2026 12•35A1 lyltill t!l_,.ll .,,_J ,.Jyj-..;; lJt,..,:,ll � Ll-' .iSl:ill 
+For online verification of this certificate,please visit. 
+httpJ/www.dubaichamber.com/verify 
+Veriiy'i□:33f576f49b13444eac33d0af8 
+https•//certificates.iccwbo.org/ 
+Page 1 of 1 
+1. EXPORTER(NAME,ADDRESS,COUNTRY) 
+ROLMAN WORLD FZCO 
+PO BOX: 261069 UNITED ARAB EMIRATES 
+JEBEL ALI FREE ZONE, DUBAI 
+TEL:4-8873700 
+UNITED ARAB EMIRATES 
+2. CONSIGNEE(NAME,ADDRESS,COUNTRY) 
+AL DAHR FZC L::JW�d 9J c 
+�UBAI CHAMBER 
+PO BOX: 238798 COMMERCE OJI? "i 11 
+UNIT# 203, 2ND FLOOR, AL BUTEEN BUILDING 
+AL KABIR ST., MURSHID BAZAAR 
+DEIRA, DUBAI 
+UNITED ARAB EMIRATES Certificate of Origin 
+Certificate No. 25769081 I·, I j O 11 0.) l...&......u.J 
+Date02-MAR-2026 
+ORIGINAL 
+3. Means of Transport: Vessel's Name/Flight No. r,Jilll �J 
+: By Sea 
+4. Estimated Date of Departure i_J,li...JI e,-J..,t.ll t!-LJ-lll 
+5. Port of Discharge C;!Ji11I r:JS.. / ,.u,i. 6. Country of Final Destination 
+United Arab Emirates 
+7. Invoice No. and Date 
+86742, 09-FEB-2026 
+8. Country of Origin of Goods 
+[India , Japan ] 
+9.fJ}JIJ�I 
+Marks & Numbers 1 o. (_,,.\ti fY l�j d.Sj..JI ,-t.....l} �Wojl l ......,.J �I th� 
+No. and Kind of Packages,Description of Goods (Include Brand Names if Necessary) 
+GOODS DESCRIPTION• TRACKED EXCAVATOR 2019, ITEM NO.• 323D3#CAT0323DKFEY00469, BRAND• CAT 
+GOODS DESCRIPTION • 2021 SH220LC-6 TRCKD EXCVTR, ITEM NO. • SH220LC#SMT220U6P00BH118 2, BRAND • SUMITOMO 
+As per the attached invoice 
+................... End of Description •-·············· 11. i.lo._,IIJ�I 
+Quantity & Unit 
+12. CERTIFICATION BY THE COMPETENT AUTHORITY 
+We hereby certify that evidence has been produced to satisfy us that the goods 
+specified above originate in / were processed in the country shown in box 8. This 
+Certificate is, therefore; issued and certified to the best of our knowledge and 
+belief to be correct and without any liability on our part. _;l:i...'fl 4', � 
+.;ll:,JJ .8 4..,"\.iJ\ c} C:'"".,..ll .il;ll c} � I \A,� o)\&.1 oJ.,S:i..l\ �l...,;l\ d'-! 4.l.i':il ,-;JJl I".,. 4.J-\, � 
+.\J;k. �J:,...O -..,1 0J-' � u.it.l&.IJ 1..l:i!_,.... y,.=. \+,k c3;.i..a:il\J u.).i...J I".,. o.i¼-J,ll .:,.,. 0� 
+Issuer L,,iW c) q__g J.-( 
+c>UBAI CHAMBER 
+COMMERCE ClJ9ill 
+Once this Certificate is issued, it shall be invalid should any alteration be made to 
+this Certificate, without the competent Authority's authorization. 
+1.r.-' • .)� <\..._! .><' 
+Dubai Chamber of Commerce 
+P.O.Box 1457 -Dubai, U.A.E. '!.J/ ci.,"'-I Tel (Within UAE) 800 CHAMBER (800 2426237) I Tel (Outside UAE) (+971) 4 2280000 --"1" 
+Fax (+971) 4 2028888 cfi\; I Email. customercare@dubaichamber.com ._l,fi'fl-\!_J/ll I Website. www.dubaichamber.com ,_J,fi'fl �_,.11 
+Service Request No -1-25580451804 User Name -ROLMANWORLDFZE Branch Name -6 Printed On• 2-MAR-2026 12•29•50 lyltill t!l_,.ll .,,_J ,.Jyj-..;; lJt,..,:,ll � cl-' .iSl:ill 
+For online verification of this certificate,please visit. 
+httpJ/www.dubaichamber.com/verify 
+Veriiy'io:a43e4842e6d9491 daaai 39524 
+https•//certificates.iccwbo.org/ 
+Page 1 of 1 
+ROLMAN WORLD FZCO. 
+NI O I Street, Jebel Ali Free Zone 
+Dubai, U.A.E. ROLM�N 
+WORLD 
+TRN No.: I 00274250800003 
+Name: 
+Attention: 
+Address: 
+TRN No.: Commercial Invoice 
+Al Dahr FZC 
+AL DAHR FZC 
+Freight Cost USD. 8000/-
+P.O.Box 238798, Unit#203, 2nd Floor, Al Buteen Building.Al Kabir St, Murshid 
+Bazaar, Deira, Dubai, UAE 
+104077053700003 No.: 
+Date: t � � �J99 uW9J 
+��o_rJl� I-N101 t.JL:. 
+o�I <4:�I ..:., l)A 'l/1 - li�
+100274250800003:��1�)1
+86244 
+24/01/2026 
+S/N Goods Descriptions Item No. Brand Origin Qty Unit U.Price AED TTL Amount AED 
+2 Wheel Excavator 2024 
+Trkd Excavator PC70-8 
+2012 
+Print Date: 02/03/2026 11 :21: 15 XE60WG#XUGD060FCRKA00001 XCMG CHINA 
+JAPAN KMTPC238P38C02085 KOMATSU 
+..... -.. . .. "' .. � .... ._. t l'..!wli&ili .... 
+• l,,,,Jl..J :, Q....!i.J,..C,
+• � CHANIB�
+"'\. ,IT'll'AQttliillJIJN _.:,, 
+� ... ��M U. P_. ··• -�-
+· . COO Date: 02-Mar-2026 1 PCS 
+1 PCS 128,000.00 
+80,000.00 
+2 
+Total Amount AED  128,000.00 
+80,000.00 
+208,000.00 
+II., 1!1 coo#: 25730688 
+1 •• lnvoice..#�624A '------------ -------
+l!lfi. . -ln'llo1de Date: 24-Jan-2026
+ROLMAN WORLD FZCO. 
+N 1 0 1 Street, Jebel Ali Free Zone 
+Dubai, U.A.E. 
+TRN No.: I 00274250800003 
+Name: AIDahrFZC ROLM�N 
+WORLD 
+Commercial Invoice 
+No.: t' � i.fo .i.lJ99 uW9J 
+� � o_rJI �I -N101 t.JL.!.
+o...L:uJI ��I ..:..1).A 'l/1 -.;..)
+100274250800003:�__,,..;,jliJ)I
+Address: P.O.Box 238798, Unit#203, 2nd Floor, Al Buteen Building.Al Kabir St, Murshid Date:86742 
+09/02/2026 
+Bazaar, Deira, Dubai, UAE 
+TRN No.: 104077053700003 
+S/N Goods Descriptions Item No. Brand Origin 
+2 INDIA 
+JAPAN Tracked Excavator 2019 323D3#CAT0323DKFEY00469  CAT 
+2021 SH220LC-6 Trckd SH220LC#SMT220U6P00BH1182 SUMITOMO 
+Excvtr 
+coo#: 25769081 Qty Unit U.Price AED TTL Amount AED
+1 PCS 
+1 PCS 300,000.00 
+315,000.00 
+2 
+Total Amount A ED  300,000.00 
+315,000.00 
+615,000.00 
+COO Date: 02-Mar-2026 
+Print Date: 02/03/2026 11 :20:19 ln.'ILOice #.: 8.6Z4L-----------------­
+lnvolce Date: 09-Feb-2026 
+
+--- File: 3rd shipment.pdf ---
+4 vehicles  
+Clearance 28/03/2026  
+ 
+- BL : MLIJEAMLE25001097  
+CNT 1: MLLU6500364 / 40FT  
+ITEM: CATERPILLAR 336DL EXCAVATOR  
+ 
+CNT 2: MLLU6500019 / 40FT  
+ITEM: CATERPILLAR 336DL EXCAVATOR  
+ 
+- BL: MLIJEAMLE25001088  
+CNT 1: TEXU8983147 / 40FT  
+ITEM: CAT 745C ARTICULATED DUMPTRUCK  
+ 
+CNT 2: FTBU9602971 / 40FT  
+ITEM: CAT 745C ARTICULATED DUMPTRUCK  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
+--- File: Business_Central_Shared_Services_Transformation.pdf ---
+01.The Challenge
+Direct involvement in Well Land 
+operations in Well Land 
+operations exposed a critical limitation: 
+the Group lacks consistent standards, 
+system visibility, and enforceable 
+controls. Current state relies on 
+an oversized Dynamics 365 F&O 
+environment and manual processes. 
+03.The Financials
+Annual Savings: USD 126,000 (46% 
+reduction vs. expanded F&O). 
+Payback Period: ~5 months. 
+One-time Cost: USO 55,000 (Capped). 02.The Solution
+Migrate to Dynamics 365 Business Central as a 
+single, connected group environment. Establish 
+a Lean Shared-Services Structure where group 
+departments enforce governance while 
+subsidiaries focus on execution. 
+04.Recommendation
+Approve the migration to modernize operations, 
+enforce internal controls, and secure long-term 
+profitability. 
+Operational Assessment: 
+The Cost of Fragmentation 
+"Direct involvement in Well Land has highlighted a clear limitation: we lack 
+standards and enforceable controls, which reduces profitability." 
+General 
+Trading 
+Manual lists, manual ■ ■ X -
+dispatch. High risk of 
+leakage and untracked 
+• • • prov1s1on1ng. Friction Map 
+Software 
+Environment 
+Dynamics 365 F&O. 
+Oversized & Expensive 
+($170k/year). .. x-Subsidiaries 
+Disconnected. Lack of 
+visibility into rental 
+availability, fuel 
+margins, and vessel 
+maintenance. 
+Consequence: High operational risk and inefficient cross-subsidiary coordination. 
+The Strategic Shift: A Lean Shared-Services Structure 
+Subsidiaries focus on sales; Shared Services enforce governance. 
+Well Land 
+MPL Group 
+Governance 
+•Finance & Performance (CFO-led}
+•People & Payroll (HR-led)
+•Supply Chain Management (SCM)
+•ICT & Business Systems
+•Facilities, Safety & Compliance
+(CFSO-led}EMS 
+Charters 
+Consequence: Unified governance, reduced risk, and increased operational efficiency across all subsidiaries 
+Migrating to a Single, Connected Group Environment 
+Current: Dynamics 365 
+Finance & Operations 
+Status: Oversized and complex. 
+Cost: High recurring ($170k -$271k). 
+Fit: Too heavy for agile subsidiary 
+operations. Proposed: Dynamics 
+365 Business Central 
+Status: Right-sized and interconnected. 
+Cost: Cost-effective ($145k annual). 
+Capability: Enables standardized 
+workflows and reporting. 
+Key Benefit: Models Antrac as a multi-company environment sharing 
+master data while keeping entity-based control. 
+
+--- File: details.pdf ---
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+
+--- File: HV list 16 Apr.pdf ---
+Fleet ID Vehicle Type Brand Model Current Location Assigned Project Operator Assigned Status Condition Rental Eligible?Daily Report 
+Rcvd?Engine Hours Fuel % Open PR Ref Known Issue Reg No. Chassis No. Engine No.Last 
+MaintenanceNext Maint Due
+WL-HV-0001 Hauler Dump Truck VOLVO A40G Bodufinolhu Active — Site Good ✗ No N/A
+WL-HV-0002 Hauler Dump Truck VOLVO A40G Thilafushi — Base Active — Site Issue ✗ No SCR Delete (Procedure ongoing) N/A
+WL-HV-0003 Dump Truck ISUZU 14 Tons Thilafushi — Base Active — Site Good ✗ No N/A
+WL-HV-0004 Dump Truck UD NISSAN 14 Tons Thilafushi — Base Active — Site Good ✗ No N/A
+WL-HV-0005 Low Bed Excavator KOMATSU PC350 Bodufinolhu Bodufinolhu Resort Development Grounded Issue ✗ No Need Adaptor N/A
+WL-HV-0006 Low Bed Excavator KOMATSU PC350 Bodufinolhu Bodufinolhu Resort Development Grounded Issue ✗ No Hydraulic Issue (Some parts received/others ordered) N/A
+WL-HV-0007 Low Bed Excavator KOMATSU PC350 Muthaafushi Muthaafushi Resort Development Grounded Issue ✗ No Hydraulic Issue (Some parts received/others ordered) N/A
+WL-HV-0008 High Bed Excavator KOMATSU PC350 Muthaafushi Muthaafushi Resort Development Grounded Issue ✗ No N/A
+WL-HV-0009 High Bed Excavator KOBELCO SK380 Muthaafushi Muthaafushi Resort Development Operational Good ✗ No N/A
+WL-HV-0010 Mobile Crane TADANO TR300EX Thilafushi — Base Operational Minor Issue ✓ Yes N/A
+WL-HV-0011 Low Bed Excavator KOBELCO SK235 Muthaafushi Muthaafushi Resort Development Operational Good ✗ No N/A
+WL-HV-0012 Low Bed Excavator KUBOTA 50 Muthaafushi Muthaafushi Resort Development Operational Good ✗ No N/A
+WL-HV-0013 Forklift NISSAN 5 Tons Thilafushi — Base Operational Good ✓ Yes N/A
+WL-HV-0014 Bobcat BOBCAT S450 Thilafushi — Base Operational Good ✓ Yes N/A
+WL-HV-0015 Pickup AF 6 Tons Thilafushi — Base Operational Good ✓ Yes N/A
+WL-HV-0016 Loader CAT — Muthaafushi Muthaafushi Resort Development Operational Good ✗ No N/A
+WL-HV-0017 Wheel Excavator (New) XCMG XE60WG Thilafushi — Base Operational Good ✓ Yes ARRIVED — Al Dahr / Rolman PI93510 — EX#1488 — N/A XUGD060FCRKA00001 G4GYMCL029F31
+WL-HV-0018 Tracked Excavator (New) KOMATSU PC70-8 Thilafushi — Base Alia Investment (Thilafushi) Shajalal - 796-0820 Operational Minor Issue ✓ Yes 4,873 HrsAl Dahr / Rolman PI93510 S/N6 | RW EX#508 | 2012 | 
+4,873 Hrs | AED 80,000N/A KMTPC238P38C02085 SAA4D95LE-5
+WL-HV-0019 CAT Excavator (New) CATERPILLAR 323D3 Thilafushi — Base Operational Good ✓ Yes 4,539 HrsAl Dahr / Rolman PI93510 S/N7 | RW EX#418 | 2019 | 
+India origin | AED 300,000N/A CAT0323DKFEY00469 ?
+WL-HV-0020 SUMITOMO Excavator (New) SUMITOMO SH220LC6 Thilafushi — Base Operational Good ✓ YesBrand New — 
+UnusedAl Dahr / Rolman PI93510 S/N8 | RW EX#577 | 2021 | 
+Japan origin | AED 315,000N/A SMT220U6P00BH1182
+WL-HV-0021 CAT 336DL Excavator (New) CATERPILLAR 336DL Thilafushi — Base Grounded Issue ✗ No 16,105 HrsNo Bucket — Al Dahr / Rolman PI93510 S/N11 | RW 
+EX#1169 | 2012 | Japan | AED 295,000N/A CAT0336DAWRK00437 THX41079
+WL-HV-0022 CAT 336DL Excavator (New) CATERPILLAR 336DL Thilafushi — Base Grounded Issue ✗ No 11,907 HrsNo Bucket — Al Dahr / Rolman PI93510 S/N10 | RW 
+EX#529 | 2011 | Japan | AED 295,000N/A CAT0336DPPGW00178 THX37812
+WL-HV-0023 CAT 745C ARTICULATED DUMPTRUCK (New) CATERPILLAR 745C Bodufinolhu Bodufinolhu Resort Development Grounded Issue ✗ No 11,591 HrsSwitch Assembly Issue (parts ordered) — Al Dahr 
+PI93510 S/N1 | RW EX#1162 | 2015 | USA | AED 
+600,000N/A CAT0745CETFK00507 C18-7MRO5738
+WL-HV-0024 CAT 745C ARTICULATED DUMPTRUCK (New) CATERPILLAR 745C Thilafushi — Base Grounded Issue ✗ No 10,363 HrsSwitch Assembly Issue (parts ordered) — Al Dahr 
+PI93510 S/N2 | RW EX#963 | 2015 | UK | AED 600,000N/A CAT0745CTTFK00218 C18-7MRO3619
+WL-HV-0025 Mini Excavator (Al Dahr) YANMAR B65 Pending DeliveryOrdered — 
+Pending Delivery— ✗ NoPENDING — Al Dahr / Rolman PI93510 S/N13 | 2016 | 
+Japan | 2,698 Hrs | AED 100,000 NOT YET RECEIVEDN/A YMRB65YYAEYC10535
+WL-HV-0026 Forklift — Pneumatic Tyre (Al Dahr) DOOSAN D505C-5 Pending DeliveryOrdered — 
+Pending Delivery— ✗ NoPENDING — Al Dahr / Rolman PI93510 S/N3 | RW 
+EX#1004 | 2022 | Korea | Brand New | AED 145,000 
+NOT YET RECEIVED— FDB08113001920
+WL-HV-0027 Tracked Excavator (Al Dahr) KOMATSU PC70-8 Pending DeliveryOrdered — 
+Pending Delivery— ✗ NoPENDING — Al Dahr / Rolman PI93510 S/N6 | RW 
+EX#517 | 2012 | Japan | 4,873 Hrs | AED 80,000 NOT 
+YET RECEIVED— KMTPC238L38C02550
+WL-HV-0028 8x4 Sleeper Dump Truck (Al Dahr — Ordered) XCMG XGA3310D6NEX Pending DeliveryOrdered — 
+Pending Delivery— ✗ NoPENDING — Al Dahr / Rolman PI93510 S/N4 | RW 
+EX#1725 | 2021 | China | Unused | AED 170,000 — 
+NOT YET RECEIVED— LC1HNRBG6M0003592
+WL-HV-0029 8x4 Sleeper Dump Truck (Al Dahr — Ordered) XCMG XGA3310D6NEX Pending DeliveryOrdered — 
+Pending Delivery— ✗ NoPENDING — Al Dahr / Rolman PI93510 S/N5 | RW 
+EX#1726 | 2021 | China | Unused | AED 170,000 — 
+NOT YET RECEIVED— LC1HNRBG8M0003593
+WL-HV-0030 Rough Terrain Crane (Al Dahr — Ordered) GROVE RT700E Pending DeliveryOrdered — 
+Pending Delivery— ✗ NoPENDING — Al Dahr / Rolman PI93510 S/N9 | RW 
+EX#1527 | 2007 | USA | 4,050 Hrs | AED 392,000 — 
+NOT YET RECEIVED— RT700E#227269
+WL-HV-003148T Straight Boom Crane / Flatbed (Al Dahr — 
+Ordered)XCMG / 
+DONGFENGSQS200 Pending DeliveryOrdered — 
+Pending Delivery— ✗ NoPENDING — Al Dahr / Rolman PI93510 S/N12 | RW 
+EX#1622 | 2023 | China | 1,186 Km | AED 185,000 — 
+NOT YET RECEIVED— LGHCHD1P8P6102757  WELL LAND INVESTMENT  |  HEAVY VEHICLE FLEET STATUS REGISTER  (WL-REG-002)
+  ⚠  RENTAL RULE: Only vehicles at THILAFUSHI BASE with status Operational or Standby are eligible for rent. 
+ALL project-site vehicles are EXCLUDED. Thilafushi is currently DOWN — rental eligibility = 0 until base is operational.  31 vehicles total (incl. 8 Al Dahr arrivals + 4 pending delivery)  |  Rental Eligibility = Thilafushi base ONLY AND status OP/Standby  |  Thilafushi currently DOWN — no vehicles eligible
+
+--- File: komatsu hydraulic & pressure issue.pdf ---
+1GM | WELLLAND INVESTMENT
+From: Mohamed Hameed
+Sent: Wednesday, April 1, 2026 11:07 AM
+To: GM | WELLLAND INVESTMENT
+Cc: Abdul Hannan Aboobakuru; Projects | Antrac Holding; Port Facility Security Officer;
+ziyaad93@gmail.com; Janaka Ekanayake
+Subject: RE: Update on Komatsu Machine Hydraulic Issues and Engineer Visit
+It is extremely high
+Could you check other options including China suppliers
+Best Regards
+Mohamed Hameed (Mohamed)
+Director, CEO -Antrac Holding Pvt. Ltd.
+Level2 | M.Antrac Tower | Fareedhee Magu | Malé | Maldives (GMT +5)
+Phone: +960 331 0096 | Fax: +960 331 0129 | Mobile: +960 777 6884
+Email:mhameed@antracholding.com | Website: www.antracholding.com
+From:GM | WELLLAND INVESTMENT <gm@welllandinvestment.com>
+Sent:Wednesday, April 1, 2026 10:42 AM
+To:Mohamed Hameed <mhameed@antracholding.com>
+Cc:Abdul Hannan Aboobakuru <ahannan@antracholding.com>; Projects | Antrac Holding
+<projects@antracholding.com>; Port Facility Security Officer <pfso@maldivespetroleum.com>;
+ziyaad93@gmail.com; Janaka Ekanayake <janakaekanayake30@gmail.com>
+Subject:Update on Komatsu Machine Hydraulic Issues and Engineer Visit
+Dear Hameed,
+I am addressing the hydraulic pressure issues a ecting the Komatsu machines at the project sites.
+
+2I will ﬁrst obtain the Infratech engineer's assessment on rectifying the issue. We will consider purchasing a
+new or remanufactured pump only after receiving their ﬁndings.
+I have consulted Mr. Hari Pilla from Infratech Engineers, our machine supplier. He conﬁrmed that the problem
+can be resolved without servicing or replacing the pump assembly. He has agreed to provide the engineer for
+this visit at no charge. I have receiv ed the engineer's details and will book his seat on tomorrow's (April 2) Atoll
+Cute ferry for the visit.
+As a precaution, I have obtained quotations for replacement pumps from Mr. Disa at Parts Master Maldives
+(attached for your reference):
+Brand New (Japan)
+QT-PM-26-01656
+Excavator Main Pump / PC350LC -7, PC300LC -7 / 708-2G-00024
+Amount: MVR 950,000.00
+GST: MVR 76,000.00
+Total: MVR 1,026,000.00
+Remanufactured
+QT-PM-26-01655
+Excavator Main Pump / PC350LC -7, PC300LC -7 / 708-2G-00024
+Amount: MVR 152,500.00
+GST: MVR 12,200.00
+Total: MVR 164,700.00
+I will also obtain quotes for brand new and remanufactured pump prices from Mr. Hari for comparison.
+Thanks,
+Best regards,
+Ali Mushthaq
+General Manager –Logistics
+Well Land Investment Pvt Ltd | Antrac Holding Group
+Malé, Maldives
++960 7779548
+Does this work, or would you like to tweak the wording of the new closing sentence?
+
+--- File: LOT 3-002430.pdf ---
+Genset Size Atoll Island Region Lot # PR Number
+250KW B HITHAADHOO NORTH
+400KW B FULHADHOO NORTH
+400KW B GOIDHOO NORTH
+400KW B KUDARIKILU NORTH
+400KW B KIHAADHOO NORTHLot 3 PR-26-002430
+
+--- File: LOT 6-002433.pdf ---
+Genset Size Atoll Island Region Lot # PR Number
+250KW GA KONDEY SOUTH
+400KW GA NILANDHOO SOUTH
+400KW GA KANDUHULHUDHOO SOUTH
+400KW GDH FIYOARI SOUTH
+400KW GDH NADELLA SOUTHPR-26-002433 Lot 6
+
+--- File: MAPS College.pdf ---
+MAPS COLLEGE (MEN’S)  
+ 
+Resilience, Tactical Adaptation and Knockout Progression in the Dhiraagu MNUSU 
+Futsal Fiesta 2026  
+ 
+By: Ali Mushthaq  - MAPS College  Team Manager  
+ 
+Abstract  
+This report presents a structured performance analysis of MAPS College (Men’s) during the Dhiraagu MNUSU 
+Futsal Fiesta 2026. The study evaluates the team’s tactical development, statistical progression, disciplinary record, 
+and knockout -stage performance f rom the opening group -stage defeat through qualification to the semi -finals. 
+Particular emphasis is placed on MAPS College’s defensive transformation following an initial 5 –1 loss to Faculty 
+of Education, followed by three consecutive clean -sheet victories  and a quarter -final upset over unbeaten Zikura 
+College. The report integrates official tournament dashboard data, match -event records, public tournament 
+announcements, social -media publications, and Goal.mv statistical references to produce a consolidated  analytical 
+account of the campaign.  
+ 
+1. Introduction  
+Tournament futsal frequently rewards tactical organisation, defensive structure, and psychological resilience as 
+much as attacking quality. MAPS College’s campaign in the Dhiraagu MNUSU Futsal Fiesta 2026 provides a clear 
+example of a team adapting under p ressure and progressively improving through the tournament.  
+The competition, organised under the Maldives National University Students’ Union (MNUSU), featured multiple 
+institutional teams divided into group -stage pools followed by knockout rounds (MNUSU, 2026a). ( Facebook ) 
+MAPS College entered the tournament as part of Group C and began the campaign with a heavy defeat against 
+Faculty of Education, the eventual group winners. However, the team subsequently reorganised tactically and 
+recorded three consecutive victories with three consecutive clean sheets to qualify for the quarter -finals.  
+The objective of this report is to analyse:  
+• tournament progression,  
+• tactical adaptation,  
+• offensive and defensive statistics,  
+• disciplinary records,  
+• player contributions,  
+• and the significance of MAPS College’s knockout -stage progression.  
+2. Tournament Context  
+2.1 Competition Structure  
+The Dhiraagu MNUSU Futsal Fiesta 2026 Men’s Division consisted of four groups followed by knockout rounds. 
+Official match scheduling and standings were published through the Goal.mv dashboard system (Goal.mv, 
+2026a). ( goal.mv ) 
+2.2 Group C Final Standings  
+Position  Team  P W D L GF GA GD PTS 
+1 Faculty of Education  4 4 0 0 22 2 +20 12 
+2 MAPS College  4 3 0 1 6 5 +1 9 
+3 Faculty of Health Sciences  4 2 0 2 10 13 -3 6 
+4 Faculty of Engineering, Science & Technology  4 1 0 3 8 12 -4 3 
+5 Faculty of Shariah & Law  4 0 0 4 4 18 -14 0 
+MAPS College qualified for the knockout stage as Group C runners -up with 9 points.  
+ 
+3. Match Performance Analysis  
+3.1 Faculty of Education 5 –1 MAPS College  
+Match Information  
+Category  Detail  
+Match No.  MNUSUFF26 M5  
+Venue  Rehendhi Ground 1  
+Date  02 May 2026  
+POTM  Yaish Musthafa  
+ 
+Match Summary  
+MAPS College began the tournament strongly and took an early lead through Jamshaadh Jaufar in the 4th minute. 
+However, Faculty of Education progressively controlled possession and transitional phases, eventually scoring five 
+unanswered goals.  
+The result exposed defensive weaknesses in MAPS College’s structure, particularly during defensive rotations and 
+recovery positioning. Nevertheless, this fixture ultimately became the foundation for the team’s tactical correction 
+in subsequent matches.  
+Official match coverage and highlights were later published through MNUSU media and public video coverage 
+(MNUSU, 2026b; YouTube, 2026). ( YouTube ) 
+ 
+Goals  
+Faculty of Education  
+Player  Minute  
+Ahmed Ihaan Inaaz #7  22’ 
+Muslim Mohamed #4  32’ 
+Yaish Musthafa #20  33’ 
+Yaish Musthafa #20  36’ 
+Rauhaan Rifath #10  40’ 
+MAPS College  
+Player  Minute  
+Jamshaadh Jaufar #8  4’ 
+ 
+Fouls and Discipline  
+MAPS College Fouls  
+Player  Minute  
+Hussain Nishah #17  27’ 
+Ali Shaaz Hilmy #10  32’ 
+Faculty of Education Fouls  
+Player  Minute  
+Muslim Mohamed #4  23’ 
+Rauhaan Rifath #10  33’ 
+Cards  
+Team  Player  Card  Minute  
+Faculty of Education  Muslim Mohamed #4  Yellow  7’ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.2 MAPS College 1 –0 Faculty of Engineering, Science & Technology  
+Match Information  
+Category  Detail  
+Match No.  MNUSUFF26 M10  
+Venue  Rehendhi Ground 2  
+Date  04 May 2026  
+POTM  Jamshaadh Jaufar  
+ 
+Match Summary  
+This fixture represented the tactical turning point of MAPS College’s tournament.  
+Following the opening defeat, the team adopted a more compact defensive structure and reduced transitional 
+exposure. The result was a disciplined 1 –0 victory and the first clean sheet of the tournament.  
+Public MNUSU and Goal.mv records confirm Jamshaadh Jaufar as Player of the Match (MNUSU, 2026c; 
+Goal.mv, 2026b). ( goal.mv ) 
+ 
+Goal  
+Player  Minute  
+Ali Shaaz Hilmy #10  12’ 
+ 
+Disciplinary Record  
+MAPS College Fouls  
+• Saifulla Mohamed #5 – 3 fouls  
+• Hassan Nabaah Najeeb #9 – 1 foul  
+• Ali Shaaz Hilmy #10 – 1 foul  
+• Mohamed Ain Anwar #42 – 1 foul  
+Cards  
+Team  Player  Card  
+MAPS College  Ali Shaaz Hilmy #10  Yellow  
+MAPS College  Mohamed Ain Anwar #42  Yellow  
+FEST  Rain Mohamed #17  Yellow  
+ 
+ 
+3.3 MAPS College 3 –0 Faculty of Health Sciences  
+Match Information  
+Category  Detail  
+Match No.  MNUSUFF26 M19  
+Venue  Rehendhi Ground 2  
+Date  06 May 2026  
+POTM  Jamshaadh Jaufar  
+ 
+Match Summary  
+MAPS College delivered their strongest group -stage performance with a comprehensive 3 –0 victory against 
+Faculty of Health Sciences.  
+The match demonstrated improved attacking coordination and significantly stronger defensive transitions. The 
+team -controlled  tempo effectively while limiting opposition attacking opportunities.  
+Public tournament publications later highlighted the fixture through MNUSU and social -media coverage 
+(MNUSU, 2026d). ( Instagram ) 
+ 
+Goals  
+Player  Minute  
+Ali Shaaz Hilmy #10  2’ 
+Mohamed Zayaan Adam #3  13’ 
+Saifulla Mohamed #5  39’ 
+ 
+Disciplinary Record  
+MAPS College Fouls  
+• Hassan Nabaah Najeeb #9 – 2 fouls  
+• Saifulla Mohamed #5 – multiple fouls  
+• Ali Shaaz Hilmy #10 – 1 foul  
+• Jamshaadh Jaufar #8 – 1 foul  
+Cards  
+Team  Player  Card  
+Faculty of Health Sciences  Abdul Shakoor #19  Yellow  
+Goal.mv player statistics confirm Abdul Shakoor’s disciplinary record for the fixture (Goal.mv, 2026c). ( goal.mv ) 
+ 
+
+--- File: Microsoft Outlook - Memo Style.pdf ---
+1GM | WELLLAND INVESTMENT
+From: Repair & Maintenance | Maldives Petroleum Link
+Sent: Tuesday, March 31, 2026 2:02 PM
+To: GM | WELLLAND INVESTMENT
+Cc: Mohamed Hameed; Port Facility Security Officer; ziyaad93@gmail.com; Shifan |
+Maldives Petroleum Link
+Subject: RE: Request  Materials for TUG-01
+Dear Mr. Mushthaq,
+1.1Could you please check the price of threaded end type than high price of weldable elbow.
+3.1 Requirement is 20mm Mild steel rod.
+2.1 , 2.2 & 2.3 –Accepted to proceed.
+4.1, 4.3 & 4.4 –accepted to proceed. Please check whether exactly match the thread of Bolts with nuts.
+For remaining items can be checked the LEO stores as well.
+Thank You & Best Regards
+Dhanushka Bulathsinghala
+Repairs & Maintenance Manager –Maldives Petroleum Links Pvt. Ltd.
+Oﬃce: Level Ground | M. Antrac Tower | Fareedhee Magu | Malé (20257) | Maldives (GMT +5)
+Terminal: Lot No. 149 (BCD) | K. Thilafushi
+Mobile: +960 7209254
+Email:rm@maldivespetroleum.com | Website: www.maldivespetroleum.com
+From:GM | WELLLAND INVESTMENT <gm@welllandinvestment.com>
+Sent:Tuesday, March 31, 2026 9:17 AM
+To:Repair & Maintenance | Maldives Petroleum Link <rm@maldivespetroleum.com>
+Cc:Mohamed Hameed <mhameed@antracholding.com>; Port Facility Security Officer
+<pfso@maldivespetroleum.com>; ziyaad93@gmail.com; Shifan | Maldives Petroleum Link
+<shifan@maldivespetroleum.com>
+Subject:RE: Request Materials for TUG -01
+Hi Dhanushka,
+Please ﬁnd below the availability status of all items from your revisedlist, based on the quotations we have
+received from ELM Engineering, Midex Shop, and INGOT.
+1Fresh Water line STATUS
+1.11" Elbow Stainless-steel, Threaded end Nos14ELM has 10 nos available as seamless/weldable (SCH80, SS316).
+This doesn't match the threaded spec, and quantity is short by 4.
+2Conﬁrm if acceptable, or we'll source threaded separately.
+1.21" Equal Tee Stainless-steel, Threaded end Nos2NO QUOTATION RECEIVED
+1.31" x 1/2" Reducer socket Stainless-steel, Threaded end Nos2NO QUOTATION RECEIVED —Midex has only ¾" × 1".
+1.41 1/2" x 1" Reducer Socket Stainless-steel, Weldable, SCH40 Nos1AVAILABLE —ELM (SS316 SCH80, 4 nos quoted; 1 needed).
+1.51/2" Pipe Stainless-steel, SCH40 Nos1NO QUOTATION RECEIVED
+1.61" Pipe Stainless-steel, SCH40 Nos6ELM (76 ft quoted as SS316 seamless).
+Conﬁrm required length per piece to verify coverage.
+1.71" Ball Valve Stainless-steel , Thread end Nos4AVAILABLE —ELM (1" 2PC BSPT SS316, 4 nos).
+1.81/2" ball valve Stainless-steel , Thread end Nos2NO QUOTATION RECEIVED
+2Deck Manhole
+2.1M16x 2m Thread bar Stainless steel . Grade 8.8 Nos3AVAILABLE —Quoted by ELM, Midex, and INGOT
+2.2M16 Nut Stainless steel . Grade 8.8 Nos100AVAILABLE —ELM (100 nos).
+2.3M16 Flat washer Stainless steel . Grade 8.8 Nos100AVAILABLE —ELM (100 nos).
+3Bulk Wark
+3.120mm Round bar MS round bar Nos12SPEC MISMATCH —INGOT quoted SS Plain Rod 20mm (12 nos), but spec is
+mild steel (MS). Conﬁrm if SS is acceptable.
+4Sea water Line
+4.1M20 x 75mm Bolts Stainless steel . Grade 8.8 Nos36AVAILABLE —INGOT quoted M20 × 80mm Hex Bolts. Conﬁrm if acceptable
+4.2M20 Thread bar (2m length) Stainless steel . Grade 8.8 Nos2NO QUOTATION RECEIVED
+4.3M20 Nut Stainless steel . Grade 8.8 Nos36AVAILABLE —Midex (36 nos) / INGOT (36 nos).
+4.4M20 Flat Washer Stainless steel . Grade 8.8 Nos72AVAILABLE —Midex (72 nos). INGOT has only 36 nos.
+Items without quotations (I'm actively sourcing suppliers):
+1.2: 1" Equal Tee SS, Threaded (2 nos)
+1.3: 1" × ½" Reducer Socket SS, Threaded (2 nos)
+1.5: ½" Pipe SS, SCH40 (1 nos)
+1.8: ½" Ball Valve SS, Thread end (2 nos)
+4.2: M20 Thread bar (2m length) SS, Grade 8.8 (2 nos)
+Next steps: Conﬁrm on the partial/spec issues (1.1 and 3.1) so we can move forward on conﬁrmed purchases.
+And recommendations for the unavailable items.
+Best regards,
+Ali Mushthaq
+General Manager –Logistics
+Well Land Investment Pvt. Ltd.
+Subsidiary of Antrac Holding Pvt. Ltd.
++960 7779548
+From:Repair & Maintenance | Maldives Petroleum Link < rm@maldivespetroleum.com >
+Sent:Monday, March 30, 2026 12:26 PM
+To:GM | WELLLAND INVESTMENT < gm@welllandinvestment.com >
+Cc:Mohamed Hameed < mhameed@antracholding.com >; Port Facility Security Officer
+<pfso@maldivespetroleum.com >;ziyaad93@gmail.com ; Shifan | Maldives Petroleum Link
+<shifan@maldivespetroleum.com >
+Subject:RE: Request Materials for TUG -01
+Dear Mr. Mushthaq,
+3Kindly check the availability of following items. And I will check items before purchasing.
+1Fresh Water line
+1.11" Elbow Stainless-steel, Threaded end Nos 14
+1.21" Equal Tee Stainless-steel, Threaded end Nos 2
+1.31" x 1/2" Reducer socket Stainless-steel, Threaded end Nos 2
+1.41 1/2" x 1" Reducer
+Socket Stainless-steel, Weldable, SCH40 Nos 1
+1.51/2" Pipe Stainless-steel, SCH40 Nos 1
+1.61" Pipe Stainless-steel, SCH40 Nos 6
+1.71" Ball Valve Stainless-steel , Thread end Nos 4
+1.81/2" ball valve Stainless-steel , Thread end Nos 2
+2Deck Manhole
+2.1M16x 2m Thread bar Stainless steel . Grade 8.8 Nos 3
+2.2M16 Nut Stainless steel . Grade 8.8 Nos 100
+2.3M16 Flat washer Stainless steel . Grade 8.8 Nos 100
+3Bulk Wark
+3.120mm Round bar MS round bar Nos 12
+4Sea water Line
+4.1M20 Thread bar (2m
+length) Stainless steel . Grade 8.8 Nos 2
+4.2M20 Nut Stainless steel . Grade 8.8 Nos 36
+4.3M20 Flat Washer Stainless steel . Grade 8.8 Nos 72
+Thank You & Best Regards
+Dhanushka Bulathsinghala
+Repairs & Maintenance Manager –Maldives Petroleum Links Pvt. Ltd.
+Oﬃce: Level Ground | M. Antrac Tower | Fareedhee Magu | Malé (20257) | Maldives (GMT +5)
+Terminal: Lot No. 149 (BCD) | K. Thilafushi
+Mobile: +960 7209254
+Email:rm@maldivespetroleum.com | Website: www.maldivespetroleum.com
+From:GM | WELLLAND INVESTMENT < gm@welllandinvestment.com >
+Sent:Monday, March 30, 2026 10:31 AM
+To:Repair & Maintenance | Maldives Petroleum Link < rm@maldivespetroleum.com >
+Cc:Mohamed Hameed < mhameed@antracholding.com >; Port Facility Security Officer
+<pfso@maldivespetroleum.com >;ziyaad93@gmail.com ; Shifan | Maldives Petroleum Link
+4<shifan@maldivespetroleum.com >
+Subject:RE: Request Materials for TUG -01
+Hi Dhanushka,
+Attached the quotations of what items we can get from Malè. We need to ﬁnd alternatives for the remaining
+items.
+Please let me know your recommendations soon.
+1Fresh Water line
+1.11" Elbow Stainless-steel, Weldable, SCH40 Nos 12
+1.21" Pipe Stainless-steel, SCH40 Nos 4
+1.31 1/2" x 1" Reducer Stainless-steel, Weldable, SCH40 Nos 5
+1.41" Ball Valve Stainless-steel , Thread end Nos 4
+1.51"Thread pipe spool Stainless-steel , SCH40 Nos 6
+1.63/4" Pipe Stainless-steel, SCH40 Nos 1
+1.71" x 3/4" Reducer Stainless-steel, Weldable, SCH40 Nos 1
+1.81" x 1/2" Reducer Tee Stainless-steel, Weldable, SCH40 Nos 1
+1.93/4" Elbow Stainless-steel, Weldable, SCH40 Nos 1
+1.101 1/2" x 1" Reducer Tee Stainless-steel, Weldable, SCH40 Nos 3
+1.111 1/2" Elbow Stainless-steel, Weldable, SCH40 Nos 1
+1.121 1/2" Thread pipe spool Stainless-steel , SCH40 Nos 1
+2Deck Manhole
+2.1M16x 2m Thread bar Stainless steel . Grade 8.8 Nos 3
+2.2M16 Nut Stainless steel . Grade 8.8 Nos 100
+2.3M16 Flat washer Stainless steel . Grade 8.8 Nos 100
+3Bulk Wark
+3.120mm Round bar MS round bar Nos 12
+4Sea water Line
+4.1M20 x 75mm Bolts Stainless steel . Grade 8.8 Nos 36
+4.2M20 Nut Stainless steel . Grade 8.8 Nos 36
+4.3M20 Flat Washer Stainless steel . Grade 8.8 Nos 72
+Note: items highlighted in the list are in the quotations attached
+Thanks
+Best regards,
+Ali Mushthaq
+General Manager –Logistics
+Well Land Investment Pvt. Ltd.
+Subsidiary of Antrac Holding Pvt. Ltd.
++960 7779548
+From:Repair &Maintenance | Maldives Petroleum Link < rm@maldivespetroleum.com >
+Sent:Sunday, March 29, 2026 9:24 AM
+5To:GM | WELLLAND INVESTMENT < gm@welllandinvestment.com >
+Cc:Mohamed Hameed < mhameed@antracholding.com >; Repair & Maintenance | Maldives Petroleum Link
+<rm@maldivespetroleum.com >; Port Facility Security Officer < pfso@maldivespetroleum.com >; Shifan | Maldives
+Petroleum Link < shifan@maldivespetroleum.com >
+Subject:Request Materials for TUG -01
+Dear Mr. Mushtaq,
+Kindly ﬁnd below Material list for remaining work of TUG -01. Please do needful to arrange them ASAP.
+1Fresh Water line
+1.11" Elbow Stainless-steel, Weldable, SCH40 Nos 12
+1.21" Pipe Stainless-steel, SCH40 Nos 4
+1.31 1/2" x 1" Reducer Stainless-steel, Weldable, SCH40 Nos 5
+1.41" Ball Valve Stainless-steel , Thread end Nos 4
+1.51" Thread pipe spool Stainless-steel , SCH40 Nos 6
+1.63/4" Pipe Stainless-steel, SCH40 Nos 1
+1.71" x 3/4" Reducer Stainless-steel, Weldable, SCH40 Nos 1
+1.81" x 1/2" Reducer Tee Stainless-steel, Weldable, SCH40 Nos 1
+1.93/4" Elbow Stainless-steel, Weldable, SCH40 Nos 1
+1.101 1/2" x 1" Reducer
+Tee Stainless-steel, Weldable, SCH40 Nos 3
+1.111 1/2" Elbow Stainless-steel, Weldable, SCH40 Nos 1
+1.121 1/2"Thread pipe
+spool Stainless-steel , SCH40 Nos 1
+2Deck Manhole
+2.1M16x 2m Thread bar Stainless steel . Grade 8.8 Nos 3
+2.2M16 Nut Stainless steel . Grade 8.8 Nos 100
+2.3M16 Flat washer Stainless steel . Grade 8.8 Nos 100
+3Bulk Wark
+3.120mm Round bar MS round bar Nos 12
+4Sea water Line
+4.1M20 x 75mm Bolts Stainless steel . Grade 8.8 Nos 36
+4.2M20 Nut Stainless steel . Grade 8.8 Nos 36
+4.3M20 Flat Washer Stainless steel . Grade 8.8 Nos 72
+Thank You & Best Regards
+Dhanushka Bulathsinghala
+Repairs & Maintenance Manager –Maldives Petroleum Links Pvt. Ltd.
+Oﬃce: Level Ground | M. Antrac Tower | Fareedhee Magu | Malé (20257) | Maldives (GMT +5)
+
+--- File: Microsoft Outlook - Request  Materials for TUG-01.pdf ---
+1GM | WELLLAND INVESTMENT
+To: Repair & Maintenance | Maldives Petroleum Link
+Cc: Mohamed Hameed; Port Facility Security Officer; ziyaad93@gmail.com; Shifan |
+Maldives Petroleum Link
+Subject: RE: Request  Materials for TUG-01
+Hi Dhanushka,
+Attached the quotations of what items
+1Fresh Water line
+1.11" Elbow Stainless-steel, Threaded end Nos 14
+1.21" Equal Tee Stainless-steel, Threaded end Nos 2
+1.31" x 1/2" Reducer socket Stainless-steel, Threaded end Nos 2
+1.41 1/2" x 1" Reducer Socket Stainless-steel, Weldable, SCH40 Nos 1
+1.51/2" Pipe Stainless-steel, SCH40 Nos 1
+1.61" Pipe Stainless-steel, SCH40 Nos 6
+1.71" Ball Valve Stainless-steel , Thread end Nos 4
+1.81/2" ball valve Stainless-steel , Thread end Nos 2
+2Deck Manhole
+2.1M16x 2m Thread bar Stainless steel . Grade 8.8 Nos 3
+2.2M16 Nut Stainless steel . Grade 8.8 Nos 100
+2.3M16 Flat washer Stainless steel . Grade 8.8 Nos 100
+3Bulk Wark
+3.120mm Round bar MS round bar Nos 12
+4Sea water Line
+4.1M20 Thread bar (2m length) Stainless steel . Grade 8.8 Nos 2
+4.2M20 Nut Stainless steel . Grade 8.8 Nos 36
+4.3M20 Flat Washer Stainless steel . Grade 8.8 Nos 72
+Best regards,
+Ali Mushthaq
+General Manager –Logistics
+Well Land Investment Pvt. Ltd.
+Subsidiary of Antrac Holding Pvt. Ltd.
++960 7779548
+From:Repair & Maintenance | Maldives Petroleum Link <rm@maldivespetroleum.com>
+Sent:Monday, March 30, 2026 12:26 PM
+To:GM | WELLLAND INVESTMENT <gm@welllandinvestment.com>
+Cc:Mohamed Hameed <mhameed@antracholding.com>; Port Facility Security Officer
+<pfso@maldivespetroleum.com>; ziyaad93@gmail.com; Shifan | Maldives Petroleum Link
+2<shifan@maldivespetroleum.com>
+Subject:RE: Request Materials for TUG -01
+Dear Mr. Mushthaq,
+Kindly check the availability of following items. And I will check items before purchasing.
+1Fresh Water line
+1.11" Elbow Stainless-steel, Threaded end Nos 14
+1.21" Equal Tee Stainless-steel, Threaded end Nos 2
+1.31" x 1/2" Reducer socket Stainless-steel, Threaded end Nos 2
+1.41 1/2" x 1" Reducer
+Socket Stainless-steel, Weldable, SCH40 Nos 1
+1.51/2" Pipe Stainless-steel, SCH40 Nos 1
+1.61" Pipe Stainless-steel, SCH40 Nos 6
+1.71" Ball Valve Stainless-steel , Thread end Nos 4
+1.81/2" ball valve Stainless-steel , Thread end Nos 2
+2Deck Manhole
+2.1M16x 2m Thread bar Stainless steel . Grade 8.8 Nos 3
+2.2M16 Nut Stainless steel . Grade 8.8 Nos 100
+2.3M16 Flat washer Stainless steel . Grade 8.8 Nos 100
+3Bulk Wark
+3.120mm Round bar MS round bar Nos 12
+4Sea water Line
+4.1M20 Thread bar (2m
+length) Stainless steel . Grade 8.8 Nos 2
+4.2M20 Nut Stainless steel . Grade 8.8 Nos 36
+4.3M20 Flat Washer Stainless steel . Grade 8.8 Nos 72
+Thank You & Best Regards
+Dhanushka Bulathsinghala
+Repairs & Maintenance Manager –Maldives Petroleum Links Pvt. Ltd.
+Oﬃce: Level Ground | M. Antrac Tower | Fareedhee Magu | Malé (20257) | Maldives (GMT +5)
+Terminal: Lot No. 149 (BCD) | K. Thilafushi
+Mobile: +960 7209254
+Email:rm@maldivespetroleum.com | Website: www.maldivespetroleum.com
+
+3From:GM | WELLLAND INVESTMENT < gm@welllandinvestment.com >
+Sent:Monday, March 30, 2026 10:31 AM
+To:Repair & Maintenance | Maldives Petroleum Link < rm@maldivespetroleum.com >
+Cc:Mohamed Hameed < mhameed@antracholding.com >; Port Facility Security Officer
+<pfso@maldivespetroleum.com >;ziyaad93@gmail.com ; Shifan | Maldives Petroleum Link
+<shifan@maldivespetroleum.com >
+Subject:RE: Request Materials for TUG -01
+Hi Dhanushka,
+Attached the quotations of what items we can get from Malè. We need to ﬁnd alternatives for the remaining
+items.
+Please let me know your recommendations soon.
+1Fresh Water line
+1.11" Elbow Stainless-steel, Weldable, SCH40 Nos 12
+1.21" Pipe Stainless-steel, SCH40 Nos 4
+1.31 1/2" x 1" Reducer Stainless-steel, Weldable, SCH40 Nos 5
+1.41" Ball Valve Stainless-steel , Thread end Nos 4
+1.51" Thread pipe spool Stainless-steel , SCH40 Nos 6
+1.63/4" Pipe Stainless-steel, SCH40 Nos 1
+1.71" x 3/4" Reducer Stainless-steel, Weldable, SCH40 Nos 1
+1.81" x 1/2" Reducer Tee Stainless-steel, Weldable, SCH40 Nos 1
+1.93/4" Elbow Stainless-steel, Weldable, SCH40 Nos 1
+1.101 1/2" x 1" Reducer Tee Stainless-steel, Weldable, SCH40 Nos 3
+1.111 1/2" Elbow Stainless-steel, Weldable, SCH40 Nos 1
+1.121 1/2"Thread pipe spool Stainless-steel , SCH40 Nos 1
+2Deck Manhole
+2.1M16x 2m Thread bar Stainless steel . Grade 8.8 Nos 3
+2.2M16 Nut Stainless steel . Grade 8.8 Nos 100
+2.3M16 Flat washer Stainless steel . Grade 8.8 Nos 100
+3Bulk Wark
+3.120mm Round bar MS round bar Nos 12
+4Sea water Line
+4.1M20 x 75mm Bolts Stainless steel . Grade 8.8 Nos 36
+4.2M20 Nut Stainless steel . Grade 8.8 Nos 36
+4.3M20 Flat Washer Stainless steel . Grade 8.8 Nos 72
+Note: items highlighted in the list are in the quotations attached
+Thanks
+Best regards,
+Ali Mushthaq
+General Manager –Logistics
+Well Land Investment Pvt. Ltd.
+Subsidiary of Antrac Holding Pvt. Ltd.
+4+960 7779548
+From:Repair & Maintenance | Maldives Petroleum Link < rm@maldivespetroleum.com >
+Sent:Sunday, March 29, 2026 9:24 AM
+To:GM | WELLLAND INVESTMENT < gm@welllandinvestment.com >
+Cc:Mohamed Hameed < mhameed@antracholding.com >; Repair & Maintenance | Maldives Petroleum Link
+<rm@maldivespetroleum.com >; Port Facility Security Officer < pfso@maldivespetroleum.com >; Shifan | Maldives
+Petroleum Link < shifan@maldivespetroleum.com >
+Subject:Request Materials for TUG -01
+Dear Mr. Mushtaq,
+Kindly ﬁnd below Material list for remaining work of TUG -01. Please do needful to arrange them ASAP.
+1Fresh Water line
+1.11" Elbow Stainless-steel, Weldable, SCH40 Nos 12
+1.21" Pipe Stainless-steel, SCH40 Nos 4
+1.31 1/2" x 1" Reducer Stainless-steel, Weldable, SCH40 Nos 5
+1.41" Ball Valve Stainless-steel , Thread end Nos 4
+1.51" Thread pipe spool Stainless-steel , SCH40 Nos 6
+1.63/4" Pipe Stainless-steel, SCH40 Nos 1
+1.71" x 3/4" Reducer Stainless-steel, Weldable, SCH40 Nos 1
+1.81" x 1/2" Reducer Tee Stainless-steel, Weldable, SCH40 Nos 1
+1.93/4" Elbow Stainless-steel, Weldable, SCH40 Nos 1
+1.101 1/2" x 1" Reducer
+Tee Stainless-steel, Weldable, SCH40 Nos 3
+1.111 1/2" Elbow Stainless-steel, Weldable, SCH40 Nos 1
+1.121 1/2" Thread pipe
+spool Stainless-steel , SCH40 Nos 1
+2Deck Manhole
+2.1M16x 2m Thread bar Stainless steel . Grade 8.8 Nos 3
+2.2M16 Nut Stainless steel . Grade 8.8 Nos 100
+2.3M16 Flat washer Stainless steel . Grade 8.8 Nos 100
+3Bulk Wark
+3.120mm Round bar MS round bar Nos 12
+4Sea water Line
+4.1M20 x 75mm Bolts Stainless steel . Grade 8.8 Nos 36
+4.2M20 Nut Stainless steel . Grade 8.8 Nos 36
+4.3M20 Flat Washer Stainless steel . Grade 8.8 Nos 72
+Thank You & Best Regards
+Dhanushka Bulathsinghala
+5Repairs & Maintenance Manager –Maldives Petroleum Links Pvt. Ltd.
+Oﬃce: Level Ground | M. Antrac Tower | Fareedhee Magu | Malé (20257) | Maldives (GMT +5)
+Terminal: Lot No. 149 (BCD) | K. Thilafushi
+Mobile: +960 7209254
+Email:rm@maldivespetroleum.com | Website: www.maldivespetroleum.com
+
+
+--- File: NOC - Grove Crane.pdf ---
+Muthaafushi Orient Investments Limited  
+Craigmuir Chambers, Road Town, Tortola, VG 1110, British Virgin Islands  
+Company No. 1932219  
+ 
+ Date: 18/05/2026  
+The Director General of Customs  
+Sri Lanka Customs  
+CC: SDDC D -Branch  
+Subject: Requesting Approval for Re -Exportation of the Cargo and No Objection for Change of 
+Consignee and Notify Party – B/L No. HOEG1Y46BAJA0010  
+Dear Sir,  
+ 
+We write to request your approval to re -export a Crane Unit  currently held at the Hambantota International Port 
+since 26th March incurring massive storage.  
+ 
+This shipment was originally loaded from Baltimore, USA  with the Port of Discharge declared as Jebel Ali, UAE . 
+ 
+However, due to the prevailing war situation and related operational uncertainties in the region, the cargo owners 
+have decided to re -route the shipment to a customer in Male, Maldives , in order to avoid potential shipping delays 
+and disruptions.  
+ 
+In this regard, Advantis Freight has arranged an alternative break bulk shipping solution utilizing the vessel MV 
+Melissa , which is scheduled to call Colombo with a laycan between a 20th and 28th May en route to Male.  
+ 
+We hereby wish to inform you that we have no objection to the change of Consignee and Notify Party pertaining to 
+the shipment under Bill of Lading No. HOEG1Y46BAJA0010  as below.  
+ 
+Consignee  
+B. MUTHAAFUSHI RESORT DEVELOPMENT PROJECT  
+C/O MUTHAAFUSHI ORIENT INVESTMENTS LIMITED  
+1st Floor, Fareedhee Magu, Male  
+Republic of Maldives, Reg No.: FC -0002/2017  
+Email: SHIPPING@ANTRACHOLDING.COM   
+Notify Party  
+Advantis Engineering (Pvt) Limited,  
+No: 400, Deans Road,  
+Colombo 10, Sri Lanka.  
+Accordingly, we kindly request approval to proceed with the re -exportation process and facilitate the necessary 
+amendments relating to the change of Consignee and Notify Party for the above -mentioned Bill of Lading and 
+manifest.  
+Your kind assistance and approval in this matter would be highly appreciated.  
+Thank you.  
+Yours faithfully,  
+Mohamed Hameed  
+Director   
+
+--- File: PR-26-002430.pdf ---
+Item No. Part No. Description UOM Qty Rate Amount
+750142VESSEL HIRE WITH HEAVY VEHICLE / UNLOADING TO SITE / 
+GENSET / B ATOLL1
+Sub-Total
+GST Amount
+Total
+Delivery:
+Remarks: Stamp/Signature:Payment Terms:
+Please email the quotations of the quotation request to quotations@fenaka.mv
+Prepared by:
+NID
+Email ID DateName
+:
+:::Mariyam Adil
+Sign :Checked by:
+NID
+Email ID DateName
+:
+:::
+Sign :FENAKA CORPORATION LIMITED
+Port Complex Building 7th floor, Hilaalee Magu,
+K. Male, Maldives
+Phone: +960-300-7555
+Email: info@fenaka.mv | www.fenaka.mv
+Supplier Name
+Contact PersonREQUEST FOR QUOTATION
+RFQ NoDate 
+Requisition No
+SectionPhone No
+Designation
+Email Required Date:
+:
+:
+:
+::
+:
+:
+:
+:18/04/2026
+RFQ/2026/03973
+PR-26-002430
+PROC
+
+--- File: PR-26-002433.pdf ---
+Item No. Part No. Description UOM Qty Rate Amount
+750142VESSEL HIRE WITH HEAVY VEHICLE / UNLOADING TO SITE / 
+GENSET / GA GDH ATOLL1
+Sub-Total
+GST Amount
+Total
+Delivery:
+Remarks: Stamp/Signature:Payment Terms:
+Please email the quotations of the quotation request to quotations@fenaka.mv
+Prepared by:
+NID
+Email ID DateName
+:
+:::Mariyam Adil
+Sign :Checked by:
+NID
+Email ID DateName
+:
+:::
+Sign :FENAKA CORPORATION LIMITED
+Port Complex Building 7th floor, Hilaalee Magu,
+K. Male, Maldives
+Phone: +960-300-7555
+Email: info@fenaka.mv | www.fenaka.mv
+Supplier Name
+Contact PersonREQUEST FOR QUOTATION
+RFQ NoDate 
+Requisition No
+SectionPhone No
+Designation
+Email Required Date:
+:
+:
+:
+::
+:
+:
+:
+:18/04/2026
+RFQ/2026/03976
+PR-26-002433
+PROC
+
+--- File: rates deve.pdf ---
+1GM | WELLLAND INVESTMENT
+From: Mohamed Hameed
+Sent: Thursday, April 16, 2026 5:07 PM
+To: GM | WELLLAND INVESTMENT; Finance - Antrac Holding
+Cc: Abdul Hannan Aboobakuru
+Subject: Re: Development of Standard Rate Sheet – Well Land Equipment & Marine Fleet
+Thanks  
+ 
+ 
+ 
+From: GM | WELLLAND INVESTMENT <gm@welllandinvestment.com> 
+Sent: Thursday, April 16, 2026 5:05:55 pm 
+To: Mohamed Hameed <mhameed@antracholding.com>; Finance - Antrac Holding 
+<finance@antracholding.com> 
+Cc: Abdul Hannan Aboobakuru <ahannan@antracholding.com> 
+Subject:  RE: Development of Standard Rate Sheet – Well Land Equipment & Marine Fleet 
+ 
+Hameed, 
+  
+Nafiu asked my opinion. I gave my proposal for discussion purposes.  
+  
+  
+Best regards, 
+Ali Mushthaq 
+General Manager – Logistics 
+Well Land Investment Pvt Ltd | Antrac Holding Group 
+Malé, Maldives, +960 7779548  
+  
+From: Mohamed Hameed <mhameed@antracholding.com>  
+Sent: Thursday, April 16, 2026 5:04 PM 
+To: GM | WELLLAND INVESTMENT <gm@welllandinvestment.com>; Finance - Antrac Holding 
+<finance@antracholding.com> 
+Cc: Abdul Hannan Aboobakuru <ahannan@antracholding.com> 
+Subject: Re: Development of Standard Rate Sheet – Well Land Equipment & Marine Fleet  
+  
+Mustharq,  
+  
+These rates are totally incorrect.  
+  
+Thanks  
+  
+Sent from Outlook for Android  
+From: GM | WELLLAND INVESTMENT < gm@welllandinvestment.com > 
+Sent: Thursday, April 16, 2026 4:53:14 PM 
+To: Finance - Antrac Holding < finance@antracholding.com > 
+Cc: Mohamed Hameed < mhameed@antracholding.com >; Abdul Hannan Aboobakuru 
+2<ahannan@antracholding.com > 
+Subject: RE: Development of Standard Rate Sheet – Well Land Equipment & Marine Fleet   
+  
+Dear Nafiu,  
+  
+Please find below the proposed standard rate structure for Well Land equipment rental, aligned with recent job 
+pricing and current operating conditions.  
+  
+1. Excavators  
+Type Hourly (MVR)  Daily (MVR)  
+Mini (PC70 / similar)  100 1,000 
+Medium (20 –22T) 160 1,600 
+Large (PC350)  220 2,200 
+  
+2. Dump Trucks  
+Type Hourly (MVR)  Daily (MVR)  
+14 Ton 120 1,100 
+Articulated (CAT 745)  300 2,800 
+  
+3. Cranes  
+Type Hourly (MVR)  Daily (MVR)  
+25–30 Ton 350 3,200 
+50 Ton + 500 4,500 
+  
+4. Support Equipment  
+Equipment  Hourly (MVR)  Daily (MVR)  
+Wheel Loader  180 1,700 
+Forklift (5T)  120 1,100 
+Bobcat 140 1,300 
+Pickup — 350 
+  
+5. Marine / Transport  
+Service Rate (MVR)  
+LCT Hire (per day)  25,000 – 35,000 
+Loading / Unloading  5,000 – 12,000 
+Transport Jobs  150,000 – 200,000+ (based on scope)  
+  
+Standard Conditions  
+• Fuel charged separately 
+• Operator included 
+• Standby charged at 60% of daily rate 
+• Overtime applicable beyond standard hours 
+• Mobilization/demobilization charged separately  
+  
+These are baseline rates for discussion and can be adjusted depending on project scope, duration, and 
+utilization.  
+  
+Additionally, as requested, I have attached the Heavy Vehicle List (snapshot), including new arrivals and 
+identification of units currently under repair or requiring attention.  
+  
+3Thanks, 
+  
+Best regards, 
+Ali Mushthaq 
+General Manager – Logistics 
+Well Land Investment Pvt Ltd | Antrac Holding Group 
+Malé, Maldives, +960 7779548  
+  
+From: Finance - Antrac Holding < finance@antracholding.com >  
+Sent: Wednesday, April 15, 2026 5:00 PM 
+To: GM | WELLLAND INVESTMENT < gm@welllandinvestment.com > 
+Cc: Mohamed Hameed < mhameed@antracholding.com >; Abdul Hannan Aboobakuru 
+<ahannan@antracholding.com >; Finance - Antrac Holding < finance@antracholding.com > 
+Subject: RE: Development of Standard Rate Sheet – Well Land Equipment & Marine Fleet  
+  
+Dear Mushthaq  
+  
+Please provide the price that’s in your mind as a standard rate, we can discuss and finalise the rates.  
+  
+Additionally, please create a Heavy Vehicle List of Well Land, include the new vehicles that have recently arrived, and 
+specifically identify those that are currently under repair or require repairs for ongoing use.  
+  
+Thank You & Best Regards  
+Ahmed Nafiu (Nafiu)  
+ 
+Chief Finance Officer - Antrac Holding Pvt. Ltd.   
+Level 2 | M. Antrac Tower | Fareedhee Magu | Malé | Maldives (GMT +5)  
+Phone: +960 331 0096 | Fax: +960 331 0129 | Mobile: +960 778 2251  
+Email: finance@antracholding.com | Website: www.antracholding.com  
+  
+Confidentiality Notice: This email, including any attachments, contains confidential and proprietary information intended only for the recipient(s) 
+named. Any unauthorized use, disclosure, or distribution of this communication is prohibited.  If you are not the intended recipient or have received 
+this email in error, please notify the sender immediately by replying to this message and delete all copies from your system. Thank you for your 
+cooperation.  
+  
+From: GM | WELLLAND INVESTMENT < gm@welllandinvestment.com >  
+Sent: Wednesday, April 15, 2026 3:48 PM 
+To: Finance - Antrac Holding < finance@antracholding.com > 
+Cc: Mohamed Hameed < mhameed@antracholding.com >; Abdul Hannan Aboobakuru 
+<ahannan@antracholding.com > 
+Subject: Development of Standard Rate Sheet – Well Land Equipment & Marine Fleet  
+  
+Hi Mr. Nafiu, 
+  
+Following recent operations and client engagements, it has become necessary to establish a standardized 
+rate sheet  for all rentable assets under Well Land. 
+  
+At present, the absence of a defined pricing framework is impacting response time to client inquiries and 
+creating potential inconsistencies in quotations. Formalizng this will ensure alignment between Operations 
+and Finance, while maintaining commercial control. 
+  
+Scope – Assets to be Covered  
+Land Equipment:  
+• Excavators (all categories) 
+4• Cranes 
+• Dump Trucks / Transport Vehicles 
+Marine Assets:  
+• LCT Vessels 
+• Barges 
+• Tug Boats 
+  
+Proposed Structure  
+1. Standard Hire Rates  
+• Hourly / Daily rates 
+• Minimum chargeable hours 
+2. Fuel Charges  
+• Consumption benchmarks (L/hr) 
+• Fuel rate baseline and adjustment mechanism 
+3. Operator Charges  
+• Clearly defined as either: 
+– Included within equipment rates, or 
+– Charged separately 
+4. Additional Charges / Conditions  
+• Mobilization / Demobilization 
+• Standby / waiting time 
+• Overtime / night operations 
+• Weather-related delays and operational impacts 
+  
+Objective  
+To implement a clear, consistent, and practical pricing framework  that enables: 
+• Immediate and accurate client quotations 
+• Protection of margins against operational variables (fuel, delays, etc.) 
+• Standardization across all projects and clients 
+  
+I would appreciate scheduling a meeting to finalize the rate structure and align on implementation. 
+  
+Thank you. 
+  
+Best regards, 
+Ali Mushthaq 
+General Manager – Logistics 
+Well Land Investment Pvt Ltd | Antrac Holding Group 
+Malé, Maldives 
++960 7779548 
+  
+ 
+
+--- File: Readiness Report 02Feb26.pdf ---
+Read iness Report  
+Well Land Investment Pvt. Ltd.  
+Heavy Vehicle Rental s 
+ 
+To: Board of Directors (BoD) — Mr. Hameed and Mr. Hannan  
+From: Mushthaq, General Manager – Logistics  
+Subject: Well Land — Current  Operating Baseline Discovery and Workstreams to Develop the  Action Plan   
+ (Revenue + Expenditure + Fleet Expansion Readiness)  
+Date: Monday, February 2, 2026  
+ 
+1. Executive Summary  
+This report outlines:  
+1. the current state findings  from initial discovery across Well Land’s back -end controls and operational 
+coordination, and  
+2. the workstreams in progress  to develop the  action plan  for making Well Land self -sufficient and profit -
+making—particularly in preparation for  new vehicles  joining the fleet.  
+The action plan requires a verified baseline for:  
+• Revenue generation  (enquiry → quote → dispatch → utilization tracking → invoicing → collections), and  
+• Expenditure control  (request → sourcing → approval → PO → payment → receiving → inventory/asset cost 
+allocation), and  
+• Operational visibility  (where staff and assets are, their status, and how work is executed across multiple 
+locations/projects without dependence on repeated calls).  
+ 
+2. Purpose and scope of current work  
+The BoD direction is to build a fast, practical action plan that can be executed with existing resources while preparing for 
+fleet expansion. My scope of work currently focuses on establishing the minimum operating backbone to answer, at any 
+time and without ad -hoc phone follow -ups:  
+• What services are being sold, at what price basis, to whom, and how jobs convert into cash  
+• What is being spent, why, who approved it, what was received, and how it was recorded  
+• Where each staff member is and what they are assigned to  
+• Where each vehicle/asset is, whether it is working/idle/down, and what project it is attached to  
+• What inventory exists, what is committed, and what is moving  
+• Which requests and jobs are open and their current stage  
+This baseline is essential before formalizing profitability targets, utilization targets, or staffing plans for the expanded fleet.  
+3. Key discoveries to date  
+3.1 Expenditure and procurement reality (“as -is”) 
+Transaction review indicates that purchasing is frequently executed through an informal “quote -to-payment” workflow. In 
+practice:  
+• operational requests originate verbally (calls/WhatsApp ). 
+• quotations are obtained and approvals are often verbal.  
+• payments occur via transfer or cash directly against quotations.  
+• items are collected and delivered.  
+• documentation is inconsistent (PO issuance, supplier invoices, receiving evidence/GRNs, and transaction 
+pack filing).  
+Impact:  This materially limits traceability, weakens audit evidence, increases leakage risk, prevents accurate inventory 
+integrity, and blocks reliable allocation of spend to specific assets/projects.  
+ 
+3.2 Multi -requestor and distributed operations (complexity multiplier)  
+Well Land operational demand is raised by more than one requestor and split across functions:  
+• Operations/rentals execution  (Janaka)  
+• Repairs oversight and parts demand  (Sampath)  
+• Malé support and purchasing execution  (Ziyad/Accounts)  
+Assets are distributed across multiple locations (e.g., Thilafushi and remote sites such as Goidhoo, Muthaafushi, 
+Bodufin olhu, etc.), and vehicles can shift between islands/projects. Without a single system and single source of truth, 
+tracking depends on manual chasing (calls) and individual memory.  
+Impact:  Higher likelihood of duplicated purchases, unclear ownership of follow -ups, untracked downtime, 
+underbilling/overlooked billable time, and delayed decision -making—especially as fleet size increases.  
+ 
+3.3 Revenue process baseline not yet consolidated (in progress)  
+The revenue side (enquiries, availability confirmation, quoting, dispatch, utilization tracking, billing and collections) app ears 
+to be functioning through informal coordination rather than a documented, standardized process with:  
+• a consistent enquiry/lead log,  
+• a standard quotation template and approval rules,  
+• a baseline rate card/service catalogue (or defined pricing method),  
+• consistent rental utilization evidence (timesheets, meter logs, customer signoffs ), 
+• defined invoicing triggers and AR follow -up discipline,  
+• return/inspection and damage management protocols.  
+Impact:  Without a verified revenue process baseline, profitability cannot be reliably measured, utilization cannot be 
+optimized, and revenue leakage (unbilled time / disputes / delayed collections) remains likely.  
+ 
+4. How big the issue is (risk statement)  
+This is not a “single process gap”; it is a system absence  issue. The current operating model relies heavily on:  
+• verbal requests, ad -hoc follow -ups, and individual knowledge,  
+• limited transaction documentation discipline,  
+• minimal consolidated reporting on fleet status, utilization, downtime, and receivables.  
+With the upcoming addition of 10+ vehicles , the current operating style will predictably face scaling failures:  
+• inability to locate assets and confirm status fast,  
+• increased downtime due to weak repair/parts coordination,  
+• uncontrolled spending  and weak receiving/inventory integrity,  
+• underbilling due to missing utilization evidence,  
+• delayed cash conversion due to inconsistent invoicing support and weak AR rhythm.  
+ 
+5. Workstreams underway to build the BoD action plan  
+I am structuring delivery into three parallel workstreams. This is a progressive stabilization and standardization, starting 
+with minimum controls and expanding as baseline information is validated.  
+ 
+Workstream A — Expenditure baseline and minimum controls 
+(procurement/receiving/inventory)  
+Objective:  Make every spend traceable and controllable; enable allocation of cost to assets/projects.  
+In progress:  
+• Establish a disciplined PR → PO → Receiving → Inventory  chain (currently non -existent in consistent form).  
+• Introduce minimum templates and registers:  
+o PR (Purchase Requisition)  
+o PO (Purchase Order)  
+o GRN / Receiving confirmation  
+o Stock Issue/Stock movement evidence  
+o Transaction pack filing rule (PR + quotes + approvals + PO + payment proof + invoice/receipt + GRN)  
+• Centralize first -stage control: all PRs logged and numbered under a single intake,  so quotations and 
+payments stop being “unlinked events.”  
+Outcome:  spending becomes auditable, reducible, and measurable; inventory integrity improves; repair costs can be 
+linked to vehicles and projects.  
+ 
+ 
+ 
+Workstream B — Revenue baseline discovery (sales/rentals pipeline to cash)  
+Objective:  Document how Well Land earns revenue today and design the minimum revenue operating rhythm that can 
+scale.  
+In progress:  
+• Map the end -to-end revenue cycle:  
+o how enquiries are received and recorded,  
+o how availability is checked and who owns the source of truth,  
+o how quotations are raised (pricing basis, categories, approvals, terms),  
+o how jobs are confirmed (PO/acceptance),  
+o how dispatch is executed (vehicles/vessels readiness),  
+o how utilization is recorded (timesheets/meter readings/customer signoffs ), 
+o how invoicing is triggered (weekly/monthly/completion),  
+o how collections are managed (advance/deposit/credit/AR follow -up),  
+o how returns, inspection, and damages are handled (evidence -based).  
+• Identify and document:  
+o service categories and income sources (equipment, vessels, operators, mobilization, standby, 
+penalties, etc.),  
+o baseline rate method (rate card or reference logic),  
+o discount authority and approval thresholds.  
+Outcome:  revenue conversion becomes measurable; disputes reduce; underbilling risk reduces; AR discipline improves; 
+profitability analysis becomes possible.  
+ 
+Workstream C — Operational visibility baseline (staff, fleet, projects, maintenance)  
+Objective:  Enable management without constant calls; create real -time situational awareness.  
+In progress:  
+• Establish minimum registers as the operational “source of truth”:  
+o Staff register (role, base, current location, assignment/status)  
+o Fleet/asset register (asset ID, location, working/idle/down, project assignment, responsible 
+operator/crew)  
+o Maintenance/repair case register (faults, parts required, downtime, repair location, PR/PO linkage)  
+o Permit/expiry tracker (sites, vessels, vehicles —where applicable)  
+• Standardize mandatory data for any operational request:  
+1. asset/vehicle ID,  
+2. current location,  
+3. repair location (if different),  
+4. project assignment,  
+5. project -side contact.  
+Outcome:  decisions become faster; downtime becomes visible; scheduling improves; dispatch planning improves; 
+readiness for incoming fleet increases.  
+6. Target operating model being established (minimum 
+requirement)  
+The minimum operating model I am building is designed so that I can oversee and manage the system while progressively 
+delegating updates and execution. In the intended model:  
+• I should always be able to see:  
+o all staff and their current status/location,  
+o all vehicles/assets and their location/status/project assignment,  
+o inventory position and movements,  
+o open PRs/POs and where each transaction sits,  
+o open jobs, utilization evidence, and billing status.  
+• PRs are raised in a disciplined manner and PO is issued for every purchase , with controlled exceptions 
+only.  
+• Job/rental activity is captured with minimum evidence so that billing and collection can be completed 
+without disputes.  
+• Live updates occur via an agreed operating rhythm (not continuous calls), with each role updating the parts 
+of the system they own.  
+This is the minimum platform needed to integrate additional vehicles without losing control.  
+ 
+7. Resourcing reality and delivery approach  
+This scope is extensive because the processes and documentation discipline being introduced are currently minimal or 
+inconsistent. The approach is therefore:  
+• establish minimum controls first,  
+• validate baseline data through interviews and evidence,  
+• implement progressively,  
+• and delegate progressively once the system stabilizes.  
+This avoids unrealistic commitments and reduces operational disruption.  
+ 
+8. BoD support and decisions required (to accelerate accuracy and 
+adoption)  
+To accelerate action plan completion and adoption, the following BoD -level alignment will materially help:  
+1. Policy direction:  purchases should not proceed without PR logging and a PO (or controlled emergency 
+authorization).  
+2. Access:  revenue evidence (quotes/invoices/collections) and expenditure evidence (payment 
+proofs/receipts/invoices) must be made available for baseline confirmation.  
+3. Compliance support:  operational staff must follow the agreed intake/update rhythm to reduce 
+dependence on calls and informal updates.  
+ 
+
+--- File: Shared_Services_and_ERP_Migration.pdf ---
+EXECUTIVE SUMMARY: STOPPING OPERATIONAL LEAKAGE 
+A strategic pivot to centralized governance and cost-efficient technology. 
+THE STRATEGIC SHIFT 
+Moving from a decentralized, siloed 
+model to a Group Shared Services 
+structure. The Parent Company 
+controls standards; Subsidiaries 
+focus on execution. THE TECHNOLOGY PIVOT 
+. .. ... 
+. . • -•t>-J-·--o-----o-- -:--· --
+Migrating from oversized Dynamics 
+365 Finance & Operations (F&O) to 
+agile Dynamics 365 Business 
+Central (BC). Optimized for 
+multi-company logistics. THE Fl NANCIAL CASE 
+46% Reduction in annual IT spend. 
+Implementation Cap: $55,000 (Fixed). 
+Payback Period: ~5 Months. 
+Goal: Complete visibility over 
+inventory, margins, and assets. 
+m CURRENT CHALLENGES: FRAGMENTATION & COST 
+The current model creates financial waste and operational blind spots. 
+1.Financial Inefficiency
+•Current IT Spend: ~$170,000/year (for ~50 users).
+•Projected Risk: Cost rises to $271,600 if F&O
+expands to ~80 users.
+2.Operational Risk
+•Inconsistent standards across subsidiaries.
+•Subsidiaries operate in silos with manual processes
+(e.g., General Trading).
+3.Visibility Gaps
+•MPL: No real-time margin visibility on fuel resale.
+•Well Land: Limited insight into fleet utilization and
+repair costs.
+•EMS: Manual tracking of motorbike stock.
+m THE STRATEGIC SOLUTION: SHARED SERVICES MODEL 
+Subsidiaries sell and execute; Group controls and reports. 
+Finance & 
+Performance LAVER 1: GOVERNANCE (ANTRAC PARENT) 
+ICT & Business 
+Systems Facilities & 
+Safety 
+(CFSO) 
+Subsidiaries rely on Group Services. 
+No duplication of Head Office roles. 
+LAVER 2: EXECUTION (SUBSIDIARIES) 
+Asia Pacific 
+Superyachts Indian Ocean 
+Charters 
+PILLARS OF CONTROL: FINANCE & SUPPLY CHAIN 
+FINANCE & PERFORMANCE {CFO-LED) 
+Role: Consolidated reporting, Chart of 
+Accounts, and financial governance. 
+Key Outputs: 
+-Monthly packs on revenue &
+gross margin.
+-Profitability tracking for Well
+Land rentals & EMS/MPL resale.
+-Project cost control.SUPPLY CHAIN MANAGEMENT {SCM) 
+Role: Governance over Internal-use vs. Resale 
+inventory. 
+Key Workflow: The International Visibility Chain 
+9 
+1111111 -F -
+[AWB/BL [Customs u__,..,.,. 
+Attached] .,.....,.,.u Clearance] .....,,.,.., [Dispatch]
+
+--- File: TUG01 29mar.pdf ---
+1GM | WELLLAND INVESTMENT
+From: Repair & Maintenance | Maldives Petroleum Link
+Sent: Sunday, March 29, 2026 9:24 AM
+To: GM | WELLLAND INVESTMENT
+Cc: Mohamed Hameed; Repair & Maintenance | Maldives Petroleum Link; Port Facility Security Officer; Shifan | Maldives Petroleum Link
+Subject:
+Request  Materials for TUG-01
+Dear Mr. Mushtaq, 
+ Kindly ﬁnd below Material list for remaining work of TUG-01. Please do needful to arrange them ASAP. 
+ 
+1 Fresh Water line       
+1.1 1" Elbow Stainl ess-steel, Weldab le, SCH40 Nos 12 
+1.2 1" Pipe Stainless-steel, SCH40 Nos 4 
+1.3 1 1/2" x 1" Reducer Stainl ess-steel, Weldab le, SCH40 Nos 5 
+1.4 1" Ball Valve Stainle ss-steel , Thread end Nos 4 
+1.5 1" Thread pipe spool St ainless-steel , SCH40  Nos 6 
+1.6 3/4" Pipe Stainl ess-steel, SCH40 Nos 1 
+1.7 1" x 3/4" Reducer Stainle ss-steel, Weldable, SCH40 Nos 1 
+1.8 1" x 1/2" Reducer Tee Stainl ess-steel, Weldab le, SCH40 Nos 1 
+1.9 3/4" Elbow Stainless-st eel, Weldable, SCH40 Nos 1 
+1.10 1 1/2" x 1" Reducer 
+Tee Stainless- steel, Weldable, SCH40 Nos 3 
+1.11 1 1/2" Elbow St ainless-steel, Weld able, SCH40 Nos 1 
+1.12 1 1/2" Thread pipe 
+spool Stainless-steel  , SCH40  Nos 1 
+          
+2 Deck Manhole        
+2.1 M16x 2m Thread bar Stainless steel . Grade 8.8 Nos 3 
+2.2 M16 Nut Stainless steel . Grade 8.8 Nos 100 
+2.3 M16 Flat washer Stainl ess steel . Grade 8.8 Nos 100 
+          
+3 Bulk Wark       
+3.1 20mm Round bar MS round bar Nos 12 
+          
+4 Sea water Line       
+4.1 M20 x 75mm Bolts Stainless steel . Grade 8.8 Nos 36 
+4.2 M20 Nut Stainless steel . Grade 8.8 Nos 36 
+4.3 M20 Flat Washer Stainl ess steel . Grade 8.8 Nos 72 
+ 
+ 
+Thank You & Best Regards  
+Dhanushka Bulathsinghala 
+ 
+2
+ 
+Repairs & Maintenance Manager – Maldives Petroleum Links Pvt. Ltd.  
+Oﬃce: Level  Ground | M.  Antrac Tower | Fareedhee Magu | M alé (20257) | Maldives (GMT +5 ) 
+Terminal: Lot No. 149 (BCD) | K. Thilafushi  
+Mobile: +960 7209254  
+Email: rm@maldivespetroleum.com  | Website: www.maldivespetroleum.com  
+ 
+
+--- File: V1A2176 - EXCAVATOR KOBELCO ( SK235 ).pdf ---
+
+
+--- File: Antrac_WL_Operations_Log_v2.xlsx ---
+### Sheet: COVER ###
+
+ANTRAC / WELL LAND – CONSOLIDATED OPERATIONS & PROCUREMENT LOG,Unnamed: 1,Unnamed: 2,Unnamed: 3
+Period: 26 Jan 2026 – 22 Mar 2026  |  Groups: BF Machine & Diesel Ops · WL Logistic Group · AH Group R&M  |  Compiled: 22 Mar 2026  |  Prepared for: Ali Mushthaq Ibrahim – GM Logistics,,,
+PERSONNEL & ROLES,,,
+Ali Mushthaq Ibrahim,GM Logistics & Heavy Vehicles,Well Land Investment Pvt Ltd (Antrac Group),"End-to-end SCM, machine ops, logistics across BF, MF, Goidhoo & vessel fleet. This workbook is his master log."
+Mohamed Hameed,Director / BOD,Antrac Holding Group,Principal decision-maker. Escalation authority across all operations and subsidiaries.
+Abdul Hannan (AH),Director / BOD,Antrac Holding Group,Operational escalation authority. Final approver on site staffing and vessel movements.
+Sampath,Project Manager,Antrac – Based at Bodufinolhu (BF),Manages BF & Muthaafushi (MF) site operations. Primary field reporter.
+Janaka,Senior Supervisor,Antrac / Well Land – Based at Thilafushi,"Procurement, parts sourcing, fleet requisitions, dispatch coordination."
+Ahmed Ziyad Hassan,"PFSO – Port Facility Security Officer &
+Logistics / Parts Coordinator","Petroleum Link MPL &
+Well Land – Malé","Port security. Also assists logistics/parts coordination in Malé. Ferry dispatches, part collection from Malé, inventory receipts."
+Ndirangu Nginga,Mechanic,On-site – BF / MF,Machine repairs and maintenance. Field mechanic.
+Nashwan,Operations Coordinator,Antrac Ops,"Vessel and dhoni logistics, movement coordination."
+Dhanushka,Repair & Maintenance Manager,AH Group,Manages marine and barge maintenance team. Marine mechanic supervision.
+Ziyadh (Ziyad),PFSO – Port Facility Security Officer,Petroleum Link (PLK) / MPL,Port security. Also assists logistics/parts coordination in Malé.
+Gasim,"Assistant Manager Cargo Operations , Antrac",WL Logistic Group,
+Shifan,Terminal Manager MPL,AH Group R&M,
+,,,
+WORKBOOK STRUCTURE,,,
+1. COVER,"This page – roles, structure, status legend.",,
+2. ACTIVITY LOG,"Chronological log of all events from all 3 WhatsApp groups (machine status, logistics, decisions, escalations).",,
+3. MATERIAL REQUESTS,"All material/parts requests raised at site level (Sampath / informal WhatsApp requests, no PO number).",,
+4. PURCHASE REQUESTS,All formal purchase requests logged by Janaka (Antrac & WellLand series) + site informal requests – consolidated master register.,,
+5. RECEIPTS,All confirmed goods received at site or in transit.,,
+6. INCIDENTS & ISSUES,"Machine breakdowns, failures, damage events, stock discrepancies.",,
+7. OPEN ITEMS,All unresolved actions requiring follow-up – your daily chaser list.,,
+8. DIRECTED AT MUSHTHAQ,⭐ YOUR PERSONAL ACTION SHEET – all messages/requests directed at you across all groups. Log your response and mark status here.,,
+,,,
+STATUS LEGEND,,,
+🔴  OPEN / PENDING / NOT ACTIONED,Requires immediate attention,,
+🟢  CLOSED / DONE / RECEIVED,Completed – no further action,,
+🟡  IN PROGRESS / PARTIAL / TRANSIT,Underway – monitor,,
+⚪  UNKNOWN / UNCONFIRMED,Status not confirmed – follow up,,
+🟠  URGENT,Priority flag on priority column,,
+🟣  DIRECTED AT MUSHTHAQ,Personal action item,,
+
+
+### Sheet: ACTIVITY LOG ###
+
+CONSOLIDATED ACTIVITY LOG – All Groups – 26 Jan 2026 to 22 Mar 2026,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10
+#,Date,Time,Source Group,Reported By / Role,Category,Location,Description / Detail,Action Taken / Response,Status,Follow-Up Required
+1,26-Jan-26,18:00,BF Machine & Diesel,Mohamed Hameed – Director,ADMIN,Group,Mushthaq introduced as new GM Logistics & Heavy Vehicles,—,DONE,
+2,26-Jan-26,18:07,BF Machine & Diesel,Sampath – PM,MATERIAL REQUEST,BF,"10-item materials list raised (6 URGENT): Perspex sheet ×1, Silicone ×2, Silicone gun ×1, Large D-shackle ×1, Diesel pump ×1, Grease gun ×1 (all URGENT); Grease, O-ring box, Radiator coolant, Bucket teeth & pins (normal)",Noted; follow-ups through Feb,PARTIALLY ACTIONED,"Check D-shackle, grease, coolant dispatch"
+3,26-Jan-26,18:07,BF Machine & Diesel,Sampath – PM,MACHINE STATUS,BF/MF,"BF – Komatsu: coconut planting, slow movement. Kobelco: boom pin today, bucket pin pending materials. SK 235: OOO – starter motor to Malé. PC50: planting. Dump Truck: awaiting hose (sent 22 Jan). MF – Dump Truck: oil leakage",—,NOTED,SK235 repair status; MF DT fix
+4,27-Jan-26,11:13,BF Machine & Diesel,Sampath – PM,MACHINE STATUS,BF/MF,"Kobelco boom & bucket pin repaired – coconut planting. Komatsu planting, slow movement. SK235 OOO – motor sent to Malé today. PC50 planting. Dump truck awaiting hose. MF DT: oil leakage, mechanic to go with Komatsu",Mohamed Hameed: Thanks,NOTED,
+5,27-Jan-26,11:34,BF Machine & Diesel,Sampath – PM,LOGISTICS,BF,2 new brake hoses at site. Waiting for hydraulic hoses. Hope recovered today.,"Mohamed Hameed: Sending by ferry, collect",IN PROGRESS,Confirm hose received
+6,27-Jan-26,19:01,BF Machine & Diesel,Sampath – PM,MAINTENANCE,BF,Hydraulic needs to be filled. Tom [mechanic] to check.,—,UNKNOWN,Confirm hydraulic filled
+7,28-Jan-26,17:10,BF Machine & Diesel,Sampath – PM,MACHINE STATUS,BF/MF,"Komatsu: diesel air lock – diesel filter needed. Kobelco: hired to Evosun. SK235 OOO. PC50 planting. Dump Truck: hired to Evosun. MF DT: oil leakage, mechanic with Komatsu",Mohamed: Komatsu also needs fix,NOTED,Diesel filter for Komatsu
+8,29-Jan-26,08:01,BF Machine & Diesel,Sampath – PM,MATERIAL REQUEST,BF,Re-raised same 10-item list; asked for update,—,PENDING,All 10 items status
+9,29-Jan-26,10:46,BF Machine & Diesel,Janaka – Sr. Supervisor,MATERIAL STATUS,Thilafushi,"Items 4 (D-shackle), 7 (Grease), 9 (Coolant) available in Thilafushi",—,AVAILABLE – dispatch pending,Dispatch to site
+10,29-Jan-26,14:57,BF Machine & Diesel,Sampath – PM,MACHINE STATUS,BF/MF,"Komatsu sent to MF at 14:00 with mechanic. Kobelco: Evosun till 14:00, then planting. Dump Truck hose burst 14:45 – Evosun mechanic to help. MF DT: mechanic went with Komatsu",—,NOTED,Dump truck hose repair confirmation
+11,29-Jan-26,15:20,BF Machine & Diesel,Sampath – PM,MATERIAL REQUEST,BF,Need brake oil and Adblue,Janaka: Volvo sent 1 Jan with 20L coolant & Adblue – check on site,PARTIALLY RESOLVED,Adblue confirmed (PAL ADF). Brake oil still needed.
+12,30-Jan-26,20:34,BF Machine & Diesel,Sampath – PM,LOGISTICS,Malé → BF,Mohamed sending hose to Malé; cannot reach Alam,"Mohamed: Spoke to Aalam, he will collect from ferry",IN PROGRESS,Confirm collected
+13,31-Jan-26,06:29,BF Machine & Diesel,Mohamed (M +960791-4847),LOGISTICS,BF,Hose sent via Atoll Cute Crown,—,DISPATCHED,Confirm receipt
+14,31-Jan-26,12:41,BF Machine & Diesel,Sampath – PM,MACHINE STATUS,BF,Only Kobelco working. All others broken. Site work and tree unloading impacted. Starter motor query raised.,@Ahmed Ziyad on it,CRITICAL – RESOLVED by Feb,
+15,31-Jan-26,17:35,BF Machine & Diesel,Sampath – PM,RECEIPT,BF,"Received: 6 filters, Manual pump, O-ring box, Small grease gun, 2 Silicone, Silicone gun, 2 Lifting belts",—,RECEIVED,
+16,01-Feb-26,13:10,BF Machine & Diesel,Ahmed Ziyad Hassan – Logistics,PROCUREMENT,Malé,Electric Diesel Transfer Pump identified (OLM #3007811),—,PROCUREMENT IN PROGRESS,Confirm if ordered and delivered
+17,04-Feb-26,12:21,BF Machine & Diesel,Ahmed Ziyad Hassan – Logistics,RECEIPT,BF,"Goods via Atoll Cute Crown: Starting Motor, Hose, O-ring set (Dump Truck), Filters",Sampath: @Mohamed pls collect,DISPATCHED,Confirm collected
+18,04-Feb-26,16:15,BF Machine & Diesel,Sampath – PM,MAINTENANCE,BF – Kobelco,Starter motor to be fixed today. MF O-ring fix tomorrow,—,IN PROGRESS,Confirm MF O-ring fixed
+19,04-Feb-26,16:19,BF Machine & Diesel,Mechanic (+91 99947 41533),INSPECTION,BF – Kobelco,Cracks on steel bush – temporary weld repair. Cabin removal needed for permanent fix. Can work slowly.,Sampath: recommended send to Malé,TEMPORARY FIX,Permanent bush repair pending
+20,06-Feb-26,09:06,BF Machine & Diesel,Sampath – PM,RECEIPT,BF,"Received: Fuel pump, Grease gun, 2 AC machines, Washing machine, AC gas R410A, Hydraulic barrel",—,RECEIVED,
+21,08-Feb-26,12:17,BF Machine & Diesel,Sampath – PM,LOGISTICS,BF → Malé,Starter motor + hydraulic hose sent to Malé with mechanic,—,DISPATCHED,Confirm repair complete
+22,08-Feb-26,12:18,BF Machine & Diesel,Sampath – PM,PERSONNEL,Goidhoo,@Janaka arrange dump truck tools. Abdul Hannan: 1 excavator driver to Goidhoo. Janaka: Yes. Sampath: send via LCT,—,ARRANGED,Confirm driver arrived
+23,09-Feb-26,11:54,BF Machine & Diesel,Mohamed Hameed – Director,DIRECTED @ MUSHTHAQ,BF,@Mushthaq (Well Land) – Ndirangu hasn't gotten help with jetty booking. What is the situation?,"Mushthaq: Jackson on way to ferry, reaching 12pm",CLOSED,
+24,10-Feb-26,07:59,BF Machine & Diesel,Sampath – PM,MATERIAL REQUEST,BF,"Need grease gun coupler (NPT 1/8 in. type, ACE brand image forwarded)",—,OPEN,Grease gun coupler procurement
+25,10-Feb-26,08:37,BF Machine & Diesel,Mohamed Hameed – Director,MAINTENANCE,MF,Send mechanic to Muthaafushi urgently to fix dump truck,Sampath: Already arranged,ARRANGED,Confirm fix done
+26,12-Feb-26,08:48,BF Machine & Diesel,Sampath – PM,MATERIAL REQUEST,MF,"MF requirements: Diesel hose for manual pump (20ft), Grease gun, Grease, Grease nipple (Komatsu 350), Solenoid (Komatsu 350)",—,OPEN – Multiple items unresolved,Check each item
+27,13-Feb-26,16:35,BF Machine & Diesel,Sampath – PM,INCIDENT,BF – Dump Truck,Drum truck hydraulic hose burst. Sending to Malé tomorrow.,—,IN PROGRESS,Hose repair/return ETA
+28,14-Feb-26,12:01,BF Machine & Diesel,Ahmed Ziyad Hassan – Logistics,LOGISTICS,Malé → BF,Sent hose via Moosabe vessel,Sampath: Thanks,DONE,
+29,15-Feb-26,11:44,BF Machine & Diesel,Sampath – PM,INCIDENT,BF – Komatsu,Small hole in steel fuel pipe. Sent to Thuladhoo for gas welding.,Mushthaq: keep updated; replace if not usable,IN PROGRESS,Welding result – replace?
+30,15-Feb-26,22:22,BF Machine & Diesel,Sampath – PM,INCIDENT,BF – Excavator,Hydraulic hose burst on excavator,AH: Which one?,RESOLVED – spare used,
+31,16-Feb-26,07:01,BF Machine & Diesel,Sampath – PM,MAINTENANCE,BF,Hose fixed with spare (bought for dump truck). Broken pipe sent to Malé with Rizwan driver.,Mushthaq: confirmed with whom? AH: Ziyadh collect,FIXED,Confirm new spare procured
+32,16-Feb-26,07:02,BF Machine & Diesel,Abdul Hannan – Director,OPERATIONS,BF,"2,750 tons unloaded. 5–6 hrs remaining.",Sampath: need another 5-6 hrs,IN PROGRESS,
+33,19-Feb-26,07:58,BF Machine & Diesel,Sampath – PM,DIRECTED @ MUSHTHAQ,BF/MF,"@Mushthaq – Morning. Materials needed: Komatsu: Hydraulic oil, Diesel filter, Oil filter, Solenoid, Grease, Grease gun, Cotton waste. BF Dump Truck: Brake oil + all service filters. ETA on ordered items?",—,OPEN – Multiple items,Coordinate with Janaka for ETA
+34,19-Feb-26,08:01,BF Machine & Diesel,Abdul Hannan – Director,OPERATIONS,Thulhaadhoo → BF,6 diesel barrels from Thulhaadhoo – empty and return to Kunbe Mohamed house. Diesel needed for both sites.,Sampath: Need diesel; requested 4000L,IN PROGRESS,Confirm diesel delivered to BF + MF
+35,19-Feb-26,11:03,BF Machine & Diesel,Sampath – PM,INCIDENT,BF – Komatsu,Komatsu having issues (video). Mechanic to attend.,Ndirangu: Fixed (12:15),FIXED,
+36,19-Feb-26,17:34,BF Machine & Diesel,Sampath – PM,INCIDENT,BF – Dump Truck,Small damage in dump truck hydraulic hose. Won't send to sea – risk of burst.,"Mushthaq: How to fix? Sampath: Sending hose to Malé, use MF DT",IN PROGRESS,Confirm hose repaired
+37,20-Feb-26,06:45,BF Machine & Diesel,Sampath – PM,DIRECTED @ MUSHTHAQ,BF,@Mushthaq (Well Land) @Janaka – Can you send Adblue please?,4 Adblue cans received at BF on 02-Mar-26,CLOSED,
+38,21-Feb-26,10:39,BF Machine & Diesel,Sampath – PM,MAINTENANCE,BF,Two burst hoses to Malé. Total 2 hoses with Hannan Sir.,AH: The one I brought given to Ziyadh,IN TRANSIT,Confirm all repaired
+39,21-Feb-26,17:46,BF Machine & Diesel,Sampath – PM,DIRECTED @ MUSHTHAQ,BF – Kobelco,@Mushthaq – Kobelco cannot operate. Mechanic says water leaking through gasket.,Monitoring; gasket sourced; Kobelco fixed by 03-Mar,CLOSED,
+40,22-Feb-26,10:58,BF Machine & Diesel,Sampath – PM,OPERATIONS,BF → MF,Sending Komatsu high bed + drum truck to MF. BF DT and excavator grounded.,AH: Keep machines in BF until repaired,GROUNDED,BF machines under repair
+41,22-Feb-26,16:05,BF Machine & Diesel,Sampath – PM,DIRECTED @ MUSHTHAQ,BF – Komatsu,@Mushthaq – Another hose burst on Komatsu. Sending to Thuladhoo/Musa then Malé tomorrow. Total 3 hoses burst.,Hoses sent via Atoll Cute King 23-Feb,CLOSED,
+42,23-Feb-26,19:32,BF Machine & Diesel,Sampath – PM,OPERATIONS,BF,Evosun requesting Komatsu for concrete work. Hold MF machinery move?,Mohamed Hameed: Yes. Janaka arranging mechanic to fix MF.,APPROVED,
+43,24-Feb-26,15:04,BF Machine & Diesel,Sampath – PM,DIRECTED @ MUSHTHAQ,BF – Dump Truck,"@Mushthaq – Dump truck operator: oil viscosity high, needs immediate service. Safe to operate?",Mushthaq: NOT SAFE. DO NOT OPERATE. Sent Volvo A40D checklist PDF.,OPEN – Service pending,Arrange service ASAP
+44,24-Feb-26,15:33,BF Machine & Diesel,Mushthaq,DIRECTED @ MUSHTHAQ,BF – Dump Truck,Sent Volvo A40D Immediate Troubleshooting Checklist PDF to Sampath for inspection.,Sampath: Noted,PENDING – Checklist not returned,Completed checklist to be received back
+45,24-Feb-26,16:15,BF Machine & Diesel,Mushthaq,DIRECTED @ MUSHTHAQ,BF – Stock,"Hydraulic oil barrel: 209L received, only 50-60L found. Mushthaq: nobody to use anything without informing me.",Sampath: Ok,CONTROL ISSUE – Log enforced,Usage log mandatory from here
+46,25-Feb-26,10:05,BF Machine & Diesel,Sampath – PM,RECEIPT,BF,Received package (Komatsu solenoid + Kobelco gasket per Mohamed Hameed).,—,RECEIVED – WRONG PART,Solenoid socket mismatch – correct part needed
+47,25-Feb-26,10:30,BF Machine & Diesel,Sampath – PM,MAINTENANCE,BF – Komatsu 350,"Wrong solenoid received (pilot block). Required: solenoid + Allen screw size 4 ×2, on top of hydraulic pump.",Janaka: pilot block; checking. Send sample to Malé.,OPEN,Correct solenoid – need OEM part number
+48,28-Feb-26,12:26,BF Machine & Diesel,Sampath – PM,DIRECTED @ MUSHTHAQ,BF,@Mushthaq – Rock boulder shipment arriving 4 March. Two excavators must be fixed immediately.,Mushthaq: I am following this,OPEN – Escalated,Both excavators to be ready by 4 Mar
+49,28-Feb-26,16:17,BF Machine & Diesel,Sampath – PM,MAINTENANCE,BF – Komatsu,Solenoid NOT received. Engine top cover cracked (250×850mm) – needs repair.,Mushthaq: I am looking into this,OPEN,Solenoid + engine cover repair
+50,28-Feb-26,16:42,BF Machine & Diesel,Mohamed Hameed – Director,DIRECTED @ MUSHTHAQ,BF,@Mushthaq (Well Land) – really we need to do your responsibility properly.,Mushthaq: I need to know what is happening. Those who cannot take responsibility I urge them to resign.,ESCALATED,Improve communication flow
+51,28-Feb-26,17:07,BF Machine & Diesel,Janaka – Sr. Supervisor,LOGISTICS,BF ← Malé,Solenoid to arrive BF tomorrow. Sampath send 380 excavator cover to Malé tomorrow.,—,IN TRANSIT,Confirm both items
+52,01-Mar-26,09:07,BF Machine & Diesel,Sampath – PM,INCIDENT,BF – Komatsu,One bucket tooth removed (photo),—,OPEN,Tooth replacement
+53,01-Mar-26,11:30,BF Machine & Diesel,Sampath – PM,DIRECTED @ MUSHTHAQ,BF,@Mushthaq @Ahmed Ziyad Hassan – Is it possible to send engine cover tomorrow?,"Ahmed: Yes, sure",ARRANGED,Confirm cover dispatched
+54,02-Mar-26,10:02,BF Machine & Diesel,Sampath – PM,RECEIPT,BF,"Received: Kobelco 10 filters (5 oil+5 fuel), Komatsu Solenoid, 1 belt (Goidhoo), Adblue ×4 cans",—,RECEIVED,Confirm solenoid compatible
+55,02-Mar-26,10:04,BF Machine & Diesel,Sampath – PM,MAINTENANCE,BF – Komatsu,Solenoid socket does not match existing. Direct connection?,Mushthaq: Do NOT recommend. Get mechanic + OEM part number.,OPEN,Correct solenoid still required
+56,03-Mar-26,08:45,BF Machine & Diesel,Sampath – PM,DIRECTED @ MUSHTHAQ,BF – Komatsu,@Mushthaq – Komatsu cannot work. Needs oil + diesel filter. No Komatsu filters on site. Goidhoo has fuel filter only.,Mushthaq: Okay. Coordinate Goidhoo to send fuel filter today.,CLOSED – Fuel filter dispatched,Oil filter still needed
+57,03-Mar-26,12:25,BF Machine & Diesel,Sampath – PM,LOGISTICS,BF → Malé,2 bags (filters) sent via Atoll Cute Crown. @Mohamed collect.,Mohamed: Ok,DISPATCHED,Confirm collected
+58,03-Mar-26,14:19,BF Machine & Diesel,Ndirangu Nginga – Mechanic,MACHINE STATUS,BF,Kobelco now working. Komatsu waiting for filters.,—,PARTIAL,Komatsu filter service
+59,03-Mar-26,22:17,BF Machine & Diesel,Sampath – PM,MACHINE STATUS,BF – Komatsu,Filters changed. Not working well. Mechanic tomorrow.,—,IN PROGRESS,Mechanic assessment
+60,04-Mar-26,11:16,BF Machine & Diesel,Sampath – PM,MACHINE STATUS,BF – Komatsu,Komatsu working now (video).,—,WORKING,
+61,04-Mar-26,11:29,BF Machine & Diesel,Sampath – PM,MACHINE STATUS,BF,Both Kobelco and Komatsu working now.,—,WORKING,
+62,07-Mar-26,08:58,BF Machine & Diesel,Sampath – PM,INCIDENT,BF – Komatsu,Komatsu hose burst again. Trying to fix with available hose. Kobelco working.,Mushthaq: Contingency? Sampath: Kobelco covering.,IN PROGRESS,Send burst hose for replacement
+63,15-Mar-26,09:12,BF Machine & Diesel,Mushthaq,OPERATIONS,BF,Both machines wanted in working condition. Send hose to confirm and get replacement.,"Sampath: Sure, sending tomorrow",IN PROGRESS,Confirm hose sent and replacement received
+64,15-Mar-26,07:53,BF Machine & Diesel,Sampath – PM,DIRECTED @ MUSHTHAQ,BF – Kobelco,"@Mushthaq – Hydraulic leak in Kobelco arm jack. Need jack seal. Also: Hydraulic 20L, Engine oil 65L, Coolant 10L, Adblue 40L, Oil+Fuel filters for PC50.",Mushthaq: Yes. We are on it.,IN PROGRESS,Jack seal + PC50 filters dispatched?
+65,15-Mar-26,15:06,BF Machine & Diesel,Mohamed Hameed – Director,OPERATIONS,BF → MF,Send 2 good machines (1 high bed + 1 low bed excavator + truck) to MF for rock boulder work before monsoon.,AH: Organizing. Sampath: LCT expected tomorrow.,ARRANGED,Confirm LCT arrived; machines at MF
+66,17-Mar-26,18:31,BF Machine & Diesel,Sampath – PM,MATERIAL REQUEST,BF,"Follow-up on jack seal, fluids, PC50 filters",Mushthaq: Yes. We are on it.,IN PROGRESS,Confirm items dispatched
+67,22-Mar-26,13:47,BF Machine & Diesel,Janaka – Sr. Supervisor,MAINTENANCE,BF – PC50,Request clear photos of PC50 filters – previous pics too blurry to identify correct parts.,Sampath: @Ndirangu do needful,IN PROGRESS,Ndirangu to send clear photos
+68,22-Mar-26,14:24,BF Machine & Diesel,Ndirangu Nginga – Mechanic,MAINTENANCE,BF – PC50,Osaka oil & fuel filter photos sent for Kubota 50,—,DONE – PENDING SELECTION,Janaka to select + order
+69,22-Mar-26,13:58,BF Machine & Diesel,Mohamed Hameed – Director,OPERATIONS,MF,Send Komatsu low bed to MF for rock boulder work – good low tide window.,AH: Organizing,IN PROGRESS,Confirm Komatsu dispatched to MF
+70,22-Mar-26,14:01,BF Machine & Diesel,Abdul Hannan – Director,LOGISTICS,Maniyafaru,Push Nasru to load items from Maniyafaru tomorrow morning ASAP,—,PENDING,Confirm Nasru loading 23 Mar
+71,~24-Feb-26,10:47,WL Logistic Group,Mohamed Hameed – Director,LOGISTICS,WL Group,Food logistics request raised. Nashwan given client contact first.,—,ACTIONED,Follow-up on food supply proposal outcome
+72,~24-Feb-26,10:49,WL Logistic Group,Mohamed Hameed – Director,BUSINESS DEV,WL Group,Suggestion: propose food supply service to the food logistics client as well.,—,OPEN,No follow-up on food supply proposal recorded
+73,~24-Feb-26,10:51,WL Logistic Group,Nashwan – Antrac Ops,VESSEL OPS,Dhidhoo,"Dhoni arriving Thilafushi to fuel today, then departing to Dhidhoo this evening. Client wants food delivery tomorrow.",—,IN PROGRESS,Confirm food delivery completed at Dhidhoo
+74,~24-Feb-26,17:07,WL Logistic Group,Nashwan – Antrac Ops,MAINTENANCE QUERY,TUG 1,Who is looking after TUG 1 repair and maintenance? (no response same day),Hannan (25 Feb): Call Ziyadh pls,OPEN – Redirected,Mushthaq to clarify TUG 1 R&M ownership and confirm with Ziyadh
+75,25-Feb-26,10:00,WL Logistic Group,Nashwan – Antrac Ops,MAINTENANCE QUERY,TUG 1,Follow-up on TUG 1 R&M question: ??? (unanswered),Hannan: Call Ziyadh pls,OPEN,Confirm Ziyadh contacted re TUG 1
+76,(Undated ~Mar),12:06,AH Group R&M,Mohamed Hameed – Director,PERSONNEL,Marine Site,Marine mechanic joining today. Will work under Dhanushka (R&M Manager) at site.,2 thumbs up from group,ACTIONED,Confirm mechanic arrived at site
+77,(Undated ~Mar),12:09,AH Group R&M,Mohamed Hameed – Director,ESCALATION,Marine Site,Current staff to be replaced. Direct losses >MVR 5M; business damage >MVR 12M due to barge unavailability from staff failures. Cannot retain negligent staff.,—,DECISION – In progress,Confirm staff replacement timeline; identify root cause failures
+78,(Undated ~Mar),12:14,AH Group R&M,Mohamed Hameed – Director,RECRUITMENT,Marine Site,Need to find a mechanic experienced in BOTH mechanical AND electrical.,—,OPEN – Recruitment required,Source dual-skilled mechanic
+79,(Undated ~Mar),12:16,AH Group R&M,Mohamed Hameed – Director,MANAGEMENT,Marine Site,Will observe team cooperation following personnel changes before determining actual problem and taking further action.,—,MONITORING,
+
+
+### Sheet: MATERIAL REQUESTS ###
+
+SITE MATERIAL REQUESTS – Informal (WhatsApp) – No Purchase Order Number,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+#,Date Raised,Raised By,Site/Area,Item Description,Qty,UoM,Priority,Date Dispatched,Transport,Date Received,Status
+1,26-Jan-26,Sampath,BF,Perspex sheet,1,Nos,URGENT,31-Jan-26,Atoll Cute Crown,31-Jan-26,RECEIVED
+2,26-Jan-26,Sampath,BF,Silicone,2,Nos,URGENT,31-Jan-26,Atoll Cute Crown,31-Jan-26,RECEIVED
+3,26-Jan-26,Sampath,BF,Silicone gun,1,Nos,URGENT,31-Jan-26,Atoll Cute Crown,31-Jan-26,RECEIVED
+4,26-Jan-26,Sampath,BF,Large D-shackle for bucket hook,1,Nos,URGENT,—,—,—,OPEN – available Thilafushi; dispatch unconfirmed
+5,26-Jan-26,Sampath,BF,Diesel pump,1,Nos,URGENT,~06-Feb-26,—,06-Feb-26,RECEIVED (as Fuel pump)
+6,26-Jan-26,Sampath,BF,Grease gun,1,Nos,URGENT,06-Feb-26,—,06-Feb-26,RECEIVED
+7,26-Jan-26,Sampath,BF,Grease,—,—,NORMAL,—,—,—,UNKNOWN – available Thilafushi
+8,26-Jan-26,Sampath,BF,O-ring box,1,Nos,NORMAL,31-Jan-26,—,31-Jan-26,RECEIVED
+9,26-Jan-26,Sampath,BF,Radiator coolant,—,—,NORMAL,—,—,—,UNKNOWN – available Thilafushi
+10,26-Jan-26,Sampath,BF,Bucket teeth and pins,—,—,NORMAL,—,—,—,OPEN – not dispatched; 1 tooth removed 1 Mar
+11,12-Feb-26,Sampath,MF,Diesel filling hose for manual pump (20 ft),20,Feet,NORMAL,—,—,—,OPEN
+12,12-Feb-26,Sampath,MF,Grease gun,1,Nos,NORMAL,—,—,—,OPEN
+13,12-Feb-26,Sampath,MF,Grease,—,—,NORMAL,—,—,—,OPEN
+14,12-Feb-26,Sampath,MF,Grease nipple for Komatsu 350,—,—,NORMAL,—,—,—,OPEN
+15,12-Feb-26,Sampath,MF,Solenoid for Komatsu 350,1,Nos,URGENT,02-Mar-26,Multiple,02-Mar-26,RECEIVED – WRONG FIT; correct OEM part still needed
+16,~19-Feb-26,Sampath,BF,Hydraulic oil (Komatsu),1,Barrel,URGENT,—,—,24-Feb-26,RECEIVED – 209L barrel opened; only 50-60L found on check
+17,~19-Feb-26,Sampath,BF,Diesel filter (Komatsu),—,—,URGENT,—,—,—,OPEN
+18,~19-Feb-26,Sampath,BF,Oil filter (Komatsu),—,—,URGENT,03-Mar-26,Atoll Cute Crown,03-Mar-26,RECEIVED (fuel filter; oil filter not available at Goidhoo)
+19,~19-Feb-26,Sampath,BF,Solenoid (Komatsu 350),1,Nos,URGENT,02-Mar-26,—,02-Mar-26,RECEIVED – WRONG PART; correct part still open
+20,~19-Feb-26,Sampath,BF,Grease,—,—,NORMAL,—,—,—,OPEN
+21,~19-Feb-26,Sampath,BF,Grease gun,1,Nos,NORMAL,—,—,—,OPEN
+22,~19-Feb-26,Sampath,BF/MF,Cotton waste,—,—,NORMAL,—,—,—,UNKNOWN
+23,~19-Feb-26,Sampath,BF – Dump Truck,Brake oil,—,—,NORMAL,—,—,—,OPEN
+24,~19-Feb-26,Sampath,BF – Dump Truck,All service filters,—,—,NORMAL,—,—,—,OPEN
+25,20-Feb-26,Sampath,BF,Adblue,—,—,NORMAL,02-Mar-26,—,02-Mar-26,RECEIVED (4 cans)
+26,25-Feb-26,Sampath,BF – Komatsu 350,Correct solenoid + Allen screw size 4 ×2,—,—,URGENT,—,—,—,OPEN – wrong part returned; OEM part number needed
+27,28-Feb-26,Sampath,BF – Kobelco 380,Engine top cover (250×850mm),1,Nos,URGENT,01-Mar-26,Launch,—,IN TRANSIT – in Malé for repair; confirmation pending
+28,01-Mar-26,Sampath,BF – Komatsu,Bucket tooth replacement,1+,Nos,NORMAL,—,—,—,OPEN
+29,10-Feb-26,Sampath,BF,Grease gun coupler (NPT 1/8 in.),1,Nos,NORMAL,—,—,—,OPEN – no dispatch/receipt confirmed
+30,07-Mar-26,Sampath,BF – Komatsu,Hydraulic hose replacement,—,—,URGENT,—,—,—,IN PROGRESS – using available spare; replacement needed
+31,15-Mar-26,Sampath,BF – Kobelco,Jack seal for arm jack (hydraulic leak),1,Nos,URGENT,—,—,—,OPEN – no dispatch confirmed
+32,15-Mar-26,Sampath,BF – PC50,Oil & fuel filters for PC50 / Kubota 50,—,—,HIGH,—,—,—,IN PROGRESS – photos sent 22 Mar; Janaka selecting
+33,~Feb-26,Sampath,BF – Dump Truck,Volvo A40D – all service items (oil viscosity high),—,—,URGENT,—,—,—,OPEN – DO NOT OPERATE; service not confirmed
+
+
+### Sheet: PURCHASE REQUESTS ###
+
+CONSOLIDATED PURCHASE REQUESTS – Antrac & Well Land (Janaka) + Site Informal Requests (Sampath),Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11
+#,Req No.,Date,Requested By,Entity,Category,Destination / Vessel,Item Description,Qty,UoM,Status,Notes
+1,antrac 2026/7,21-Feb-26,Janaka,Antrac,Vessel Consumables,Antrac1 Dhoni,Water,2000,litres,,
+2,antrac 2026/7,21-Feb-26,Janaka,Antrac,Vessel Consumables,Antrac1 Dhoni,Diesel,1900,litres,,
+3,antrac 2026/8,23-Feb-26,Janaka,Antrac,Vessel Consumables,Antrac1 Dhoni,Water,1000,litres,,
+4,antrac 2026/8,23-Feb-26,Janaka,Antrac,Vessel Consumables,Antrac1 Dhoni,Diesel,1400,litres,,
+5,antrac 2026/9,01-Mar-26,Janaka,Antrac,Parts & Filters,Antrac1 Dhoni,Fuel filter element 2020pm 30 micron,4,Nos,,
+6,antrac 2026/9,01-Mar-26,Janaka,Antrac,Parts & Filters,Antrac1 Dhoni,Lube oil filter 126650-35350,4,Nos,,
+7,antrac 2026/9,01-Mar-26,Janaka,Antrac,Parts & Filters,Antrac1 Dhoni,Greased gland packing 12mm,1,Nos,,
+8,wl-st-2026-4,19-Feb-26,Janaka,Well Land,Site Consumables,Site 3 (BF/MF),Water,5,tons,,
+9,wl-st-2026-5,22-Feb-26,Janaka,Well Land,Site Consumables,Site 3,Water,5,tons,,
+10,wl-st-2026-6,25-Feb-26,Janaka,Well Land,Site Consumables,Site 3,Water,5,tons,,
+11,wl-st-2026-7,28-Feb-26,Janaka,Well Land,Site Consumables,Site 3,Water,5,tons,,
+12,wl-st-2026-8,01-Mar-26,Janaka,Well Land,Parts,Site 3,Komatsu PC350 excavator bucket tooth,4,no's,Linked to site request; 1 tooth removed 1 Mar,Linked to site request; 1 tooth removed 1 Mar
+13,wl-lct-2027-6,26-Feb-26,Janaka,Well Land,Vessel Consumables,LCT1,Diesel (balance 1300L),3500,litres,,
+14,wl-lct-2027-6,26-Feb-26,Janaka,Well Land,Vessel Consumables,LCT1,Water,8,tons,,
+15,wl-lct-2027-7,01-Mar-26,Janaka,Well Land,Vessel Supplies,LCT1,Canvas tarpaulin,4,no's,,
+16,37-2026,11-Feb-26,Janaka,Well Land,Lubricants,Site 3: vessels & workshop,15W-40 engine oil,1,barrel,,
+17,38-2026,14-Feb-26,Janaka,Well Land,Provisions,Goidhoo project: staff,1.5L drinking water,20,case,,
+18,39-2026,15-Feb-26,Janaka,Well Land,PPE,Site 3: welders,XL boiler suit (Robel – MPL),1,kit,,
+19,39-2026,15-Feb-26,Janaka,Well Land,PPE,Site 3: welders,XL boiler suit (Nurul – W/L),1,kit,,
+20,40-2026,15-Feb-26,Janaka,Well Land,Fuel,Goidhoo: machines & vehicles,Diesel,2400,litres,,
+21,40-2026,15-Feb-26,Janaka,Well Land,Lubricants,Goidhoo: machines & vehicles,Hydraulic oil,40,litres,,
+22,41-2026,16-Feb-26,Janaka,Well Land,Electrical,LCT1,15 AMP socket outlet,1,Nos,,
+23,41-2026,16-Feb-26,Janaka,Well Land,Electrical,LCT1,Single sunk box,1,Nos,,
+24,42-2026,,Janaka,Well Land,—,,N/A (blank request),—,—,Status '?' in original log – follow up with Janaka,Status '?' in original log – follow up with Janaka
+25,43-2026,24-Feb-26,Janaka,Well Land,Lubricants,Site 3,SAE 68 hydraulic oil,1,barrel,,
+26,44-2026,02-Mar-26,Janaka,Well Land,Site Supplies,Site 3,Fabric tarpaulin,2,Nos,,
+27,44-2026,02-Mar-26,Janaka,Well Land,PPE,Site 3,Cotton gloves,10,bundles,,
+28,44-2026,02-Mar-26,Janaka,Well Land,Consumables,Site 3,"4"" paint refills",3,bundles,,
+29,45-2026,02-Mar-26,Janaka,Well Land,Fuel,Excavators and lorries,Diesel,1200,litres,,
+30,46-2026,02-Mar-26,Janaka,Well Land,Fuel,Bodufinolhu project,Diesel,1000,litres,,
+31,47-2026,04-Mar-26,Janaka,Well Land,PPE,Welders of MPL,"XL boiler suit (Robel, welder)",1,Nos,,
+32,47-2026,04-Mar-26,Janaka,Well Land,PPE,Welders of MPL,"XL boiler suit (Mokles, welder)",1,Nos,,
+33,47-2026,04-Mar-26,Janaka,Well Land,PPE,Welders of MPL,"XL boiler suit (Rashid, welder)",1,Nos,,
+34,47-2026,04-Mar-26,Janaka,Well Land,PPE,Welders of MPL,"Size 43 safety shoe (Nurul, welder)",1,Pair,,
+35,48-2026,07-Mar-26,Janaka,Well Land,Crew Supplies,Launch crew,Bed sheets,2,Nos,,
+36,48-2026,07-Mar-26,Janaka,Well Land,Crew Supplies,Launch crew,Pillows with covers,2,Nos,,
+37,49-2026,07-Mar-26,Janaka,Well Land,Provisions,Staff,Washing powder,2,case,,
+38,50-2026,12-Mar-26,Janaka,Well Land,Parts,Vehicles & PC70 excavator,"70Amp 12V battery (10""×7"")",2,Nos,,
+39,50-2026,12-Mar-26,Janaka,Well Land,Parts,Vehicles & PC70 excavator,Battery terminals,4,Pair,,
+40,50-2026,12-Mar-26,Janaka,Well Land,PPE,Blasting helmet,"7""×5""×3mm clear glass (blasting helmet)",12,Nos,,
+41,51-2026,18-Mar-26,Janaka,Well Land,Parts,Komatsu PC350 high bed excav.,12mm rubber hose (diesel hose),20,Feet,,
+42,52-2026,19-Mar-26,Janaka,Well Land,PPE,Safety shoe & boiler suit to drivers,"M boiler suit (Sojib, new driver)",1,Nos,,
+43,52-2026,19-Mar-26,Janaka,Well Land,PPE,Safety shoe & boiler suit to drivers,Size 40 safety shoe (Sojib),1,Pair,,
+44,52-2026,19-Mar-26,Janaka,Well Land,PPE,Safety shoe & boiler suit to drivers,"Size 41 safety shoe (Moyna Mia, driver)",1,Pair,,
+45,53-2026,21-Mar-26,Janaka,Well Land,PPE,Marine engineer,"Safety boot size 46 (Paulson, marine engineer)",1,Pair,,
+46,53-2026,21-Mar-26,Janaka,Well Land,PPE,Marine engineer,"Boiler suit XXXXXL (Paulson, marine engineer)",1,Nos,,
+47,54-2026,(pending),Janaka,Well Land,—,—,Not yet raised – request number reserved,—,—,,
+48,N/A (Site),26-Jan-26,Sampath,Well Land,Machine Parts,BF – machines,Perspex sheet,1,Nos,Jan 31 batch,Jan 31 batch
+49,N/A (Site),26-Jan-26,Sampath,Well Land,Machine Parts,BF – machines,Silicone,2,Nos,Jan 31 batch,Jan 31 batch
+50,N/A (Site),26-Jan-26,Sampath,Well Land,Machine Parts,BF – machines,Silicone gun,1,Nos,Jan 31 batch,Jan 31 batch
+51,N/A (Site),26-Jan-26,Sampath,Well Land,Machine Parts,BF – machines,Large D-shackle for bucket hook,1,Nos,Available Thilafushi; dispatch unconfirmed,Available Thilafushi; dispatch unconfirmed
+52,N/A (Site),26-Jan-26,Sampath,Well Land,Machine Parts,BF – machines,Diesel pump,1,Nos,Received 6 Feb as 'Fuel pump',Received 6 Feb as 'Fuel pump'
+53,N/A (Site),26-Jan-26,Sampath,Well Land,Machine Parts,BF – machines,Grease gun,1,Nos,6 Feb receipt,6 Feb receipt
+54,N/A (Site),26-Jan-26,Sampath,Well Land,Machine Parts,BF – machines,Grease,—,—,Available Thilafushi,Available Thilafushi
+55,N/A (Site),26-Jan-26,Sampath,Well Land,Machine Parts,BF – machines,O-ring box,1,Nos,Jan 31 batch,Jan 31 batch
+56,N/A (Site),26-Jan-26,Sampath,Well Land,Machine Parts,BF – machines,Radiator coolant,—,—,Available Thilafushi,Available Thilafushi
+57,N/A (Site),26-Jan-26,Sampath,Well Land,Machine Parts,BF – machines,Bucket teeth and pins,—,—,Not dispatched,Not dispatched
+58,N/A (Site),12-Feb-26,Sampath,Well Land,Machine Parts,MF – Komatsu 350,Diesel filling hose for manual pump (20ft),20,Feet,,
+59,N/A (Site),12-Feb-26,Sampath,Well Land,Machine Parts,MF – Komatsu 350,Solenoid for Komatsu 350,1,Nos,Correct OEM part still needed,Correct OEM part still needed
+60,N/A (Site),17-Feb-26,Sampath,Well Land,Fuel,MF – stock,Diesel,1200,litres,MF stock 1600L + 7 empty barrels,MF stock 1600L + 7 empty barrels
+61,N/A (Site),17-Feb-26,Sampath,Well Land,Fuel,MF – stock,Petrol,200,litres,,
+62,N/A (Site),17-Feb-26,Sampath,Well Land,Fuel,BF – machines,Diesel,1000,litres,,
+
+
+### Sheet: RECEIPTS ###
+
+RECEIPTS – All Confirmed Goods Received,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7
+#,Date Received,Items Received,Qty / Detail,Received By,Transport / Source,Confirmed By,Notes / Alerts
+1,Dump truck brake hoses,2 hoses,Sampath,Ferry from Malé,Mohamed Hameed,Hydraulic hose still pending at this point,
+2,"6 filters, Manual pump, O-ring box, Small grease gun, 2x Silicone, Silicone gun, 2x Lifting belts",Multiple,Sampath,Multiple dispatches (Goidhoo/Malé),Ahmed Ziyad Hassan,Main batch from Malé/Goidhoo,
+3,"Starting Motor, Hose, O-ring set (Dump Truck), Filters",Multiple,Sampath (BF),Atoll Cute Crown speedboat,Ahmed Ziyad Hassan,O-ring set confirmed for Volvo dump truck,
+4,"Manual pump, Small grease gun, O-ring box",3 items,Thilafushi store,Dispatched from BF site,Mr. Ibrahim (instruction),Sent to Thilafushi,
+5,"Fuel pump, Grease gun, 2x AC machines, Washing machine, AC gas R410A, Hydraulic barrel",6 items,Sampath,—,—,Multi-item delivery to BF,
+6,Hydraulic barrel (209L),1 barrel,Sampath,—,—,⚠️ ALERT: Barrel arrived opened; only 50-60L found on check. Usage log now mandatory.,
+7,Hydraulic hose (drum truck),1 hose,Sampath (BF),Moosabe vessel,Ahmed Ziyad Hassan,Sent by Ahmed; received at BF,
+8,3x Komatsu burst hoses sent to Thulhaadhoo for repair,3 hoses (outbound),Sampath,Atoll Cute King,Ahmed Ziyad Hassan,Hoses sent for repair,
+9,Parts package – Komatsu solenoid + Kobelco gasket,1 package,Sampath,Goidhoo ferry,Mohamed Hameed (identified),⚠️ Solenoid socket mismatch – wrong part returned,
+10,"Kobelco 10x filters (5 oil+5 fuel), Komatsu solenoid, 1 belt (Goidhoo), 4x Adblue cans",Multiple,Sampath,—,—,Correction: originally stated 13 filters; actual 10,
+11,Komatsu fuel filter (from Goidhoo),—,Site,Atoll Cute Crown,Mushthaq coordinate,Fuel filter only; oil filter not available at Goidhoo,
+12,Eurofil oil & fuel filters batch,Multiple,Sampath,—,Mohamed (inventory),Used for Kobelco and Komatsu servicing,
+13,Osaka oil & fuel filter photos for PC50 (photos – not physical goods),Photos,Ndirangu Nginga,On-site (phone camera),Janaka (to select correct part),Janaka to identify and order correct filters,
+
+
+### Sheet: INCIDENTS & ISSUES ###
+
+"INCIDENTS & ISSUES – Machine Failures, Breakdowns, Damage, Stock Discrepancies",Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7
+#,Date,Machine / Asset,Incident / Issue,Root Cause,Immediate Action,Resolution Status,Outstanding Action
+1,26-Jan-26,SK 235 Excavator,Starter motor failure – out of order,Motor failure,Sent to Malé for repair,UNKNOWN – no return confirmation,
+2,26-Jan-26,Kobelco (High Bed),Bucket pin repair pending materials,Materials unavailable,Boom pin done 26 Jan; bucket pin done 27 Jan,RESOLVED,
+3,26-Jan-26,BF Dump Truck,Awaiting hose from Malé (sent 22 Jan),Hose failure,Sent to Malé 22 Jan; returned via ferry 27 Jan,RESOLVED,
+4,26-Jan-26,MF Dump Truck,Oil leakage identified,Unknown,Mechanic sent with Komatsu 29 Jan,PARTIALLY RESOLVED – final confirmation not on record,
+5,28-Jan-26,Komatsu (High Bed),Diesel air lock – air in fuel system,Diesel filter blockage,Mechanic informed; diesel filter required,OPEN – filter procured Mar; monitored,
+6,29-Jan-26,BF Dump Truck,Brake hose burst at 14:45 during Evosun hire,Hose failure,Evosun mechanic assisted; repair done,RESOLVED,
+7,31-Jan-26,Multiple BF machines,All machines except Kobelco broken – site at standstill,Multiple concurrent failures,Emergency parts dispatched from Malé/Goidhoo,RESOLVED by early Feb,
+8,04-Feb-26,Kobelco (High Bed),Steel bush cracks found during Malé repair,Rock boulder unloading impact,Temporary weld; cabin removal needed for permanent fix,PARTIAL – temporary fix; permanent deferred,
+9,13-Feb-26,BF Dump Truck,Hydraulic hose burst,Hose wear/failure,Hose sent to Malé; returned via Moosabe 14 Feb,RESOLVED,
+10,15-Feb-26,Komatsu (High Bed),Small hole in steel fuel pipe,Wear/damage,Sent to Thuladhoo for gas welding,UNKNOWN – welding result not confirmed,
+11,15-Feb-26,Unknown Excavator,Hydraulic hose burst,Hose failure,Spare dump truck hose used to fix,RESOLVED – dump truck spare consumed,
+12,19-Feb-26,BF Dump Truck,Hydraulic hose damage – unsafe near sea,Hose deterioration,Sent to Malé; MF dump truck used as interim,IN PROGRESS – repair confirmation pending,
+13,19-Feb-26,Komatsu (High Bed),Machine issues (unspecified – video),Unknown,Mechanic attended; Ndirangu: Fixed 12:15,RESOLVED,
+14,21-Feb-26,Kobelco (High Bed),Water leaking through gasket – cannot operate,Gasket failure,Gasket ordered; mechanic arranged (23 Feb),RESOLVED – Kobelco working by 03 Mar,
+15,22-Feb-26,Komatsu (High Bed),3rd hose burst (cumulative),Repeated hose failures,Hoses sent to Thulhaadhoo 23 Feb,RESOLVED after repair,
+16,24-Feb-26,BF Dump Truck (Volvo A40D),High oil viscosity – unsafe to operate,Service overdue,STOP ORDER issued by Mushthaq; checklist sent,OPEN – Immediate service required,
+17,24-Feb-26,Stock / Inventory,Hydraulic oil 209L barrel: only 50-60L found on check,Barrel received already opened; unauthorized use,Mushthaq: no use without GM knowledge; usage log enforced,CONTROL ISSUE – log implemented,
+18,25-Feb-26,Komatsu 350,Wrong solenoid received (pilot block – socket mismatch),Wrong part dispatched,Returned wrong part; sample to Malé for correct sourcing,OPEN – Correct OEM solenoid still needed,
+19,28-Feb-26,Kobelco 380,Engine top cover cracked (250×850mm),Deterioration/impact damage,Sent to Malé for repair 28 Feb / 1 Mar,IN PROGRESS – confirmation pending,
+20,01-Mar-26,Komatsu (High Bed),Bucket tooth removed/lost,Impact/wear,Replacement requested,OPEN,
+21,07-Mar-26,Komatsu (High Bed),Hydraulic hose burst (4th event),Recurring failure,Using available spare; Kobelco covering,IN PROGRESS – send for replacement,
+22,15-Mar-26,Kobelco (High Bed),Hydraulic leak in arm jack – needs jack seal,Seal failure,Jack seal requested @Mushthaq 15 Mar,OPEN – Jack seal not yet dispatched,
+23,~Mar-26,AH Group Barges,Staff negligence resulting in barge unavailability – direct loss >MVR 5M; business damage >MVR 12M,Staff failures,Marine mechanic deployed under Dhanushka; staff replacement decision,IN PROGRESS – monitoring new team,
+
+
+### Sheet: OPEN ITEMS ###
+
+OPEN ITEMS – FOLLOW-UP TRACKER  |  Review Daily,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8
+#,Date Raised,Source Group,Category,Open Item / Action Required,Responsible,Priority,Target,Status
+1,26-Jan-26,BF Machine & Diesel,MATERIAL,Large D-shackle for bucket hook – available Thilafushi; dispatch to BF not confirmed,Janaka / Ahmed Ziyad,URGENT,—,OPEN
+2,26-Jan-26,BF Machine & Diesel,MATERIAL,Bucket teeth and pins – not dispatched; 1 tooth removed 1 Mar,Janaka / Ahmed Ziyad,HIGH,—,OPEN
+3,26-Jan-26,BF Machine & Diesel,MAINTENANCE,SK 235 starter motor – sent to Malé; repair/return not confirmed,Ahmed Ziyad / Janaka,HIGH,—,UNKNOWN
+4,12-Feb-26,BF Machine & Diesel,MATERIAL,MF – Diesel filling hose for manual pump (20ft),Janaka,MEDIUM,—,OPEN
+5,12-Feb-26,BF Machine & Diesel,MATERIAL,MF – Grease and Grease nipple for Komatsu 350,Janaka,MEDIUM,—,OPEN
+6,15-Feb-26,BF Machine & Diesel,MAINTENANCE,Komatsu fuel pipe sent to Thuladhoo for welding – result not confirmed,Sampath / Ndirangu,HIGH,—,UNKNOWN
+7,~24-Feb-26,BF Machine & Diesel,MAINTENANCE,BF Dump Truck – DO NOT OPERATE. High oil viscosity. Immediate full service required. Volvo A40D checklist to be completed and returned.,Mushthaq / Janaka / Mechanic,URGENT,ASAP,OPEN
+8,~24-Feb-26,BF Machine & Diesel,MATERIAL,BF Dump Truck – Brake oil + all service filters,Janaka,HIGH,—,OPEN
+9,24-Feb-26,BF Machine & Diesel,ADMIN,Volvo A40D maintenance checklist to be completed by Sampath and returned to Mushthaq,Sampath,HIGH,ASAP,PENDING
+10,24-Feb-26,BF Machine & Diesel,ADMIN / CONTROL,"Stock usage log mandatory – all consumables (oil, hydraulic fluid) must be recorded; no use without GM approval",Sampath / Ndirangu,URGENT,IMMEDIATE,CONTROL REQUIRED
+11,25-Feb-26,BF Machine & Diesel,MAINTENANCE,Correct Komatsu 350 solenoid – wrong part received twice; need OEM serial/part number; sample sent to Malé,Janaka / Ahmed Ziyad,URGENT,ASAP,OPEN
+12,28-Feb-26,BF Machine & Diesel,MAINTENANCE,Engine top cover (Kobelco 380) in Malé for repair – confirmation pending,Ahmed Ziyad / Mechanic,URGENT,ASAP,IN PROGRESS
+13,01-Mar-26,BF Machine & Diesel,MATERIAL,Komatsu bucket tooth replacement,Janaka,MEDIUM,—,OPEN
+14,07-Mar-26,BF Machine & Diesel,MAINTENANCE,Komatsu hose (burst 7 Mar) – proper replacement needed; currently on available spare,Janaka / Ahmed Ziyad,HIGH,—,IN PROGRESS
+15,10-Feb-26,BF Machine & Diesel,MATERIAL,Grease gun coupler (NPT 1/8 in.) – no receipt confirmation,Janaka / Ahmed Ziyad,MEDIUM,—,UNKNOWN
+16,15-Mar-26,BF Machine & Diesel,MATERIAL,Jack seal for Kobelco arm jack (hydraulic leak),Mushthaq / Janaka,URGENT,ASAP,OPEN
+17,15-Mar-26,BF Machine & Diesel,MATERIAL,Oil & fuel filters for PC50 / Kubota 50 small excavator,Janaka,HIGH,—,IN PROGRESS – photos sent 22 Mar
+18,15-Mar-26,BF Machine & Diesel,OPERATIONS,LCT + 2 excavators (high bed + low bed) + truck to be transferred to MF before monsoon,Sampath / AH,HIGH,ASAP,ARRANGED – confirm LCT arrival
+19,22-Mar-26,BF Machine & Diesel,MAINTENANCE,PC50 filter photos sent to Janaka – select and order correct parts,Janaka,HIGH,23-Mar-26,IN PROGRESS
+20,22-Mar-26,BF Machine & Diesel,OPERATIONS,Nasru to load items from Maniyafaru tomorrow morning,Sampath / AH,MEDIUM,23-Mar-26,PENDING
+21,22-Mar-26,BF Machine & Diesel,OPERATIONS,Komatsu low bed to MF for rock boulder work (low tide window),Sampath / AH,HIGH,ASAP,ORGANIZING
+22,—,BF Machine & Diesel,MAINTENANCE,MF Dump Truck oil leakage – final fix confirmation not on record,Mechanic / Sampath,HIGH,—,UNKNOWN
+23,—,BF Machine & Diesel,MAINTENANCE,Kobelco steel bush cracks – permanent repair (cabin removal) deferred,Mechanic / Janaka,MEDIUM,—,DEFERRED
+24,~24-Feb-26,WL Logistic Group,OPERATIONS,TUG 1 Repair & Maintenance – who is responsible? Redirected to Ziyadh. Confirm Ziyadh contacted and R&M plan in place.,Mushthaq / Ziyadh,HIGH,—,OPEN
+25,~24-Feb-26,WL Logistic Group,BUSINESS DEV,Food supply proposal – follow up on outcome of client discussion,Nashwan / Mohamed Hameed,LOW,—,OPEN
+26,~24-Feb-26,WL Logistic Group,VESSEL OPS,Dhidhoo food delivery – confirm completed,Nashwan,MEDIUM,—,UNKNOWN
+27,~Mar-26,AH Group R&M,RECRUITMENT,Find dual-skilled mechanic (mechanical + electrical) for marine site,Mohamed Hameed / Dhanushka,HIGH,—,OPEN
+28,~Mar-26,AH Group R&M,MAINTENANCE,Staff replacement at marine site – confirm new team deployed under Dhanushka,Dhanushka,HIGH,—,IN PROGRESS
+29,Various,All,MATERIAL,Adblue stock – confirm sufficient quantity at BF after 4 cans received 2 Mar,Sampath / Janaka,MEDIUM,—,UNKNOWN
+30,Various,All,FUEL,Diesel delivery confirmation – 4000L to BF+MF via 6 barrels from Thulhaadhoo,Sampath / AH,HIGH,—,UNKNOWN
+31,42-2026,Purchase Requests,PROCUREMENT,Request 42-2026 – status '?' in log. Clarify with Janaka what this request was and its status.,Janaka / Mushthaq,MEDIUM,—,UNKNOWN
+32,54-2026,Purchase Requests,PROCUREMENT,Request 54-2026 – number reserved but items not yet raised. Follow up with Janaka.,Janaka,LOW,—,PENDING
+
+
+### Sheet: DIRECTED AT MUSHTHAQ ###
+
+⭐  DIRECTED AT MUSHTHAQ (Ali Mushthaq Ibrahim – GM Logistics)  |  Personal Action Register  |  All Groups,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10
+This is YOUR dashboard. Every message/request directed at you from all groups is logged here. Fill in 'Your Action / Response' and update STATUS after each action. Sources: BF Machine & Diesel Ops  |  WL Logistic Group  |  AH Group R&M,,,,,,,,,,
+#,Date,Time,Source Group,Sent By / Role,Request / Message Directed at You,Action Required,Your Action / Response,Status,Priority,Date Actioned
+1,09-Feb-26,11:54,BF Machine & Diesel,Mohamed Hameed – Director,@Mushthaq (Well Land) – Ndirangu hasn't gotten help with jetty booking. Situation?,Advise on Ndirangu's travel arrangement to BF,Jackson sent to ferry; reaching 12pm ferry (11:55 confirmed),CLOSED,MEDIUM,09-Feb-26
+2,19-Feb-26,07:58,BF Machine & Diesel,Sampath – Project Manager,"@Mushthaq (Well Land) – Good morning. Materials required: Komatsu: Hydraulic oil, Diesel filter, Oil filter, Solenoid, Grease, Grease gun, Cotton waste (both sites). BF Dump Truck: Brake oil + all service filters. Some ordered per Janaka – ETA?","1. Confirm ETA on ordered items from Janaka. 2. Source: brake oil, cotton waste, grease gun (MF). 3. Coordinate Janaka.",—,OPEN,HIGH,
+3,20-Feb-26,06:45,BF Machine & Diesel,Sampath – Project Manager,@Mushthaq (Well Land) @Janaka – Can you send Adblue please?,Arrange Adblue dispatch to BF,4 Adblue cans delivered to BF on 02-Mar-26,CLOSED,MEDIUM,02-Mar-26
+4,21-Feb-26,17:46,BF Machine & Diesel,Sampath – Project Manager,@Mushthaq (Well Land) – Kobelco cannot operate. Mechanic: water leaking through gasket.,Arrange gasket + mechanic urgently for Kobelco,Monitored; gasket sourced; Kobelco fixed by 03-Mar-26,CLOSED,HIGH,03-Mar-26
+5,22-Feb-26,16:05,BF Machine & Diesel,Sampath – Project Manager,@Mushthaq (Well Land) – Another hose burst on Komatsu. Sending via Thuladhoo/Musa to Malé tomorrow. Total 3 hoses burst; 2 already in Malé.,Confirm hose repair arrangement. Ensure all 3 hoses repaired/replaced.,Hoses sent via Atoll Cute King 23-Feb to Thulhaadhoo for repair,CLOSED,HIGH,23-Feb-26
+6,24-Feb-26,15:04,BF Machine & Diesel,Sampath – Project Manager,"@Mushthaq (Well Land) – Dump truck operator: oil viscosity high, needs immediate service. Safe to operate?",1. Issue stop order immediately. 2. Arrange full service. 3. Send Volvo A40D checklist for inspection.,Responded: IT IS NOT SAFE. DO NOT OPERATE. Sent Volvo A40D checklist PDF to Sampath.,OPEN – SERVICE NOT YET CONFIRMED,URGENT,24-Feb-26
+7,24-Feb-26,15:05,BF Machine & Diesel,Sampath – Project Manager,@Mushthaq (Well Land) – Please send me the costing for the repair works (dump truck).,Clarify that repair costing is not your responsibility. Confirm mechanic assessment.,Responded: Not my role to cost repairs. Has mechanic checked? Sampath: No idea – will check.,OPEN – Awaiting mechanic assessment,URGENT,24-Feb-26
+8,24-Feb-26,15:33,BF Machine & Diesel,Mushthaq [self-initiated],Sent Volvo A40D Immediate Troubleshooting Checklist PDF to Sampath for truck inspection.,Receive completed checklist back from Sampath and file.,—,PENDING – Checklist not returned,HIGH,
+9,24-Feb-26,16:21,BF Machine & Diesel,Mushthaq [self-initiated],Discovered hydraulic oil barrel: 209L received but only 50-60L remaining on check. Barrel arrived opened.,1. Enforce usage log with immediate effect. 2. Investigate who used ~150L without authorization. 3. Implement: nothing used without GM knowledge.,Informed Sampath: nobody uses anything without informing me. Sampath: Ok.,CONTROL ISSUE – Monitor,URGENT,24-Feb-26
+10,25-Feb-26,10:30,BF Machine & Diesel,Sampath – Project Manager,@Mushthaq + @Janaka – Solenoid received does not match (wrong part – pilot block). Need correct solenoid + Allen screw size 4 ×2 for Komatsu 350 top of hydraulic pump.,1. Arrange correct solenoid sourcing (get OEM serial/part number from mechanic). 2. Return wrong part. 3. Janaka to check other parts shops.,Noted; Pilot block returned. Janaka checking.,OPEN – Correct solenoid needed,URGENT,
+11,28-Feb-26,12:26,BF Machine & Diesel,Sampath – Project Manager,@Mushthaq (Well Land) – Rock boulder shipment arriving 4 March. Two excavators must be fixed immediately.,Ensure both excavators (Komatsu + Kobelco) operational before 4 March. Escalate parts if needed.,Responded: I am following this. Kobelco back 3 Mar; Komatsu back 4 Mar.,CLOSED,URGENT,04-Mar-26
+12,28-Feb-26,16:42,BF Machine & Diesel,Mohamed Hameed – Director,@Mushthaq (Well Land) – Really we need to do your responsibility properly. If anyone told this before it went to this level I am able to do myself. I need to know what is happening. Those who cannot take responsibility I urge to resign.,1. Improve real-time information flow from site. 2. Ensure Sampath/Ndirangu report proactively. 3. Acknowledge accountability.,Responded: I need to know what is happening; only then can I attend. I am looking into this.,ACTIONED – Ongoing oversight,HIGH,28-Feb-26
+13,01-Mar-26,11:30,BF Machine & Diesel,Sampath – Project Manager,@Mushthaq (Well Land) @Ahmed Ziyad Hassan – Is it possible to send engine cover tomorrow?,"Confirm Ahmed Ziyad can dispatch engine cover (Kobelco 380, 250×850mm) to Thulhaadhoo tomorrow.","Ahmed: Yes, sure (confirmed 01-Mar).",ARRANGED,MEDIUM,01-Mar-26
+14,03-Mar-26,08:45,BF Machine & Diesel,Sampath – Project Manager,@Mushthaq (Well Land) – Komatsu cannot work. Needs oil + diesel filter. No Komatsu filters on site. Goidhoo has fuel filter only. Can you coordinate with Goidhoo and send fuel filter today?,Coordinate with Goidhoo to send Komatsu fuel filter on today's ferry.,Responded: Okay. Coordination done. Fuel filter dispatched via Atoll Cute Crown. Oil filter still needed.,PARTIALLY CLOSED – Oil filter still open,HIGH,03-Mar-26
+15,15-Mar-26,07:53,BF Machine & Diesel,Sampath – Project Manager,@Mushthaq (Well Land) – Hydraulic leak in Kobelco arm jack. Need: 1) Jack seal 2) Hydraulic 20L (site: 20L) 3) Engine oil 65L (site: 65L) 4) Coolant 10L (site: 10L) 5) Adblue 40L (site: 40L) 6) Oil+Fuel filters PC50.,1. Source and dispatch jack seal for Kobelco arm URGENTLY. 2. Arrange PC50 filters (Janaka to identify from photos). 3. Check if site stock levels sufficient for fluids.,Responded: Yes. We are on it. (17-Mar-26),IN PROGRESS – Jack seal + PC50 filters pending dispatch,URGENT,
+16,~24-Feb-26,~17:07,WL Logistic Group,Nashwan – Antrac Ops,Who is looking after TUG 1 repair and maintenance? (no answer; Hannan said: call Ziyadh),Clarify TUG 1 R&M responsibility and ownership. Contact Ziyadh. Establish formal R&M schedule for TUG 1.,—,OPEN,HIGH,
+17,~24-Feb-26,~10:49,WL Logistic Group,Mohamed Hameed – Director,Maybe you can propose food supply also to [the food logistics client].,Evaluate food supply opportunity; respond to Mohamed Hameed with position.,—,OPEN,LOW,
+
+
+--- File: Heavy Vehicles & Operators.xlsx ---
+### Sheet: Sheet1 ###
+
+Heavy Vehicle Drivers & Operators - WELL LAND,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6
+SN,Name,Position,Remarks,,,
+1,Shahjalal,Driver Cum Assistant Mechanic,,,,
+2,R L Walapita Godellage,Crane Operator,,,,
+3,MD Moyna Mia,Heavy Vehicle Driver ,,,,
+4,Eswararao Chekka ,Excavator Operator,,,,
+5,Soundarraj Muniyappan ,Excavator Operator,,,,
+6,Anish John ,Excavator Operator,,,,
+7,Feroskhan Meerasa,Excavator Operator,,,,
+8,DULIP PRIYANKARA DEWAPAKSHA DEWAPAKSHA,Heavy Vehicle Driver ,Work Permit Processed,,,
+,,,,,,
+Heavy Vehicles,,,,,,
+SN,VEHICLE TYPE,BRAND,QTY,,,
+.,HAULER DUMP TRUCKS,VOLVO A 40 G,2 NO'S,bodufinolhu,muthaafushi,muthaafushi - between control valve - hose = leaking hydraulic 
+2,DUMP TRUCK,ISUZU 14 TONS,1 NO'S,,,
+3,DUMP TRUCK,UD NISSAN 14 TONS,1 NO'S,,,
+4,LOW BED EXCAVATOR,KOMATSU PC 350 ,3 NO'S,,,
+5,HIGH BED EXCAVATOR,KOMATSU PC 350 ,1 NO'S,,,
+6,HIGH BED EXCAVATOR,KOBELCO SK 380,1 NO'S,,,
+7,MOBILE CRANE,TADANO TR 300 EX,1 NO'S,,,
+8,LOW BED EXCAVATOR,KOBELCO SK 235,1 NO'S,,,
+9,LOW BED EXCAVATOR,KUBOTA 50,1 NO'S,,,
+10,FORK LIFT,NISSAN  5TONS,1 NO'S,,,
+11,BOB CAT,BOB CAT,1 NO'S,,,
+12,PICKUP,AF 6 TONS,1 NO'S,,,
+13,LOADER,CAT,1 NO'S,,,
+
+
+--- File: WELL LAND STAFF LIST.xlsx ---
+### Sheet: Sheet1 ###
+
+,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+,,,,
+S.No,Name,Designation,Grade,Joined Date
+1,Ali Shameem,Senior Captain,G8,2012-02-01 00:00:00
+2,Anuar Hussain,"Crew, LCT 1 - Expat",G6,2015-09-08 00:00:00
+3,Nasrulla Ali,Senior Captain,G8,2016-04-13 00:00:00
+4,Shahjalal,Driver Cum Assistant Mechanic,G6,2016-05-17 00:00:00
+5,MD Robel Miah,"Crew, Tug Boat - Expat",G6,2016-05-17 00:00:00
+6,Mohammad Jakir Hossain,"Crew, LCT 1 - Expat",G6,2016-06-04 00:00:00
+7,R L Walapita Godellage,Crane Operator,G5,2017-05-15 00:00:00
+8,Mohammad Nurul Amin,Welder,G6,2017-05-31 00:00:00
+9,Janaka Prasath Ekanayake ,Senior Supervisor,G3,2018-01-30 00:00:00
+10,Sheikh Mohamed Farid Miah,"Crew, LCT 1 - Expat",G5,2019-06-16 00:00:00
+11,Jakir Hossain ,"Crew, WL Speed 3, Expat",G8,2018-10-13 00:00:00
+12,Ala Uddin,"Crew, Tug Boat - Expat",G5,2018-04-26 00:00:00
+13,Ibrahim Mohamed,Supervisor Cum Mechanic,G2,2024-01-01 00:00:00
+14,Mokhles,"Crew, Tug Boat - Expat",G1,2024-03-14 00:00:00
+15,Mohammad Naim ,Terminal Staff,G1,2024-03-23 00:00:00
+16,Asif Mia,Terminal Staff,G1,2024-03-23 00:00:00
+17,MD Kamrul Islam  ,Helper-WL,G1,2024-12-22 00:00:00
+18,Yeasin Miah ,"Crew, Tug Boat - Expat",G1,2025-02-14 00:00:00
+19,MD Moyna Mia,Heavy Vehicle Driver ,G1,2025-05-21 00:00:00
+20,Eswararao Chekka ,Excavator Operator,G1,2025-07-29 00:00:00
+21,Soundarraj Muniyappan ,Excavator Operator,G1,2025-07-29 00:00:00
+22,Abdul Haq,Helper-WL,G1,2025-08-02 00:00:00
+23,MD Ramjan Mia,Helper-WL,G1,2025-08-26 00:00:00
+24,MD Sayed Mia,Carpenter ,G1,2025-08-26 00:00:00
+25,Uzzal Sutradhar ,Carpenter ,G1,2025-08-26 00:00:00
+26,Anish John ,Excavator Operator,G1,2025-11-24 00:00:00
+27,Easa Gasim ,"Crew, LCT 1 - Local",G1,2025-12-02 00:00:00
+28,JACKSON NDIRANGU NGINGA,Mechanic,G1,2025-12-23 00:00:00
+29,Feroskhan Meerasa,Excavator Operator,G1,2025-12-29 00:00:00
+30,Ali Mushthaq Ibrahim,General Manager,,2026-01-17 00:00:00
+31,DULIP PRIYANKARA DEWAPAKSHA DEWAPAKSHA,Heavy Vehicle Driver ,,Work Permit Process
+
+
+--- File: WL-EAR-001_Asset_Register.xlsx ---
+### Sheet: Janaka – Field Entry ###
+
+ANTRAC HOLDING GROUP  |  WELL LAND INVESTMENT PVT LTD,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7
+FIELD VERIFICATION ENTRY FORM  –  THILAFUSHI SITE,,,,,,,
+"Completed by: Janaka Prasath Ekanayake  (Senior Supervisor, Thilafushi)",,,,Inspection Date: ,,,
+"⚠  Complete ALL yellow cells.  Enter the Serial No., Engine No., Swing Bearing Part No., and upload photo references.  Update the Equipment Register sheet after inspection.",,,,,,,
+Asset ID,Brand / Model,"Serial No.
+(Physical)","Engine No.
+(Physical)","Name Plate
+Photo Ref","Swing Bearing
+Part No.","Swing Bearing
+Photo Ref",Notes / Remarks
+EX003,CAT 323D3,CAT0323DKFEY00469,,,,,
+EX004,Sumitomo SH220LC-6,SMT220U6P00BH1182,,,,,
+EX005,CAT 336DL (Unit 1) – MLLU6500364,CAT0336DAWRK00437,,,,,
+EX006,CAT 336DL (Unit 2) – MLLU6500019,CAT0336DPPGW00178,,,,,
+EX001,XCMG XE60WG,,,,,,
+EX002,Komatsu PC70-8,,,,,,
+DT001,CAT 745C (TEXU8983147),CAT0745CTTFK00218,,,,,
+DT002,CAT 745C (FTBU9602971),CAT0745CETFK00507,,,,,
+,,,,,,,
+Priority: Complete EX003–EX006 first. Swing Bearing Part No. is critical – fabrication cannot proceed without it.,,,,,,,
+
+
+### Sheet: Equipment Register ###
+
+ANTRAC HOLDING GROUP  |  WELL LAND INVESTMENT PVT LTD,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18
+EQUIPMENT ASSET REGISTER  –  BODUFINOLHU RESORT DEVELOPMENT,,,,,,,,,,,,,,,,,,
+Doc Ref: WL-EAR-001,,,,,Project: Bodufinolhu Resort Development,,,,,Site: Thilafushi / Bodufinolhu,,,,Last Updated: ,,,,
+Asset ID,Equipment Type,Brand,Model,Year,Qty,Shipment Ref,BL No.,Container No.,"Serial No.
+(Verified)","Engine No.
+(Verified)","Name Plate
+Checked","Name Plate
+Photo Ref","Swing Bearing
+Part No.","Swing Bearing
+Photo Ref",Condition,Location,"Supplier
+Scope",Remarks
+EX001,Wheel Excavator,XCMG,XE60WG,2024,1,Shipment 1,—,—,REQUIRED,,Yes,REQUIRED,REQUIRED,REQUIRED,,Thilafushi,No,
+EX002,Tracked Excavator,Komatsu,PC70-8,2012,1,Shipment 1,—,—,REQUIRED,,Yes,REQUIRED,REQUIRED,REQUIRED,,Thilafushi,No,
+EX003,Tracked Excavator,CAT,323D3,2019,1,Shipment 2,—,—,REQUIRED,,Available,REQUIRED,REQUIRED,REQUIRED,,Thilafushi,YES – Rolman,Swing bearing part no. critical for fabrication
+EX004,Tracked Excavator,Sumitomo,SH220LC-6,2021,1,Shipment 2,—,—,REQUIRED,,Available,REQUIRED,REQUIRED,REQUIRED,,Thilafushi,YES – Rolman,Swing bearing part no. critical for fabrication
+EX005,Tracked Excavator,CAT,336DL,—,1,Shipment 3,MLIJEAMLE25001097,MLLU6500364,REQUIRED,,Available,REQUIRED,REQUIRED,REQUIRED,,Thilafushi,YES – Rolman,Year TBC on site. Swing bearing critical.
+EX006,Tracked Excavator,CAT,336DL,—,1,Shipment 3,MLIJEAMLE25001097,MLLU6500019,REQUIRED,,Available,REQUIRED,REQUIRED,REQUIRED,,Thilafushi,YES – Rolman,Year TBC on site. Swing bearing critical.
+DT001,Articulated Dump Truck,CAT,745C,—,1,Shipment 3,MLIJEAMLE25001088,TEXU8983147,REQUIRED,,,REQUIRED,REQUIRED,REQUIRED,,Thilafushi,No,
+DT002,Articulated Dump Truck,CAT,745C,—,1,Shipment 3,MLIJEAMLE25001088,FTBU9602971,REQUIRED,,,REQUIRED,REQUIRED,REQUIRED,,Thilafushi,No,
+,,,,,,,,,,,,,,,,,,
+LEGEND,,,,,,,,,,,,,,,,,,
+Pending – Janaka must verify & complete,,,,,,,,,,,,,,,,,,
+Available / Verified,,,,,,,,,,,,,,,,,,
+Active Supplier Scope (Rolman / Kiran),,,,,,,,,,,,,,,,,,
+
+
+### Sheet: Material Log ###
+
+ANTRAC HOLDING GROUP  |  WELL LAND INVESTMENT PVT LTD,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9
+MATERIAL INVENTORY LOG  –  BODUFINOLHU RESORT DEVELOPMENT,,,,,,,,,
+Doc Ref: WL-MAT-001,,,,,,,,,
+Ref ID,Material Description,Packaging,BL No.,Container No.,Container Type,Qty,Unit,Location,Remarks
+MAT-001,Cement (25 kg bags),Bags,QGD2525518,FCIU6264593,20GP,,Bags,Hulhumalé,Shipment 4
+MAT-002,Cement (25 kg bags),Bags,QGD2525518,TLLU2033550,20GP,,Bags,Hulhumalé,Shipment 4
+MAT-003,Red Balau Treated S4S Timber,Bulk,DJA1441585,UETU5623197,40HC,,CBM,Hulhumalé,Shipment 4
+
+
+### Sheet: Kiran Extract – Rolman ###
+
+ANTRAC HOLDING GROUP  |  WELL LAND INVESTMENT PVT LTD,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8
+SUPPLIER DATA EXTRACT  –  ROLMAN WORLD (KIRAN)  |  Swing Bearing Fabrication,,,,,,,,
+Doc Ref: WL-SUP-ROLMAN-001,,,Scope: Fabrication of High Bed Cylinders,,,Supplier Country: India,,
+Asset ID,Equipment Type,Brand,Model,Serial No.,"Name Plate
+Status","Name Plate
+Photo","Swing Bearing
+Part No.","Swing Bearing
+Photo"
+EX003,Tracked Excavator,CAT,323D3,REQUIRED,Available,REQUIRED,REQUIRED,REQUIRED
+EX004,Tracked Excavator,Sumitomo,SH220LC-6,REQUIRED,Available,REQUIRED,REQUIRED,REQUIRED
+EX005,Tracked Excavator,CAT,336DL,REQUIRED,Available,REQUIRED,REQUIRED,REQUIRED
+EX006,Tracked Excavator,CAT,336DL,REQUIRED,Available,REQUIRED,REQUIRED,REQUIRED
+,,,,,,,,
+⚠  Yellow cells auto-update from Equipment Register once Janaka completes verification.  Forward this sheet to Kiran (Rolman) only after all yellow cells are filled.,,,,,,,,

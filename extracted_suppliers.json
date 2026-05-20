@@ -1,0 +1,68 @@
+[
+  {
+    "Supplier": "Jan De Nul",
+    "Category": "Transport Service Providers",
+    "Contact": "",
+    "Remarks": "Providing LCT for inter-island mobilization"
+  },
+  {
+    "Supplier": "Well Land Investment Pvt Ltd",
+    "Category": "Logistics Division",
+    "Contact": "asim@evosunmaldives.com",
+    "Remarks": "Providing LCT vessel and Komatsu PC70 excavator"
+  },
+  {
+    "Supplier": "Infra Engineers India (IEPL)",
+    "Category": "Service and Parts Supplier",
+    "Contact": "Mr. Hari Pilla, Chennai",
+    "Remarks": "Providing hydraulic pumps, solenoid valves, and other parts"
+  },
+  {
+    "Supplier": "RKL Maldives",
+    "Category": "Teflon Material Supplier",
+    "Contact": "",
+    "Remarks": "Providing Teflon material for custom fabrication"
+  },
+  {
+    "Supplier": "Ex Ceylon Engineering, Mal\u00e9",
+    "Category": "Fabrication Service",
+    "Contact": "",
+    "Remarks": "Fabricating hydraulic line adapter / elbow fitting"
+  },
+  {
+    "Supplier": "Well Land Investment Pvt Ltd",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "Ali Mushthaq - General Manager - Heavy Earth Moving Vehicles",
+    "Remarks": "Supply of rock boulders, sea transportation to Noonu Atoll, unloading operations, mobilization and demobilization of equipment, bed preparation works"
+  },
+  {
+    "Supplier": "Komatsu",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Hydraulic pumps for Komatsu PC350LC-7/PC300LC-7 excavators"
+  },
+  {
+    "Supplier": "Davilian",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Firefighting pump systems (Davilian DHm/5AM benchmark)"
+  },
+  {
+    "Supplier": "Antrac Holding Group",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Head Office Accounts team handles formal financial processing"
+  },
+  {
+    "Supplier": "Well Land Investment Pvt Ltd",
+    "Category": "Heavy Machinery & Marine Vessel Operations",
+    "Contact": "Ali Mushthaq Ibrahim, General Manager \u2013 Heavy Earth Moving Vehicles",
+    "Remarks": "Heavy machinery and marine vessel operations, including supply and unloading of rock boulders"
+  },
+  {
+    "Supplier": "Hilton Maldives Amingiri Resort & Spa",
+    "Category": "Landing Craft Hire",
+    "Contact": "Adam Ali, Purchasing Manager, Finance",
+    "Remarks": "Landing craft hire for transportation of cargo"
+  }
+]
