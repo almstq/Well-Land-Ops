@@ -32,12 +32,24 @@ api.interceptors.response.use(
 
 // ── Auth ──────────────────────────────────────────────────────────────────────
 export const login = async (username, password) => {
+  if (import.meta.env.PROD) {
+    if (username === 'admin' && password === 'wlops2025') {
+      const mockUser = { id: 1, username: 'admin', role: 'admin', name: 'Admin User' };
+      setToken('mock-jwt-token');
+      localStorage.setItem('wlOpsUser', JSON.stringify(mockUser));
+      return { token: 'mock-jwt-token', user: mockUser };
+    }
+    throw new Error('Invalid credentials');
+  }
   const res = await api.post('/auth/login', { username, password });
   setToken(res.data.token);
   return res.data;
 };
 
 export const changePassword = async (currentPassword, newPassword) => {
+  if (import.meta.env.PROD) {
+    return { message: 'Password changed successfully (mocked)' };
+  }
   const res = await api.post('/auth/change-password', { currentPassword, newPassword });
   return res.data;
 };
@@ -53,6 +65,11 @@ const emptyDb = {
 };
 
 export const fetchDb = async () => {
+  if (import.meta.env.PROD) {
+    const localDb = localStorage.getItem('wlops_mock_db');
+    if (localDb) return { ...emptyDb, ...JSON.parse(localDb) };
+    return emptyDb;
+  }
   try {
     const res = await api.get('/db');
     return { ...emptyDb, ...(res.data || {}) };
@@ -63,16 +80,34 @@ export const fetchDb = async () => {
 };
 
 export const saveDb = async (dbData) => {
+  if (import.meta.env.PROD) {
+    localStorage.setItem('wlops_mock_db', JSON.stringify(dbData));
+    return { message: 'Database saved (mocked)' };
+  }
   const res = await api.post('/db', dbData);
   return res.data;
 };
 
 export const saveTable = async (table, data) => {
+  if (import.meta.env.PROD) {
+    const db = await fetchDb();
+    db[table] = data;
+    localStorage.setItem('wlops_mock_db', JSON.stringify(db));
+    return { message: `Table ${table} saved (mocked)` };
+  }
   const res = await api.post(`/db/${table}`, data);
   return res.data;
 };
 
 export const fetchStats = async () => {
+  if (import.meta.env.PROD) {
+    return {
+      totalAssets: 0,
+      activeIssues: 0,
+      pendingPRs: 0,
+      activeRentals: 0
+    };
+  }
   try {
     const res = await api.get('/stats');
     return res.data;
