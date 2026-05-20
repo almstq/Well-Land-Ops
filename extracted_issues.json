@@ -1,54 +1,87 @@
 [
   {
     "title": "Generator issue",
-    "description": "Got a quote to repair at MVR 7000",
+    "description": "Got a quote to repair at mvr 7000",
     "category": "Mechanical",
-    "priority": "MEDIUM",
+    "priority": "HIGH",
     "status": "Reported",
     "assetId": "",
-    "location": "Thilafushi Site",
-    "reportedBy": "Unknown",
+    "location": "",
+    "reportedBy": "",
     "parts": [
       {
-        "name": "Generator parts",
+        "name": "",
         "partNumber": "",
-        "qty": 1,
-        "estimatedCost": 7000,
-        "preferredSupplier": "Unknown"
+        "qty": 0,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
       }
     ]
   },
   {
-    "title": "LCT seawater pump issue",
-    "description": "Unaddressed",
+    "title": "LCT seawater pump",
+    "description": "un addressed",
     "category": "Mechanical",
-    "priority": "MEDIUM",
+    "priority": "HIGH",
     "status": "Reported",
     "assetId": "",
-    "location": "Thilafushi Site",
-    "reportedBy": "Unknown",
+    "location": "",
+    "reportedBy": "",
     "parts": [
       {
-        "name": "Seawater pump parts",
+        "name": "",
+        "partNumber": "",
+        "qty": 0,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "WL-HV-0006 Komatsu PC350 Low Bed",
+    "description": "Pilot block failed (4 hrs post-repair); engine oil hose burst; solenoid \u00d72; filters",
+    "category": "Mechanical",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "WL-HV-0006",
+    "location": "Muthaafushi",
+    "reportedBy": "Ali Mushthaq Ibrahim",
+    "parts": [
+      {
+        "name": "Engine oil hose",
+        "partNumber": "",
+        "qty": 2,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "Pilot block",
         "partNumber": "",
         "qty": 1,
         "estimatedCost": 0,
-        "preferredSupplier": "Unknown"
+        "preferredSupplier": "Infra Engineers India (IEPL)"
+      },
+      {
+        "name": "Solenoid valve",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Infra Engineers India (IEPL)"
       }
     ]
   },
   {
-    "title": "Komatsu PC350 hydraulic pump failure",
-    "description": "Main hydraulic pump failure - one side failed",
+    "title": "WL-HV-0007 Komatsu PC350 High Bed",
+    "description": "Main hydraulic pump \u2014 one side failed. Pilot block failure.",
     "category": "Mechanical",
     "priority": "CRITICAL",
     "status": "Reported",
     "assetId": "WL-HV-0007",
-    "location": "Bodufinolhu Site",
+    "location": "Bodufinolhu",
     "reportedBy": "Ali Mushthaq Ibrahim",
     "parts": [
       {
-        "name": "Hydraulic pump",
+        "name": "Reconditioned hydraulic pump",
         "partNumber": "",
         "qty": 1,
         "estimatedCost": 6000,
@@ -57,13 +90,13 @@
     ]
   },
   {
-    "title": "Komatsu PC350 pilot block failure",
-    "description": "Pilot block failed after 4 hours post-repair",
+    "title": "WL-HV-0007b Komatsu PC350 Low Bed",
+    "description": "Pilot block failed (4 hrs); solenoid \u00d72; hydraulic adapter",
     "category": "Mechanical",
     "priority": "CRITICAL",
     "status": "Reported",
     "assetId": "WL-HV-0007b",
-    "location": "Bodufinolhu Site",
+    "location": "Bodufinolhu",
     "reportedBy": "Ali Mushthaq Ibrahim",
     "parts": [
       {
@@ -72,127 +105,35 @@
         "qty": 2,
         "estimatedCost": 0,
         "preferredSupplier": "Infra Engineers India (IEPL)"
-      }
-    ]
-  },
-  {
-    "title": "Komatsu PC350 solenoid valve failure",
-    "description": "Solenoid valve failed",
-    "category": "Mechanical",
-    "priority": "CRITICAL",
-    "status": "Reported",
-    "assetId": "WL-HV-0007b",
-    "location": "Bodufinolhu Site",
-    "reportedBy": "Ali Mushthaq Ibrahim",
-    "parts": [
+      },
       {
         "name": "Solenoid valve",
         "partNumber": "",
         "qty": 2,
-        "estimatedCost": 7992,
+        "estimatedCost": 0,
         "preferredSupplier": "Infra Engineers India (IEPL)"
+      },
+      {
+        "name": "Hydraulic line adapter",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Ex Ceylon Engineering"
       }
     ]
   },
   {
-    "title": "Komatsu PC350 hydraulic jack line issue",
-    "description": "Hydraulic jack line issue - arm and boom cylinder seals worn",
+    "title": "WL-HV-0008 Komatsu PC350 High Bed #2",
+    "description": "Hydraulic jack line issue; arm & boom seals worn",
     "category": "Mechanical",
     "priority": "MEDIUM",
     "status": "Reported",
     "assetId": "WL-HV-0008",
-    "location": "Bodufinolhu Site",
+    "location": "Bodufinolhu",
     "reportedBy": "Ali Mushthaq Ibrahim",
     "parts": [
       {
-        "name": "Hydraulic jack line parts",
-        "partNumber": "",
-        "qty": 1,
-        "estimatedCost": 0,
-        "preferredSupplier": "Unknown"
-      }
-    ]
-  },
-  {
-    "title": "Komatsu PC70 track line damage",
-    "description": "Track line damaged - no standard part available",
-    "category": "Mechanical",
-    "priority": "MEDIUM",
-    "status": "Reported",
-    "assetId": "WL-HV-0018",
-    "location": "Thilafushi Site",
-    "reportedBy": "Ali Mushthaq Ibrahim",
-    "parts": [
-      {
-        "name": "Track line parts",
-        "partNumber": "",
-        "qty": 1,
-        "estimatedCost": 0,
-        "preferredSupplier": "RKL Maldives"
-      }
-    ]
-  },
-  {
-    "title": "Loader CAT - No issues",
-    "description": "",
-    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
-    "priority": "LOW",
-    "status": "Reported",
-    "assetId": "CAT745C",
-    "location": "Thilafushi / Tug-01 / Male",
-    "reportedBy": "",
-    "parts": []
-  },
-  {
-    "title": "Komatsu PC350 (Low Bed) - Hydraulic pump needs to be replaced",
-    "description": "The machine is slow, the hydraulic pump needs to be replaced",
-    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
-    "priority": "HIGH",
-    "status": "Reported",
-    "assetId": "Komatsu PC350 (Low Bed)",
-    "location": "Thilafushi / Tug-01 / Male",
-    "reportedBy": "",
-    "parts": [
-      {
-        "name": "Hydraulic pump",
-        "partNumber": "",
-        "qty": 1,
-        "estimatedCost": 0,
-        "preferredSupplier": "Komatsu"
-      }
-    ]
-  },
-  {
-    "title": "Komatsu PC350 (High Bed) - Hydraulic pump needs to be replaced",
-    "description": "The machine is slow, the hydraulic pump needs to be replaced",
-    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
-    "priority": "HIGH",
-    "status": "Reported",
-    "assetId": "Komatsu PC350 (High Bed)",
-    "location": "Thilafushi / Tug-01 / Male",
-    "reportedBy": "",
-    "parts": [
-      {
-        "name": "Hydraulic pump",
-        "partNumber": "",
-        "qty": 1,
-        "estimatedCost": 0,
-        "preferredSupplier": "Komatsu"
-      }
-    ]
-  },
-  {
-    "title": "Komatsu PC350 (High Bed) - Head Gasket needs to be replaced",
-    "description": "The machine is getting hot after a few hours",
-    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
-    "priority": "HIGH",
-    "status": "Reported",
-    "assetId": "Komatsu PC350 (High Bed)",
-    "location": "Thilafushi / Tug-01 / Male",
-    "reportedBy": "",
-    "parts": [
-      {
-        "name": "Head Gasket",
+        "name": "Arm and boom seal kits",
         "partNumber": "",
         "qty": 1,
         "estimatedCost": 0,
@@ -201,47 +142,2843 @@
     ]
   },
   {
-    "title": "Landing Craft Hire for Cargo Transportation",
-    "description": "Hire of landing craft for transportation of cargo from Mal\u00e9 or Hulhumal\u00e9 to Hilton Maldives Amingiri Resort & Spa",
-    "category": "Logistics",
+    "title": "WL-HV-0018 Komatsu PC70-8",
+    "description": "Track line damaged \u2014 no standard part available",
+    "category": "Mechanical",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "WL-HV-0018",
+    "location": "Thilafushi",
+    "reportedBy": "Ali Mushthaq Ibrahim",
+    "parts": [
+      {
+        "name": "Teflon material",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "RKL Maldives"
+      }
+    ]
+  },
+  {
+    "title": "Boom steel bush needs to be replaced",
+    "description": "The boom steel bush needs to be replaced on the Komatsu PC350 (Low Bed)",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "Komatsu PC350 (Low Bed)",
+    "location": "Muthaafushi",
+    "reportedBy": "Mustarq",
+    "parts": [
+      {
+        "name": "Boom steel bush",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Battery needs to be replaced with relevant wiring, lugs, etc\u2026",
+    "description": "The battery needs to be replaced with relevant wiring, lugs, etc\u2026 on the Kobelco SK380 (High Bed)",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "Kobelco SK380 (High Bed)",
+    "location": "Muthaafushi",
+    "reportedBy": "Mustarq",
+    "parts": [
+      {
+        "name": "Battery",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Hydraulic tank outer doors' hinges need to be fixed",
+    "description": "The hydraulic tank outer doors' hinges need to be fixed on the Kobelco SK380 (High Bed)",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "Kobelco SK380 (High Bed)",
+    "location": "Muthaafushi",
+    "reportedBy": "Mustarq",
+    "parts": [
+      {
+        "name": "Hydraulic tank outer doors' hinges",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Cabin side glass needs to be fixed",
+    "description": "The cabin side glass needs to be fixed on the Kobelco SK380 (High Bed)",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "Kobelco SK380 (High Bed)",
+    "location": "Muthaafushi",
+    "reportedBy": "Mustarq",
+    "parts": [
+      {
+        "name": "Cabin side glass",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Door glass is broken and needs to be fixed",
+    "description": "The door glass is broken and needs to be fixed on the Dump Truck Volvo A40G",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "Dump Truck Volvo A40G",
+    "location": "Bodufinolhu",
+    "reportedBy": "Mustarq",
+    "parts": [
+      {
+        "name": "Door glass",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "AC, start motor power supply given directly. As per Lkamal, that needs to be programme well",
+    "description": "The AC, start motor power supply given directly on the Dump Truck CAT745C needs to be programmed well",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "Dump Truck CAT745C",
+    "location": "Bodufinolhu",
+    "reportedBy": "Mustarq",
+    "parts": [
+      {
+        "name": "AC, start motor power supply",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "The back tyre has some damage",
+    "description": "The back tyre has some damage on the Dump Truck CAT745C",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "Dump Truck CAT745C",
+    "location": "Bodufinolhu",
+    "reportedBy": "Mustarq",
+    "parts": [
+      {
+        "name": "Back tyre",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "The machine is slow, the hydraulic pump needs to be replaced",
+    "description": "The machine is slow, the hydraulic pump needs to be replaced on the Komatsu PC350 (Low Bed)",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "Komatsu PC350 (Low Bed)",
+    "location": "Muthaafushi",
+    "reportedBy": "Mustarq",
+    "parts": [
+      {
+        "name": "Hydraulic pump",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "The machine is slow, the hydraulic pump needs to be replaced",
+    "description": "The machine is slow, the hydraulic pump needs to be replaced on the Komatsu PC350 (High Bed)",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "Komatsu PC350 (High Bed)",
+    "location": "Muthaafushi",
+    "reportedBy": "Mustarq",
+    "parts": [
+      {
+        "name": "Hydraulic pump",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Komatsu Excavator Breakdown",
+    "description": "The Komatsu excavator has broken down due to a faulty hydraulic system.",
+    "category": "Mechanical",
     "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "EX-01",
+    "location": "Thilafushi Site",
+    "reportedBy": "Janaka",
+    "parts": [
+      {
+        "name": "Hydraulic Pump",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Komatsu and Similar Equipment Suppliers"
+      },
+      {
+        "name": "Engine Oil",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Lorry and Heavy Vehicle Suppliers"
+      }
+    ]
+  },
+  {
+    "title": "Lorry Breakdown",
+    "description": "The lorry has broken down due to a faulty tire.",
+    "category": "Tyres",
+    "priority": "MEDIUM",
+    "status": "Reported",
+    "assetId": "LR-01",
+    "location": "Tug-01",
+    "reportedBy": "Tharanga",
+    "parts": [
+      {
+        "name": "Tire",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Lorry and Heavy Vehicle Suppliers"
+      }
+    ]
+  },
+  {
+    "title": "Landing Craft Hire on 11th of March",
+    "description": "Request for landing craft hire to transport food waste composting machine from Mal\u00e9 to Hilton Maldives Amingiri Resort & Spa",
+    "category": "Rental",
+    "priority": "LOW",
     "status": "Reported",
     "assetId": "",
     "location": "Hulhumal\u00e9",
-    "reportedBy": "Adam Ali, Purchasing Manager, Finance",
+    "reportedBy": "Adam Ali",
     "parts": [
+      {
+        "name": "Landing Craft",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 2595,
+        "preferredSupplier": "Well Land Investment Pvt Ltd"
+      },
       {
         "name": "Crane",
         "partNumber": "",
         "qty": 1,
-        "estimatedCost": 0,
+        "estimatedCost": 1945.52,
         "preferredSupplier": "Well Land Investment Pvt Ltd"
       }
     ]
   },
   {
-    "title": "Supply and Unloading of Rock Boulders",
+    "title": "Rock Boulder Supply",
     "description": "Supply and unloading of rock boulders to Noonu Atoll",
-    "category": "Heavy Machinery",
-    "priority": "HIGH",
+    "category": "Heavy Machinery & Marine Vessel Operations",
+    "priority": "LOW",
     "status": "Reported",
     "assetId": "",
     "location": "Noonu Atoll",
-    "reportedBy": "Ali Mushthaq Ibrahim, General Manager \u2013 Heavy Earth Moving Vehicles",
+    "reportedBy": "Ali Mushthaq Ibrahim",
+    "parts": []
+  },
+  {
+    "title": "Engine oil level low",
+    "description": "Engine oil level is low",
+    "category": "Mechanical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0017",
+    "location": "Thilafushi",
+    "reportedBy": "",
     "parts": [
       {
-        "name": "Excavators",
+        "name": "Engine oil",
         "partNumber": "",
-        "qty": 2,
+        "qty": 1,
         "estimatedCost": 0,
-        "preferredSupplier": "Well Land Investment Pvt Ltd"
+        "preferredSupplier": "Well Land Investment Pte. Ltd."
+      }
+    ]
+  },
+  {
+    "title": "Hydraulic fluid level low",
+    "description": "Hydraulic fluid level is low",
+    "category": "Mechanical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0017",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Hydraulic fluid",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Well Land Investment Pte. Ltd."
+      }
+    ]
+  },
+  {
+    "title": "Coolant level low",
+    "description": "Coolant level is low",
+    "category": "Mechanical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0017",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Coolant",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Well Land Investment Pte. Ltd."
+      }
+    ]
+  },
+  {
+    "title": "Fuel level low",
+    "description": "Fuel level is low",
+    "category": "Fuel",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0017",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Fuel",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Well Land Investment Pte. Ltd."
+      }
+    ]
+  },
+  {
+    "title": "Engine air filter dirty",
+    "description": "Engine air filter is dirty",
+    "category": "Mechanical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0017",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Engine air filter",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Well Land Investment Pte. Ltd."
+      }
+    ]
+  },
+  {
+    "title": "Tyre pressure low",
+    "description": "Tyre pressure is low",
+    "category": "Tyres",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0017",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Tyre",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Well Land Investment Pte. Ltd."
+      }
+    ]
+  },
+  {
+    "title": "Bucket pins loose",
+    "description": "Bucket pins are loose",
+    "category": "Attachments",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0017",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Bucket",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Well Land Investment Pte. Ltd."
+      }
+    ]
+  },
+  {
+    "title": "Boom cracks",
+    "description": "Boom has cracks",
+    "category": "Attachments",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0017",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Boom",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Well Land Investment Pte. Ltd."
+      }
+    ]
+  },
+  {
+    "title": "Mast cracks",
+    "description": "Mast has cracks",
+    "category": "Attachments",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0017",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Mast",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Well Land Investment Pte. Ltd."
+      }
+    ]
+  },
+  {
+    "title": "Grease points dry",
+    "description": "Grease points are dry",
+    "category": "Engine Parts",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0017",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Grease",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Well Land Investment Pte. Ltd."
+      }
+    ]
+  },
+  {
+    "title": "",
+    "description": "",
+    "category": "",
+    "priority": "",
+    "status": "",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "",
+        "partNumber": "",
+        "qty": 0,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Daily Pre-Start Checklist",
+    "description": "Daily pre-start checklist for CAT 336DL and CAT 745C machines",
+    "category": "",
+    "priority": "",
+    "status": "",
+    "assetId": "WL-HV-0022, WL-HV-0023",
+    "location": "Thilafushi / Bodufinolhu / Muthaafushi / Other",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Daily Pre-Start Checklist",
+    "description": "Daily pre-start checklist for Volvo A40G and CAT 745C machines",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0001",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Engine oil",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
       },
       {
-        "name": "Dump Trucks / Transport Trucks",
+        "name": "Hydraulic fluid",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Coolant",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Fuel",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Engine air filter",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Tyre",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Bucket",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Boom",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Mast",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Grease",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Fire extinguisher",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      }
+    ]
+  },
+  {
+    "title": "Daily Pre-Start Checklist",
+    "description": "Daily pre-start checklist for Volvo A40G and CAT 745C machines",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0002",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Engine oil",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Hydraulic fluid",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Coolant",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Fuel",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Engine air filter",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Tyre",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Bucket",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      },
+      {
+        "name": "Boom",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "WELL LAND INVESTMENT PVT. LTD."
+      }
+    ]
+  },
+  {
+    "title": "",
+    "description": "",
+    "category": "",
+    "priority": "",
+    "status": "",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Daily Pre-Start Checklist",
+    "description": "Pre-start checklist for KOBELCO SK380 excavator",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0005",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": []
+  },
+  {
+    "title": "Daily Pre-Start Checklist",
+    "description": "Pre-start checklist for KOMATSU PC350 excavator",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0006",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": []
+  },
+  {
+    "title": "Daily Pre-Start Checklist",
+    "description": "Pre-start checklist for KOMATSU PC350 excavator",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0007",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": []
+  },
+  {
+    "title": "",
+    "description": "",
+    "category": "",
+    "priority": "",
+    "status": "",
+    "assetId": "WL-HV-0008",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": []
+  },
+  {
+    "title": "",
+    "description": "",
+    "category": "",
+    "priority": "",
+    "status": "",
+    "assetId": "WL-HV-0009",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": []
+  },
+  {
+    "title": "Daily Pre-Start Checklist",
+    "description": "Daily pre-start checklist for machines WL-HV-0010 and WL-HV-0011.",
+    "category": "",
+    "priority": "",
+    "status": "",
+    "assetId": "WL-HV-0010",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Daily Pre-Start Checklist",
+    "description": "Daily pre-start checklist for machines WL-HV-0010 and WL-HV-0011.",
+    "category": "",
+    "priority": "",
+    "status": "",
+    "assetId": "WL-HV-0011",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Engine oil level low",
+    "description": "Engine oil level is low.",
+    "category": "Mechanical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0012",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Engine oil",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Hydraulic fluid level low",
+    "description": "Hydraulic fluid level is low.",
+    "category": "Mechanical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0012",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Hydraulic fluid",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Coolant level low",
+    "description": "Coolant level is low.",
+    "category": "Mechanical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0012",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Coolant",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Fuel level low",
+    "description": "Fuel level is low.",
+    "category": "Mechanical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0012",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Fuel",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Engine air filter dirty",
+    "description": "Engine air filter is dirty.",
+    "category": "Mechanical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0012",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Engine air filter",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Tyre pressure low",
+    "description": "Tyre pressure is low.",
+    "category": "Mechanical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0012",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Tyre",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Bucket pins loose",
+    "description": "Bucket pins are loose.",
+    "category": "Mechanical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0012",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Bucket",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Boom cracks",
+    "description": "Boom has cracks.",
+    "category": "Mechanical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0012",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Boom",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Mast cracks",
+    "description": "Mast has cracks.",
+    "category": "Mechanical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0012",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Mast",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Grease points dry",
+    "description": "Grease points are dry.",
+    "category": "Mechanical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-HV-0012",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Grease",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "",
+    "description": "",
+    "category": "",
+    "priority": "",
+    "status": "",
+    "assetId": "",
+    "location": "Thilafushi  /  Bodufinolhu  /  Muthaafushi  /  Other:",
+    "reportedBy": "",
+    "parts": []
+  },
+  {
+    "title": "",
+    "description": "",
+    "category": "",
+    "priority": "",
+    "status": "",
+    "assetId": "",
+    "location": "Thilafushi  /  Bodufinolhu  /  Muthaafushi  /  Other:",
+    "reportedBy": "",
+    "parts": []
+  },
+  {
+    "title": "",
+    "description": "",
+    "category": "",
+    "priority": "",
+    "status": "",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "",
+        "partNumber": "",
+        "qty": 0,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Vessel Hire with Heavy Vehicle / Unloading to Site \u2013 Genset Transportation (HA, HDH and SH Atoll)",
+    "description": "Transportation and unloading of generator sets to the designated islands in HA, HDH and SH Atoll",
+    "category": "Mechanical / Electrical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "",
+    "location": "HA, HDH and SH Atoll",
+    "reportedBy": "Fenaka Corporation Limited, Procurement Section",
+    "parts": []
+  },
+  {
+    "title": "Vessel Hire with Heavy Vehicle / Unloading to Site \u2013 Genset Transportation (N and R Atoll)",
+    "description": "Transportation and unloading of generator sets to the designated islands in N and R Atoll",
+    "category": "Mechanical / Electrical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "",
+    "location": "N and R Atoll",
+    "reportedBy": "Fenaka Corporation Limited, Procurement Section",
+    "parts": []
+  },
+  {
+    "title": "Vessel Hire with Heavy Vehicle / Unloading to Site \u2013 Genset Transportation (B Atoll)",
+    "description": "Transportation and unloading of generator sets to the designated islands in B Atoll",
+    "category": "Mechanical / Electrical",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "",
+    "location": "B Atoll",
+    "reportedBy": "Fenaka Corporation Limited, Procurement Section",
+    "parts": []
+  },
+  {
+    "title": "",
+    "description": "",
+    "category": "",
+    "priority": "",
+    "status": "",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "",
+    "parts": []
+  },
+  {
+    "title": "Komatsu Machine Hydraulic Issues",
+    "description": "High hydraulic pressure issues affecting Komatsu machines at project sites",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "Mohamed Hameed",
+    "parts": [
+      {
+        "name": "Komatsu Hydraulic Pump",
+        "partNumber": "QT-PM-26-01656",
+        "qty": 1,
+        "estimatedCost": 1002600,
+        "preferredSupplier": "Parts Master Maldives"
+      },
+      {
+        "name": "Komatsu Hydraulic Pump",
+        "partNumber": "QT-PM-26-01655",
+        "qty": 1,
+        "estimatedCost": 164700,
+        "preferredSupplier": "Parts Master Maldives"
+      }
+    ]
+  },
+  {
+    "title": "Generator spare parts required",
+    "description": "Parts required for 15kVA generator",
+    "category": "MRO",
+    "priority": "MEDIUM",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi",
+    "reportedBy": "EEMAAN MOHAMED",
+    "parts": [
+      {
+        "name": "Gasket oil filter",
+        "partNumber": "0122-0953",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP Export & Import Pvt Ltd"
+      },
+      {
+        "name": "Gasket Oil base",
+        "partNumber": "0102-1588",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP Export & Import Pvt Ltd"
+      },
+      {
+        "name": "Banjo Fuel overflow",
+        "partNumber": "0502-1745",
+        "qty": 3,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP Export & Import Pvt Ltd"
+      },
+      {
+        "name": "Gasket Gear case",
+        "partNumber": "0103-0874",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP Export & Import Pvt Ltd"
+      },
+      {
+        "name": "Seal o ring",
+        "partNumber": "0509-0563",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP Export & Import Pvt Ltd"
+      },
+      {
+        "name": "Seal o ring",
+        "partNumber": "0509-0564",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP Export & Import Pvt Ltd"
+      },
+      {
+        "name": "Gasket Cylinder head cover",
+        "partNumber": "0110-4165",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP Export & Import Pvt Ltd"
+      },
+      {
+        "name": "Thermostat Assmbly gasket",
+        "partNumber": "0130-8434",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP Export & Import Pvt Ltd"
+      },
+      {
+        "name": "Pin dowel",
+        "partNumber": "0516-2151",
+        "qty": 2,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP Export & Import Pvt Ltd"
+      },
+      {
+        "name": "Plug hole",
+        "partNumber": "0517-0463",
+        "qty": 2,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP Export & Import Pvt Ltd"
+      }
+    ]
+  },
+  {
+    "title": "Rock Boulder Supply Issue",
+    "description": "Supply and unloading of rock boulders to Noonu Atoll",
+    "category": "",
+    "priority": "",
+    "status": "",
+    "assetId": "",
+    "location": "Noonu Atoll",
+    "reportedBy": "Ali Mushthaq Ibrahim",
+    "parts": [
+      {
+        "name": "Gensets",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Fenaka Corporation Limited"
+      }
+    ]
+  },
+  {
+    "title": "Generator Mount Issue",
+    "description": "Generator Mount is not functioning properly",
+    "category": "MRO",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "EX-01",
+    "location": "Thilafushi",
+    "reportedBy": "Janaka",
+    "parts": [
+      {
+        "name": "Generator Mount",
+        "partNumber": "6839",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP EXPORT & IMPORT COM.PVT LTD"
+      }
+    ]
+  },
+  {
+    "title": "Air Dryer Issue",
+    "description": "Air Dryer is not working",
+    "category": "MRO",
+    "priority": "MEDIUM",
+    "status": "Under Review",
+    "assetId": "SK-02",
+    "location": "Thilafushi",
+    "reportedBy": "Tharanga",
+    "parts": [
+      {
+        "name": "Air Dryer",
+        "partNumber": "1418",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP EXPORT & IMPORT COM.PVT LTD"
+      }
+    ]
+  },
+  {
+    "title": "Boom Seal Kit Issue",
+    "description": "Boom Seal Kit is damaged",
+    "category": "MRO",
+    "priority": "LOW",
+    "status": "Resolved",
+    "assetId": "CR-01",
+    "location": "Thilafushi",
+    "reportedBy": "Mushthaq",
+    "parts": [
+      {
+        "name": "Boom Seal Kit",
+        "partNumber": "1691",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP EXPORT & IMPORT COM.PVT LTD"
+      }
+    ]
+  },
+  {
+    "title": "CLUTCH DISC/NIKOYA/4JG2/ISD-141/NKRNIKOYA1",
+    "description": "CLUTCH DISC/NIKOYA/4JG2/ISD-141/NKRNIKOYA1",
+    "category": "MRO",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "CLUTCH DISC/NIKOYA/4JG2/ISD-141/NKRNIKOYA1",
+        "partNumber": "1354",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP EXPORT & IMPORT COM.PVT LTD"
+      }
+    ]
+  },
+  {
+    "title": "CLUTCH COVER/ NSC-632/NISSAN1",
+    "description": "CLUTCH COVER/ NSC-632/NISSAN1",
+    "category": "MRO",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "CLUTCH COVER/ NSC-632/NISSAN1",
+        "partNumber": "722",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP EXPORT & IMPORT COM.PVT LTD"
+      }
+    ]
+  },
+  {
+    "title": "RELEASE BEARING/986809K/FOTON 1.5 TRUCK/NJ1",
+    "description": "RELEASE BEARING/986809K/FOTON 1.5 TRUCK/NJ1",
+    "category": "MRO",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "RELEASE BEARING/986809K/FOTON 1.5 TRUCK/NJ1",
+        "partNumber": "2856",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP EXPORT & IMPORT COM.PVT LTD"
+      }
+    ]
+  },
+  {
+    "title": "TURBO CHARGER/104319/TATSU/6D1081",
+    "description": "TURBO CHARGER/104319/TATSU/6D1081",
+    "category": "MRO",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "TURBO CHARGER/104319/TATSU/6D1081",
+        "partNumber": "7261",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP EXPORT & IMPORT COM.PVT LTD"
+      }
+    ]
+  },
+  {
+    "title": "STEEL TUBE / 7MM14",
+    "description": "STEEL TUBE / 7MM14",
+    "category": "MRO",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "STEEL TUBE / 7MM14",
+        "partNumber": "1894",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP EXPORT & IMPORT COM.PVT LTD"
+      }
+    ]
+  },
+  {
+    "title": "CLUTCH S PUMP/NPR57/8-97024-293-1/ISU-EL/NIK1",
+    "description": "CLUTCH S PUMP/NPR57/8-97024-293-1/ISU-EL/NIK1",
+    "category": "MRO",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "CLUTCH S PUMP/NPR57/8-97024-293-1/ISU-EL/NIK1",
+        "partNumber": "5741",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "SDP EXPORT & IMPORT COM.PVT LTD"
+      }
+    ]
+  },
+  {
+    "title": "Main Alternator Service",
+    "description": "Main alternator service was required for the machine.",
+    "category": "MRO",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Main Alternator Service",
+        "partNumber": "01899",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "I.B ENGINEERING"
+      }
+    ]
+  },
+  {
+    "title": "Excitor Rotor Coil Rewinding",
+    "description": "Excitor rotor coil rewinding was required for the machine.",
+    "category": "MRO",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Excitor Rotor Coil Rewinding",
+        "partNumber": "0706",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "I.B ENGINEERING"
+      }
+    ]
+  },
+  {
+    "title": "Diode Set",
+    "description": "Diode set was required for the machine.",
+    "category": "MRO",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Diode Set",
+        "partNumber": "0281",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "I.B ENGINEERING"
+      }
+    ]
+  },
+  {
+    "title": "Bearing",
+    "description": "Bearing was required for the machine.",
+    "category": "MRO",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Bearing",
+        "partNumber": "0134",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "I.B ENGINEERING"
+      }
+    ]
+  },
+  {
+    "title": "Bearing Replacement",
+    "description": "Bearing replacement was required for the machine.",
+    "category": "MRO",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Bearing Replacement",
+        "partNumber": "01900",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "I.B ENGINEERING"
+      }
+    ]
+  },
+  {
+    "title": "",
+    "description": "",
+    "category": "",
+    "priority": "",
+    "status": "",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "",
+    "parts": []
+  },
+  {
+    "title": "Zinc Anode B8",
+    "description": "Zinc Anode B8",
+    "category": "MRO",
+    "priority": "",
+    "status": "",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Zinc Anode B8",
+        "partNumber": "[8138]",
+        "qty": 21,
+        "estimatedCost": 0,
+        "preferredSupplier": "Leo Stores And Supply Private Limited"
+      }
+    ]
+  },
+  {
+    "title": "Air Filter P821575 (DONALDSON)",
+    "description": "Air Filter P821575 (DONALDSON)",
+    "category": "MRO",
+    "priority": "",
+    "status": "",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Air Filter P821575 (DONALDSON)",
+        "partNumber": "[20675]",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Leo Stores And Supply Private Limited"
+      }
+    ]
+  },
+  {
+    "title": "Shell Rimula Engine Oil R4X 15W-40 [209Ltr]",
+    "description": "Shell Rimula Engine Oil R4X 15W-40 [209Ltr]",
+    "category": "MRO",
+    "priority": "",
+    "status": "",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Shell Rimula Engine Oil R4X 15W-40 [209Ltr]",
+        "partNumber": "[1056]",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Leo Stores And Supply Private Limited"
+      }
+    ]
+  },
+  {
+    "title": "High Pressure Washer 130Bar K4*Gb - Karcher",
+    "description": "High Pressure Washer 130Bar K4*Gb - Karcher",
+    "category": "MRO",
+    "priority": "",
+    "status": "",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "High Pressure Washer 130Bar K4*Gb - Karcher",
+        "partNumber": "[10017]",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Leo Stores And Supply Private Limited"
+      }
+    ]
+  },
+  {
+    "title": "Air Compressor 3.3Kw 100L Outstanding",
+    "description": "Air Compressor 3.3Kw 100L Outstanding",
+    "category": "MRO",
+    "priority": "",
+    "status": "",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Air Compressor 3.3Kw 100L Outstanding",
+        "partNumber": "[6492]",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Leo Stores And Supply Private Limited"
+      }
+    ]
+  },
+  {
+    "title": "High Pressure Sprayer Hose 8.5MM x 50M With Brass fittings (60-220Bar) Yellow",
+    "description": "High Pressure Sprayer Hose 8.5MM x 50M With Brass fittings (60-220Bar) Yellow",
+    "category": "MRO",
+    "priority": "",
+    "status": "",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "High Pressure Sprayer Hose 8.5MM x 50M With Brass fittings (60-220Bar) Yellow",
+        "partNumber": "[14241]",
+        "qty": 25,
+        "estimatedCost": 0,
+        "preferredSupplier": "Leo Stores And Supply Private Limited"
+      }
+    ]
+  },
+  {
+    "title": "High Pressure Washer 130Bar K4*Gb - Karcher",
+    "description": "High Pressure Washer 130Bar K4*Gb - Karcher",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "10017",
+    "location": "Thilafushi",
+    "reportedBy": "Wellland Investment Pvt Ltd",
+    "parts": [
+      {
+        "name": "High Pressure Washer 130Bar K4*Gb - Karcher",
+        "partNumber": "10017",
+        "qty": 1,
+        "estimatedCost": 8500.0,
+        "preferredSupplier": "Leo Stores And Supply Private Limited"
+      }
+    ]
+  },
+  {
+    "title": "Air Compressor 3.3Kw 100L Outstanding",
+    "description": "Air Compressor 3.3Kw 100L Outstanding",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "6492",
+    "location": "Thilafushi",
+    "reportedBy": "Wellland Investment Pvt Ltd",
+    "parts": [
+      {
+        "name": "Air Compressor 3.3Kw 100L Outstanding",
+        "partNumber": "6492",
+        "qty": 1,
+        "estimatedCost": 15000.0,
+        "preferredSupplier": "Leo Stores And Supply Private Limited"
+      }
+    ]
+  },
+  {
+    "title": "Yanmar 6GHA-ET Seawater Pump Assembly",
+    "description": "RFQ for Yanmar 6GHA-ET Seawater Pump Assembly",
+    "category": "MRO",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi / Tug-01 / Male",
+    "reportedBy": "Mr. Ali Mushthaq",
+    "parts": [
+      {
+        "name": "PUMP ASSY128628-42702-",
+        "partNumber": "128628-42702-",
+        "qty": 1,
+        "estimatedCost": 4397.35,
+        "preferredSupplier": "AL DAHR FZC"
+      },
+      {
+        "name": "GASKET (NON - ASB) 128610-42191",
+        "partNumber": "128610-42191",
+        "qty": 1,
+        "estimatedCost": 12.92,
+        "preferredSupplier": "AL DAHR FZC"
+      }
+    ]
+  },
+  {
+    "title": "Tug Boat Repair",
+    "description": "Repair of Tug Boat",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "Tug Boat",
+    "location": "Thilafushi",
+    "reportedBy": "Dhanuska",
+    "parts": [
+      {
+        "name": "M20 X 90MM MS FLAT WASHER (GRADE 8.8)",
+        "partNumber": "",
+        "qty": 35,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "M20 X 90MM MS NUT (GRADE 8.8)",
+        "partNumber": "",
+        "qty": 35,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "M20 X 90MM MS BOLT (GRADE 8.8)",
+        "partNumber": "",
+        "qty": 35,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "SS Elbow 1\" (316 SCH 40)",
+        "partNumber": "",
+        "qty": 10,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "SS Pipe 1\" (316 SCH 40)",
+        "partNumber": "",
+        "qty": 4,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "1-1/2\"",
+        "partNumber": "",
+        "qty": 4,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "1\" SS Ball Valve",
+        "partNumber": "",
+        "qty": 4,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "3/4\" SS Pipe (316 SCH40)",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "1\"",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "1\"",
         "partNumber": "",
         "qty": 2,
         "estimatedCost": 0,
-        "preferredSupplier": "Well Land Investment Pvt Ltd"
+        "preferredSupplier": ""
+      },
+      {
+        "name": "3/4\"",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "SS Butter\ufb02y Nut/Bolt (M16x200mm)",
+        "partNumber": "",
+        "qty": 16,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "1-1/2\"",
+        "partNumber": "",
+        "qty": 4,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Machine breakdowns, fail",
+    "description": "Machine breakdowns, fail",
+    "category": "Mechanical",
+    "priority": "CRITICAL",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi",
+    "reportedBy": "Janaka",
+    "parts": [
+      {
+        "name": "Welding Rod Rb-26 E6013, 3.2MM 5Kg",
+        "partNumber": "Kobelco",
+        "qty": 1,
+        "estimatedCost": 220.0,
+        "preferredSupplier": "Leo Stores And Supply Private Limited"
+      },
+      {
+        "name": "Ball Valve 2\"",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "2\" Elbow (SCH80)",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "Valve- Ball Valve Stainless Steel (SS316) 2\"",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 2000.0,
+        "preferredSupplier": "Leo Stores And Supply Private Limited"
+      },
+      {
+        "name": "MS Elbow 90D Sch-40 2\" W/T",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 109.0,
+        "preferredSupplier": "Leo Stores And Supply Private Limited"
+      }
+    ]
+  },
+  {
+    "title": "Komatsu: coconut planting, slow movement",
+    "description": "Komatsu sent to MF at 14:00 with mechanic.",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "NOTED",
+    "assetId": "BF",
+    "location": "BF",
+    "reportedBy": "Sampath \u2013 PM",
+    "parts": [
+      {
+        "name": "Diesel filter",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF"
+      }
+    ]
+  },
+  {
+    "title": "Kobelco: boom pin today, bucket pin pending materials",
+    "description": "Kobelco: boom pin today, bucket pin pending materials.",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "NOTED",
+    "assetId": "BF",
+    "location": "BF",
+    "reportedBy": "Sampath \u2013 PM",
+    "parts": [
+      {
+        "name": "Boom pin",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF"
+      },
+      {
+        "name": "Bucket pin",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF"
+      }
+    ]
+  },
+  {
+    "title": "SK235: OOO \u2013 starter motor to Mal\u00e9",
+    "description": "SK235 OOO \u2013 motor sent to Mal\u00e9 today.",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "NOTED",
+    "assetId": "SK235",
+    "location": "Mal\u00e9",
+    "reportedBy": "Sampath \u2013 PM",
+    "parts": [
+      {
+        "name": "Starter motor",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF"
+      }
+    ]
+  },
+  {
+    "title": "Wrong part received for solenoid",
+    "description": "Received wrong part for solenoid, correct part still open",
+    "category": "Mechanical",
+    "priority": "URGENT",
+    "status": "Reported",
+    "assetId": "Komatsu 350",
+    "location": "Goidhoo",
+    "reportedBy": "Sampath",
+    "parts": [
+      {
+        "name": "Correct solenoid",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Sampath"
+      }
+    ]
+  },
+  {
+    "title": "Engine top cover needed",
+    "description": "Engine top cover (250\u00d7850mm) needed for Kobelco 380",
+    "category": "Mechanical",
+    "priority": "URGENT",
+    "status": "Reported",
+    "assetId": "Kobelco 380",
+    "location": "Launch",
+    "reportedBy": "Sampath",
+    "parts": [
+      {
+        "name": "Engine top cover (250\u00d7850mm)",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Sampath"
+      }
+    ]
+  },
+  {
+    "title": "Bucket tooth replacement needed",
+    "description": "Bucket tooth replacement needed for Komatsu",
+    "category": "Mechanical",
+    "priority": "NORMAL",
+    "status": "Reported",
+    "assetId": "Komatsu",
+    "location": "",
+    "reportedBy": "Sampath",
+    "parts": [
+      {
+        "name": "Bucket tooth replacement",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Sampath"
+      }
+    ]
+  },
+  {
+    "title": "Grease gun coupler needed",
+    "description": "Grease gun coupler (NPT 1/8 in.) needed",
+    "category": "Mechanical",
+    "priority": "NORMAL",
+    "status": "Reported",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "Sampath",
+    "parts": [
+      {
+        "name": "Grease gun coupler (NPT 1/8 in.)",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Sampath"
+      }
+    ]
+  },
+  {
+    "title": "Hydraulic hose replacement needed",
+    "description": "Hydraulic hose replacement needed for Komatsu",
+    "category": "Mechanical",
+    "priority": "URGENT",
+    "status": "Reported",
+    "assetId": "Komatsu",
+    "location": "",
+    "reportedBy": "Sampath",
+    "parts": [
+      {
+        "name": "Hydraulic hose replacement",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Sampath"
+      }
+    ]
+  },
+  {
+    "title": "Jack seal for arm jack needed",
+    "description": "Jack seal for arm jack (hydraulic leak) needed for Kobelco",
+    "category": "Mechanical",
+    "priority": "URGENT",
+    "status": "Reported",
+    "assetId": "Kobelco",
+    "location": "",
+    "reportedBy": "Sampath",
+    "parts": [
+      {
+        "name": "Jack seal for arm jack (hydraulic leak)",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Sampath"
+      }
+    ]
+  },
+  {
+    "title": "Oil & fuel filters needed",
+    "description": "Oil & fuel filters needed for PC50 / Kubota 50",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "PC50 / Kubota 50",
+    "location": "",
+    "reportedBy": "Sampath",
+    "parts": [
+      {
+        "name": "Oil & fuel filters",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Sampath"
+      }
+    ]
+  },
+  {
+    "title": "Volvo A40D service items needed",
+    "description": "Volvo A40D \u2013 all service items (oil viscosity high) needed",
+    "category": "Mechanical",
+    "priority": "URGENT",
+    "status": "Reported",
+    "assetId": "Volvo A40D",
+    "location": "",
+    "reportedBy": "Sampath",
+    "parts": [
+      {
+        "name": "Volvo A40D \u2013 all service items (oil viscosity high)",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Sampath"
+      }
+    ]
+  },
+  {
+    "title": "Starter motor failure \u2013 out of order",
+    "description": "Motor failure",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "UNKNOWN",
+    "assetId": "SK 235 Excavator",
+    "location": "",
+    "reportedBy": "Ahmed Ziyad",
+    "parts": [
+      {
+        "name": "Large D-shackle for bucket hook",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Janaka / Ahmed Ziyad"
+      }
+    ]
+  },
+  {
+    "title": "Bucket pin repair pending materials",
+    "description": "Materials unavailable",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "RESOLVED",
+    "assetId": "Kobelco (High Bed)",
+    "location": "",
+    "reportedBy": "Ahmed Ziyad",
+    "parts": [
+      {
+        "name": "Bucket teeth and pins",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Janaka / Ahmed Ziyad"
+      }
+    ]
+  },
+  {
+    "title": "Awaiting hose from Mal\u00e9 (sent 22 Jan)",
+    "description": "Hose failure",
+    "category": "Hydraulic",
+    "priority": "HIGH",
+    "status": "RESOLVED",
+    "assetId": "BF Dump Truck",
+    "location": "",
+    "reportedBy": "Ahmed Ziyad",
+    "parts": [
+      {
+        "name": "Hydraulic hose",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Oil leakage identified",
+    "description": "Unknown",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "PARTIALLY RESOLVED",
+    "assetId": "MF Dump Truck",
+    "location": "",
+    "reportedBy": "Ahmed Ziyad",
+    "parts": [
+      {
+        "name": "Diesel filter",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Diesel air lock \u2013 air in fuel system",
+    "description": "Diesel filter blockage",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "assetId": "Komatsu (High Bed)",
+    "location": "",
+    "reportedBy": "Ahmed Ziyad",
+    "parts": [
+      {
+        "name": "Diesel filter",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Brake hose burst at 14:45 during Evosun hire",
+    "description": "Hose failure",
+    "category": "Hydraulic",
+    "priority": "HIGH",
+    "status": "RESOLVED",
+    "assetId": "BF Dump Truck",
+    "location": "",
+    "reportedBy": "Ahmed Ziyad",
+    "parts": [
+      {
+        "name": "Hydraulic hose",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "BF Dump Truck \u2013 DO NOT OPERATE. High oil viscosity. Immediate full service required.",
+    "description": "Volvo A40D checklist to be completed and returned.",
+    "category": "Mechanical",
+    "priority": "URGENT",
+    "status": "OPEN",
+    "assetId": "BF Dump Truck",
+    "location": "BF Machine & Diesel",
+    "reportedBy": "Mushthaq / Janaka / Mechanic",
+    "parts": [
+      {
+        "name": "Brake oil + all service filters",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF Machine & Diesel"
+      }
+    ]
+  },
+  {
+    "title": "Komatsu hose (burst 7 Mar) \u2013 proper replacement needed; currently on available spare.",
+    "description": "Komatsu hose (burst 7 Mar) \u2013 proper replacement needed; currently on available spare.",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "IN PROGRESS",
+    "assetId": "Komatsu",
+    "location": "BF Machine & Diesel",
+    "reportedBy": "Janaka / Ahmed Ziyad",
+    "parts": [
+      {
+        "name": "Komatsu hose",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF Machine & Diesel"
+      }
+    ]
+  },
+  {
+    "title": "PC50 filter photos sent to Janaka \u2013 select and order correct parts.",
+    "description": "PC50 filter photos sent to Janaka \u2013 select and order correct parts.",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "IN PROGRESS",
+    "assetId": "PC50",
+    "location": "BF Machine & Diesel",
+    "reportedBy": "Janaka",
+    "parts": [
+      {
+        "name": "Oil & fuel filters for PC50 / Kubota 50 small excavator",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF Machine & Diesel"
+      }
+    ]
+  },
+  {
+    "title": "Engine top cover (Kobelco 380) in Mal\u00e9 for repair \u2013 confirmation pending.",
+    "description": "Engine top cover (Kobelco 380) in Mal\u00e9 for repair \u2013 confirmation pending.",
+    "category": "Mechanical",
+    "priority": "URGENT",
+    "status": "IN PROGRESS",
+    "assetId": "Kobelco 380",
+    "location": "Mal\u00e9",
+    "reportedBy": "Ahmed Ziyad / Mechanic",
+    "parts": [
+      {
+        "name": "Engine top cover",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF Machine & Diesel"
+      }
+    ]
+  },
+  {
+    "title": "Komatsu bucket tooth replacement.",
+    "description": "Komatsu bucket tooth replacement.",
+    "category": "Mechanical",
+    "priority": "MEDIUM",
+    "status": "OPEN",
+    "assetId": "Komatsu",
+    "location": "BF Machine & Diesel",
+    "reportedBy": "Janaka",
+    "parts": [
+      {
+        "name": "Komatsu bucket tooth",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF Machine & Diesel"
+      }
+    ]
+  },
+  {
+    "title": "Kobelco steel bush cracks \u2013 permanent repair (cabin removal) deferred.",
+    "description": "Kobelco steel bush cracks \u2013 permanent repair (cabin removal) deferred.",
+    "category": "Mechanical",
+    "priority": "MEDIUM",
+    "status": "DEFERRED",
+    "assetId": "Kobelco",
+    "location": "BF Machine & Diesel",
+    "reportedBy": "Mechanic / Janaka",
+    "parts": [
+      {
+        "name": "Kobelco steel bush",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF Machine & Diesel"
+      }
+    ]
+  },
+  {
+    "title": "TUG 1 R&M responsibility and ownership",
+    "description": "Clarify TUG 1 R&M responsibility and ownership. Contact Ziyadh. Establish formal R&M schedule for TUG 1.",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "OPEN",
+    "assetId": "TUG 1",
+    "location": "Muthaafushi",
+    "reportedBy": "Nashwan \u2013 Antrac Ops",
+    "parts": [
+      {
+        "name": "Pipe material for Komatsu PC350",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Ziyadh"
+      },
+      {
+        "name": "Perspex sheet for Kobelco SK380",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF Machine & Diesel"
+      },
+      {
+        "name": "Battery for Kobelco SK380",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF Machine & Diesel"
+      },
+      {
+        "name": "Cable sizes and lug/clamp specifications for Kobelco SK380",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF Machine & Diesel"
+      },
+      {
+        "name": "Perspex dimensions for Kobelco SK380",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF Machine & Diesel"
+      },
+      {
+        "name": "Hinge repair/fabrication details for Kobelco SK380",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF Machine & Diesel"
+      },
+      {
+        "name": "Replacement parts for Volvo A40G dump truck",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Dubai Al Dahr"
+      }
+    ]
+  },
+  {
+    "title": "Hydraulic leak in Kobelco arm jack",
+    "description": "Source and dispatch jack seal for Kobelco arm URGENTLY. Arrange PC50 filters (Janaka to identify from photos). Check if site stock levels sufficient for fluids.",
+    "category": "Hydraulic",
+    "priority": "URGENT",
+    "status": "IN PROGRESS",
+    "assetId": "Kobelco arm jack",
+    "location": "Muthaafushi",
+    "reportedBy": "Sampath \u2013 Project Manager",
+    "parts": [
+      {
+        "name": "Jack seal for Kobelco arm",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF Machine & Diesel"
+      },
+      {
+        "name": "PC50 oil and fuel filters",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "BF Machine & Diesel"
+      }
+    ]
+  },
+  {
+    "title": "Komatsu dump truck cannot work",
+    "description": "Coordinate with Goidhoo to send Komatsu fuel filter on today's ferry.",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "PARTIALLY CLOSED",
+    "assetId": "Komatsu dump truck",
+    "location": "Muthaafushi",
+    "reportedBy": "Sampath \u2013 Project Manager",
+    "parts": [
+      {
+        "name": "Komatsu fuel filter",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Goidhoo"
+      }
+    ]
+  },
+  {
+    "title": "Hydraulic system slow",
+    "description": "Hydraulic system slow in Komatsu PC350 (Low Bed)",
+    "category": "Hydraulic",
+    "priority": "URGENT",
+    "status": "Reported",
+    "assetId": "Komatsu PC350 (Low Bed)",
+    "location": "Bodufinolhu",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Hydraulic pump",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Dubai Al Dahr"
+      }
+    ]
+  },
+  {
+    "title": "Hydraulic pump replacement required",
+    "description": "Hydraulic pump replacement required in Komatsu PC350 (Low Bed)",
+    "category": "Hydraulic",
+    "priority": "URGENT",
+    "status": "Reported",
+    "assetId": "Komatsu PC350 (Low Bed)",
+    "location": "Bodufinolhu",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Hydraulic pump",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Dubai Al Dahr"
+      }
+    ]
+  },
+  {
+    "title": "Komatsu low bed to Muthaafushi \u2013 dispatch now",
+    "description": "Request by Mohamed Hameed 22 Mar. Abdul Hannan: Organizing. Current low tide is good for boulder work. Window is time-sensitive.",
+    "category": "Operations",
+    "priority": "URGENT",
+    "status": "Reported",
+    "assetId": "",
+    "location": "BF Machine & Diesel",
+    "reportedBy": "Mushthaq",
+    "parts": [
+      {
+        "name": "",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Kobelco 380 engine cover \u2013 confirm repair in Mal\u00e9 and return to site",
+    "description": "Cover (250\u00d7850mm) sent to Mal\u00e9 ~28 Feb / 1 Mar for repair. Ahmed Ziyad confirmed dispatch. No return confirmation on record.",
+    "category": "Maintenance",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "",
+    "location": "BF Machine & Diesel",
+    "reportedBy": "Mushthaq",
+    "parts": [
+      {
+        "name": "",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "BF Dump Truck \u2013 arrange full service",
+    "description": "Machine grounded, stop order issued",
+    "category": "Mechanical",
+    "priority": "URGENT",
+    "status": "Reported",
+    "assetId": "BF Dump Truck",
+    "location": "Thilafushi",
+    "reportedBy": "Mushthaq",
+    "parts": [
+      {
+        "name": "Oil",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "Filters",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "Brake oil",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Komatsu 350 solenoid \u2013 source correct OEM part",
+    "description": "Wrong part received twice",
+    "category": "Electrical",
+    "priority": "URGENT",
+    "status": "Reported",
+    "assetId": "Komatsu 350",
+    "location": "Thilafushi",
+    "reportedBy": "Mushthaq",
+    "parts": [
+      {
+        "name": "Solenoid",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Kobelco arm \u2013 procure and dispatch jack seal",
+    "description": "Hydraulic leak confirmed",
+    "category": "Hydraulic",
+    "priority": "URGENT",
+    "status": "Reported",
+    "assetId": "Kobelco arm",
+    "location": "Thilafushi",
+    "reportedBy": "Mushthaq",
+    "parts": [
+      {
+        "name": "Jack seal",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Usage log \u2013 enforce immediately",
+    "description": "~150L hydraulic oil unaccounted for",
+    "category": "Mechanical",
+    "priority": "URGENT",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Thilafushi",
+    "reportedBy": "Mushthaq",
+    "parts": []
+  },
+  {
+    "title": "Komatsu low bed to Muthaafushi \u2013 dispatch now",
+    "description": "Low tide window open, Mohamed Hameed's request",
+    "category": "Logistics",
+    "priority": "URGENT",
+    "status": "Reported",
+    "assetId": "Komatsu low bed",
+    "location": "Thilafushi",
+    "reportedBy": "Mushthaq",
+    "parts": []
+  },
+  {
+    "title": "Kobelco 380 engine cover \u2013 confirm repair in Mal\u00e9",
+    "description": "",
+    "category": "Engine Parts",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "Kobelco 380 engine cover",
+    "location": "Thilafushi",
+    "reportedBy": "Mushthaq",
+    "parts": []
+  },
+  {
+    "title": "Grease gun coupler (NPT 1/8 in.) \u2013 confirm dispatched and received",
+    "description": "Confirm dispatched and received",
+    "category": "MRO",
+    "priority": "MEDIUM",
+    "status": "Reported",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "Mushthaq",
+    "parts": [
+      {
+        "name": "Grease gun coupler (NPT 1/8 in.)",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "PR 42-2026 \u2013 status is '?' in Janaka's log; clarify what this request was",
+    "description": "Clarify what this request was",
+    "category": "MRO",
+    "priority": "MEDIUM",
+    "status": "Reported",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "Mushthaq",
+    "parts": [
+      {
+        "name": "PR 42-2026",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "MF Dump Truck oil leakage \u2013 confirm final repair completed",
+    "description": "Confirm final repair completed",
+    "category": "MRO",
+    "priority": "MEDIUM",
+    "status": "Reported",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "Mushthaq",
+    "parts": [
+      {
+        "name": "MF Dump Truck oil leakage",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Kobelco steel bush cracks \u2013 plan permanent repair (cabin removal required)",
+    "description": "Plan permanent repair",
+    "category": "MRO",
+    "priority": "MEDIUM",
+    "status": "Reported",
+    "assetId": "",
+    "location": "",
+    "reportedBy": "Mushthaq",
+    "parts": [
+      {
+        "name": "Kobelco steel bush",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "control valve/hose leaking hydraulic",
+    "description": "Muthaafushi unit: control valve/hose leaking hydraulic",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "WL-HV-0003",
+    "location": "Muthaafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "",
+        "partNumber": "",
+        "qty": 0,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "1 tooth reattachment required",
+    "description": "7mar - hose burst",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "WL-HV-0012",
+    "location": "Muthaafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "",
+        "partNumber": "",
+        "qty": 0,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "hose burst",
+    "description": "",
+    "category": "Hydraulic",
+    "priority": "MEDIUM",
+    "status": "Reported",
+    "assetId": "WL-HV-0012",
+    "location": "Muthaafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "",
+        "partNumber": "",
+        "qty": 0,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Verify if separate vessel or same boat at different time.",
+    "description": "",
+    "category": "Structural",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "WL-MV-0004",
+    "location": "",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "",
+        "partNumber": "",
+        "qty": 0,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "control valve/hose leaking hydraulic",
+    "description": "control valve/hose leaking hydraulic",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "Muthaafushi unit",
+    "location": "Muthaafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "control valve",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "hose",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Boom pin need to be repired (Temporary welding done), Side glass broken and need to be replaced",
+    "description": "Boom pin need to be repired (Temporary welding done), Side glass broken and need to be replaced",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "Bodufinolhu",
+    "location": "Bodufinolhu",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Boom pin",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "Side glass",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "1 tooth reattachment required, Machine movement is very slow",
+    "description": "1 tooth reattachment required, Machine movement is very slow",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "Muthaafushi",
+    "location": "Muthaafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "tooth",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "No issues",
+    "description": "No issues",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "",
+    "location": "Bodufinolhu",
+    "reportedBy": "",
+    "parts": []
+  },
+  {
+    "title": "good",
+    "description": "good",
+    "category": "Mechanical / Electrical / Hydraulic / Structural / Tyres / Undercarriage",
+    "priority": "LOW",
+    "status": "Reported",
+    "assetId": "thilafushi",
+    "location": "thilafushi",
+    "reportedBy": "",
+    "parts": []
+  },
+  {
+    "title": "SK 235 - Out of order",
+    "description": "Starter motor sent to Mal\u00e9",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "SK 235",
+    "location": "Bodufinolhu",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Starter motor",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": "Mal\u00e9"
+      }
+    ]
+  },
+  {
+    "title": "Dump Truck - Oil leakage",
+    "description": "Oil leakage identified. A mechanic will be sent after repairs for both the Komatsu and the dump truck",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "Dump Truck",
+    "location": "Muthaafushi",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Diesel filter",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "Hose",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Komatsu (High Bed) - Slow movement",
+    "description": "Currently engaged in coconut tree planting. Will be moved to Muthaafushi after repairing slow movement",
+    "category": "Mechanical",
+    "priority": "MEDIUM",
+    "status": "Reported",
+    "assetId": "Komatsu (High Bed)",
+    "location": "Bodufinolhu",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Boom pin",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      },
+      {
+        "name": "Bucket pin",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
+      }
+    ]
+  },
+  {
+    "title": "Dump Truck - Hose burst",
+    "description": "Planning to repair. Evosun mechanic will help on this",
+    "category": "Mechanical",
+    "priority": "HIGH",
+    "status": "Reported",
+    "assetId": "Dump Truck",
+    "location": "Bodufinolhu",
+    "reportedBy": "",
+    "parts": [
+      {
+        "name": "Hose",
+        "partNumber": "",
+        "qty": 1,
+        "estimatedCost": 0,
+        "preferredSupplier": ""
       }
     ]
   }

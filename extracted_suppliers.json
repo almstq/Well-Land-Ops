@@ -2,67 +2,1519 @@
   {
     "Supplier": "Jan De Nul",
     "Category": "Transport Service Providers",
-    "Contact": "",
-    "Remarks": "Providing LCT for inter-island mobilization"
+    "Contact": "Robbe.Hochepied@jandenul.com",
+    "Remarks": "Hiring of LCT for inter-island mobilization from Vilufushi to Rasmale"
   },
   {
     "Supplier": "Well Land Investment Pvt Ltd",
     "Category": "Logistics Division",
     "Contact": "asim@evosunmaldives.com",
-    "Remarks": "Providing LCT vessel and Komatsu PC70 excavator"
+    "Remarks": "Provide LCT vessel and Komatsu PC70 excavator for HDPE pipes transportation"
   },
   {
     "Supplier": "Infra Engineers India (IEPL)",
-    "Category": "Service and Parts Supplier",
-    "Contact": "Mr. Hari Pilla, Chennai",
-    "Remarks": "Providing hydraulic pumps, solenoid valves, and other parts"
+    "Category": "MRO",
+    "Contact": "Mr. Hari Pilla, MVR 800 per day",
+    "Remarks": "Service and parts supplier"
+  },
+  {
+    "Supplier": "Ex Ceylon Engineering",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Fabricated hydraulic line adapter"
   },
   {
     "Supplier": "RKL Maldives",
-    "Category": "Teflon Material Supplier",
+    "Category": "MRO",
     "Contact": "",
-    "Remarks": "Providing Teflon material for custom fabrication"
+    "Remarks": "Teflon source"
   },
   {
-    "Supplier": "Ex Ceylon Engineering, Mal\u00e9",
-    "Category": "Fabrication Service",
+    "Supplier": "WELL LAND INVESTMENT PVT. LTD.",
+    "Category": "MRO",
     "Contact": "",
-    "Remarks": "Fabricating hydraulic line adapter / elbow fitting"
+    "Remarks": "Company"
+  },
+  {
+    "Supplier": "ANTRAC HOLDING GROUP",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Company"
   },
   {
     "Supplier": "Well Land Investment Pvt Ltd",
     "Category": "MRO / Electrical / Hydraulic / Rental etc",
     "Contact": "Ali Mushthaq - General Manager - Heavy Earth Moving Vehicles",
-    "Remarks": "Supply of rock boulders, sea transportation to Noonu Atoll, unloading operations, mobilization and demobilization of equipment, bed preparation works"
+    "Remarks": "Supply & Unloading of Rock Boulder to Noonu Atoll"
   },
   {
-    "Supplier": "Komatsu",
+    "Supplier": "RKL Maldives",
     "Category": "MRO / Electrical / Hydraulic / Rental etc",
     "Contact": "",
-    "Remarks": "Hydraulic pumps for Komatsu PC350LC-7/PC300LC-7 excavators"
+    "Remarks": "Teflon fabrication in progress"
   },
   {
-    "Supplier": "Davilian",
+    "Supplier": "Venkata",
     "Category": "MRO / Electrical / Hydraulic / Rental etc",
     "Contact": "",
-    "Remarks": "Firefighting pump systems (Davilian DHm/5AM benchmark)"
+    "Remarks": "Payment outstanding (MVR 7,992 for set)"
   },
   {
-    "Supplier": "Antrac Holding Group",
-    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Supplier": "Antrac Group Head Office Accounts",
+    "Category": "Financial Services",
     "Contact": "",
-    "Remarks": "Head Office Accounts team handles formal financial processing"
+    "Remarks": "Handles formal financial processing"
+  },
+  {
+    "Supplier": "External Repair Workshops and Technicians",
+    "Category": "Services",
+    "Contact": "",
+    "Remarks": "Coordinates with for external repairs"
+  },
+  {
+    "Supplier": "Komatsu and Similar Equipment Suppliers",
+    "Category": "Equipment",
+    "Contact": "",
+    "Remarks": "Supplies excavators and similar equipment"
+  },
+  {
+    "Supplier": "Lorry and Heavy Vehicle Suppliers",
+    "Category": "Equipment",
+    "Contact": "",
+    "Remarks": "Supplies lorries and heavy vehicles"
+  },
+  {
+    "Supplier": "LCT Vessel Suppliers",
+    "Category": "Equipment",
+    "Contact": "",
+    "Remarks": "Supplies LCT vessels"
+  },
+  {
+    "Supplier": "Hilton Maldives Amingiri Resort & Spa",
+    "Category": "Rental",
+    "Contact": "Adam Ali <Adam.Ali@hilton.com>",
+    "Remarks": "Landing craft and crane rental for cargo handling operations"
+  },
+  {
+    "Supplier": "Well Land Investment Pvt Ltd",
+    "Category": "Rental",
+    "Contact": "Mustarq <Mustarq@welllandinvestment.com>",
+    "Remarks": "LCT and crane rental for cargo handling operations"
   },
   {
     "Supplier": "Well Land Investment Pvt Ltd",
     "Category": "Heavy Machinery & Marine Vessel Operations",
     "Contact": "Ali Mushthaq Ibrahim, General Manager \u2013 Heavy Earth Moving Vehicles",
-    "Remarks": "Heavy machinery and marine vessel operations, including supply and unloading of rock boulders"
+    "Remarks": "Heavy-duty class excavators and dump trucks for rock handling and transportation"
+  },
+  {
+    "Supplier": "Well Land Investment Pte. Ltd.",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Supplier of equipment and services"
+  },
+  {
+    "Supplier": "WELL LAND INVESTMENT PVT. LTD.",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Supplier of tracked excavators"
+  },
+  {
+    "Supplier": "ANTRAC HOLDING GROUP",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Parent company of Well Land Investment"
+  },
+  {
+    "Supplier": "WELL LAND INVESTMENT PVT. LTD.",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Supplier of CAT 336DL and CAT 745C machines"
+  },
+  {
+    "Supplier": "ANTRAC HOLDING GROUP",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Parent company of WELL LAND INVESTMENT PVT. LTD."
+  },
+  {
+    "Supplier": "WELL LAND INVESTMENT PVT. LTD.",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Supplier of Volvo A40G and CAT 745C machines"
+  },
+  {
+    "Supplier": "ANTRAC HOLDING GROUP",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Parent company of Well Land Investment Pvt. Ltd."
+  },
+  {
+    "Supplier": "WELL LAND INVESTMENT PVT. LTD.",
+    "Category": "",
+    "Contact": "",
+    "Remarks": ""
+  },
+  {
+    "Supplier": "ANTRAC HOLDING GROUP",
+    "Category": "",
+    "Contact": "",
+    "Remarks": ""
+  },
+  {
+    "Supplier": "WELL LAND INVESTMENT PVT. LTD.",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Supplier of KOBELCO SK380 and KOMATSU PC350 excavators"
+  },
+  {
+    "Supplier": "ANTRAC HOLDING GROUP",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Parent company of WELL LAND INVESTMENT PVT. LTD."
+  },
+  {
+    "Supplier": "WELL LAND INVESTMENT PVT. LTD.",
+    "Category": "",
+    "Contact": "",
+    "Remarks": ""
+  },
+  {
+    "Supplier": "ANTRAC HOLDING GROUP",
+    "Category": "",
+    "Contact": "",
+    "Remarks": ""
+  },
+  {
+    "Supplier": "WELL LAND INVESTMENT PVT. LTD.",
+    "Category": "",
+    "Contact": "",
+    "Remarks": ""
+  },
+  {
+    "Supplier": "ANTRAC HOLDING GROUP",
+    "Category": "",
+    "Contact": "",
+    "Remarks": ""
+  },
+  {
+    "Supplier": "WELL LAND INVESTMENT PVT. LTD.",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Daily pre-start checklist"
+  },
+  {
+    "Supplier": "ANTRAC HOLDING GROUP",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Daily pre-start checklist"
+  },
+  {
+    "Supplier": "WELL LAND INVESTMENT PVT. LTD.",
+    "Category": "",
+    "Contact": "",
+    "Remarks": ""
+  },
+  {
+    "Supplier": "ANTRAC HOLDING GROUP",
+    "Category": "",
+    "Contact": "",
+    "Remarks": ""
+  },
+  {
+    "Supplier": "WELL LAND OPS",
+    "Category": "Tools / Equipment",
+    "Contact": "",
+    "Remarks": "Preferred supplier for purchase requests"
+  },
+  {
+    "Supplier": "Well Land Investment Pvt Ltd",
+    "Category": "MRO / Rental",
+    "Contact": "Mal\u00e9, Maldives",
+    "Remarks": "Vessel hire, dump truck, mobile crane, crew, port handling at Mal\u00e9, and unloading at each island destination"
+  },
+  {
+    "Supplier": "Well Land Investment Pvt Ltd",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Supplier of LCT Vessel, Dump Truck, Mobile Crane, and other equipment"
+  },
+  {
+    "Supplier": "Antrac Holding Group",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Supplier of LCT Vessel, Dump Truck, Mobile Crane, and other equipment"
+  },
+  {
+    "Supplier": "ROLMAN WORLD FZCO",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "TEL:4-8873700",
+    "Remarks": "Exporter of Wheel Excavator 2024 and Tracked Excavator 2019"
+  },
+  {
+    "Supplier": "AL DAHR FZC",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Consignment of Wheel Excavator 2024 and Tracked Excavator 2019"
+  },
+  {
+    "Supplier": "Dubai Chamber of Commerce",
+    "Category": "",
+    "Contact": "Tel (Within UAE) 800 CHAMBER (800 2426237), Tel (Outside UAE) (+971) 4 2280000, Fax (+971) 4 2028888, Email customercare@dubaichamber.com",
+    "Remarks": "Issued Certificate"
+  },
+  {
+    "Supplier": "Al Dahr",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Ordered"
+  },
+  {
+    "Supplier": "Rolman",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Ordered"
+  },
+  {
+    "Supplier": "XCMG",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Ordered"
+  },
+  {
+    "Supplier": "DONGFENG",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Ordered"
+  },
+  {
+    "Supplier": "Parts Master Maldives",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Quoted for replacement pumps"
+  },
+  {
+    "Supplier": "Infratech Engineers",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Machine supplier"
+  },
+  {
+    "Supplier": "Fenaka Corporation Limited",
+    "Category": "MRO",
+    "Contact": "+960-300-7555, info@fenaka.mv",
+    "Remarks": "Supplier for vessel hire and heavy vehicle services"
   },
   {
     "Supplier": "Hilton Maldives Amingiri Resort & Spa",
-    "Category": "Landing Craft Hire",
-    "Contact": "Adam Ali, Purchasing Manager, Finance",
-    "Remarks": "Landing craft hire for transportation of cargo"
+    "Category": "MRO",
+    "Contact": "+960 333 0000, reservations@hilton.com",
+    "Remarks": "Client for landing craft hire"
+  },
+  {
+    "Supplier": "Al Dahr FZC",
+    "Category": "MRO",
+    "Contact": "04 328 0504",
+    "Remarks": "Provided quotation for spare parts"
+  },
+  {
+    "Supplier": "Well Land Investment Pvt Ltd",
+    "Category": "Rental",
+    "Contact": "asim@evosunmaldives.com",
+    "Remarks": "Provided quotation for HDPE pipe transportation"
+  },
+  {
+    "Supplier": "SDP Export & Import Pvt Ltd",
+    "Category": "MRO",
+    "Contact": "+94777524603",
+    "Remarks": "Supplier of generator spare parts"
+  },
+  {
+    "Supplier": "EEMAAN MOHAMED",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Submitted purchase order PO-000481"
+  },
+  {
+    "Supplier": "WELL LAND INVESTMENT",
+    "Category": "MRO",
+    "Contact": "gm@welllandinvestment.com",
+    "Remarks": "Client requesting verification of outstanding invoices"
+  },
+  {
+    "Supplier": "ANAM TRADING MALDIVES PVT LTD",
+    "Category": "MRO",
+    "Contact": "Tel: 3314144, 7354144 Email: info@anam.mv , finance1@anam.mv",
+    "Remarks": "Provided MOBIL NUTO H68 208LTR, MOBIL DELVAC MODERN 15W/40 SUPER, ARZOL SURE-BLU - (20 LTR)"
+  },
+  {
+    "Supplier": "Well Land Investment Pvt Ltd",
+    "Category": "Heavy Earth Moving Vehicles",
+    "Contact": "gm@welllandinvestment.com",
+    "Remarks": "Supply and unloading of rock boulders to Noonu Atoll"
+  },
+  {
+    "Supplier": "Fenaka Corporation Limited",
+    "Category": "Genset Supplier",
+    "Contact": "+960-300-7555",
+    "Remarks": "Genset supply for various atolls"
+  },
+  {
+    "Supplier": "FENAKA CORPORATION LIMITED",
+    "Category": "PROC",
+    "Contact": "+960-300-7555 | info@fenaka.mv | www.fenaka.mv",
+    "Remarks": "Supplier Name and Contact Person for quotation requests"
+  },
+  {
+    "Supplier": "Al Dahr FZC",
+    "Category": "Filter",
+    "Contact": "+971 4 328 0504 | Unit#203, 2nd Floor, Al Buteen Building, Al Kabir St, Murshid Bazaar, Deira, Dubai, UAE",
+    "Remarks": "Supplier Name and Contact Person for filter quotation"
+  },
+  {
+    "Supplier": "PARKER",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "FUEL WATER SEPARATOR"
+  },
+  {
+    "Supplier": "STAL",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "FUEL FILTER"
+  },
+  {
+    "Supplier": "LEFONG",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "OIL FILTER"
+  },
+  {
+    "Supplier": "FLEETGUARD",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "FUEL FILTER"
+  },
+  {
+    "Supplier": "CAT",
+    "Category": "Engine Parts",
+    "Contact": "",
+    "Remarks": "Articulated DumpTruck"
+  },
+  {
+    "Supplier": "DOOSAN",
+    "Category": "Engine Parts",
+    "Contact": "",
+    "Remarks": "Forklift 5 Ton"
+  },
+  {
+    "Supplier": "XCMG",
+    "Category": "Engine Parts",
+    "Contact": "",
+    "Remarks": "Sleeper Tipper Truck 8X4"
+  },
+  {
+    "Supplier": "KOMATSU",
+    "Category": "Engine Parts",
+    "Contact": "",
+    "Remarks": "Tracked Excavator"
+  },
+  {
+    "Supplier": "CAT",
+    "Category": "Engine Parts",
+    "Contact": "",
+    "Remarks": "Tracked Excavator"
+  },
+  {
+    "Supplier": "SUMITOMO",
+    "Category": "Engine Parts",
+    "Contact": "",
+    "Remarks": "Tracked Excavator"
+  },
+  {
+    "Supplier": "GROVE",
+    "Category": "Engine Parts",
+    "Contact": "",
+    "Remarks": "Rough Terrain Crane"
+  },
+  {
+    "Supplier": "CAT",
+    "Category": "Engine Parts",
+    "Contact": "",
+    "Remarks": "Hydraulic Excavator"
+  },
+  {
+    "Supplier": "DONGFENG",
+    "Category": "Engine Parts",
+    "Contact": "",
+    "Remarks": "FlatBedTruk with crain"
+  },
+  {
+    "Supplier": "YANMAR",
+    "Category": "Engine Parts",
+    "Contact": "",
+    "Remarks": "Mini Excavator"
+  },
+  {
+    "Supplier": "ROLMAN WORLD FZCO",
+    "Category": "Engine Parts",
+    "Contact": "+971-4-8873700",
+    "Remarks": "Proforma Invoice"
+  },
+  {
+    "Supplier": "I.B ENGINEERING",
+    "Category": "Engine Parts",
+    "Contact": "7794574",
+    "Remarks": "TAX INVOICE"
+  },
+  {
+    "Supplier": "I.B ENGINEERING",
+    "Category": "MRO",
+    "Contact": "7794574, ibeng7722@gmail.com",
+    "Remarks": "Provided 12KW Generator, AVR, Wire Harness Repair, Rellay, Consumer Item"
+  },
+  {
+    "Supplier": "SDP EXPORT & IMPORT COM.PVT LTD",
+    "Category": "MRO",
+    "Contact": "7973573, sdpexp@gmail.com",
+    "Remarks": "Provided Generator Mount, Air Dryer, Boom Seal Kit, Arm Seal Kit"
+  },
+  {
+    "Supplier": "ANAM TRADING MALDIVES PVT LTD",
+    "Category": "Fuel",
+    "Contact": "3314144, 7354144, info@anam.mv, finance1@anam.mv",
+    "Remarks": "Provided Mobil Nuto H68, Mobil Delvac MX 15W/40, Arzol Kool On, Arzol Sure-Blu"
+  },
+  {
+    "Supplier": "ELM ENGINEERING & CONSTRUCTION PVT LTD",
+    "Category": "MRO",
+    "Contact": "+19603007811, sales@elm.com.mv",
+    "Remarks": "Provided 1 Inch Threaded Elbow, 1 Inch Threaded Tee, SS304 Hex Thread Reducer"
+  },
+  {
+    "Supplier": "Bank of Maldives Plc.",
+    "Category": "Bank",
+    "Contact": "",
+    "Remarks": "Bank account details for payment"
+  },
+  {
+    "Supplier": "SDP EXPORT & IMPORT COM.PVT LTD",
+    "Category": "Exporter",
+    "Contact": "sdpexp@gmail.com, 7973573",
+    "Remarks": "Exporter details for imported goods"
+  },
+  {
+    "Supplier": "ROLMAN WORLD FZCO.",
+    "Category": "Exporter",
+    "Contact": "N 1 0 1 Street, Jebel Ali Free Zone, Dubai, U.A.E.",
+    "Remarks": "Exporter details for imported goods"
+  },
+  {
+    "Supplier": "WELL LAND INVESTMENT",
+    "Category": "Customer",
+    "Contact": "1047290GST501",
+    "Remarks": "Customer details for purchased goods"
+  },
+  {
+    "Supplier": "EEMAAN MOHAMED",
+    "Category": "Employee",
+    "Contact": "",
+    "Remarks": "Employee details for purchase order submission"
+  },
+  {
+    "Supplier": "H.Dharaaru",
+    "Category": "Exporter",
+    "Contact": "H.Dharaaru , Abadhahehfehi Magu 20081, Maldives, 7973573, sdpexp@gmail.com",
+    "Remarks": "Exporter details for imported goods"
+  },
+  {
+    "Supplier": "SDP EXPORT & IMPORT COM.PVT LTD",
+    "Category": "MRO",
+    "Contact": "sdpexp@gmail.com, 7973573",
+    "Remarks": "Export and Import company"
+  },
+  {
+    "Supplier": "SDP EXPORT & IMPORT COM.PVT LTD",
+    "Category": "MRO",
+    "Contact": "7973573",
+    "Remarks": "Provided pilot valve 3 bolt"
+  },
+  {
+    "Supplier": "I.B ENGINEERING",
+    "Category": "MRO",
+    "Contact": "7794574",
+    "Remarks": "Provided main alternator service, excitor rotor coil rewinding, diode set, bearing, bearing replacement"
+  },
+  {
+    "Supplier": "I.B ENGINEERING",
+    "Category": "MRO",
+    "Contact": "7794574",
+    "Remarks": "Provided dynamo service, new AVR, wire harness repair, relay, consumer item"
+  },
+  {
+    "Supplier": "LEO STORES & SUPPLY (PVT) LTD",
+    "Category": "MRO",
+    "Contact": "+9603006638 / +9607543345",
+    "Remarks": "Provided Leo Pump - Peripheral Pump (1\") AQM37"
+  },
+  {
+    "Supplier": "MAGIC HARDWARE",
+    "Category": "MRO",
+    "Contact": "+960 3300040, 7770441",
+    "Remarks": "Provided self priming water pump"
+  },
+  {
+    "Supplier": "SDP EXPORT & IMPORT COM.PVT LTD",
+    "Category": "MRO",
+    "Contact": "7973573",
+    "Remarks": "Provided pilot valve 3 bolt"
+  },
+  {
+    "Supplier": "SDP EXPORT & IMPORT COM.PVT LTD",
+    "Category": "MRO",
+    "Contact": "7973573",
+    "Remarks": "Provided arm seal kit"
+  },
+  {
+    "Supplier": "SDP EXPORT & IMPORT COM.PVT LTD",
+    "Category": "MRO",
+    "Contact": "7973573, sdpexp@gmail.com",
+    "Remarks": "Payment Details: BANK OF MALDIVES, A/C NAME: SDP EXPORT & IMPORT COM.PVT LTD, A/C NUMBER: 7730000516254 (MVR), 7730000516255 (USD)"
+  },
+  {
+    "Supplier": "ANAM TRADING MALDIVES PVT LTD",
+    "Category": "MRO",
+    "Contact": "3314144, 7354144, info@anam.mv, finance1@anam.mv",
+    "Remarks": "Payment Details: BANK OF MALDIVES, A/C NAME: ANAM TRADING MALDIVES PVT LTD, A/C NUMBER: 1000007518 (MVR), 1000007525 (USD)"
+  },
+  {
+    "Supplier": "W.E.W MALDIVES PVT LTD",
+    "Category": "MRO",
+    "Contact": "3324353, 7794353, info@wewmaldives.com",
+    "Remarks": "Payment Details: BANK OF MALDIVES, A/C NAME: W.E.W MALDIVES PVT LTD, A/C NUMBER: 7730 000760 276 (MVR), 7730 000760 277 (USD)"
+  },
+  {
+    "Supplier": "LEO STORES & SUPPLY (PVT) LTD",
+    "Category": "MRO",
+    "Contact": "3006638, 7543345, accounts.store@leotrading.mv, store@leotrading.mv, supplies@leotrading.mv",
+    "Remarks": "Payment Details: BANK OF MALDIVES, A/C NAME: LEO STORES & SUPPLY (PVT) LTD, A/C NUMBER: 7730000517239 (MVR), 90401480020191000 (MVR), 7730000517240 (USD), 90401480020192000 (USD)"
+  },
+  {
+    "Supplier": "Leo Stores And Supply Private Limited",
+    "Category": "MRO",
+    "Contact": "+9603006638 / +9607543345 accounts.store@leotrading.mv / store@leotrading.mv/supplies@leotrading.mv",
+    "Remarks": "Supplier of various goods and services"
+  },
+  {
+    "Supplier": "Leo Stores And Supply Private Limited",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "+9603006638 / +9607543345 accounts.store@leotrading.mv / store@leotrading.mv/supplies@leotrading.mv",
+    "Remarks": "Leo Office Complex, 3rd Floor,Plot:10693,Haivakru Magu,Hulhumale, Maldives."
+  },
+  {
+    "Supplier": "Wellland Investment Pvt Ltd",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "+960 777-9548",
+    "Remarks": "TIN No: 1144259GST501, Quotation No: TSO/26/16031, Quotation Date: 03/05/2026"
+  },
+  {
+    "Supplier": "MAGIC HARDWARE",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "+960 3300040, 7770441 magichardware1@gmail.com",
+    "Remarks": "Registration No.: IG-0654/T10/2017, 2, Bluekiya Magu, Male\u2019, Maldives"
+  },
+  {
+    "Supplier": "Anam Tradin",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "Tel: 3314144, 7354144 Email: info@anam.mv , finance1@anam.mv",
+    "Remarks": "ROC No: C01352"
+  },
+  {
+    "Supplier": "ANAM TRADING MALDIVES PVT LTD",
+    "Category": "MRO",
+    "Contact": "info@anam.mv, finance1@anam.mv, 3314144, 7354144",
+    "Remarks": "Trading company"
+  },
+  {
+    "Supplier": "SDP EXPORT & IMPORT COM.PVT LTD",
+    "Category": "MRO",
+    "Contact": "sdpexp@gmail.com, 7973573",
+    "Remarks": "Export and import company"
+  },
+  {
+    "Supplier": "AL DAHR FZC",
+    "Category": "MRO",
+    "Contact": "04 328 0504, Unit#203, 2nd Floor, Al Buteen Building, Al Kabir St, Murshid Bazaar, Deira, Dubai, UAE",
+    "Remarks": "Trading company"
+  },
+  {
+    "Supplier": "Leo Stores And Supply Private Limited",
+    "Category": "MRO",
+    "Contact": "+9603006638 / +9607543345 accounts.store@leotrading.mv / store@leotrading.mv/supplies@leotrading.mv",
+    "Remarks": "Supplier of various MRO items"
+  },
+  {
+    "Supplier": "Leo Stores And Supply Private Limited",
+    "Category": "MRO",
+    "Contact": "+9603006638 / +9607543345 accounts.store@leotrading.mv / store@leotrading.mv/supplies@leotrading.mv",
+    "Remarks": "Supplier of welding rods, valves, and other equipment"
+  },
+  {
+    "Supplier": "Volvo",
+    "Category": "MRO",
+    "Contact": "+91 99947 41533",
+    "Remarks": "Sent 1 Jan with 20L coolant & Adblue"
+  },
+  {
+    "Supplier": "ACE",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Brand image forwarded for grease gun coupler procurement"
+  },
+  {
+    "Supplier": "Atoll Cute Crown",
+    "Category": "Rental",
+    "Contact": "",
+    "Remarks": "Used for ferrying goods"
+  },
+  {
+    "Supplier": "OLM",
+    "Category": "Procurement",
+    "Contact": "",
+    "Remarks": "Identified Electric Diesel Transfer Pump (OLM #3007811)"
+  },
+  {
+    "Supplier": "Ahmed Ziyad Hassan \u2013 Logistics",
+    "Category": "LOGISTICS",
+    "Contact": "Mal\u00e9",
+    "Remarks": "Sent hose via Moosabe vessel"
+  },
+  {
+    "Supplier": "Sampath",
+    "Category": "PM",
+    "Contact": "",
+    "Remarks": "Thanks"
+  },
+  {
+    "Supplier": "Mushthaq",
+    "Category": "PM",
+    "Contact": "",
+    "Remarks": "keep updated; replace if not usable"
+  },
+  {
+    "Supplier": "Rizwan driver",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Broken pipe sent to Mal\u00e9"
+  },
+  {
+    "Supplier": "Ziyadh",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Collect"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Coordinate with Janaka for ETA"
+  },
+  {
+    "Supplier": "Kunbe Mohamed",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Diesel needed for both sites"
+  },
+  {
+    "Supplier": "Ndirangu",
+    "Category": "Mechanic",
+    "Contact": "",
+    "Remarks": "Fixed (12:15)"
+  },
+  {
+    "Supplier": "Mohamed Hameed",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Yes. Janaka arranging mechanic to fix MF"
+  },
+  {
+    "Supplier": "Volvo A40D",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Immediate Troubleshooting Checklist PDF"
+  },
+  {
+    "Supplier": "Mohamed Hameed",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Komatsu solenoid + Kobelco gasket"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "pilot block; checking. Send sample to Mal\u00e9"
+  },
+  {
+    "Supplier": "Musa",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Hoses sent via Atoll Cute King"
+  },
+  {
+    "Supplier": "Evosun",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Requesting Komatsu for concrete work"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "Mechanic",
+    "Contact": "",
+    "Remarks": "Arrange service ASAP"
+  },
+  {
+    "Supplier": "Thulhaadhoo",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "6 diesel barrels from Thulhaadhoo \u2013 empty and return to Kunbe Mohamed house"
+  },
+  {
+    "Supplier": "Atoll Cute Crown",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Transport"
+  },
+  {
+    "Supplier": "Komatsu",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Solenoid + Allen screw size 4 \u00d72, on top of hydraulic pump"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Send sample to Mal\u00e9"
+  },
+  {
+    "Supplier": "Musa",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Hoses sent via Atoll Cute King"
+  },
+  {
+    "Supplier": "Evosun",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Requesting Komatsu for concrete work"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "Mechanic",
+    "Contact": "",
+    "Remarks": "Arrange service ASAP"
+  },
+  {
+    "Supplier": "Thulhaadhoo",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "6 diesel barrels from Thulhaadhoo \u2013 empty and return to Kunbe Mohamed house"
+  },
+  {
+    "Supplier": "Atoll Cute Crown",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Transport"
+  },
+  {
+    "Supplier": "Komatsu",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Solenoid + Allen screw size 4 \u00d72, on top of hydraulic pump"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Send sample to Mal\u00e9"
+  },
+  {
+    "Supplier": "Musa",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Hoses sent via Atoll Cute King"
+  },
+  {
+    "Supplier": "Evosun",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Requesting Komatsu for concrete work"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "Mechanic",
+    "Contact": "",
+    "Remarks": "Arrange service ASAP"
+  },
+  {
+    "Supplier": "Thulhaadhoo",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "6 diesel barrels from Thulhaadhoo \u2013 empty and return to Kunbe Mohamed house"
+  },
+  {
+    "Supplier": "Atoll Cute Crown",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Transport"
+  },
+  {
+    "Supplier": "Komatsu",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Solenoid + Allen screw size 4 \u00d72, on top of hydraulic pump"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Send sample to Mal\u00e9"
+  },
+  {
+    "Supplier": "Musa",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Hoses sent via Atoll Cute King"
+  },
+  {
+    "Supplier": "Evosun",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Requesting Komatsu for concrete work"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "Mechanic",
+    "Contact": "",
+    "Remarks": "Arrange service ASAP"
+  },
+  {
+    "Supplier": "Thulhaadhoo",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "6 diesel barrels from Thulhaadhoo \u2013 empty and return to Kunbe Mohamed house"
+  },
+  {
+    "Supplier": "Atoll Cute Crown",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Transport"
+  },
+  {
+    "Supplier": "Komatsu",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Solenoid + Allen screw size 4 \u00d72, on top of hydraulic pump"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Send sample to Mal\u00e9"
+  },
+  {
+    "Supplier": "Musa",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Hoses sent via Atoll Cute King"
+  },
+  {
+    "Supplier": "Evosun",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Requesting Komatsu for concrete work"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "Mechanic",
+    "Contact": "",
+    "Remarks": "Arrange service ASAP"
+  },
+  {
+    "Supplier": "Thulhaadhoo",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "6 diesel barrels from Thulhaadhoo \u2013 empty and return to Kunbe Mohamed house"
+  },
+  {
+    "Supplier": "Atoll Cute Crown",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Transport"
+  },
+  {
+    "Supplier": "Komatsu",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Solenoid + Allen screw size 4 \u00d72, on top of hydraulic pump"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Send sample to Mal\u00e9"
+  },
+  {
+    "Supplier": "Musa",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Hoses sent via Atoll Cute King"
+  },
+  {
+    "Supplier": "Evosun",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Requesting Komatsu for concrete work"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "Mechanic",
+    "Contact": "",
+    "Remarks": "Arrange service ASAP"
+  },
+  {
+    "Supplier": "Thulhaadhoo",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "6 diesel barrels from Thulhaadhoo \u2013 empty and return to Kunbe Mohamed house"
+  },
+  {
+    "Supplier": "Atoll Cute Crown",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Transport"
+  },
+  {
+    "Supplier": "Komatsu",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Solenoid + Allen screw size 4 \u00d72, on top of hydraulic pump"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "",
+    "Contact": "",
+    "Remarks": "Send sample to Mal\u00e9"
+  },
+  {
+    "Supplier": "Sampath",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Various purchases from Sampath"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Various purchases from Janaka"
+  },
+  {
+    "Supplier": "Sampath",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Multiple dispatches (Goidhoo/Mal\u00e9)"
+  },
+  {
+    "Supplier": "Mohamed Hameed",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Hydraulic hose still pending at this point"
+  },
+  {
+    "Supplier": "Ahmed Ziyad Hassan",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Confirmed by Ahmed Ziyad Hassan"
+  },
+  {
+    "Supplier": "Mr. Ibrahim",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Sent to Thilafushi"
+  },
+  {
+    "Supplier": "Mushthaq",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "STOP ORDER issued by Mushthaq"
+  },
+  {
+    "Supplier": "Ndirangu Nginga",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Janaka to identify and order correct filters"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Janaka to identify and order correct filters"
+  },
+  {
+    "Supplier": "Dhanushka",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Marine mechanic deployed under Dhanushka"
+  },
+  {
+    "Supplier": "BF Machine & Diesel",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Diesel filling hose for manual pump (20ft), Grease and Grease nipple for Komatsu 350, Komatsu fuel pipe, Brake oil + all service filters, Adblue, Diesel filter, Oil filter, Solenoid, Grease, Grease gun, Cotton waste, Jack seal for Kobelco arm jack, Oil & fuel filters for PC50 / Kubota 50 small excavator"
+  },
+  {
+    "Supplier": "WL Logistic Group",
+    "Category": "Rental",
+    "Contact": "",
+    "Remarks": "TUG 1 Repair & Maintenance"
+  },
+  {
+    "Supplier": "AH Group R&M",
+    "Category": "Rental",
+    "Contact": "",
+    "Remarks": "Staff replacement at marine site"
+  },
+  {
+    "Supplier": "Purchase Requests",
+    "Category": "Procurement",
+    "Contact": "",
+    "Remarks": "Request 42-2026, Request 54-2026"
+  },
+  {
+    "Supplier": "BF Machine & Diesel",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Providing repair works, troubleshooting checklists, and coordinating with other suppliers"
+  },
+  {
+    "Supplier": "WL Logistic Group",
+    "Category": "Logistics",
+    "Contact": "",
+    "Remarks": "Providing logistics services and evaluating food supply opportunities"
+  },
+  {
+    "Supplier": "Goidhoo",
+    "Category": "Fuel Filter",
+    "Contact": "",
+    "Remarks": "Providing fuel filters for Komatsu dump truck"
+  },
+  {
+    "Supplier": "Atoll Cute Crown",
+    "Category": "Ferry Service",
+    "Contact": "",
+    "Remarks": "Providing ferry services for dispatching fuel filters"
+  },
+  {
+    "Supplier": "Dubai Al Dahr",
+    "Category": "Replacement Parts",
+    "Contact": "",
+    "Remarks": "Providing replacement parts for Volvo A40G dump truck"
+  },
+  {
+    "Supplier": "Ziyadh",
+    "Category": "Fabrication Services",
+    "Contact": "",
+    "Remarks": "Providing fabrication services for pipe material and other machine-related items"
+  },
+  {
+    "Supplier": "Dubai Al Dahr",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Tyre sourcing, hydraulic pump replacement"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "Unknown",
+    "Contact": "",
+    "Remarks": "Parts shops in Mal\u00e9"
+  },
+  {
+    "Supplier": "BF Machine & Diesel",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "BF Machine & Diesel is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "WL Logistic Group",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "WL Logistic Group is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "AH Group R&M",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "AH Group R&M is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "Nashwan",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Nashwan is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Janaka is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "Ahmed Ziyad",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Ahmed Ziyad is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "Sampath",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Sampath is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "Abdul Hannan",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Abdul Hannan is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "Dhanushka",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Dhanushka is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "Mohamed Hameed",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Mohamed Hameed is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "Ndirangu",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Ndirangu is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "Thuladhoo",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Thuladhoo is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "Ziyadh",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Ziyadh is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "HR",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "HR is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "Nasru",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Nasru is a supplier of various goods and services."
+  },
+  {
+    "Supplier": "BF Machine & Diesel",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Purchased grease gun coupler (NPT 1/8 in.)"
+  },
+  {
+    "Supplier": "WL Logistic Group",
+    "Category": "Rental",
+    "Contact": "",
+    "Remarks": "Provided food logistics service"
+  },
+  {
+    "Supplier": "Kobelco",
+    "Category": "Engine Parts",
+    "Contact": "",
+    "Remarks": "Sold steel bush"
+  },
+  {
+    "Supplier": "Komatsu",
+    "Category": "Engine Parts",
+    "Contact": "",
+    "Remarks": "Sold solenoid and fuel pipe"
+  },
+  {
+    "Supplier": "Osaka",
+    "Category": "Oil & Fuel Filters",
+    "Contact": "",
+    "Remarks": "Sold oil & fuel filters"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "Service Items",
+    "Contact": "",
+    "Remarks": "Provided service items (oil, filters, brake oil)"
+  },
+  {
+    "Supplier": "Ndirangu",
+    "Category": "Mechanic",
+    "Contact": "",
+    "Remarks": "Provided mechanic service"
+  },
+  {
+    "Supplier": "Sampath",
+    "Category": "Mechanic",
+    "Contact": "",
+    "Remarks": "Provided mechanic service"
+  },
+  {
+    "Supplier": "Abdul Hannan",
+    "Category": "Logistics",
+    "Contact": "",
+    "Remarks": "Provided logistics service"
+  },
+  {
+    "Supplier": "Ahmed Ziyad",
+    "Category": "Logistics",
+    "Contact": "",
+    "Remarks": "Provided logistics service"
+  },
+  {
+    "Supplier": "Dhanushka",
+    "Category": "Marine Mechanic",
+    "Contact": "",
+    "Remarks": "Provided marine mechanic service"
+  },
+  {
+    "Supplier": "Nasru",
+    "Category": "Logistics",
+    "Contact": "",
+    "Remarks": "Provided logistics service"
+  },
+  {
+    "Supplier": "Mohamed Hameed",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Food supply proposal"
+  },
+  {
+    "Supplier": "Janaka",
+    "Category": "MRO",
+    "Contact": "",
+    "Remarks": "Grease gun coupler (NPT 1/8 in.)"
+  },
+  {
+    "Supplier": "Rolman World",
+    "Category": "Fabrication",
+    "Contact": "",
+    "Remarks": "Fabrication of High Bed Cylinders"
+  },
+  {
+    "Supplier": "Kiran",
+    "Category": "Fabrication",
+    "Contact": "",
+    "Remarks": "Fabrication of High Bed Cylinders"
+  },
+  {
+    "Supplier": "CAT",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Swing Bearing, Engine Model: Cummins X1.3-TAA-G1, Engine SN: 1709-09274"
+  },
+  {
+    "Supplier": "Sumitomo",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Swing Bearing, Engine Model: Cummins X1.3-TAA-G1, Engine SN: 1709-09274"
+  },
+  {
+    "Supplier": "Rolman",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "Kiran",
+    "Remarks": "Required items to projects"
+  },
+  {
+    "Supplier": "Cummins",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Engine Model: Cummins X1.3-TAA-G1, Engine SN: 1709-09274"
+  },
+  {
+    "Supplier": "Kobelco",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "High Bed Excavator, Model: SK380"
+  },
+  {
+    "Supplier": "Kubota",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Low Bed Excavator, Model: 50"
+  },
+  {
+    "Supplier": "Tadano",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Mobile Crane, Model: TR300EX"
+  },
+  {
+    "Supplier": "Bobcat",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Bobcat, Model: S 450"
+  },
+  {
+    "Supplier": "Nissan",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Forklift, Model: 5 Tons"
+  },
+  {
+    "Supplier": "Komatsu",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Low Bed Excavator, Model: PC350"
+  },
+  {
+    "Supplier": "XCMG",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Wheel Excavator, Model: XE60WG"
+  },
+  {
+    "Supplier": "Volvo",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Hauler Dump Truck, Model: A40G"
+  },
+  {
+    "Supplier": "Isuzu",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Dump Truck, Model: 14 Tons"
+  },
+  {
+    "Supplier": "UD Nissan",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Dump Truck, Model: 14 Tons"
+  },
+  {
+    "Supplier": "AF",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Pickup, Model: 6 Tons"
+  },
+  {
+    "Supplier": "CAT",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Loader, Model: PC70-8"
+  },
+  {
+    "Supplier": "ROLMAN WORLD FZCO, Jebel Ali, Dubai",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Supplier for various equipment"
+  },
+  {
+    "Supplier": "KOMATSU",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Manufactured in JAPAN"
+  },
+  {
+    "Supplier": "CAT",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Manufactured in JAPAN and USA"
+  },
+  {
+    "Supplier": "SUMITOMO",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Manufactured in JAPAN"
+  },
+  {
+    "Supplier": "XCMG",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Manufactured in CHINA"
+  },
+  {
+    "Supplier": "GROVE",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Manufactured in USA"
+  },
+  {
+    "Supplier": "Welland",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Local supplier"
+  },
+  {
+    "Supplier": "Antrac",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Local supplier"
+  },
+  {
+    "Supplier": "Robel",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Local supplier"
+  },
+  {
+    "Supplier": "Nurul",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Local supplier"
+  },
+  {
+    "Supplier": "Mokles",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Local supplier"
+  },
+  {
+    "Supplier": "Rashid",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Local supplier"
+  },
+  {
+    "Supplier": "Paulson",
+    "Category": "MRO / Electrical / Hydraulic / Rental etc",
+    "Contact": "",
+    "Remarks": "Local supplier"
+  },
+  {
+    "Supplier": "Mal\u00e9",
+    "Category": "Rental",
+    "Contact": "",
+    "Remarks": "Sent starter motor to SK 235"
+  },
+  {
+    "Supplier": "Evosun",
+    "Category": "Rental",
+    "Contact": "",
+    "Remarks": "Hired Dump Truck and Kobelco (High Bed)"
+  },
+  {
+    "Supplier": "Mechanic",
+    "Category": "Service",
+    "Contact": "",
+    "Remarks": "Sent to repair Komatsu and Dump Truck"
   }
 ]
