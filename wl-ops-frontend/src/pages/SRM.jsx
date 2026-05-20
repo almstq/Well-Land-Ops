@@ -180,7 +180,10 @@ export default function SRM() {
       (s.name || '').toLowerCase().includes(searchTerm) ||
       (s.contactName || '').toLowerCase().includes(searchTerm) ||
       (s.category || '').toLowerCase().includes(searchTerm);
-    const matchCat = !cats || s.category === cats || s.status === cats;
+    const matchCat = !cats ||
+      (cats === 'OEM' && (s.category || '').toLowerCase().includes('oem')) ||
+      (cats === 'MRO' && (s.category || '').toLowerCase().includes('mro')) ||
+      s.category === cats || s.status === cats;
     return matchSearch && matchCat;
   });
 

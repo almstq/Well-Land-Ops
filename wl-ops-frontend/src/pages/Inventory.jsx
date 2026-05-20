@@ -28,7 +28,7 @@ export default function Inventory() {
   const procurement = db.procurement || [];
   const staff = db.staff || [];
   const warehouseLocations = locations.filter(loc => (loc.Type || '').toLowerCase() !== 'headquarters');
-  const totalStockQty = inventory.reduce((sum, item) => sum + (Number(item.qty) || 0), 0);
+  const totalStockQty = inventory.reduce((sum, item) => sum + (Number(item.qty ?? item.Quantity) || 0), 0);
   const inTransitCount = transferNotes.filter(n => n.status === 'In Transit').length;
 
   const handleSaveDoc = async (e) => {
@@ -159,14 +159,14 @@ export default function Inventory() {
   // Group inventory by location
   const allLocationNames = Array.from(new Set([
     ...warehouseLocations.map(loc => loc.Site || loc['Location Name'] || loc.name).filter(Boolean),
-    ...inventory.map(i => i.location).filter(Boolean),
+    ...inventory.map(i => i.location || i.Location).filter(Boolean),
     ...transferNotes.map(t => t.destination).filter(Boolean),
   ])).sort();
 
   const inventoryByLocation = allLocationNames.map(locName => {
     return {
       location: locName,
-      items: inventory.filter(i => i.location === locName),
+      items: inventory.filter(i => (i.location || i.Location) === locName),
       inbound: transferNotes.filter(t => t.destination === locName && t.status === 'In Transit')
     };
   });
@@ -243,8 +243,8 @@ export default function Inventory() {
                   {group.items.map(item => (
                     <div key={item.id} className="p-3 bg-surfaceContainer rounded-md">
                       <div className="flex items-center justify-between gap-3">
-                        <span className="font-medium text-textMain text-sm">{item.item}</span>
-                        <span className="font-bold text-primary bg-primaryContainer px-3 py-1 rounded-full text-sm">{item.qty}</span>
+                        <span className="font-medium text-textMain text-sm">{item.item || item['Item Name']}</span>
+                        <span className="font-bold text-primary bg-primaryContainer px-3 py-1 rounded-full text-sm">{item.qty ?? item.Quantity}</span>
                       </div>
                       {(item.issueRef || item.prRef || item.assignedTo || item.reason) && (
                         <div className="mt-2 flex flex-wrap gap-1.5 text-[10px] text-textMuted">
